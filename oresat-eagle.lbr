@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="10" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -204,10 +204,10 @@
 <wire x1="12.9" y1="-2.4" x2="-12.9" y2="-2.4" width="0.15" layer="51"/>
 <wire x1="12.9" y1="2.4" x2="12.9" y2="-2.4" width="0.3" layer="21"/>
 <wire x1="-12.9" y1="2.4" x2="-12.9" y2="-2.4" width="0.3" layer="21"/>
-<text x="-13.6" y="-3.6" size="1" layer="21" font="vector" ratio="16">1</text>
+<text x="-13.7" y="-3.6" size="1" layer="21" font="vector" ratio="16">1</text>
 <text x="12.9" y="-3.6" size="1" layer="21" font="vector" ratio="16">39</text>
 <text x="12.9" y="2.6" size="1" layer="21" font="vector" ratio="16">40</text>
-<text x="-13.6" y="2.6" size="1" layer="21" font="vector" ratio="16">2</text>
+<text x="-13.7" y="2.6" size="1" layer="21" font="vector" ratio="16">2</text>
 <text x="13.335" y="0.635" size="1" layer="25" font="vector" ratio="16">&gt;NAME</text>
 <text x="13.335" y="-1.27" size="1" layer="27" font="vector" ratio="16">&gt;VALUE</text>
 <text x="-10.2" y="-1.2" size="1" layer="21" font="vector" ratio="16">LOWER ROW</text>
