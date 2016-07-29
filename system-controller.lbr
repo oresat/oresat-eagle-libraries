@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -5219,11 +5219,11 @@ type V526-0, grid 2.5 mm</description>
 <wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
-<pin name="GND1" x="-12.7" y="-5.08" length="short"/>
-<pin name="GND2" x="12.7" y="-5.08" length="short" rot="R180"/>
+<pin name="CATHODE" x="-12.7" y="-5.08" length="short"/>
+<pin name="GND" x="12.7" y="-5.08" length="short" rot="R180"/>
 <pin name="VDD" x="12.7" y="5.08" length="short" rot="R180"/>
-<pin name="VIN" x="-12.7" y="5.08" length="short" direction="in"/>
-<pin name="VOUT" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="ANODE" x="-12.7" y="5.08" length="short" direction="in"/>
+<pin name="VO" x="12.7" y="0" length="short" rot="R180"/>
 <text x="-6.604" y="7.62" size="1.778" layer="94">ACPL-M61L</text>
 </symbol>
 <symbol name="GND">
@@ -5744,11 +5744,11 @@ Source: avr.lbr</description>
 <devices>
 <device name="" package="ACPL-M61L">
 <connects>
-<connect gate="G$1" pin="GND1" pad="2"/>
-<connect gate="G$1" pin="GND2" pad="3"/>
+<connect gate="G$1" pin="ANODE" pad="1"/>
+<connect gate="G$1" pin="CATHODE" pad="2"/>
+<connect gate="G$1" pin="GND" pad="3"/>
 <connect gate="G$1" pin="VDD" pad="5"/>
-<connect gate="G$1" pin="VIN" pad="1"/>
-<connect gate="G$1" pin="VOUT" pad="4"/>
+<connect gate="G$1" pin="VO" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
