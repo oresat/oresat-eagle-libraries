@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -393,6 +393,10 @@
 <vertex x="86" y="100"/>
 <vertex x="99" y="100"/>
 </polygon>
+<hole x="3.75" y="4.25" drill="2.5"/>
+<hole x="95.25" y="4.25" drill="2.5"/>
+<hole x="3.75" y="95.75" drill="2.5"/>
+<hole x="95.25" y="95.75" drill="2.5"/>
 </package>
 <package name="HARWIN-ARCHER-M50-3502042">
 <pad name="P$1" x="-12.065" y="-0.635" drill="0.7" diameter="1.07" shape="offset" rot="R270"/>
