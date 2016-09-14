@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mic" unit="mic" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -11341,6 +11341,33 @@ type V526-0, grid 2.5 mm</description>
 <text x="-2.413" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.413" y="-2.794" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
+<package name="PE42723">
+<circle x="-1.8" y="1.8" radius="0.2" width="0" layer="21"/>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="51"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.127" layer="51"/>
+<wire x1="-1.8" y1="1.8" x2="1.8" y2="1.8" width="0.01" layer="39"/>
+<wire x1="1.8" y1="1.8" x2="1.8" y2="-1.8" width="0.01" layer="39"/>
+<wire x1="1.8" y1="-1.8" x2="-1.8" y2="-1.8" width="0.01" layer="39"/>
+<wire x1="-1.8" y1="-1.8" x2="-1.8" y2="1.8" width="0.01" layer="39"/>
+<rectangle x1="-0.2" y1="-0.2" x2="0.2" y2="0.2" layer="31"/>
+<smd name="1" x="-1.35" y="0.5" dx="0.45" dy="0.28" layer="1"/>
+<smd name="2" x="-1.35" y="0" dx="0.45" dy="0.28" layer="1"/>
+<smd name="3" x="-1.35" y="-0.5" dx="0.45" dy="0.28" layer="1"/>
+<smd name="4" x="-0.5" y="-1.35" dx="0.45" dy="0.28" layer="1" rot="R90"/>
+<smd name="5" x="0" y="-1.35" dx="0.45" dy="0.28" layer="1" rot="R90"/>
+<smd name="6" x="0.5" y="-1.35" dx="0.45" dy="0.28" layer="1" rot="R90"/>
+<smd name="7" x="1.35" y="-0.5" dx="0.45" dy="0.28" layer="1" rot="R180"/>
+<smd name="8" x="1.35" y="0" dx="0.45" dy="0.28" layer="1" rot="R180"/>
+<smd name="9" x="1.35" y="0.5" dx="0.45" dy="0.28" layer="1" rot="R180"/>
+<smd name="10" x="0.5" y="1.35" dx="0.45" dy="0.28" layer="1" rot="R270"/>
+<smd name="11" x="0" y="1.35" dx="0.45" dy="0.28" layer="1" rot="R270"/>
+<smd name="12" x="-0.5" y="1.35" dx="0.45" dy="0.28" layer="1" rot="R270"/>
+<smd name="CENTER" x="0" y="0" dx="1.6" dy="1.6" layer="1" roundness="22" rot="R90" cream="no"/>
+<text x="1" y="4" size="1.27" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="1" y="2" size="1.27" layer="27" font="vector" ratio="15">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="3.3V">
@@ -11795,6 +11822,26 @@ type V526-0, grid 2.5 mm</description>
 <wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
 <wire x1="-1.0922" y1="-0.508" x2="1.0922" y2="-0.508" width="0.254" layer="94"/>
 <pin name="RF_GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+<symbol name="PE42723">
+<wire x1="-15.24" y1="12.7" x2="15.24" y2="12.7" width="0.254" layer="94"/>
+<wire x1="15.24" y1="12.7" x2="15.24" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-12.7" x2="-15.24" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-12.7" x2="-15.24" y2="12.7" width="0.254" layer="94"/>
+<pin name="CTRL" x="-17.78" y="-5.08" length="short" direction="in"/>
+<pin name="NC" x="-17.78" y="0" length="short" direction="pwr"/>
+<pin name="GND1" x="-5.08" y="-15.24" length="short" direction="pwr" rot="R90"/>
+<pin name="GND2" x="5.08" y="-15.24" length="short" direction="pwr" rot="R90"/>
+<pin name="GND3" x="17.78" y="-5.08" length="short" direction="pwr" rot="R180"/>
+<pin name="GND4" x="17.78" y="5.08" length="short" direction="pwr" rot="R180"/>
+<pin name="GND5" x="5.08" y="15.24" length="short" direction="pwr" rot="R270"/>
+<pin name="GND6" x="-5.08" y="15.24" length="short" direction="pwr" rot="R270"/>
+<pin name="RFC" x="17.78" y="0" length="short" rot="R180"/>
+<pin name="RF1" x="0" y="15.24" length="short" rot="R270"/>
+<pin name="RF2" x="0" y="-15.24" length="short" rot="R90"/>
+<pin name="VDD" x="-17.78" y="5.08" length="short" direction="pwr"/>
+<text x="10.16" y="17.78" size="1.778" layer="104">&gt;NAME</text>
+<text x="10.16" y="15.24" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -16579,6 +16626,32 @@ type V526-0, grid 2.5 mm</description>
 </gates>
 <devices>
 <device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PE42723">
+<gates>
+<gate name="G$1" symbol="PE42723" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PE42723">
+<connects>
+<connect gate="G$1" pin="CTRL" pad="6"/>
+<connect gate="G$1" pin="GND1" pad="7"/>
+<connect gate="G$1" pin="GND2" pad="9"/>
+<connect gate="G$1" pin="GND3" pad="12"/>
+<connect gate="G$1" pin="GND4" pad="10"/>
+<connect gate="G$1" pin="GND5" pad="1"/>
+<connect gate="G$1" pin="GND6" pad="3"/>
+<connect gate="G$1" pin="NC" pad="4"/>
+<connect gate="G$1" pin="RF1" pad="2"/>
+<connect gate="G$1" pin="RF2" pad="8"/>
+<connect gate="G$1" pin="RFC" pad="11"/>
+<connect gate="G$1" pin="VDD" pad="5"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
