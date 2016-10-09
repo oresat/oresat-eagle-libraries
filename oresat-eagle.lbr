@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -498,6 +498,359 @@
 <text x="4" y="0.5" size="1" layer="25" font="vector" ratio="16">&gt;NAME</text>
 <text x="4" y="-1" size="1" layer="27" font="vector" ratio="16">&gt;VALUE</text>
 </package>
+<package name="ORESAT-CARD-RF-V0.4">
+<wire x1="0" y1="10" x2="0" y2="90" width="0.1" layer="20"/>
+<wire x1="99" y1="10" x2="99" y2="90" width="0.1" layer="20"/>
+<wire x1="9.5" y1="0" x2="89.5" y2="0" width="0.1" layer="20"/>
+<wire x1="90.5" y1="96" x2="8.5" y2="96" width="0.1" layer="20"/>
+<wire x1="8.5" y1="96" x2="7" y2="97.5" width="0.1" layer="20" curve="-90"/>
+<wire x1="7" y1="97.5" x2="7" y2="98" width="0.1" layer="20"/>
+<wire x1="90.5" y1="96" x2="92" y2="97.5" width="0.1" layer="20" curve="90"/>
+<wire x1="92" y1="97.5" x2="92" y2="98" width="0.1" layer="20"/>
+<wire x1="9.5" y1="0" x2="7.5" y2="2" width="0.1" layer="20" curve="90"/>
+<wire x1="7.5" y1="2" x2="1.5" y2="2" width="0.1" layer="20"/>
+<wire x1="1.5" y1="2" x2="1.5" y2="8.5" width="0.1" layer="20"/>
+<wire x1="1.5" y1="8.5" x2="0" y2="10" width="0.1" layer="20" curve="90"/>
+<wire x1="89.5" y1="0" x2="91.5" y2="2" width="0.1" layer="20" curve="-90"/>
+<wire x1="91.5" y1="2" x2="97.5" y2="2" width="0.1" layer="20"/>
+<wire x1="97.5" y1="2" x2="97.5" y2="8.5" width="0.1" layer="20"/>
+<wire x1="97.5" y1="8.5" x2="99" y2="10" width="0.1" layer="20" curve="-90"/>
+<wire x1="92" y1="98" x2="97.5" y2="98" width="0.1" layer="20"/>
+<wire x1="97.5" y1="98" x2="97.5" y2="91.5" width="0.1" layer="20"/>
+<wire x1="97.5" y1="91.5" x2="99" y2="90" width="0.1" layer="20" curve="90"/>
+<wire x1="7" y1="98" x2="1.5" y2="98" width="0.1" layer="20"/>
+<wire x1="1.5" y1="98" x2="1.5" y2="91.5" width="0.1" layer="20"/>
+<wire x1="1.5" y1="91.5" x2="0" y2="90" width="0.1" layer="20" curve="-90"/>
+<hole x="3.75" y="4.25" drill="2.5"/>
+<hole x="95.25" y="4.25" drill="2.5"/>
+<hole x="3.75" y="95.75" drill="2.5"/>
+<hole x="95.25" y="95.75" drill="2.5"/>
+<polygon width="0.2" layer="39">
+<vertex x="0" y="0"/>
+<vertex x="13" y="0"/>
+<vertex x="13" y="2"/>
+<vertex x="8" y="2"/>
+<vertex x="8" y="8.5"/>
+<vertex x="7.5" y="8.5" curve="-90"/>
+<vertex x="2.5" y="13.5"/>
+<vertex x="2.5" y="86.5" curve="-90"/>
+<vertex x="7.5" y="91.5"/>
+<vertex x="8" y="91.5"/>
+<vertex x="8" y="98"/>
+<vertex x="13" y="98"/>
+<vertex x="13" y="100"/>
+<vertex x="0" y="100"/>
+</polygon>
+<polygon width="0.2" layer="40">
+<vertex x="0" y="0"/>
+<vertex x="13" y="0"/>
+<vertex x="13" y="2"/>
+<vertex x="8" y="2"/>
+<vertex x="8" y="8.5"/>
+<vertex x="7.5" y="8.5" curve="-90"/>
+<vertex x="2.5" y="13.5"/>
+<vertex x="2.5" y="86.5" curve="-90"/>
+<vertex x="7.5" y="91.5"/>
+<vertex x="8" y="91.5"/>
+<vertex x="8" y="98"/>
+<vertex x="13" y="98"/>
+<vertex x="13" y="100"/>
+<vertex x="0" y="100"/>
+</polygon>
+<polygon width="0.2" layer="40">
+<vertex x="99" y="0"/>
+<vertex x="86" y="0"/>
+<vertex x="86" y="2"/>
+<vertex x="91" y="2"/>
+<vertex x="91" y="8.5"/>
+<vertex x="91.5" y="8.5" curve="90"/>
+<vertex x="96.5" y="13.5"/>
+<vertex x="96.5" y="86.5" curve="90"/>
+<vertex x="91.5" y="91.5"/>
+<vertex x="91" y="91.5"/>
+<vertex x="91" y="98"/>
+<vertex x="86" y="98"/>
+<vertex x="86" y="100"/>
+<vertex x="99" y="100"/>
+</polygon>
+<polygon width="0.2" layer="39">
+<vertex x="99" y="0"/>
+<vertex x="86" y="0"/>
+<vertex x="86" y="2"/>
+<vertex x="91" y="2"/>
+<vertex x="91" y="8.5"/>
+<vertex x="91.5" y="8.5" curve="90"/>
+<vertex x="96.5" y="13.5"/>
+<vertex x="96.5" y="86.5" curve="90"/>
+<vertex x="91.5" y="91.5"/>
+<vertex x="91" y="91.5"/>
+<vertex x="91" y="98"/>
+<vertex x="86" y="98"/>
+<vertex x="86" y="100"/>
+<vertex x="99" y="100"/>
+</polygon>
+<wire x1="0" y1="0" x2="13" y2="0" width="0.1" layer="51"/>
+<wire x1="13" y1="0" x2="13" y2="2" width="0.1" layer="51"/>
+<wire x1="13" y1="2" x2="8" y2="2" width="0.1" layer="51"/>
+<wire x1="8" y1="2" x2="8" y2="8.5" width="0.1" layer="51"/>
+<wire x1="8" y1="8.5" x2="7.5" y2="8.5" width="0.1" layer="51"/>
+<wire x1="7.5" y1="8.5" x2="2.5" y2="13.5" width="0.1" layer="51" curve="-90"/>
+<wire x1="2.5" y1="13.5" x2="2.5" y2="86.5" width="0.1" layer="51"/>
+<wire x1="2.5" y1="86.5" x2="7.5" y2="91.5" width="0.1" layer="51" curve="-90"/>
+<wire x1="7.5" y1="91.5" x2="8" y2="91.5" width="0.1" layer="51"/>
+<wire x1="8" y1="91.5" x2="8" y2="98" width="0.1" layer="51"/>
+<wire x1="8" y1="98" x2="13" y2="98" width="0.1" layer="51"/>
+<wire x1="13" y1="98" x2="13" y2="100" width="0.1" layer="51"/>
+<wire x1="13" y1="100" x2="0" y2="100" width="0.1" layer="51"/>
+<wire x1="0" y1="100" x2="0" y2="0" width="0.1" layer="51"/>
+<wire x1="86" y1="0" x2="86" y2="2" width="0.1" layer="51"/>
+<wire x1="86" y1="2" x2="91" y2="2" width="0.1" layer="51"/>
+<wire x1="91" y1="2" x2="91" y2="8.5" width="0.1" layer="51"/>
+<wire x1="91" y1="8.5" x2="91.5" y2="8.5" width="0.1" layer="51"/>
+<wire x1="91.5" y1="8.5" x2="96.5" y2="13.5" width="0.1" layer="51" curve="90"/>
+<wire x1="96.5" y1="13.5" x2="96.5" y2="86.5" width="0.1" layer="51"/>
+<wire x1="96.5" y1="86.5" x2="91.5" y2="91.5" width="0.1" layer="51" curve="90"/>
+<wire x1="91.5" y1="91.5" x2="91" y2="91.5" width="0.1" layer="51"/>
+<wire x1="91" y1="91.5" x2="91" y2="98" width="0.1" layer="51"/>
+<wire x1="91" y1="98" x2="86" y2="98" width="0.1" layer="51"/>
+<wire x1="86" y1="98" x2="86" y2="100" width="0.1" layer="51"/>
+<wire x1="86" y1="100" x2="99" y2="100" width="0.1" layer="51"/>
+<wire x1="99" y1="100" x2="99" y2="0" width="0.1" layer="51"/>
+<wire x1="99" y1="0" x2="86" y2="0" width="0.1" layer="51"/>
+<polygon width="0.1" layer="51" spacing="0.5">
+<vertex x="8.25" y="98"/>
+<vertex x="90.75" y="98"/>
+<vertex x="90.75" y="96.4"/>
+<vertex x="8.25" y="96.4"/>
+</polygon>
+</package>
+<package name="CON-MMCX-F-MOLEX-0734151001">
+<pad name="CENTER" x="0" y="0" drill="0.84"/>
+<pad name="G1" x="-1.27" y="1.27" drill="0.84"/>
+<pad name="G2" x="-1.27" y="-1.27" drill="0.84"/>
+<pad name="G3" x="1.27" y="-1.27" drill="0.84"/>
+<pad name="G4" x="1.27" y="1.27" drill="0.84"/>
+<wire x1="-1.75" y1="-0.25" x2="-1.75" y2="0.25" width="0.127" layer="21"/>
+<wire x1="1.75" y1="-0.25" x2="1.75" y2="0.25" width="0.127" layer="21"/>
+<wire x1="1.75" y1="2.25" x2="1.75" y2="4" width="0.127" layer="21"/>
+<wire x1="1.75" y1="4" x2="-1.75" y2="4" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="4" x2="-1.75" y2="2.25" width="0.127" layer="21"/>
+<wire x1="0.25" y1="-1.75" x2="-0.25" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="-0.25" x2="-1.75" y2="-1.75" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="-1.75" x2="-0.25" y2="-1.75" width="0.127" layer="51"/>
+<wire x1="0.25" y1="-1.75" x2="1.75" y2="-1.75" width="0.127" layer="51"/>
+<wire x1="1.75" y1="-1.75" x2="1.75" y2="-0.25" width="0.127" layer="51"/>
+<wire x1="1.75" y1="0.25" x2="1.75" y2="1.75" width="0.127" layer="51"/>
+<wire x1="1.75" y1="1.75" x2="1.75" y2="2.25" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="2.25" x2="-1.75" y2="1.75" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="1.75" x2="-1.75" y2="0.25" width="0.127" layer="51"/>
+<wire x1="0.25" y1="1.75" x2="-0.25" y2="1.75" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="1.75" x2="-0.25" y2="1.75" width="0.127" layer="51"/>
+<wire x1="0.25" y1="1.75" x2="1.75" y2="1.75" width="0.127" layer="51"/>
+<text x="2.5" y="0" size="0.635" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="2.5" y="-1" size="0.635" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
+<package name="CON-MMCX-M-TE-1-1634007-0">
+<pad name="CENTER" x="0" y="0" drill="0.8"/>
+<pad name="G1" x="-1.27" y="1.27" drill="0.8"/>
+<pad name="G2" x="-1.27" y="-1.27" drill="0.8"/>
+<pad name="G3" x="1.27" y="-1.27" drill="0.8"/>
+<pad name="G4" x="1.27" y="1.27" drill="0.8"/>
+<wire x1="-1.75" y1="-0.25" x2="-1.75" y2="0.25" width="0.127" layer="21"/>
+<wire x1="1.75" y1="-0.25" x2="1.75" y2="0.25" width="0.127" layer="21"/>
+<wire x1="0.25" y1="-1.75" x2="-0.25" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="-0.25" x2="-1.75" y2="-1.75" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="-1.75" x2="-0.25" y2="-1.75" width="0.127" layer="51"/>
+<wire x1="0.25" y1="-1.75" x2="1.75" y2="-1.75" width="0.127" layer="51"/>
+<wire x1="1.75" y1="-1.75" x2="1.75" y2="-0.25" width="0.127" layer="51"/>
+<wire x1="1.75" y1="0.25" x2="1.75" y2="1.75" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="1.75" x2="-1.75" y2="0.25" width="0.127" layer="51"/>
+<wire x1="0.25" y1="1.75" x2="-0.25" y2="1.75" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="1.75" x2="-0.25" y2="1.75" width="0.127" layer="51"/>
+<wire x1="0.25" y1="1.75" x2="1.75" y2="1.75" width="0.127" layer="51"/>
+<text x="2.5" y="0" size="0.635" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="2.5" y="-1" size="0.635" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<circle x="0" y="0" radius="0.3" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="1.2" width="0.127" layer="51"/>
+</package>
+<package name="ORESAT-CARD-V0.4">
+<wire x1="0" y1="10" x2="0" y2="90" width="0.1" layer="20"/>
+<wire x1="99" y1="10" x2="99" y2="90" width="0.1" layer="20"/>
+<wire x1="9.5" y1="0" x2="89.5" y2="0" width="0.1" layer="20"/>
+<wire x1="90.5" y1="96" x2="8.5" y2="96" width="0.1" layer="20"/>
+<wire x1="8.5" y1="96" x2="7" y2="97.5" width="0.1" layer="20" curve="-90"/>
+<wire x1="7" y1="97.5" x2="7" y2="98" width="0.1" layer="20"/>
+<wire x1="90.5" y1="96" x2="92" y2="97.5" width="0.1" layer="20" curve="90"/>
+<wire x1="92" y1="97.5" x2="92" y2="98" width="0.1" layer="20"/>
+<wire x1="9.5" y1="0" x2="7.5" y2="2" width="0.1" layer="20" curve="90"/>
+<wire x1="7.5" y1="2" x2="1.5" y2="2" width="0.1" layer="20"/>
+<wire x1="1.5" y1="2" x2="1.5" y2="8.5" width="0.1" layer="20"/>
+<wire x1="1.5" y1="8.5" x2="0" y2="10" width="0.1" layer="20" curve="90"/>
+<wire x1="89.5" y1="0" x2="91.5" y2="2" width="0.1" layer="20" curve="-90"/>
+<wire x1="91.5" y1="2" x2="97.5" y2="2" width="0.1" layer="20"/>
+<wire x1="97.5" y1="2" x2="97.5" y2="8.5" width="0.1" layer="20"/>
+<wire x1="97.5" y1="8.5" x2="99" y2="10" width="0.1" layer="20" curve="-90"/>
+<wire x1="92" y1="98" x2="97.5" y2="98" width="0.1" layer="20"/>
+<wire x1="97.5" y1="98" x2="97.5" y2="91.5" width="0.1" layer="20"/>
+<wire x1="97.5" y1="91.5" x2="99" y2="90" width="0.1" layer="20" curve="90"/>
+<wire x1="7" y1="98" x2="1.5" y2="98" width="0.1" layer="20"/>
+<wire x1="1.5" y1="98" x2="1.5" y2="91.5" width="0.1" layer="20"/>
+<wire x1="1.5" y1="91.5" x2="0" y2="90" width="0.1" layer="20" curve="-90"/>
+<hole x="3.75" y="4.25" drill="2.5"/>
+<hole x="95.25" y="4.25" drill="2.5"/>
+<hole x="3.75" y="95.75" drill="2.5"/>
+<hole x="95.25" y="95.75" drill="2.5"/>
+<polygon width="0.2" layer="39">
+<vertex x="0" y="0"/>
+<vertex x="13" y="0"/>
+<vertex x="13" y="2"/>
+<vertex x="8" y="2"/>
+<vertex x="8" y="8.5"/>
+<vertex x="7.5" y="8.5" curve="-90"/>
+<vertex x="2.5" y="13.5"/>
+<vertex x="2.5" y="86.5" curve="-90"/>
+<vertex x="7.5" y="91.5"/>
+<vertex x="8" y="91.5"/>
+<vertex x="8" y="98"/>
+<vertex x="13" y="98"/>
+<vertex x="13" y="100"/>
+<vertex x="0" y="100"/>
+</polygon>
+<polygon width="0.2" layer="40">
+<vertex x="0" y="0"/>
+<vertex x="13" y="0"/>
+<vertex x="13" y="2"/>
+<vertex x="8" y="2"/>
+<vertex x="8" y="8.5"/>
+<vertex x="7.5" y="8.5" curve="-90"/>
+<vertex x="2.5" y="13.5"/>
+<vertex x="2.5" y="86.5" curve="-90"/>
+<vertex x="7.5" y="91.5"/>
+<vertex x="8" y="91.5"/>
+<vertex x="8" y="98"/>
+<vertex x="13" y="98"/>
+<vertex x="13" y="100"/>
+<vertex x="0" y="100"/>
+</polygon>
+<polygon width="0.2" layer="40">
+<vertex x="99" y="0"/>
+<vertex x="86" y="0"/>
+<vertex x="86" y="2"/>
+<vertex x="91" y="2"/>
+<vertex x="91" y="8.5"/>
+<vertex x="91.5" y="8.5" curve="90"/>
+<vertex x="96.5" y="13.5"/>
+<vertex x="96.5" y="86.5" curve="90"/>
+<vertex x="91.5" y="91.5"/>
+<vertex x="91" y="91.5"/>
+<vertex x="91" y="98"/>
+<vertex x="86" y="98"/>
+<vertex x="86" y="100"/>
+<vertex x="99" y="100"/>
+</polygon>
+<polygon width="0.2" layer="39">
+<vertex x="99" y="0"/>
+<vertex x="86" y="0"/>
+<vertex x="86" y="2"/>
+<vertex x="91" y="2"/>
+<vertex x="91" y="8.5"/>
+<vertex x="91.5" y="8.5" curve="90"/>
+<vertex x="96.5" y="13.5"/>
+<vertex x="96.5" y="86.5" curve="90"/>
+<vertex x="91.5" y="91.5"/>
+<vertex x="91" y="91.5"/>
+<vertex x="91" y="98"/>
+<vertex x="86" y="98"/>
+<vertex x="86" y="100"/>
+<vertex x="99" y="100"/>
+</polygon>
+<wire x1="0" y1="0" x2="13" y2="0" width="0.1" layer="51"/>
+<wire x1="13" y1="0" x2="13" y2="2" width="0.1" layer="51"/>
+<wire x1="13" y1="2" x2="8" y2="2" width="0.1" layer="51"/>
+<wire x1="8" y1="2" x2="8" y2="8.5" width="0.1" layer="51"/>
+<wire x1="8" y1="8.5" x2="7.5" y2="8.5" width="0.1" layer="51"/>
+<wire x1="7.5" y1="8.5" x2="2.5" y2="13.5" width="0.1" layer="51" curve="-90"/>
+<wire x1="2.5" y1="13.5" x2="2.5" y2="86.5" width="0.1" layer="51"/>
+<wire x1="2.5" y1="86.5" x2="7.5" y2="91.5" width="0.1" layer="51" curve="-90"/>
+<wire x1="7.5" y1="91.5" x2="8" y2="91.5" width="0.1" layer="51"/>
+<wire x1="8" y1="91.5" x2="8" y2="98" width="0.1" layer="51"/>
+<wire x1="8" y1="98" x2="13" y2="98" width="0.1" layer="51"/>
+<wire x1="13" y1="98" x2="13" y2="100" width="0.1" layer="51"/>
+<wire x1="13" y1="100" x2="0" y2="100" width="0.1" layer="51"/>
+<wire x1="0" y1="100" x2="0" y2="0" width="0.1" layer="51"/>
+<wire x1="86" y1="0" x2="86" y2="2" width="0.1" layer="51"/>
+<wire x1="86" y1="2" x2="91" y2="2" width="0.1" layer="51"/>
+<wire x1="91" y1="2" x2="91" y2="8.5" width="0.1" layer="51"/>
+<wire x1="91" y1="8.5" x2="91.5" y2="8.5" width="0.1" layer="51"/>
+<wire x1="91.5" y1="8.5" x2="96.5" y2="13.5" width="0.1" layer="51" curve="90"/>
+<wire x1="96.5" y1="13.5" x2="96.5" y2="86.5" width="0.1" layer="51"/>
+<wire x1="96.5" y1="86.5" x2="91.5" y2="91.5" width="0.1" layer="51" curve="90"/>
+<wire x1="91.5" y1="91.5" x2="91" y2="91.5" width="0.1" layer="51"/>
+<wire x1="91" y1="91.5" x2="91" y2="98" width="0.1" layer="51"/>
+<wire x1="91" y1="98" x2="86" y2="98" width="0.1" layer="51"/>
+<wire x1="86" y1="98" x2="86" y2="100" width="0.1" layer="51"/>
+<wire x1="86" y1="100" x2="99" y2="100" width="0.1" layer="51"/>
+<wire x1="99" y1="100" x2="99" y2="0" width="0.1" layer="51"/>
+<wire x1="99" y1="0" x2="86" y2="0" width="0.1" layer="51"/>
+<polygon width="0.1" layer="51" spacing="0.5">
+<vertex x="8.25" y="98"/>
+<vertex x="90.75" y="98"/>
+<vertex x="90.75" y="96.4"/>
+<vertex x="8.25" y="96.4"/>
+</polygon>
+<wire x1="25.5" y1="93" x2="26.5" y2="93" width="0.1" layer="51"/>
+<wire x1="26" y1="93.5" x2="26" y2="92.5" width="0.1" layer="51"/>
+<wire x1="83.5" y1="90.6" x2="84.5" y2="90.6" width="0.1" layer="51"/>
+<wire x1="84" y1="91.1" x2="84" y2="90.1" width="0.1" layer="51"/>
+<polygon width="0.2" layer="29">
+<vertex x="0" y="0"/>
+<vertex x="8" y="0"/>
+<vertex x="8" y="8.5"/>
+<vertex x="7.5" y="8.5" curve="-90"/>
+<vertex x="2.5" y="13.5"/>
+<vertex x="2.5" y="86.5" curve="-90"/>
+<vertex x="7.5" y="91.5"/>
+<vertex x="8" y="91.5"/>
+<vertex x="8" y="98"/>
+<vertex x="0" y="98"/>
+</polygon>
+<polygon width="0.2" layer="30">
+<vertex x="0" y="0"/>
+<vertex x="8" y="0"/>
+<vertex x="8" y="8.5"/>
+<vertex x="7.5" y="8.5" curve="-90"/>
+<vertex x="2.5" y="13.5"/>
+<vertex x="2.5" y="86.5" curve="-90"/>
+<vertex x="7.5" y="91.5"/>
+<vertex x="8" y="91.5"/>
+<vertex x="8" y="98"/>
+<vertex x="0" y="98"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="91" y="0"/>
+<vertex x="91" y="8.5"/>
+<vertex x="91.5" y="8.5" curve="90"/>
+<vertex x="96.5" y="13.5"/>
+<vertex x="96.5" y="86.5" curve="90"/>
+<vertex x="91.5" y="91.5"/>
+<vertex x="91" y="91.5"/>
+<vertex x="91" y="98"/>
+<vertex x="99" y="98"/>
+<vertex x="99" y="0"/>
+</polygon>
+<polygon width="0.2" layer="30">
+<vertex x="91" y="0"/>
+<vertex x="91" y="8.5"/>
+<vertex x="91.5" y="8.5" curve="90"/>
+<vertex x="96.5" y="13.5"/>
+<vertex x="96.5" y="86.5" curve="90"/>
+<vertex x="91.5" y="91.5"/>
+<vertex x="91" y="91.5"/>
+<vertex x="91" y="98"/>
+<vertex x="99" y="98"/>
+<vertex x="99" y="0"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="ORESAT-CONNECTOR-40PIN">
@@ -794,6 +1147,50 @@
 <attribute name="SUPERSECTION" value="Connectors" constant="no"/>
 <attribute name="VENDOR" value="Tyco Electronics" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CON-MMCX-F-MOLEX-0734151001" prefix="CF">
+<description>MMCX, Female, Through Hole, Right angle. Modeled after Molex 0734151001.</description>
+<gates>
+<gate name="G$1" symbol="CON-COAX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CON-MMCX-F-MOLEX-0734151001">
+<connects>
+<connect gate="G$1" pin="CENTER" pad="CENTER"/>
+<connect gate="G$1" pin="SHIELD" pad="G1 G2 G3 G4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CON-MMCX-M-TE-1-1634007-0" prefix="CM">
+<gates>
+<gate name="G$1" symbol="CON-COAX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CON-MMCX-M-TE-1-1634007-0">
+<connects>
+<connect gate="G$1" pin="CENTER" pad="CENTER"/>
+<connect gate="G$1" pin="SHIELD" pad="G1 G2 G3 G4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ORESAT-CARD-V0.4">
+<gates>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
