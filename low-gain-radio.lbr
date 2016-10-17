@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -11432,6 +11432,48 @@ type V526-0, grid 2.5 mm</description>
 <text x="2" y="1" size="0.635" layer="25" ratio="20">&gt;NAME</text>
 <text x="2" y="0" size="0.635" layer="27" ratio="20">&gt;VALUE</text>
 </package>
+<package name="PINHEADER-2X5-0.5+POL+RA+SILK">
+<rectangle x1="-0.205" y1="0.43" x2="0.205" y2="0.84" layer="51"/>
+<rectangle x1="-0.205" y1="-0.84" x2="0.205" y2="-0.43" layer="51"/>
+<rectangle x1="-1.475" y1="-0.84" x2="-1.065" y2="-0.43" layer="51"/>
+<rectangle x1="-1.475" y1="0.43" x2="-1.065" y2="0.84" layer="51"/>
+<rectangle x1="-2.745" y1="0.43" x2="-2.335" y2="0.84" layer="51"/>
+<rectangle x1="-2.745" y1="-0.84" x2="-2.335" y2="-0.43" layer="51"/>
+<rectangle x1="1.065" y1="0.43" x2="1.475" y2="0.84" layer="51"/>
+<rectangle x1="1.065" y1="-0.84" x2="1.475" y2="-0.43" layer="51"/>
+<rectangle x1="2.335" y1="0.43" x2="2.745" y2="0.84" layer="51"/>
+<rectangle x1="2.335" y1="-0.84" x2="2.745" y2="-0.43" layer="51"/>
+<pad name="1" x="2.54" y="0.635" drill="0.635" diameter="1.04" shape="offset" rot="R90"/>
+<pad name="2" x="2.54" y="-0.635" drill="0.635" diameter="1.04" shape="offset" rot="R270"/>
+<pad name="3" x="1.27" y="0.635" drill="0.635" diameter="1.04" shape="offset" rot="R90"/>
+<pad name="4" x="1.27" y="-0.635" drill="0.635" diameter="1.04" shape="offset" rot="R270"/>
+<pad name="5" x="0" y="0.635" drill="0.635" diameter="1.04" shape="offset" rot="R90"/>
+<pad name="6" x="0" y="-0.635" drill="0.635" diameter="1.04" shape="offset" rot="R270"/>
+<pad name="7" x="-1.27" y="0.635" drill="0.635" diameter="1.04" shape="offset" rot="R90"/>
+<pad name="8" x="-1.27" y="-0.635" drill="0.635" diameter="1.04" shape="offset" rot="R270"/>
+<pad name="9" x="-2.54" y="0.635" drill="0.635" diameter="1.04" shape="offset" rot="R90"/>
+<pad name="10" x="-2.54" y="-0.635" drill="0.635" diameter="1.04" shape="offset" rot="R270"/>
+<text x="4.635" y="0.365" size="0.635" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="4.635" y="-0.7" size="0.635" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<wire x1="-6.3" y1="-1.5" x2="6.3" y2="-1.5" width="0.2" layer="51"/>
+<wire x1="-6.3" y1="-1.5" x2="-6.3" y2="-6.9" width="0.2" layer="51"/>
+<wire x1="-6.3" y1="-6.9" x2="6.3" y2="-6.9" width="0.2" layer="51"/>
+<wire x1="6.3" y1="-6.9" x2="6.3" y2="-1.5" width="0.2" layer="51"/>
+<wire x1="-3.4" y1="-1.5" x2="-6.3" y2="-1.5" width="0.2" layer="21"/>
+<wire x1="-6.3" y1="-1.5" x2="-6.3" y2="-6.9" width="0.2" layer="21"/>
+<wire x1="-6.3" y1="-6.9" x2="6.3" y2="-6.9" width="0.2" layer="21"/>
+<wire x1="6.3" y1="-6.9" x2="6.3" y2="-1.5" width="0.2" layer="21"/>
+<wire x1="6.3" y1="-1.5" x2="3.4" y2="-1.5" width="0.2" layer="21"/>
+<wire x1="0" y1="0.635" x2="0" y2="-6.35" width="0.4" layer="51"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-6.35" width="0.4" layer="51"/>
+<wire x1="2.54" y1="0.635" x2="2.54" y2="-6.35" width="0.4" layer="51"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-6.35" width="0.4" layer="51"/>
+<wire x1="-2.54" y1="0.635" x2="-2.54" y2="-6.35" width="0.4" layer="51"/>
+<text x="3.41" y="1.27" size="0.635" layer="21" ratio="20">1</text>
+<text x="-3.81" y="1.27" size="0.635" layer="21" ratio="20">9</text>
+<text x="3.41" y="-1.27" size="0.635" layer="21" ratio="20">2</text>
+<text x="-4.445" y="-1.27" size="0.635" layer="21" ratio="20">10</text>
+</package>
 </packages>
 <symbols>
 <symbol name="3.3V">
@@ -12245,13 +12287,30 @@ type V526-0, grid 2.5 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="JTAG_ARM-10-*" prefix="J" uservalue="yes">
+<deviceset name="JTAG_ARM-10-*" prefix="CM" uservalue="yes">
 <description>&lt;b&gt;JTAG PIN HEADER 2x5&lt;/b&gt; This is one of the (smaller) ARM standard JTAG connectors.&lt;p&gt;</description>
 <gates>
 <gate name="J" symbol="JTAG_ARM-10" x="0" y="0"/>
 </gates>
 <devices>
 <device name="50MIL" package="PINHEADER-2X5-0.05+POL+SILK">
+<connects>
+<connect gate="J" pin="GND3" pad="3"/>
+<connect gate="J" pin="GND5" pad="5"/>
+<connect gate="J" pin="GND9" pad="9"/>
+<connect gate="J" pin="RTCK" pad="7"/>
+<connect gate="J" pin="SRST" pad="10"/>
+<connect gate="J" pin="TCK" pad="4"/>
+<connect gate="J" pin="TDI" pad="8"/>
+<connect gate="J" pin="TDO" pad="6"/>
+<connect gate="J" pin="TMS" pad="2"/>
+<connect gate="J" pin="VDD" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="PINHEADER-2X5-0.5+POL+RA+SILK">
 <connects>
 <connect gate="J" pin="GND3" pad="3"/>
 <connect gate="J" pin="GND5" pad="5"/>
