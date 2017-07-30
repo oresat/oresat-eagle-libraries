@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="8.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -158,11 +158,20 @@
 by exp-lbrs.ulp</description>
 <packages>
 <package name="SMAJ716-ND">
-<smd name="GND1" x="4.191" y="0.508" dx="2.54" dy="4.064" layer="16"/>
-<smd name="GND2" x="-4.191" y="0.508" dx="2.54" dy="4.064" layer="1"/>
-<smd name="GND3" x="-4.191" y="0.508" dx="2.54" dy="4.064" layer="16"/>
-<smd name="GND4" x="4.191" y="0.508" dx="2.54" dy="4.064" layer="1"/>
-<smd name="P$3" x="0" y="0.508" dx="1.524" dy="4.064" layer="1"/>
+<smd name="GND1" x="4.3942" y="0" dx="2.413" dy="5.08" layer="16"/>
+<smd name="GND2" x="-4.3942" y="0" dx="2.413" dy="5.08" layer="1"/>
+<smd name="GND3" x="-4.3942" y="0" dx="2.413" dy="5.08" layer="16"/>
+<smd name="GND4" x="4.3942" y="0" dx="2.413" dy="5.08" layer="1"/>
+<smd name="P$3" x="0" y="0" dx="2.286" dy="5.08" layer="1"/>
+<rectangle x1="-4.7752" y1="2.54" x2="4.7752" y2="4.191" layer="51"/>
+<wire x1="-7.62" y1="2.54" x2="7.62" y2="2.54" width="0.127" layer="51"/>
+<rectangle x1="-2.54" y1="3.81" x2="2.54" y2="12.065" layer="51"/>
+<rectangle x1="-3.175" y1="7.62" x2="3.175" y2="11.43" layer="51"/>
+<rectangle x1="-4.7752" y1="-1.905" x2="-3.7592" y2="2.54" layer="51"/>
+<rectangle x1="-0.254" y1="-1.778" x2="0.254" y2="2.54" layer="51"/>
+<rectangle x1="3.7592" y1="-1.778" x2="4.7752" y2="2.54" layer="51"/>
+<text x="7.112" y="0.762" size="1.27" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="7.112" y="-1.524" size="1.27" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
 <package name=".0201-A">
 <description>&lt;b&gt;0201 (metric 0603) loose 'IPC-A'&lt;/b&gt;
@@ -8384,10 +8393,13 @@ Source: www.silabs.com .. CP2101.pdf</description>
 </package>
 </packages>
 <symbols>
-<symbol name="SMAJ716-ND">
-<circle x="0" y="0" radius="3.5921" width="0.254" layer="94"/>
-<pin name="CENTERCONDUCTOR" x="7.62" y="0" visible="pad" rot="R180"/>
-<pin name="OUTERCONDUCTOR" x="0" y="-7.62" visible="pad" length="middle" rot="R90"/>
+<symbol name="SMA">
+<circle x="0" y="0" radius="3.81" width="0.254" layer="94"/>
+<pin name="CENTERCONDUCTOR" x="6.35" y="0" visible="off" length="middle" rot="R180"/>
+<pin name="GND" x="0" y="-6.35" visible="off" length="short" direction="pwr" rot="R90"/>
+<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
+<text x="3.81" y="-3.81" size="1.778" layer="104">&gt;NAME</text>
+<text x="3.81" y="-6.35" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="3.3V">
 <wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
@@ -9281,15 +9293,15 @@ Source: www.silabs.com .. CP2101.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SMAJ716-ND">
+<deviceset name="SMA-CINCH-END-FIRE" prefix="CF">
 <gates>
-<gate name="G$1" symbol="SMAJ716-ND" x="0" y="0"/>
+<gate name="G$1" symbol="SMA" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SMAJ716-ND">
 <connects>
 <connect gate="G$1" pin="CENTERCONDUCTOR" pad="P$3"/>
-<connect gate="G$1" pin="OUTERCONDUCTOR" pad="GND1 GND2 GND3 GND4"/>
+<connect gate="G$1" pin="GND" pad="GND1 GND2 GND3 GND4"/>
 </connects>
 <technologies>
 <technology name=""/>
