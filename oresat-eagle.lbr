@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.2">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -56,7 +56,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -1048,15 +1048,101 @@
 <wire x1="84.6" y1="2" x2="84.6" y2="0" width="0.1" layer="20"/>
 <wire x1="98.6" y1="89.2" x2="92.5" y2="95.3" width="0.1" layer="20"/>
 <wire x1="0" y1="89.2" x2="6.1" y2="95.3" width="0.1" layer="20"/>
-<wire x1="13.8" y1="95.3" x2="13.8" y2="93.7" width="0.1" layer="20"/>
-<wire x1="13.8" y1="93.7" x2="14.8" y2="92.7" width="0.1" layer="20" curve="90"/>
-<wire x1="14.8" y1="92.7" x2="44.8" y2="92.7" width="0.1" layer="20"/>
-<wire x1="44.8" y1="92.7" x2="45.8" y2="93.7" width="0.1" layer="20" curve="90"/>
-<wire x1="45.8" y1="93.7" x2="45.8" y2="95.3" width="0.1" layer="20"/>
-<rectangle x1="0" y1="9.6" x2="2.5" y2="91.2" layer="29"/>
-<rectangle x1="96.1" y1="9.6" x2="98.6" y2="91.2" layer="29"/>
-<rectangle x1="0" y1="9.6" x2="2.5" y2="91.2" layer="30"/>
-<rectangle x1="96.1" y1="9.6" x2="98.6" y2="91.2" layer="30"/>
+<wire x1="13.8" y1="95.3" x2="13.8" y2="93.8" width="0.1" layer="20"/>
+<wire x1="13.8" y1="93.8" x2="14.8" y2="92.8" width="0.1" layer="20" curve="90"/>
+<wire x1="14.8" y1="92.8" x2="44.8" y2="92.8" width="0.1" layer="20"/>
+<wire x1="44.8" y1="92.8" x2="45.8" y2="93.8" width="0.1" layer="20" curve="90"/>
+<wire x1="45.8" y1="93.8" x2="45.8" y2="95.3" width="0.1" layer="20"/>
+<polygon width="0.1" layer="29" spacing="1">
+<vertex x="0" y="9.6"/>
+<vertex x="0" y="89.2"/>
+<vertex x="6.1" y="95.3"/>
+<vertex x="7.8" y="95.3"/>
+<vertex x="7.8" y="85.5"/>
+<vertex x="2.3" y="85.5"/>
+<vertex x="2.3" y="9.2"/>
+<vertex x="2.19289375" y="9.30710625" curve="45"/>
+<vertex x="1.4857875" y="9.6"/>
+</polygon>
+<polygon width="0.1" layer="30" spacing="1">
+<vertex x="0" y="9.6"/>
+<vertex x="0" y="89.2"/>
+<vertex x="6.1" y="95.3"/>
+<vertex x="7.8" y="95.3"/>
+<vertex x="7.8" y="85.5"/>
+<vertex x="2.3" y="85.5"/>
+<vertex x="2.3" y="9.2"/>
+<vertex x="2.19289375" y="9.30710625" curve="45"/>
+<vertex x="1.4857875" y="9.6"/>
+</polygon>
+<polygon width="0.1" layer="40" spacing="1">
+<vertex x="0" y="9.6"/>
+<vertex x="0" y="89.2"/>
+<vertex x="6.1" y="95.3"/>
+<vertex x="7.8" y="95.3"/>
+<vertex x="7.8" y="85.5"/>
+<vertex x="2.3" y="85.5"/>
+<vertex x="2.3" y="9.2"/>
+<vertex x="2.19289375" y="9.30710625" curve="45"/>
+<vertex x="1.4857875" y="9.6"/>
+</polygon>
+<polygon width="0.1" layer="39" spacing="1">
+<vertex x="0" y="9.6"/>
+<vertex x="0" y="89.2"/>
+<vertex x="6.1" y="95.3"/>
+<vertex x="7.8" y="95.3"/>
+<vertex x="7.8" y="85.5"/>
+<vertex x="2.3" y="85.5"/>
+<vertex x="2.3" y="9.2"/>
+<vertex x="2.19289375" y="9.30710625" curve="45"/>
+<vertex x="1.4857875" y="9.6"/>
+</polygon>
+<polygon width="0.1" layer="30" spacing="1">
+<vertex x="98.6" y="9.6"/>
+<vertex x="98.6" y="89.2"/>
+<vertex x="92.5" y="95.3"/>
+<vertex x="90.8" y="95.3"/>
+<vertex x="90.8" y="85.5"/>
+<vertex x="96.3" y="85.5"/>
+<vertex x="96.3" y="9.2"/>
+<vertex x="96.40710625" y="9.30710625" curve="-45"/>
+<vertex x="97.1142125" y="9.6"/>
+</polygon>
+<polygon width="0.1" layer="29" spacing="1">
+<vertex x="98.6" y="9.6"/>
+<vertex x="98.6" y="89.2"/>
+<vertex x="92.5" y="95.3"/>
+<vertex x="90.8" y="95.3"/>
+<vertex x="90.8" y="85.5"/>
+<vertex x="96.3" y="85.5"/>
+<vertex x="96.3" y="9.2"/>
+<vertex x="96.40710625" y="9.30710625" curve="-45"/>
+<vertex x="97.1142125" y="9.6"/>
+</polygon>
+<polygon width="0.1" layer="39" spacing="1">
+<vertex x="98.6" y="9.6"/>
+<vertex x="98.6" y="89.2"/>
+<vertex x="92.5" y="95.3"/>
+<vertex x="90.8" y="95.3"/>
+<vertex x="90.8" y="85.5"/>
+<vertex x="96.3" y="85.5"/>
+<vertex x="96.3" y="9.2"/>
+<vertex x="96.40710625" y="9.30710625" curve="-45"/>
+<vertex x="97.1142125" y="9.6"/>
+</polygon>
+<polygon width="0.1" layer="40" spacing="1">
+<vertex x="98.6" y="9.6"/>
+<vertex x="98.6" y="89.2"/>
+<vertex x="92.5" y="95.3"/>
+<vertex x="90.8" y="95.3"/>
+<vertex x="90.8" y="85.5"/>
+<vertex x="96.3" y="85.5"/>
+<vertex x="96.3" y="9.2"/>
+<vertex x="96.40710625" y="9.30710625" curve="-45"/>
+<vertex x="97.1142125" y="9.6"/>
+</polygon>
+<wire x1="29.3" y1="88.54" x2="30.3" y2="88.54" width="0.1" layer="51"/>
+<wire x1="29.8" y1="89.04" x2="29.8" y2="88.04" width="0.1" layer="51"/>
 </package>
 <package name="CON-1.27-F-HARTING-1522012X601XXX">
 <hole x="-5.385" y="0" drill="1.6"/>
@@ -1571,6 +1657,18 @@
 </gates>
 <devices>
 <device name="" package="SCOPE_CLIP">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ORESAT-CARD-V0.5" prefix="OS">
+<gates>
+<gate name="G$1" symbol="ORESAT-CONNECTOR-40PIN" x="-68.58" y="-7.62"/>
+</gates>
+<devices>
+<device name="" package="CON-1.27-M-RA-HARTING-1515040X601XXX">
 <technologies>
 <technology name=""/>
 </technologies>
