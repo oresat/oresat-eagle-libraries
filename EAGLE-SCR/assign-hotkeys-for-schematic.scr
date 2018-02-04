@@ -1,0 +1,43 @@
+# ECE411 "Good keys" Script
+# Assigns Key Bindings for EAGLE CAD
+# Thanks to TAB for contributing.
+
+# Allowed modifiers are A+ S+ C+ for Alt, Shift, Control respectively
+# Allowed keys are A-Z 0-9 F1-F12 and BackSpace
+# Assignments to 0-9 A-Z require a Control or Alt modifier
+# It seems that at least in Linux, C+S+[0-9] doesn't work.
+#
+# Note that any key assignments which conflict with the menu bar (e.g. A+F for
+# the File Menu) overwrite the menu bar and you may lose keyboard access to 
+# the menu bar.
+#
+# NOTE: you must run this from within the SCH, BRD, and LBR editors and then
+# EXIT for these keys to stick.
+#
+# Common keys
+
+ASSIGN     C+D 'Delete';
+ASSIGN     C+F 'Window fit';
+ASSIGN     C+G 'Group';
+ASSIGN     C+H 'Smash';
+ASSIGN     C+I 'Info';
+ASSIGN     C+M 'Move';
+ASSIGN   C+S+M 'Mark';
+ASSIGN   C+S+N 'Name';
+ASSIGN     C+Q 'Show';
+ASSIGN     C+T 'Text';
+ASSIGN     A+X 'Cut';
+
+# Schematic specific keys
+
+ASSIGN     C+A 'Add';
+ASSIGN     C+E 'ERC';
+ASSIGN   C+S+I 'Invoke';
+ASSIGN     C+L 'Label';
+ASSIGN     C+R 'Net';
+
+# Display keys: 1 = sane display, 0 = display all
+
+ASSIGN     C+1 'Display none Nets Busses Symbols Names Values Info';
+ASSIGN     C+0 'Display all';
+
