@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="8.6.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="DFN-8">
+<description>Now follows http://pdfserv.maximintegrated.com/land_patterns/90-0065.PDF&lt;br /&gt;
+Pasted was reduced by 40% width on the center ground pad, and some amount on the other 8.  Stop mask extends 135 µm wider than the pad to hit dead center of what IPC-7351 recommends.</description>
+<circle x="-1.0628" y="-0.92" radius="0.070709375" width="0.127" layer="21"/>
+<circle x="-1.0628" y="-0.92" radius="0.070709375" width="0.127" layer="21"/>
+<wire x1="-1" y1="1" x2="1" y2="1" width="0.127" layer="51"/>
+<wire x1="1" y1="1" x2="1" y2="-1" width="0.127" layer="51"/>
+<wire x1="1" y1="-1" x2="-1" y2="-1" width="0.127" layer="51"/>
+<wire x1="-1" y1="-1" x2="-1" y2="1" width="0.127" layer="51"/>
+<rectangle x1="-0.877003125" y1="-1.340559375" x2="-0.625" y2="-0.7" layer="31"/>
+<rectangle x1="-0.37524375" y1="0.700459375" x2="-0.125" y2="1.3375" layer="31"/>
+<rectangle x1="-0.8774375" y1="0.701953125" x2="-0.625" y2="1.3375" layer="31"/>
+<rectangle x1="0.12531875" y1="0.701790625" x2="0.375" y2="1.3375" layer="31"/>
+<rectangle x1="0.6261875" y1="0.70133125" x2="0.875" y2="1.3375" layer="31"/>
+<rectangle x1="-0.376240625" y1="-1.34193125" x2="-0.125" y2="-0.7" layer="31"/>
+<rectangle x1="0.1254" y1="-1.3418" x2="0.375" y2="-0.7" layer="31"/>
+<rectangle x1="0.627028125" y1="-1.341840625" x2="0.875" y2="-0.7" layer="31"/>
+<rectangle x1="0.090290625" y1="-0.32103125" x2="0.59" y2="0.32" layer="31"/>
+<rectangle x1="-0.5916125" y1="-0.320875" x2="-0.09" y2="0.32" layer="31"/>
+<rectangle x1="-0.9707625" y1="0.570446875" x2="-0.53" y2="1.41" layer="29"/>
+<rectangle x1="-0.47106875" y1="0.571296875" x2="-0.03" y2="1.41" layer="29"/>
+<rectangle x1="0.030084375" y1="0.5716" x2="0.47" y2="1.41" layer="29"/>
+<rectangle x1="0.5309625" y1="0.5710375" x2="0.97" y2="1.41" layer="29"/>
+<rectangle x1="0.530690625" y1="-1.431859375" x2="0.97" y2="-0.59" layer="29"/>
+<rectangle x1="0.030078125" y1="-1.433740625" x2="0.47" y2="-0.59" layer="29"/>
+<rectangle x1="-0.470859375" y1="-1.43261875" x2="-0.03" y2="-0.59" layer="29"/>
+<rectangle x1="-0.9721375" y1="-1.43315" x2="-0.53" y2="-0.59" layer="29"/>
+<rectangle x1="-0.760940625" y1="-0.47058125" x2="0.76" y2="0.47" layer="29"/>
+<text x="0" y="1.9094" size="0.611009375" layer="25" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.5484" size="0.611615625" layer="27" ratio="20" align="bottom-center">&gt;VALUE</text>
+<smd name="1" x="-0.75" y="-0.99" dx="0.7" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="2" x="-0.25" y="-0.99" dx="0.7" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="3" x="0.25" y="-0.99" dx="0.7" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="4" x="0.75" y="-0.99" dx="0.7" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="5" x="0.75" y="0.99" dx="0.7" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="6" x="0.25" y="0.99" dx="0.7" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="7" x="-0.25" y="0.99" dx="0.7" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="8" x="-0.75" y="0.99" dx="0.7" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="9" x="0" y="0" dx="1.38" dy="0.8" layer="1" stop="no" cream="no"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TQP3M9035">
+<wire x1="-12.7" y1="10.16" x2="-12.7" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="-12.7" y1="-10.16" x2="12.7" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-10.16" x2="12.7" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="-12.7" y2="10.16" width="0.1524" layer="94"/>
+<pin name="RFIN" x="-17.78" y="5.08" length="middle"/>
+<pin name="SHUTDN" x="-17.78" y="-1.27" length="middle"/>
+<pin name="RFOUT" x="17.78" y="5.08" length="middle" rot="R180"/>
+<text x="-19.05" y="11.43" size="1.778" layer="95">&gt;Name</text>
+<text x="-19.05" y="-12.7" size="1.778" layer="96">&gt;Value</text>
+<pin name="GND" x="0" y="-15.24" length="middle" direction="pwr" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TQP3M9035" prefix="U" uservalue="yes">
+<gates>
+<gate name="U1" symbol="TQP3M9035" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DFN-8">
+<connects>
+<connect gate="U1" pin="GND" pad="9"/>
+<connect gate="U1" pin="RFIN" pad="2"/>
+<connect gate="U1" pin="RFOUT" pad="7"/>
+<connect gate="U1" pin="SHUTDN" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MFR" value="Qorvo" constant="no"/>
+<attribute name="MPN" value="TQP3M9035" constant="no"/>
+<attribute name="VALUE" value="TQP3M9035"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
