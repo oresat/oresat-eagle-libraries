@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -1409,6 +1409,16 @@ Source: www.xicor.com .. x1205.pdf</description>
 <vertex x="-0.475" y="-1.393"/>
 </polygon>
 </package>
+<package name="1714968-PHONEIX-CONTACT-3-TERMINAL-BLOCK">
+<pad name="1" x="-3.175" y="0" drill="1.3" diameter="5.08" thermals="no"/>
+<pad name="2" x="3.175" y="0" drill="1.3" diameter="5.08" thermals="no"/>
+<wire x1="-6.35" y1="-7.9" x2="12.7" y2="-7.9" width="0.508" layer="51" style="shortdash"/>
+<wire x1="-6.35" y1="4.6" x2="12.7" y2="4.6" width="0.508" layer="51"/>
+<wire x1="12.7" y1="4.5" x2="12.7" y2="-7.74" width="0.508" layer="51"/>
+<wire x1="-6.35" y1="4.5" x2="-6.35" y2="-7.74" width="0.508" layer="51"/>
+<text x="-3.127" y="-9.861" size="1.524" layer="51" font="vector" ratio="15">BOARD EDGE</text>
+<pad name="3" x="9.525" y="0" drill="1.3" diameter="5.08" thermals="no"/>
+</package>
 </packages>
 <symbols>
 <symbol name="P-MOSFET">
@@ -1928,6 +1938,15 @@ Switches electronic signals</description>
 <wire x1="12.7" y1="15.24" x2="12.7" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-10.16" x2="-12.7" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="-12.7" y1="-10.16" x2="-12.7" y2="15.24" width="0.254" layer="94"/>
+</symbol>
+<symbol name="3-TERMINAL-BLOCK">
+<pin name="1" x="-7.62" y="2.54" length="middle" swaplevel="1"/>
+<pin name="2" x="-7.62" y="0" length="middle" swaplevel="1"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<pin name="3" x="-7.62" y="-2.54" length="middle" swaplevel="1"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2594,6 +2613,23 @@ Switches electronic signals</description>
 <connect gate="G$1" pin="PGOOD" pad="5"/>
 <connect gate="G$1" pin="VIN" pad="3"/>
 <connect gate="G$1" pin="VOUT" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1714968-PHONEIX-CONTACT-TERMINAL-BLOCK">
+<gates>
+<gate name="G$1" symbol="3-TERMINAL-BLOCK" x="2.54" y="-7.62"/>
+</gates>
+<devices>
+<device name="" package="1714968-PHONEIX-CONTACT-3-TERMINAL-BLOCK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
