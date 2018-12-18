@@ -140,50 +140,102 @@
 </packages>
 <symbols>
 <symbol name="SI4133">
+<description>RF1/RF2/IF OUT</description>
 <wire x1="-17.78" y1="30.48" x2="17.78" y2="30.48" width="0.254" layer="94"/>
 <wire x1="17.78" y1="30.48" x2="17.78" y2="-30.48" width="0.254" layer="94"/>
 <wire x1="17.78" y1="-30.48" x2="-17.78" y2="-30.48" width="0.254" layer="94"/>
 <wire x1="-17.78" y1="-30.48" x2="-17.78" y2="30.48" width="0.254" layer="94"/>
-<pin name="SCLK" x="20.32" y="0" length="short" direction="in" rot="R180"/>
-<pin name="SDATA" x="20.32" y="-5.08" length="short" direction="in" rot="R180"/>
+<pin name="SCLK" x="-20.32" y="15.24" length="short" direction="in"/>
+<pin name="SDATA" x="-20.32" y="10.16" length="short" direction="in"/>
 <pin name="GNDR" x="-2.54" y="-33.02" length="short" direction="pwr" rot="R90"/>
-<pin name="RFLD" x="-20.32" y="-5.08" length="short" direction="in"/>
-<pin name="RFLC" x="-20.32" y="0" length="short" direction="in"/>
-<pin name="RFLB" x="-20.32" y="5.08" length="short" direction="in"/>
-<pin name="RFLA" x="-20.32" y="10.16" length="short" direction="in"/>
-<pin name="RFOUT" x="-20.32" y="22.86" length="short" direction="out"/>
+<pin name="RFLD" x="-20.32" y="-10.16" length="short" direction="in"/>
+<pin name="RFLC" x="-20.32" y="-5.08" length="short" direction="in"/>
+<pin name="RFLB" x="-20.32" y="0" length="short" direction="in"/>
+<pin name="RFLA" x="-20.32" y="5.08" length="short" direction="in"/>
+<pin name="RFOUT" x="20.32" y="7.62" length="short" direction="out" rot="R180"/>
 <pin name="VDDR" x="-2.54" y="33.02" length="short" direction="pwr" rot="R270"/>
-<pin name="SEN_INV" x="20.32" y="10.16" length="short" direction="in" rot="R180"/>
+<pin name="/SEN" x="-20.32" y="20.32" length="short" direction="in"/>
 <pin name="VDDI" x="2.54" y="33.02" length="short" direction="pwr" rot="R270"/>
-<pin name="IFOUT" x="-20.32" y="17.78" length="short" direction="out"/>
+<pin name="IFOUT" x="20.32" y="0" length="short" direction="out" rot="R180"/>
 <pin name="GNDI" x="2.54" y="-33.02" length="short" direction="pwr" rot="R90"/>
-<pin name="IFLB" x="-20.32" y="-15.24" length="short" direction="in"/>
-<pin name="IFLA" x="-20.32" y="-10.16" length="short" direction="in"/>
+<pin name="IFLB" x="-20.32" y="-20.32" length="short" direction="in"/>
+<pin name="IFLA" x="-20.32" y="-15.24" length="short" direction="in"/>
 <pin name="GNDD" x="7.62" y="-33.02" length="short" direction="pwr" rot="R90"/>
 <pin name="VDDD" x="7.62" y="33.02" length="short" direction="pwr" rot="R270"/>
-<pin name="XIN" x="-20.32" y="-22.86" length="short" direction="in"/>
-<pin name="PWDN_INV" x="20.32" y="5.08" length="short" direction="in" rot="R180"/>
-<pin name="AUXOUT" x="20.32" y="-10.16" length="short" direction="out" rot="R180"/>
+<pin name="XIN" x="-20.32" y="-25.4" length="short" direction="in"/>
+<pin name="/PWDN" x="-20.32" y="25.4" length="short" direction="in"/>
+<pin name="AUXOUT" x="20.32" y="-7.62" length="short" direction="out" rot="R180"/>
 <text x="15.24" y="-38.1" size="1.778" layer="95">&gt;NAME</text>
 <text x="15.24" y="-40.64" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="SI4123">
+<description>RF1/IF OUT</description>
+<wire x1="-17.78" y1="30.48" x2="17.78" y2="30.48" width="0.254" layer="94"/>
+<wire x1="17.78" y1="30.48" x2="17.78" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-30.48" x2="-17.78" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-30.48" x2="-17.78" y2="30.48" width="0.254" layer="94"/>
+<pin name="SCLK" x="-20.32" y="10.16" length="short" direction="in"/>
+<pin name="SDATA" x="-20.32" y="5.08" length="short" direction="in"/>
+<pin name="GNDR" x="-2.54" y="-33.02" length="short" direction="pwr" rot="R90"/>
+<pin name="RFLB" x="-20.32" y="-7.62" length="short" direction="in"/>
+<pin name="RFLA" x="-20.32" y="-2.54" length="short" direction="in"/>
+<pin name="RFOUT" x="20.32" y="7.62" length="short" direction="out" rot="R180"/>
+<pin name="VDDR" x="-2.54" y="33.02" length="short" direction="pwr" rot="R270"/>
+<pin name="/SEN" x="-20.32" y="15.24" length="short" direction="in"/>
+<pin name="VDDI" x="2.54" y="33.02" length="short" direction="pwr" rot="R270"/>
+<pin name="IFOUT" x="20.32" y="0" length="short" direction="out" rot="R180"/>
+<pin name="GNDI" x="2.54" y="-33.02" length="short" direction="pwr" rot="R90"/>
+<pin name="IFLB" x="-20.32" y="-17.78" length="short" direction="in"/>
+<pin name="IFLA" x="-20.32" y="-12.7" length="short" direction="in"/>
+<pin name="GNDD" x="7.62" y="-33.02" length="short" direction="pwr" rot="R90"/>
+<pin name="VDDD" x="7.62" y="33.02" length="short" direction="pwr" rot="R270"/>
+<pin name="XIN" x="-20.32" y="-25.4" length="short" direction="in"/>
+<pin name="/PWDN" x="-20.32" y="22.86" length="short" direction="in"/>
+<pin name="AUXOUT" x="20.32" y="-7.62" length="short" direction="out" rot="R180"/>
+<text x="15.24" y="-38.1" size="1.778" layer="95">&gt;NAME</text>
+<text x="15.24" y="-40.64" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="SI4112">
+<description>IF OUT</description>
+<wire x1="-15.24" y1="25.4" x2="15.24" y2="25.4" width="0.254" layer="94"/>
+<wire x1="15.24" y1="25.4" x2="15.24" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-25.4" x2="-15.24" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-25.4" x2="-15.24" y2="25.4" width="0.254" layer="94"/>
+<pin name="SCLK" x="-17.78" y="5.08" length="short" direction="in"/>
+<pin name="SDATA" x="-17.78" y="0" length="short" direction="in"/>
+<pin name="/SEN" x="-17.78" y="10.16" length="short" direction="in"/>
+<pin name="VDDI" x="0" y="27.94" length="short" direction="pwr" rot="R270"/>
+<pin name="IFOUT" x="17.78" y="5.08" length="short" direction="out" rot="R180"/>
+<pin name="GNDI" x="0" y="-27.94" length="short" direction="pwr" rot="R90"/>
+<pin name="IFLB" x="-17.78" y="-12.7" length="short" direction="in"/>
+<pin name="IFLA" x="-17.78" y="-7.62" length="short" direction="in"/>
+<pin name="GNDD" x="5.08" y="-27.94" length="short" direction="pwr" rot="R90"/>
+<pin name="VDDD" x="5.08" y="27.94" length="short" direction="pwr" rot="R270"/>
+<pin name="XIN" x="-17.78" y="-20.32" length="short" direction="in"/>
+<pin name="/PWDN" x="-17.78" y="17.78" length="short" direction="in"/>
+<pin name="AUXOUT" x="17.78" y="-5.08" length="short" direction="out" rot="R180"/>
+<text x="15.24" y="-33.02" size="1.778" layer="95">&gt;NAME</text>
+<text x="15.24" y="-35.56" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
 <deviceset name="U-SI4133" prefix="U">
+<description>RF1/RF2/IF OUT</description>
 <gates>
 <gate name="G$1" symbol="SI4133" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="QFN28-5X5-WITH-CENTER-PAD">
 <connects>
+<connect gate="G$1" pin="/PWDN" pad="13"/>
+<connect gate="G$1" pin="/SEN" pad="25"/>
 <connect gate="G$1" pin="AUXOUT" pad="12"/>
-<connect gate="G$1" pin="GNDD" pad="14 16 18"/>
+<connect gate="G$1" pin="GNDD" pad="14 16 18 PAD"/>
 <connect gate="G$1" pin="GNDI" pad="21 22"/>
 <connect gate="G$1" pin="GNDR" pad="1 4 7 8 9 28"/>
 <connect gate="G$1" pin="IFLA" pad="19"/>
 <connect gate="G$1" pin="IFLB" pad="20"/>
 <connect gate="G$1" pin="IFOUT" pad="23"/>
-<connect gate="G$1" pin="PWDN_INV" pad="13"/>
 <connect gate="G$1" pin="RFLA" pad="6"/>
 <connect gate="G$1" pin="RFLB" pad="5"/>
 <connect gate="G$1" pin="RFLC" pad="3"/>
@@ -191,10 +243,70 @@
 <connect gate="G$1" pin="RFOUT" pad="10"/>
 <connect gate="G$1" pin="SCLK" pad="26"/>
 <connect gate="G$1" pin="SDATA" pad="27"/>
-<connect gate="G$1" pin="SEN_INV" pad="25"/>
 <connect gate="G$1" pin="VDDD" pad="17"/>
 <connect gate="G$1" pin="VDDI" pad="24"/>
 <connect gate="G$1" pin="VDDR" pad="11"/>
+<connect gate="G$1" pin="XIN" pad="15"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="U-SI4123" prefix="U">
+<description>RF1/IF OUT</description>
+<gates>
+<gate name="G$1" symbol="SI4123" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN28-5X5-WITH-CENTER-PAD">
+<connects>
+<connect gate="G$1" pin="/PWDN" pad="13"/>
+<connect gate="G$1" pin="/SEN" pad="25"/>
+<connect gate="G$1" pin="AUXOUT" pad="12"/>
+<connect gate="G$1" pin="GNDD" pad="14 16 18 PAD"/>
+<connect gate="G$1" pin="GNDI" pad="21 22"/>
+<connect gate="G$1" pin="GNDR" pad="1 2 3 4 7 8 9 28"/>
+<connect gate="G$1" pin="IFLA" pad="19"/>
+<connect gate="G$1" pin="IFLB" pad="20"/>
+<connect gate="G$1" pin="IFOUT" pad="23"/>
+<connect gate="G$1" pin="RFLA" pad="6"/>
+<connect gate="G$1" pin="RFLB" pad="5"/>
+<connect gate="G$1" pin="RFOUT" pad="10"/>
+<connect gate="G$1" pin="SCLK" pad="26"/>
+<connect gate="G$1" pin="SDATA" pad="27"/>
+<connect gate="G$1" pin="VDDD" pad="17"/>
+<connect gate="G$1" pin="VDDI" pad="24"/>
+<connect gate="G$1" pin="VDDR" pad="11"/>
+<connect gate="G$1" pin="XIN" pad="15"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="U-SI4112" prefix="U">
+<description>IF OUT</description>
+<gates>
+<gate name="G$1" symbol="SI4112" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN28-5X5-WITH-CENTER-PAD">
+<connects>
+<connect gate="G$1" pin="/PWDN" pad="13"/>
+<connect gate="G$1" pin="/SEN" pad="25"/>
+<connect gate="G$1" pin="AUXOUT" pad="12"/>
+<connect gate="G$1" pin="GNDD" pad="1 2 3 4 5 6 7 8 9 10 14 16 18 28 PAD"/>
+<connect gate="G$1" pin="GNDI" pad="21 22"/>
+<connect gate="G$1" pin="IFLA" pad="19"/>
+<connect gate="G$1" pin="IFLB" pad="20"/>
+<connect gate="G$1" pin="IFOUT" pad="23"/>
+<connect gate="G$1" pin="SCLK" pad="26"/>
+<connect gate="G$1" pin="SDATA" pad="27"/>
+<connect gate="G$1" pin="VDDD" pad="11 17"/>
+<connect gate="G$1" pin="VDDI" pad="24"/>
 <connect gate="G$1" pin="XIN" pad="15"/>
 </connects>
 <technologies>
