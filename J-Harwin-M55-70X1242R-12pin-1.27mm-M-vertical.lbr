@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -72,21 +72,21 @@
 </layers>
 <library>
 <packages>
-<package name="HARWIN-M55-6021242R">
+<package name="HARWIN-M55-70X1242R">
 <hole x="-5.385" y="0" drill="1.6"/>
 <hole x="5.385" y="0" drill="1.6"/>
-<smd name="5" x="-0.635" y="-2.75" dx="0.8" dy="1.1" layer="1" rot="R180"/>
-<smd name="3" x="-1.905" y="-2.75" dx="0.8" dy="1.1" layer="1" rot="R180"/>
-<smd name="1" x="-3.175" y="-2.75" dx="0.8" dy="1.1" layer="1" rot="R180"/>
-<smd name="2" x="-3.175" y="2.75" dx="0.8" dy="1.1" layer="1" rot="R180"/>
-<smd name="4" x="-1.905" y="2.75" dx="0.8" dy="1.1" layer="1" rot="R180"/>
-<smd name="6" x="-0.635" y="2.75" dx="0.8" dy="1.1" layer="1" rot="R180"/>
-<smd name="8" x="0.635" y="2.75" dx="0.8" dy="1.1" layer="1" rot="R180"/>
-<smd name="10" x="1.905" y="2.75" dx="0.8" dy="1.1" layer="1" rot="R180"/>
-<smd name="12" x="3.175" y="2.75" dx="0.8" dy="1.1" layer="1" rot="R180"/>
-<smd name="7" x="0.635" y="-2.75" dx="0.8" dy="1.1" layer="1" rot="R180"/>
-<smd name="9" x="1.905" y="-2.75" dx="0.8" dy="1.1" layer="1" rot="R180"/>
-<smd name="11" x="3.175" y="-2.75" dx="0.8" dy="1.1" layer="1" rot="R180"/>
+<smd name="5" x="0.635" y="-2.75" dx="0.8" dy="1.1" layer="1" rot="R180"/>
+<smd name="3" x="1.905" y="-2.75" dx="0.8" dy="1.1" layer="1" rot="R180"/>
+<smd name="1" x="3.175" y="-2.75" dx="0.8" dy="1.1" layer="1" rot="R180"/>
+<smd name="2" x="3.175" y="2.75" dx="0.8" dy="1.1" layer="1" rot="R180"/>
+<smd name="4" x="1.905" y="2.75" dx="0.8" dy="1.1" layer="1" rot="R180"/>
+<smd name="6" x="0.635" y="2.75" dx="0.8" dy="1.1" layer="1" rot="R180"/>
+<smd name="8" x="-0.635" y="2.75" dx="0.8" dy="1.1" layer="1" rot="R180"/>
+<smd name="10" x="-1.905" y="2.75" dx="0.8" dy="1.1" layer="1" rot="R180"/>
+<smd name="12" x="-3.175" y="2.75" dx="0.8" dy="1.1" layer="1" rot="R180"/>
+<smd name="7" x="-0.635" y="-2.75" dx="0.8" dy="1.1" layer="1" rot="R180"/>
+<smd name="9" x="-1.905" y="-2.75" dx="0.8" dy="1.1" layer="1" rot="R180"/>
+<smd name="11" x="-3.175" y="-2.75" dx="0.8" dy="1.1" layer="1" rot="R180"/>
 <wire x1="6.35" y1="2.1" x2="-6.35" y2="2.1" width="0.127" layer="51"/>
 <wire x1="6.35" y1="2.1" x2="6.35" y2="-2.1" width="0.127" layer="51"/>
 <wire x1="6.35" y1="-2.1" x2="-6.35" y2="-2.1" width="0.127" layer="51"/>
@@ -96,34 +96,34 @@
 <wire x1="-6.91" y1="-3.7" x2="-6.91" y2="3.7" width="0.1" layer="39"/>
 <wire x1="-6.91" y1="3.7" x2="6.91" y2="3.7" width="0.1" layer="39"/>
 <wire x1="6.91" y1="3.7" x2="6.91" y2="-3.7" width="0.1" layer="39"/>
-<text x="-2.94" y="-3.5" size="0.635" layer="21" ratio="20" rot="R180">1</text>
-<text x="-2.94" y="4.1" size="0.635" layer="21" ratio="20" rot="R180">2</text>
-<text x="3.74" y="-3.5" size="0.635" layer="21" ratio="20" rot="R180">11</text>
-<text x="3.64" y="4.1" size="0.635" layer="21" ratio="20" rot="R180">12</text>
-<wire x1="-4.445" y1="1.27" x2="-4.445" y2="0" width="0.127" layer="21"/>
-<wire x1="-4.445" y1="0" x2="-3.81" y2="0" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="0" x2="-3.81" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="-1.27" x2="3.81" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="3.81" y1="-1.27" x2="3.81" y2="0" width="0.127" layer="21"/>
-<wire x1="3.81" y1="0" x2="4.445" y2="0" width="0.127" layer="21"/>
-<wire x1="4.445" y1="0" x2="4.445" y2="1.27" width="0.127" layer="21"/>
-<wire x1="4.445" y1="1.27" x2="-4.445" y2="1.27" width="0.127" layer="21"/>
-<rectangle x1="-3.4925" y1="0.3175" x2="-2.8575" y2="0.9525" layer="51"/>
-<rectangle x1="-3.4925" y1="-0.9525" x2="-2.8575" y2="-0.3175" layer="51"/>
-<rectangle x1="-2.2225" y1="0.3175" x2="-1.5875" y2="0.9525" layer="51"/>
-<rectangle x1="-2.2225" y1="-0.9525" x2="-1.5875" y2="-0.3175" layer="51"/>
-<rectangle x1="-0.9525" y1="0.3175" x2="-0.3175" y2="0.9525" layer="51"/>
-<rectangle x1="-0.9525" y1="-0.9525" x2="-0.3175" y2="-0.3175" layer="51"/>
-<rectangle x1="0.3175" y1="0.3175" x2="0.9525" y2="0.9525" layer="51"/>
-<rectangle x1="0.3175" y1="-0.9525" x2="0.9525" y2="-0.3175" layer="51"/>
-<rectangle x1="1.5875" y1="0.3175" x2="2.2225" y2="0.9525" layer="51"/>
-<rectangle x1="1.5875" y1="-0.9525" x2="2.2225" y2="-0.3175" layer="51"/>
-<rectangle x1="2.8575" y1="0.3175" x2="3.4925" y2="0.9525" layer="51"/>
-<rectangle x1="2.8575" y1="-0.9525" x2="3.4925" y2="-0.3175" layer="51"/>
+<text x="3.41" y="-3.5" size="0.635" layer="21" ratio="20" rot="R180">1</text>
+<text x="3.41" y="4.1" size="0.635" layer="21" ratio="20" rot="R180">2</text>
+<text x="-2.61" y="-3.5" size="0.635" layer="21" ratio="20" rot="R180">11</text>
+<text x="-2.71" y="4.1" size="0.635" layer="21" ratio="20" rot="R180">12</text>
+<wire x1="-5.08" y1="1.905" x2="-5.08" y2="0" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="0" x2="-4.445" y2="0" width="0.127" layer="21"/>
+<wire x1="-4.445" y1="0" x2="-4.445" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="-4.445" y1="-1.905" x2="4.445" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="4.445" y1="-1.905" x2="4.445" y2="0" width="0.127" layer="21"/>
+<wire x1="4.445" y1="0" x2="5.08" y2="0" width="0.127" layer="21"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="1.905" width="0.127" layer="21"/>
+<wire x1="5.08" y1="1.905" x2="-5.08" y2="1.905" width="0.127" layer="21"/>
 <smd name="P$1" x="-5.67" y="-2.45" dx="2.7" dy="1.2" layer="1" rot="R90"/>
 <smd name="P$2" x="-5.67" y="2.45" dx="2.7" dy="1.2" layer="1" rot="R90"/>
 <smd name="P$3" x="5.67" y="2.45" dx="2.7" dy="1.2" layer="1" rot="R90"/>
 <smd name="P$4" x="5.67" y="-2.45" dx="2.7" dy="1.2" layer="1" rot="R90"/>
+<rectangle x1="-3.556" y1="0.508" x2="-2.794" y2="0.762" layer="21"/>
+<rectangle x1="-2.286" y1="0.508" x2="-1.524" y2="0.762" layer="21"/>
+<rectangle x1="-1.016" y1="0.508" x2="-0.254" y2="0.762" layer="21"/>
+<rectangle x1="0.254" y1="0.508" x2="1.016" y2="0.762" layer="21"/>
+<rectangle x1="1.524" y1="0.508" x2="2.286" y2="0.762" layer="21"/>
+<rectangle x1="2.794" y1="0.508" x2="3.556" y2="0.762" layer="21"/>
+<rectangle x1="-3.556" y1="-0.762" x2="-2.794" y2="-0.508" layer="21"/>
+<rectangle x1="-2.286" y1="-0.762" x2="-1.524" y2="-0.508" layer="21"/>
+<rectangle x1="-1.016" y1="-0.762" x2="-0.254" y2="-0.508" layer="21"/>
+<rectangle x1="0.254" y1="-0.762" x2="1.016" y2="-0.508" layer="21"/>
+<rectangle x1="1.524" y1="-0.762" x2="2.286" y2="-0.508" layer="21"/>
+<rectangle x1="2.794" y1="-0.762" x2="3.556" y2="-0.508" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -150,12 +150,12 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="J-HARWIN-M55-6021242R" prefix="CF">
+<deviceset name="J-HARWIN-M55-70X1242R" prefix="CF">
 <gates>
 <gate name="G$1" symbol="PINHD12" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="HARWIN-M55-6021242R">
+<device name="" package="HARWIN-M55-70X1242R">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="10" pad="10"/>
