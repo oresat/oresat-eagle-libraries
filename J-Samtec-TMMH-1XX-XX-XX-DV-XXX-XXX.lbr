@@ -130,7 +130,7 @@ Source: &lt;a href="https://www.samtec.com/products/tmmh-109-01-g-dv-es-a"&gt;Sa
 <pin name="LOCK" x="0" y="-12.7" length="short" direction="pas" function="dot" rot="R180"/>
 <pin name="1PPS_IN" x="0" y="-2.54" length="short" direction="pas" function="dot" rot="R180"/>
 <pin name="DOUT" x="0" y="7.62" length="short" direction="pas" function="dot" rot="R180"/>
-<text x="-43.18" y="-25.4" size="1.778" layer="95">Pinout:
+<text x="-45.72" y="-25.4" size="1.778" layer="95">Samtec TMMH-109-01-G-DV-ES-A Pinout:
 1 - GND
 2 - +15V
 3 - GND
