@@ -142,7 +142,7 @@ Required</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TQP7M9106" prefix="U" uservalue="yes">
+<deviceset name="TQP7M9106" prefix="U">
 <description>2W High Linearity RF Amplifier, 50 - 1500 MHz</description>
 <gates>
 <gate name="G$1" symbol="TQP7M9106" x="0" y="0"/>
