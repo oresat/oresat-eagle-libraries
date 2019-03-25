@@ -110,7 +110,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="QCN-19+" prefix="Z">
+<deviceset name="QCN-19+" prefix="U">
 <description>RF Power Splitter/Combiner, Quadrature, 1.1 - 1.925 GHz</description>
 <gates>
 <gate name="G$1" symbol="QCN-19+" x="0" y="0"/>
