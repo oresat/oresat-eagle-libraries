@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.3">
+<eagle version="8.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -79,32 +79,35 @@
 </packages>
 <symbols>
 <symbol name="F6QA1G582H2JM-J">
-<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="6.35" x2="10.16" y2="6.35" width="0.254" layer="94"/>
+<wire x1="10.16" y1="6.35" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
-<text x="7.62" y="-10.16" size="1.27195" layer="95">&gt;NAME</text>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="6.35" width="0.254" layer="94"/>
+<text x="-20.32" y="7.62" size="1.9304" layer="95">&gt;NAME</text>
 <pin name="IN" x="-15.24" y="0" length="middle" direction="pas"/>
 <pin name="OUT" x="15.24" y="0" length="middle" direction="pas" rot="R180"/>
 <pin name="GND" x="0" y="-12.7" length="middle" direction="pwr" rot="R90"/>
-<text x="-5.588" y="4.318" size="1.778" layer="94">BAW BPF</text>
+<text x="-20.32" y="-10.16" size="1.9304" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="885071-A" prefix="U">
+<deviceset name="885071-A" prefix="FL">
 <description>2.4GHz BPF</description>
 <gates>
-<gate name="G$1" symbol="F6QA1G582H2JM-J" x="0" y="0"/>
+<gate name="FL" symbol="F6QA1G582H2JM-J" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="FIL_B39162B9417K610">
 <connects>
-<connect gate="G$1" pin="GND" pad="2 3 5"/>
-<connect gate="G$1" pin="IN" pad="1"/>
-<connect gate="G$1" pin="OUT" pad="4"/>
+<connect gate="FL" pin="GND" pad="2 3 5"/>
+<connect gate="FL" pin="IN" pad="1"/>
+<connect gate="FL" pin="OUT" pad="4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFR" value="Qorvo" constant="no"/>
+<attribute name="MPN" value="885071-A" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
