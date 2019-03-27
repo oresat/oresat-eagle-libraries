@@ -94,7 +94,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="U-ECS-TXO" prefix="X" uservalue="yes">
+<deviceset name="ECS-TXO-3225" prefix="X">
 <description>HCMOS TCXO</description>
 <gates>
 <gate name="G$1" symbol="ECS-TXO" x="0" y="0"/>

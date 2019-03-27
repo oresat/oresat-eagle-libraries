@@ -107,7 +107,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LP38692" prefix="U" uservalue="yes">
+<deviceset name="LP38692" prefix="U">
 <description>1A LDO Linear Regulator</description>
 <gates>
 <gate name="G$1" symbol="LP38692" x="0" y="0"/>

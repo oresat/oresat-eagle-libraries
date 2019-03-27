@@ -114,7 +114,7 @@
 </symbols>
 <devicesets>
 <deviceset name="MAC-24+" prefix="U">
-<description>RF Mixer, 0.3 - 12 GHz</description>
+<description>RF Mixer, Diode Ring, 0.3 - 12 GHz</description>
 <gates>
 <gate name="G$1" symbol="MAC-24+" x="0" y="0"/>
 </gates>

@@ -219,7 +219,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="U-SI4133" prefix="U">
+<deviceset name="SI4133" prefix="U">
 <description>RF Synthesizer w/ integrated VCOs (RF1/RF2/IF OUT)</description>
 <gates>
 <gate name="G$1" symbol="SI4133" x="0" y="0"/>
@@ -254,7 +254,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="U-SI4123" prefix="U">
+<deviceset name="SI4123" prefix="U">
 <description>RF Synthesizer w/ integrated VCOs (RF1/IF OUT)</description>
 <gates>
 <gate name="G$1" symbol="SI4123" x="0" y="0"/>
@@ -287,7 +287,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="U-SI4112" prefix="U">
+<deviceset name="SI4112" prefix="U">
 <description>RF Synthesizer w/ integrated VCOs (IF OUT)</description>
 <gates>
 <gate name="G$1" symbol="SI4112" x="0" y="0"/>
