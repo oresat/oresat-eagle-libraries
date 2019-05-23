@@ -95,7 +95,9 @@
 </symbols>
 <devicesets>
 <deviceset name="ECS-TXO-3225" prefix="X">
-<description>HCMOS TCXO</description>
+<description>&lt;b&gt;HCMOS TCXO&lt;/b&gt;&lt;br&gt;
+Stability:  2.5ppm (-30 to +85 &amp;#8451;)&lt;p&gt;
+Source: &lt;a href="https://ecsxtal.com/store/pdf/ECS-TXO-3225.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="ECS-TXO" x="0" y="0"/>
 </gates>

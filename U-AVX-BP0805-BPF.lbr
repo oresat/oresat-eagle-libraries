@@ -92,7 +92,6 @@
 <wire x1="0.8" y1="0.3" x2="0.8" y2="-0.3" width="0.127" layer="21"/>
 <wire x1="-0.2" y1="-1" x2="0.2" y2="-1" width="0.127" layer="21"/>
 <text x="1.1" y="0" size="0.6096" layer="25" font="vector" ratio="15">&gt;NAME</text>
-<text x="1.1" y="-0.7" size="0.6096" layer="27" font="vector" ratio="15">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -114,8 +113,12 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="BP0805" prefix="U">
-<description>1220 to 1420 MHz Bandpass Filter</description>
+<deviceset name="BP0805A1308" prefix="U">
+<description>&lt;b&gt;Thin Film Bandpass Filter&lt;/b&gt;&lt;br&gt;
+Frequency:  1308 MHz&lt;br&gt;
+Band:  1220 to 1420 MHz&lt;br&gt;
+Size:  0805&lt;p&gt;
+Source: &lt;a href="http://datasheets.avx.com/AVX-BP0805-ITF-Filter.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="BP0805" x="0" y="0"/>
 </gates>
