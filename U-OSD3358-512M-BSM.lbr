@@ -1,8 +1,10 @@
-<!--This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0-->
-<eagle version="7.1.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -333,416 +335,416 @@
 <symbols>
 <symbol name="OSD335X-SM-LOGICAL-A">
 <description>Power and Reset</description>
-<wire x1="0" y1="0" x2="0" y2="10.16" width="0.254" layer="94"/>
-<wire x1="0" y1="10.16" x2="0" y2="20.32" width="0.254" layer="94"/>
-<wire x1="0" y1="20.32" x2="0" y2="43.18" width="0.254" layer="94"/>
-<wire x1="0" y1="43.18" x2="0" y2="78.74" width="0.254" layer="94"/>
-<wire x1="0" y1="78.74" x2="0" y2="88.9" width="0.254" layer="94"/>
-<wire x1="0" y1="88.9" x2="0" y2="99.06" width="0.254" layer="94"/>
-<wire x1="0" y1="99.06" x2="0" y2="119.38" width="0.254" layer="94"/>
-<wire x1="0" y1="119.38" x2="0" y2="142.24" width="0.254" layer="94"/>
-<wire x1="0" y1="142.24" x2="0" y2="157.48" width="0.254" layer="94"/>
-<wire x1="0" y1="157.48" x2="0" y2="172.72" width="0.254" layer="94"/>
-<wire x1="0" y1="172.72" x2="30.48" y2="172.72" width="0.254" layer="94"/>
-<wire x1="30.48" y1="172.72" x2="60.96" y2="172.72" width="0.254" layer="94"/>
-<wire x1="60.96" y1="172.72" x2="60.96" y2="154.94" width="0.254" layer="94"/>
-<wire x1="60.96" y1="154.94" x2="60.96" y2="137.16" width="0.254" layer="94"/>
-<wire x1="60.96" y1="137.16" x2="60.96" y2="124.46" width="0.254" layer="94"/>
-<wire x1="60.96" y1="124.46" x2="60.96" y2="111.76" width="0.254" layer="94"/>
-<wire x1="60.96" y1="111.76" x2="60.96" y2="78.74" width="0.254" layer="94"/>
-<wire x1="60.96" y1="78.74" x2="60.96" y2="55.88" width="0.254" layer="94"/>
-<wire x1="60.96" y1="55.88" x2="60.96" y2="22.86" width="0.254" layer="94"/>
-<wire x1="60.96" y1="22.86" x2="60.96" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="30.48" y2="0" width="0.254" layer="94"/>
-<text x="10.16" y="106.68" size="2.54" layer="94">SIP A</text>
-<text x="0" y="175.26" size="1.778" layer="95" align="top-left">&gt;NAME</text>
-<text x="0" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<wire x1="30.48" y1="0" x2="60.96" y2="0" width="0.254" layer="94"/>
-<wire x1="30.48" y1="172.72" x2="30.48" y2="157.48" width="0.254" layer="94"/>
-<text x="27.94" y="27.94" size="2.54" layer="94" rot="R90">I2C0</text>
-<text x="35.56" y="7.62" size="2.54" layer="94" rot="R90">Reset</text>
-<wire x1="30.48" y1="157.48" x2="30.48" y2="154.94" width="0.254" layer="94"/>
-<wire x1="30.48" y1="154.94" x2="30.48" y2="142.24" width="0.254" layer="94"/>
-<wire x1="30.48" y1="142.24" x2="30.48" y2="137.16" width="0.254" layer="94"/>
-<wire x1="30.48" y1="137.16" x2="30.48" y2="124.46" width="0.254" layer="94"/>
-<wire x1="30.48" y1="124.46" x2="30.48" y2="119.38" width="0.254" layer="94"/>
-<wire x1="30.48" y1="119.38" x2="30.48" y2="111.76" width="0.254" layer="94"/>
-<wire x1="30.48" y1="111.76" x2="30.48" y2="99.06" width="0.254" layer="94"/>
-<wire x1="30.48" y1="99.06" x2="30.48" y2="88.9" width="0.254" layer="94"/>
-<wire x1="30.48" y1="88.9" x2="30.48" y2="78.74" width="0.254" layer="94"/>
-<wire x1="30.48" y1="78.74" x2="30.48" y2="55.88" width="0.254" layer="94"/>
-<wire x1="30.48" y1="55.88" x2="30.48" y2="43.18" width="0.254" layer="94"/>
-<wire x1="30.48" y1="43.18" x2="30.48" y2="22.86" width="0.254" layer="94"/>
-<wire x1="30.48" y1="22.86" x2="30.48" y2="20.32" width="0.254" layer="94"/>
-<wire x1="30.48" y1="20.32" x2="30.48" y2="10.16" width="0.254" layer="94"/>
-<wire x1="30.48" y1="10.16" x2="30.48" y2="0" width="0.254" layer="94"/>
-<wire x1="30.48" y1="88.9" x2="0" y2="88.9" width="0.254" layer="94"/>
-<wire x1="60.96" y1="22.86" x2="30.48" y2="22.86" width="0.254" layer="94"/>
-<wire x1="30.48" y1="43.18" x2="0" y2="43.18" width="0.254" layer="94"/>
-<wire x1="30.48" y1="10.16" x2="0" y2="10.16" width="0.254" layer="94"/>
-<wire x1="60.96" y1="154.94" x2="30.48" y2="154.94" width="0.254" layer="94"/>
-<wire x1="60.96" y1="137.16" x2="30.48" y2="137.16" width="0.254" layer="94"/>
-<wire x1="60.96" y1="124.46" x2="30.48" y2="124.46" width="0.254" layer="94"/>
-<wire x1="60.96" y1="111.76" x2="30.48" y2="111.76" width="0.254" layer="94"/>
-<wire x1="60.96" y1="78.74" x2="30.48" y2="78.74" width="0.254" layer="94"/>
-<wire x1="60.96" y1="55.88" x2="30.48" y2="55.88" width="0.254" layer="94"/>
-<wire x1="30.48" y1="157.48" x2="0" y2="157.48" width="0.254" layer="94"/>
-<wire x1="30.48" y1="142.24" x2="0" y2="142.24" width="0.254" layer="94"/>
-<wire x1="30.48" y1="119.38" x2="0" y2="119.38" width="0.254" layer="94"/>
-<wire x1="30.48" y1="78.74" x2="0" y2="78.74" width="0.254" layer="94"/>
-<text x="38.1" y="58.42" size="1.27" layer="94" rot="R90">Connect to either:
+<wire x1="-30.48" y1="-88.9" x2="-30.48" y2="-78.74" width="0.254" layer="94"/>
+<wire x1="-30.48" y1="-78.74" x2="-30.48" y2="-68.58" width="0.254" layer="94"/>
+<wire x1="-30.48" y1="-68.58" x2="-30.48" y2="-45.72" width="0.254" layer="94"/>
+<wire x1="-30.48" y1="-45.72" x2="-30.48" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-30.48" y1="-10.16" x2="-30.48" y2="0" width="0.254" layer="94"/>
+<wire x1="-30.48" y1="0" x2="-30.48" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-30.48" y1="10.16" x2="-30.48" y2="30.48" width="0.254" layer="94"/>
+<wire x1="-30.48" y1="30.48" x2="-30.48" y2="53.34" width="0.254" layer="94"/>
+<wire x1="-30.48" y1="53.34" x2="-30.48" y2="68.58" width="0.254" layer="94"/>
+<wire x1="-30.48" y1="68.58" x2="-30.48" y2="83.82" width="0.254" layer="94"/>
+<wire x1="-30.48" y1="83.82" x2="0" y2="83.82" width="0.254" layer="94"/>
+<wire x1="0" y1="83.82" x2="30.48" y2="83.82" width="0.254" layer="94"/>
+<wire x1="30.48" y1="83.82" x2="30.48" y2="66.04" width="0.254" layer="94"/>
+<wire x1="30.48" y1="66.04" x2="30.48" y2="48.26" width="0.254" layer="94"/>
+<wire x1="30.48" y1="48.26" x2="30.48" y2="35.56" width="0.254" layer="94"/>
+<wire x1="30.48" y1="35.56" x2="30.48" y2="22.86" width="0.254" layer="94"/>
+<wire x1="30.48" y1="22.86" x2="30.48" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="30.48" y1="-10.16" x2="30.48" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="30.48" y1="-33.02" x2="30.48" y2="-66.04" width="0.254" layer="94"/>
+<wire x1="30.48" y1="-66.04" x2="30.48" y2="-88.9" width="0.254" layer="94"/>
+<wire x1="-30.48" y1="-88.9" x2="0" y2="-88.9" width="0.254" layer="94"/>
+<text x="-20.32" y="17.78" size="2.54" layer="94">SIP A</text>
+<text x="-30.48" y="86.36" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-30.48" y="-91.44" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="0" y1="-88.9" x2="30.48" y2="-88.9" width="0.254" layer="94"/>
+<wire x1="0" y1="83.82" x2="0" y2="68.58" width="0.254" layer="94"/>
+<text x="-2.54" y="-60.96" size="2.54" layer="94" rot="R90">I2C0</text>
+<text x="5.08" y="-81.28" size="2.54" layer="94" rot="R90">Reset</text>
+<wire x1="0" y1="68.58" x2="0" y2="66.04" width="0.254" layer="94"/>
+<wire x1="0" y1="66.04" x2="0" y2="53.34" width="0.254" layer="94"/>
+<wire x1="0" y1="53.34" x2="0" y2="48.26" width="0.254" layer="94"/>
+<wire x1="0" y1="48.26" x2="0" y2="35.56" width="0.254" layer="94"/>
+<wire x1="0" y1="35.56" x2="0" y2="30.48" width="0.254" layer="94"/>
+<wire x1="0" y1="30.48" x2="0" y2="22.86" width="0.254" layer="94"/>
+<wire x1="0" y1="22.86" x2="0" y2="10.16" width="0.254" layer="94"/>
+<wire x1="0" y1="10.16" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="0" y1="-10.16" x2="0" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="0" y1="-33.02" x2="0" y2="-45.72" width="0.254" layer="94"/>
+<wire x1="0" y1="-45.72" x2="0" y2="-66.04" width="0.254" layer="94"/>
+<wire x1="0" y1="-66.04" x2="0" y2="-68.58" width="0.254" layer="94"/>
+<wire x1="0" y1="-68.58" x2="0" y2="-78.74" width="0.254" layer="94"/>
+<wire x1="0" y1="-78.74" x2="0" y2="-88.9" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-30.48" y2="0" width="0.254" layer="94"/>
+<wire x1="30.48" y1="-66.04" x2="0" y2="-66.04" width="0.254" layer="94"/>
+<wire x1="0" y1="-45.72" x2="-30.48" y2="-45.72" width="0.254" layer="94"/>
+<wire x1="0" y1="-78.74" x2="-30.48" y2="-78.74" width="0.254" layer="94"/>
+<wire x1="30.48" y1="66.04" x2="0" y2="66.04" width="0.254" layer="94"/>
+<wire x1="30.48" y1="48.26" x2="0" y2="48.26" width="0.254" layer="94"/>
+<wire x1="30.48" y1="35.56" x2="0" y2="35.56" width="0.254" layer="94"/>
+<wire x1="30.48" y1="22.86" x2="0" y2="22.86" width="0.254" layer="94"/>
+<wire x1="30.48" y1="-10.16" x2="0" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="30.48" y1="-33.02" x2="0" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="0" y1="68.58" x2="-30.48" y2="68.58" width="0.254" layer="94"/>
+<wire x1="0" y1="53.34" x2="-30.48" y2="53.34" width="0.254" layer="94"/>
+<wire x1="0" y1="30.48" x2="-30.48" y2="30.48" width="0.254" layer="94"/>
+<wire x1="0" y1="-10.16" x2="-30.48" y2="-10.16" width="0.254" layer="94"/>
+<text x="7.62" y="-30.48" size="1.27" layer="94" rot="R90">Connect to either:
   SYS_VDD_1P8V
   SYS_VDD3_3P3V</text>
-<text x="35.56" y="25.4" size="1.27" layer="94" rot="R90">Connect together with pour</text>
-<text x="35.56" y="81.28" size="1.27" layer="94" rot="R90">Connect together with pour</text>
-<wire x1="30.48" y1="99.06" x2="0" y2="99.06" width="0.254" layer="94"/>
-<wire x1="30.48" y1="20.32" x2="0" y2="20.32" width="0.254" layer="94"/>
-<text x="5.08" y="17.78" size="1.27" layer="94">GND to program EEPROM</text>
-<pin name="PMIC_TS" x="-5.08" y="124.46" length="middle"/>
-<pin name="PMIC_BAT_SENSE" x="-5.08" y="127" length="middle"/>
-<pin name="I2C0_SCL" x="-5.08" y="35.56" length="middle"/>
-<pin name="I2C0_SDA" x="-5.08" y="25.4" length="middle"/>
-<pin name="PMIC_SCL" x="-5.08" y="38.1" length="middle"/>
-<pin name="PMIC_SDA" x="-5.08" y="27.94" length="middle"/>
-<pin name="PMIC_PB_IN" x="-5.08" y="83.82" length="middle"/>
-<pin name="PMIC_PWR_EN" x="-5.08" y="73.66" length="middle" direction="in"/>
-<pin name="PMIC_LDO_PGOOD" x="-5.08" y="66.04" length="middle" direction="out"/>
-<pin name="PMIC_NINT" x="-5.08" y="50.8" length="middle" direction="out"/>
-<pin name="PMIC_NWAKEUP" x="-5.08" y="58.42" length="middle" direction="out"/>
-<pin name="PMIC_PGOOD" x="66.04" y="17.78" length="middle" direction="out" rot="R180"/>
-<pin name="PMIC_POWER_EN" x="-5.08" y="71.12" length="middle" direction="out"/>
-<pin name="VIN_AC@1" x="-5.08" y="167.64" length="middle" direction="pwr"/>
-<pin name="VIN_AC@2" x="-5.08" y="165.1" length="middle" direction="pwr"/>
-<pin name="VIN_BAT@1" x="-5.08" y="137.16" length="middle" direction="pwr"/>
-<pin name="VIN_BAT@2" x="-5.08" y="134.62" length="middle" direction="pwr"/>
-<pin name="VIN_USB@1" x="-5.08" y="152.4" length="middle" direction="pwr"/>
-<pin name="VIN_USB@2" x="-5.08" y="149.86" length="middle" direction="pwr"/>
-<pin name="SYS_VDD2_3P3V@1" x="66.04" y="132.08" length="middle" direction="pwr" rot="R180"/>
-<pin name="SYS_VDD_1P8V@1" x="66.04" y="50.8" length="middle" direction="pwr" rot="R180"/>
-<pin name="SYS_VDD_1P8V@2" x="66.04" y="48.26" length="middle" direction="pwr" rot="R180"/>
-<pin name="SYS_VOUT@1" x="66.04" y="167.64" length="middle" direction="pwr" rot="R180"/>
-<pin name="SYS_VOUT@2" x="66.04" y="165.1" length="middle" direction="pwr" rot="R180"/>
-<pin name="SYS_VDD1_3P3V@1" x="66.04" y="149.86" length="middle" direction="pwr" rot="R180"/>
-<pin name="SYS_VDD1_3P3V@2" x="66.04" y="147.32" length="middle" direction="pwr" rot="R180"/>
-<pin name="RTC_KALDO_ENN" x="-5.08" y="5.08" length="middle"/>
-<pin name="SYS_VDD_1P8V@3" x="66.04" y="45.72" length="middle" direction="pwr" rot="R180"/>
-<pin name="SYS_VDD_1P8V@4" x="66.04" y="43.18" length="middle" direction="pwr" rot="R180"/>
-<pin name="EXTINTN" x="-5.08" y="48.26" length="middle"/>
-<pin name="EXT_WAKEUP" x="-5.08" y="55.88" length="middle"/>
-<pin name="PWRONRSTN" x="66.04" y="15.24" length="middle" rot="R180"/>
-<pin name="RTC_PWRONRSTN" x="-5.08" y="63.5" length="middle"/>
-<pin name="WARMRSTN" x="66.04" y="5.08" length="middle" rot="R180"/>
-<pin name="VIN_AC@3" x="-5.08" y="162.56" length="middle" direction="pwr"/>
-<pin name="VIN_USB@3" x="-5.08" y="147.32" length="middle" direction="pwr"/>
-<pin name="VIN_BAT@3" x="-5.08" y="132.08" length="middle" direction="pwr"/>
-<pin name="VDDSHV5" x="66.04" y="63.5" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDDSHV1" x="66.04" y="73.66" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDDSHV2" x="66.04" y="71.12" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDDSHV3" x="66.04" y="68.58" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDDSHV4" x="66.04" y="66.04" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDDSHV6" x="66.04" y="60.96" length="middle" direction="pwr" rot="R180"/>
-<pin name="SYS_VOUT@3" x="66.04" y="162.56" length="middle" direction="pwr" rot="R180"/>
-<pin name="SYS_VOUT@4" x="66.04" y="160.02" length="middle" direction="pwr" rot="R180"/>
-<pin name="SYS_VDD1_3P3V@3" x="66.04" y="144.78" length="middle" direction="pwr" rot="R180"/>
-<pin name="SYS_VDD1_3P3V@4" x="66.04" y="142.24" length="middle" direction="pwr" rot="R180"/>
-<pin name="SYS_VDD2_3P3V@2" x="66.04" y="129.54" length="middle" direction="pwr" rot="R180"/>
-<pin name="SYS_VDD_1P8V@5" x="66.04" y="40.64" length="middle" direction="pwr" rot="R180"/>
-<pin name="SYS_VDD_1P8V@6" x="66.04" y="38.1" length="middle" direction="pwr" rot="R180"/>
-<pin name="SYS_VDD3_3P3V@1" x="66.04" y="101.6" length="middle" direction="pwr" rot="R180"/>
-<pin name="SYS_VDD_1P8V@7" x="66.04" y="35.56" length="middle" direction="pwr" rot="R180"/>
-<pin name="SYS_RTC_1P8V@1" x="66.04" y="119.38" length="middle" direction="pwr" rot="R180"/>
-<pin name="SYS_RTC_1P8V@2" x="66.04" y="116.84" length="middle" direction="pwr" rot="R180"/>
-<pin name="SYS_VDD_1P8V@8" x="66.04" y="33.02" length="middle" direction="pwr" rot="R180"/>
-<pin name="SYS_VDD3_3P3V@2" x="66.04" y="99.06" length="middle" direction="pwr" rot="R180"/>
-<pin name="SYS_VDD3_3P3V@3" x="66.04" y="96.52" length="middle" direction="pwr" rot="R180"/>
-<pin name="SYS_VDD3_3P3V@4" x="66.04" y="93.98" length="middle" direction="pwr" rot="R180"/>
-<pin name="SYS_VDD3_3P3V@5" x="66.04" y="91.44" length="middle" direction="pwr" rot="R180"/>
-<pin name="SYS_VDD3_3P3V@6" x="66.04" y="88.9" length="middle" direction="pwr" rot="R180"/>
-<pin name="SYS_VDD3_3P3V@7" x="66.04" y="86.36" length="middle" direction="pwr" rot="R180"/>
-<pin name="SYS_VDD3_3P3V@8" x="66.04" y="83.82" length="middle" direction="pwr" rot="R180"/>
-<pin name="PMIC_NRESET" x="-5.08" y="93.98" length="middle"/>
-<pin name="EEPROM_WP" x="-5.08" y="15.24" length="middle"/>
+<text x="5.08" y="-63.5" size="1.27" layer="94" rot="R90">Connect together with pour</text>
+<text x="5.08" y="-7.62" size="1.27" layer="94" rot="R90">Connect together with pour</text>
+<wire x1="0" y1="10.16" x2="-30.48" y2="10.16" width="0.254" layer="94"/>
+<wire x1="0" y1="-68.58" x2="-30.48" y2="-68.58" width="0.254" layer="94"/>
+<text x="-25.4" y="-71.12" size="1.27" layer="94">GND to program EEPROM</text>
+<pin name="PMIC_TS" x="-35.56" y="35.56" length="middle"/>
+<pin name="PMIC_BAT_SENSE" x="-35.56" y="38.1" length="middle"/>
+<pin name="I2C0_SCL" x="-35.56" y="-53.34" length="middle"/>
+<pin name="I2C0_SDA" x="-35.56" y="-63.5" length="middle"/>
+<pin name="PMIC_SCL" x="-35.56" y="-50.8" length="middle"/>
+<pin name="PMIC_SDA" x="-35.56" y="-60.96" length="middle"/>
+<pin name="PMIC_PB_IN" x="-35.56" y="-5.08" length="middle"/>
+<pin name="PMIC_PWR_EN" x="-35.56" y="-15.24" length="middle" direction="in"/>
+<pin name="PMIC_LDO_PGOOD" x="-35.56" y="-22.86" length="middle" direction="out"/>
+<pin name="PMIC_NINT" x="-35.56" y="-38.1" length="middle" direction="out"/>
+<pin name="PMIC_NWAKEUP" x="-35.56" y="-30.48" length="middle" direction="out"/>
+<pin name="PMIC_PGOOD" x="35.56" y="-71.12" length="middle" direction="out" rot="R180"/>
+<pin name="PMIC_POWER_EN" x="-35.56" y="-17.78" length="middle" direction="out"/>
+<pin name="VIN_AC@1" x="-35.56" y="78.74" length="middle" direction="pwr"/>
+<pin name="VIN_AC@2" x="-35.56" y="76.2" length="middle" direction="pwr"/>
+<pin name="VIN_BAT@1" x="-35.56" y="48.26" length="middle" direction="pwr"/>
+<pin name="VIN_BAT@2" x="-35.56" y="45.72" length="middle" direction="pwr"/>
+<pin name="VIN_USB@1" x="-35.56" y="63.5" length="middle" direction="pwr"/>
+<pin name="VIN_USB@2" x="-35.56" y="60.96" length="middle" direction="pwr"/>
+<pin name="SYS_VDD2_3P3V@1" x="35.56" y="43.18" length="middle" direction="pwr" rot="R180"/>
+<pin name="SYS_VDD_1P8V@1" x="35.56" y="-38.1" length="middle" direction="pwr" rot="R180"/>
+<pin name="SYS_VDD_1P8V@2" x="35.56" y="-40.64" length="middle" direction="pwr" rot="R180"/>
+<pin name="SYS_VOUT@1" x="35.56" y="78.74" length="middle" direction="pwr" rot="R180"/>
+<pin name="SYS_VOUT@2" x="35.56" y="76.2" length="middle" direction="pwr" rot="R180"/>
+<pin name="SYS_VDD1_3P3V@1" x="35.56" y="60.96" length="middle" direction="pwr" rot="R180"/>
+<pin name="SYS_VDD1_3P3V@2" x="35.56" y="58.42" length="middle" direction="pwr" rot="R180"/>
+<pin name="RTC_KALDO_ENN" x="-35.56" y="-83.82" length="middle"/>
+<pin name="SYS_VDD_1P8V@3" x="35.56" y="-43.18" length="middle" direction="pwr" rot="R180"/>
+<pin name="SYS_VDD_1P8V@4" x="35.56" y="-45.72" length="middle" direction="pwr" rot="R180"/>
+<pin name="EXTINTN" x="-35.56" y="-40.64" length="middle"/>
+<pin name="EXT_WAKEUP" x="-35.56" y="-33.02" length="middle"/>
+<pin name="PWRONRSTN" x="35.56" y="-73.66" length="middle" rot="R180"/>
+<pin name="RTC_PWRONRSTN" x="-35.56" y="-25.4" length="middle"/>
+<pin name="WARMRSTN" x="35.56" y="-83.82" length="middle" rot="R180"/>
+<pin name="VIN_AC@3" x="-35.56" y="73.66" length="middle" direction="pwr"/>
+<pin name="VIN_USB@3" x="-35.56" y="58.42" length="middle" direction="pwr"/>
+<pin name="VIN_BAT@3" x="-35.56" y="43.18" length="middle" direction="pwr"/>
+<pin name="VDDSHV5" x="35.56" y="-25.4" length="middle" direction="pwr" rot="R180"/>
+<pin name="VDDSHV1" x="35.56" y="-15.24" length="middle" direction="pwr" rot="R180"/>
+<pin name="VDDSHV2" x="35.56" y="-17.78" length="middle" direction="pwr" rot="R180"/>
+<pin name="VDDSHV3" x="35.56" y="-20.32" length="middle" direction="pwr" rot="R180"/>
+<pin name="VDDSHV4" x="35.56" y="-22.86" length="middle" direction="pwr" rot="R180"/>
+<pin name="VDDSHV6" x="35.56" y="-27.94" length="middle" direction="pwr" rot="R180"/>
+<pin name="SYS_VOUT@3" x="35.56" y="73.66" length="middle" direction="pwr" rot="R180"/>
+<pin name="SYS_VOUT@4" x="35.56" y="71.12" length="middle" direction="pwr" rot="R180"/>
+<pin name="SYS_VDD1_3P3V@3" x="35.56" y="55.88" length="middle" direction="pwr" rot="R180"/>
+<pin name="SYS_VDD1_3P3V@4" x="35.56" y="53.34" length="middle" direction="pwr" rot="R180"/>
+<pin name="SYS_VDD2_3P3V@2" x="35.56" y="40.64" length="middle" direction="pwr" rot="R180"/>
+<pin name="SYS_VDD_1P8V@5" x="35.56" y="-48.26" length="middle" direction="pwr" rot="R180"/>
+<pin name="SYS_VDD_1P8V@6" x="35.56" y="-50.8" length="middle" direction="pwr" rot="R180"/>
+<pin name="SYS_VDD3_3P3V@1" x="35.56" y="12.7" length="middle" direction="pwr" rot="R180"/>
+<pin name="SYS_VDD_1P8V@7" x="35.56" y="-53.34" length="middle" direction="pwr" rot="R180"/>
+<pin name="SYS_RTC_1P8V@1" x="35.56" y="30.48" length="middle" direction="pwr" rot="R180"/>
+<pin name="SYS_RTC_1P8V@2" x="35.56" y="27.94" length="middle" direction="pwr" rot="R180"/>
+<pin name="SYS_VDD_1P8V@8" x="35.56" y="-55.88" length="middle" direction="pwr" rot="R180"/>
+<pin name="SYS_VDD3_3P3V@2" x="35.56" y="10.16" length="middle" direction="pwr" rot="R180"/>
+<pin name="SYS_VDD3_3P3V@3" x="35.56" y="7.62" length="middle" direction="pwr" rot="R180"/>
+<pin name="SYS_VDD3_3P3V@4" x="35.56" y="5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="SYS_VDD3_3P3V@5" x="35.56" y="2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="SYS_VDD3_3P3V@6" x="35.56" y="0" length="middle" direction="pwr" rot="R180"/>
+<pin name="SYS_VDD3_3P3V@7" x="35.56" y="-2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="SYS_VDD3_3P3V@8" x="35.56" y="-5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="PMIC_NRESET" x="-35.56" y="5.08" length="middle"/>
+<pin name="EEPROM_WP" x="-35.56" y="-73.66" length="middle"/>
 </symbol>
 <symbol name="OSD335X-SM-LOGICAL-B">
 <description>Clocks, JTAG, ADC and USB signals</description>
-<wire x1="0" y1="0" x2="0" y2="22.86" width="0.254" layer="94"/>
-<wire x1="0" y1="22.86" x2="0" y2="48.26" width="0.254" layer="94"/>
-<wire x1="0" y1="48.26" x2="0" y2="78.74" width="0.254" layer="94"/>
-<wire x1="0" y1="78.74" x2="0" y2="109.22" width="0.254" layer="94"/>
-<wire x1="0" y1="109.22" x2="0" y2="119.38" width="0.254" layer="94"/>
-<wire x1="50.8" y1="119.38" x2="50.8" y2="109.22" width="0.254" layer="94"/>
-<wire x1="50.8" y1="109.22" x2="50.8" y2="60.96" width="0.254" layer="94"/>
-<wire x1="50.8" y1="60.96" x2="50.8" y2="22.86" width="0.254" layer="94"/>
-<wire x1="50.8" y1="22.86" x2="50.8" y2="0" width="0.254" layer="94"/>
-<wire x1="50.8" y1="0" x2="25.4" y2="0" width="0.254" layer="94"/>
-<text x="20.32" y="114.3" size="2.54" layer="94">SIP B</text>
-<text x="0" y="121.92" size="1.778" layer="95" align="top-left">&gt;NAME</text>
-<text x="0" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<wire x1="25.4" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="25.4" y1="109.22" x2="25.4" y2="78.74" width="0.254" layer="94"/>
-<wire x1="25.4" y1="78.74" x2="25.4" y2="60.96" width="0.254" layer="94"/>
-<wire x1="25.4" y1="60.96" x2="25.4" y2="48.26" width="0.254" layer="94"/>
+<wire x1="-25.4" y1="-60.96" x2="-25.4" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="-25.4" y1="-38.1" x2="-25.4" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-25.4" y1="-12.7" x2="-25.4" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-25.4" y1="17.78" x2="-25.4" y2="48.26" width="0.254" layer="94"/>
+<wire x1="-25.4" y1="48.26" x2="-25.4" y2="58.42" width="0.254" layer="94"/>
+<wire x1="25.4" y1="58.42" x2="25.4" y2="48.26" width="0.254" layer="94"/>
 <wire x1="25.4" y1="48.26" x2="25.4" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="22.86" x2="50.8" y2="22.86" width="0.254" layer="94"/>
-<wire x1="0" y1="48.26" x2="25.4" y2="48.26" width="0.254" layer="94"/>
-<text x="22.86" y="91.44" size="2.54" layer="94" rot="R90">XTAL</text>
-<text x="22.86" y="60.96" size="2.54" layer="94" rot="R90">RTC</text>
-<text x="27.94" y="83.82" size="2.54" layer="94">Analog 
+<wire x1="25.4" y1="0" x2="25.4" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-38.1" x2="25.4" y2="-60.96" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-60.96" x2="0" y2="-60.96" width="0.254" layer="94"/>
+<text x="-5.08" y="53.34" size="2.54" layer="94">SIP B</text>
+<text x="-25.4" y="60.96" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-25.4" y="-63.5" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="0" y1="-60.96" x2="-25.4" y2="-60.96" width="0.254" layer="94"/>
+<wire x1="0" y1="48.26" x2="0" y2="17.78" width="0.254" layer="94"/>
+<wire x1="0" y1="17.78" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="0" y1="-12.7" x2="0" y2="-60.96" width="0.254" layer="94"/>
+<wire x1="-25.4" y1="-38.1" x2="25.4" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="-25.4" y1="-12.7" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<text x="-2.54" y="30.48" size="2.54" layer="94" rot="R90">XTAL</text>
+<text x="-2.54" y="0" size="2.54" layer="94" rot="R90">RTC</text>
+<text x="2.54" y="22.86" size="2.54" layer="94">Analog 
 Pwr and Gnd</text>
-<text x="22.86" y="35.56" size="2.54" layer="94" rot="R90">JTAG</text>
-<text x="30.48" y="30.48" size="2.54" layer="94" rot="R90">Analog Inputs</text>
-<text x="22.86" y="7.62" size="2.54" layer="94" rot="R90">USB0</text>
-<text x="30.48" y="7.62" size="2.54" layer="94" rot="R90">USB1</text>
-<wire x1="0" y1="78.74" x2="25.4" y2="78.74" width="0.254" layer="94"/>
-<wire x1="25.4" y1="60.96" x2="50.8" y2="60.96" width="0.254" layer="94"/>
-<wire x1="0" y1="109.22" x2="25.4" y2="109.22" width="0.254" layer="94"/>
-<wire x1="25.4" y1="109.22" x2="50.8" y2="109.22" width="0.254" layer="94"/>
-<wire x1="0" y1="119.38" x2="50.8" y2="119.38" width="0.254" layer="94"/>
-<pin name="VREFP" x="55.88" y="96.52" length="middle" rot="R180"/>
-<pin name="AIN0" x="55.88" y="55.88" length="middle" rot="R180"/>
-<pin name="AIN1" x="55.88" y="53.34" length="middle" rot="R180"/>
-<pin name="AIN2" x="55.88" y="50.8" length="middle" rot="R180"/>
-<pin name="AIN3" x="55.88" y="48.26" length="middle" rot="R180"/>
-<pin name="AIN4" x="55.88" y="45.72" length="middle" rot="R180"/>
-<pin name="AIN5" x="55.88" y="43.18" length="middle" rot="R180"/>
-<pin name="AIN6" x="55.88" y="40.64" length="middle" rot="R180"/>
-<pin name="AIN7" x="55.88" y="38.1" length="middle" rot="R180"/>
-<pin name="USB0_CE" x="-5.08" y="7.62" length="middle"/>
-<pin name="USB0_DM" x="-5.08" y="15.24" length="middle"/>
-<pin name="USB0_DP" x="-5.08" y="12.7" length="middle"/>
-<pin name="USB0_DRVVBUS" x="-5.08" y="5.08" length="middle"/>
-<pin name="USB0_ID" x="-5.08" y="10.16" length="middle"/>
-<pin name="USB0_VBUS" x="-5.08" y="17.78" length="middle"/>
-<pin name="USB1_CE" x="55.88" y="7.62" length="middle" rot="R180"/>
-<pin name="USB1_DM" x="55.88" y="15.24" length="middle" rot="R180"/>
-<pin name="USB1_DP" x="55.88" y="12.7" length="middle" rot="R180"/>
-<pin name="USB1_DRVVBUS" x="55.88" y="5.08" length="middle" rot="R180"/>
-<pin name="USB1_ID" x="55.88" y="10.16" length="middle" rot="R180"/>
-<pin name="USB1_VBUS" x="55.88" y="17.78" length="middle" rot="R180"/>
-<pin name="SYS_ADC_1P8V" x="55.88" y="106.68" length="middle" rot="R180"/>
-<pin name="AGND_ADC" x="55.88" y="76.2" length="middle" rot="R180"/>
-<pin name="VREFN" x="55.88" y="66.04" length="middle" rot="R180"/>
-<pin name="EMU0" x="-5.08" y="30.48" length="middle"/>
-<pin name="EMU1" x="-5.08" y="27.94" length="middle"/>
-<pin name="TCK" x="-5.08" y="38.1" length="middle"/>
-<pin name="TDI" x="-5.08" y="43.18" length="middle"/>
-<pin name="TDO" x="-5.08" y="40.64" length="middle"/>
-<pin name="TMS" x="-5.08" y="35.56" length="middle"/>
-<pin name="TRSTN" x="-5.08" y="33.02" length="middle"/>
-<pin name="OSC0_GND" x="-5.08" y="83.82" length="middle"/>
-<pin name="OSC0_IN" x="-5.08" y="104.14" length="middle"/>
-<pin name="OSC0_OUT" x="-5.08" y="88.9" length="middle"/>
-<pin name="OSC1_GND" x="-5.08" y="53.34" length="middle"/>
-<pin name="OSC1_IN" x="-5.08" y="73.66" length="middle"/>
-<pin name="OSC1_OUT" x="-5.08" y="58.42" length="middle"/>
-<pin name="PMIC_MUX_OUT" x="55.88" y="33.02" length="middle" rot="R180"/>
-<pin name="PMIC_MUX_IN" x="55.88" y="27.94" length="middle" rot="R180"/>
+<text x="-2.54" y="-25.4" size="2.54" layer="94" rot="R90">JTAG</text>
+<text x="5.08" y="-30.48" size="2.54" layer="94" rot="R90">Analog Inputs</text>
+<text x="-2.54" y="-53.34" size="2.54" layer="94" rot="R90">USB0</text>
+<text x="5.08" y="-53.34" size="2.54" layer="94" rot="R90">USB1</text>
+<wire x1="-25.4" y1="17.78" x2="0" y2="17.78" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="25.4" y2="0" width="0.254" layer="94"/>
+<wire x1="-25.4" y1="48.26" x2="0" y2="48.26" width="0.254" layer="94"/>
+<wire x1="0" y1="48.26" x2="25.4" y2="48.26" width="0.254" layer="94"/>
+<wire x1="-25.4" y1="58.42" x2="25.4" y2="58.42" width="0.254" layer="94"/>
+<pin name="VREFP" x="30.48" y="35.56" length="middle" rot="R180"/>
+<pin name="AIN0" x="30.48" y="-5.08" length="middle" rot="R180"/>
+<pin name="AIN1" x="30.48" y="-7.62" length="middle" rot="R180"/>
+<pin name="AIN2" x="30.48" y="-10.16" length="middle" rot="R180"/>
+<pin name="AIN3" x="30.48" y="-12.7" length="middle" rot="R180"/>
+<pin name="AIN4" x="30.48" y="-15.24" length="middle" rot="R180"/>
+<pin name="AIN5" x="30.48" y="-17.78" length="middle" rot="R180"/>
+<pin name="AIN6" x="30.48" y="-20.32" length="middle" rot="R180"/>
+<pin name="AIN7" x="30.48" y="-22.86" length="middle" rot="R180"/>
+<pin name="USB0_CE" x="-30.48" y="-53.34" length="middle"/>
+<pin name="USB0_DM" x="-30.48" y="-45.72" length="middle"/>
+<pin name="USB0_DP" x="-30.48" y="-48.26" length="middle"/>
+<pin name="USB0_DRVVBUS" x="-30.48" y="-55.88" length="middle"/>
+<pin name="USB0_ID" x="-30.48" y="-50.8" length="middle"/>
+<pin name="USB0_VBUS" x="-30.48" y="-43.18" length="middle"/>
+<pin name="USB1_CE" x="30.48" y="-53.34" length="middle" rot="R180"/>
+<pin name="USB1_DM" x="30.48" y="-45.72" length="middle" rot="R180"/>
+<pin name="USB1_DP" x="30.48" y="-48.26" length="middle" rot="R180"/>
+<pin name="USB1_DRVVBUS" x="30.48" y="-55.88" length="middle" rot="R180"/>
+<pin name="USB1_ID" x="30.48" y="-50.8" length="middle" rot="R180"/>
+<pin name="USB1_VBUS" x="30.48" y="-43.18" length="middle" rot="R180"/>
+<pin name="SYS_ADC_1P8V" x="30.48" y="45.72" length="middle" rot="R180"/>
+<pin name="AGND_ADC" x="30.48" y="15.24" length="middle" rot="R180"/>
+<pin name="VREFN" x="30.48" y="5.08" length="middle" rot="R180"/>
+<pin name="EMU0" x="-30.48" y="-30.48" length="middle"/>
+<pin name="EMU1" x="-30.48" y="-33.02" length="middle"/>
+<pin name="TCK" x="-30.48" y="-22.86" length="middle"/>
+<pin name="TDI" x="-30.48" y="-17.78" length="middle"/>
+<pin name="TDO" x="-30.48" y="-20.32" length="middle"/>
+<pin name="TMS" x="-30.48" y="-25.4" length="middle"/>
+<pin name="TRSTN" x="-30.48" y="-27.94" length="middle"/>
+<pin name="OSC0_GND" x="-30.48" y="22.86" length="middle"/>
+<pin name="OSC0_IN" x="-30.48" y="43.18" length="middle"/>
+<pin name="OSC0_OUT" x="-30.48" y="27.94" length="middle"/>
+<pin name="OSC1_GND" x="-30.48" y="-7.62" length="middle"/>
+<pin name="OSC1_IN" x="-30.48" y="12.7" length="middle"/>
+<pin name="OSC1_OUT" x="-30.48" y="-2.54" length="middle"/>
+<pin name="PMIC_MUX_OUT" x="30.48" y="-27.94" length="middle" rot="R180"/>
+<pin name="PMIC_MUX_IN" x="30.48" y="-33.02" length="middle" rot="R180"/>
 </symbol>
 <symbol name="OSD335X-SM-LOGICAL-C">
 <description>UARTs, SPIs, MCASP and GPMC signals</description>
-<wire x1="0" y1="0" x2="0" y2="124.46" width="0.254" layer="94"/>
-<wire x1="50.8" y1="124.46" x2="50.8" y2="0" width="0.254" layer="94"/>
-<wire x1="50.8" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="124.46" x2="50.8" y2="124.46" width="0.254" layer="94"/>
-<text x="20.32" y="116.84" size="2.54" layer="94">SIP C</text>
-<text x="0" y="127" size="1.778" layer="95" align="top-left">&gt;NAME</text>
-<text x="0" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="GPMC_A2" x="55.88" y="109.22" length="middle" rot="R180"/>
-<pin name="GPMC_A3" x="55.88" y="106.68" length="middle" rot="R180"/>
-<pin name="GPMC_AD8" x="55.88" y="35.56" length="middle" rot="R180"/>
-<pin name="GPMC_AD9" x="55.88" y="33.02" length="middle" rot="R180"/>
-<pin name="GPMC_A4" x="55.88" y="104.14" length="middle" rot="R180"/>
-<pin name="ECAP0_IN_PWM0_OUT" x="-5.08" y="20.32" length="middle"/>
-<pin name="XDMA_EVENT_INTR0" x="-5.08" y="25.4" length="middle"/>
-<pin name="XDMA_EVENT_INTR1" x="-5.08" y="22.86" length="middle"/>
-<pin name="GPMC_AD10" x="55.88" y="30.48" length="middle" rot="R180"/>
-<pin name="GPMC_AD11" x="55.88" y="27.94" length="middle" rot="R180"/>
-<pin name="GPMC_AD12" x="55.88" y="25.4" length="middle" rot="R180"/>
-<pin name="GPMC_AD13" x="55.88" y="22.86" length="middle" rot="R180"/>
-<pin name="GPMC_AD14" x="55.88" y="20.32" length="middle" rot="R180"/>
-<pin name="GPMC_AD15" x="55.88" y="17.78" length="middle" rot="R180"/>
-<pin name="GPMC_A0" x="55.88" y="114.3" length="middle" rot="R180"/>
-<pin name="GPMC_A1" x="55.88" y="111.76" length="middle" rot="R180"/>
-<pin name="GPMC_BEN1" x="55.88" y="81.28" length="middle" rot="R180"/>
-<pin name="GPMC_CSN0" x="55.88" y="71.12" length="middle" rot="R180"/>
-<pin name="GPMC_CSN3" x="55.88" y="63.5" length="middle" rot="R180"/>
-<pin name="GPMC_CLK" x="55.88" y="119.38" length="middle" rot="R180"/>
-<pin name="MCASP0_ACLKR" x="-5.08" y="40.64" length="middle"/>
-<pin name="MCASP0_FSR" x="-5.08" y="38.1" length="middle"/>
-<pin name="MCASP0_AXR1" x="-5.08" y="35.56" length="middle"/>
-<pin name="MCASP0_AHCLKX" x="-5.08" y="33.02" length="middle"/>
-<pin name="SPI0_CS0" x="-5.08" y="81.28" length="middle"/>
-<pin name="SPI0_D1" x="-5.08" y="83.82" length="middle"/>
-<pin name="UART1_RTSN" x="-5.08" y="96.52" length="middle"/>
-<pin name="UART1_CTSN" x="-5.08" y="99.06" length="middle"/>
-<pin name="SPI0_CS1" x="-5.08" y="78.74" length="middle"/>
-<pin name="MMC0_CLK" x="-5.08" y="71.12" length="middle"/>
-<pin name="MMC0_CMD" x="-5.08" y="68.58" length="middle"/>
-<pin name="MMC0_DAT0" x="-5.08" y="66.04" length="middle"/>
-<pin name="MMC0_DAT1" x="-5.08" y="63.5" length="middle"/>
-<pin name="MMC0_DAT2" x="-5.08" y="60.96" length="middle"/>
-<pin name="MMC0_DAT3" x="-5.08" y="58.42" length="middle"/>
-<pin name="GPMC_CSN1" x="55.88" y="68.58" length="middle" rot="R180"/>
-<pin name="GPMC_CSN2" x="55.88" y="66.04" length="middle" rot="R180"/>
-<pin name="GPMC_AD0" x="55.88" y="58.42" length="middle" rot="R180"/>
-<pin name="GPMC_AD1" x="55.88" y="55.88" length="middle" rot="R180"/>
-<pin name="GPMC_AD2" x="55.88" y="53.34" length="middle" rot="R180"/>
-<pin name="GPMC_AD3" x="55.88" y="50.8" length="middle" rot="R180"/>
-<pin name="GPMC_AD4" x="55.88" y="48.26" length="middle" rot="R180"/>
-<pin name="GPMC_AD5" x="55.88" y="45.72" length="middle" rot="R180"/>
-<pin name="GPMC_AD6" x="55.88" y="43.18" length="middle" rot="R180"/>
-<pin name="GPMC_AD7" x="55.88" y="40.64" length="middle" rot="R180"/>
-<pin name="MCASP0_ACLKX" x="-5.08" y="50.8" length="middle"/>
-<pin name="MCASP0_AHCLKR" x="-5.08" y="43.18" length="middle"/>
-<pin name="MCASP0_FSX" x="-5.08" y="48.26" length="middle"/>
-<pin name="MCASP0_AXR0" x="-5.08" y="45.72" length="middle"/>
-<pin name="GPMC_ADVN_ALE" x="55.88" y="12.7" length="middle" rot="R180"/>
-<pin name="GPMC_BEN0_CLE" x="55.88" y="10.16" length="middle" rot="R180"/>
-<pin name="GPMC_WEN" x="55.88" y="7.62" length="middle" rot="R180"/>
-<pin name="GPMC_OEN_REN" x="55.88" y="5.08" length="middle" rot="R180"/>
-<pin name="UART0_CTSN" x="-5.08" y="114.3" length="middle"/>
-<pin name="UART0_RTSN" x="-5.08" y="111.76" length="middle"/>
-<pin name="UART0_RXD" x="-5.08" y="116.84" length="middle"/>
-<pin name="UART0_TXD" x="-5.08" y="119.38" length="middle"/>
-<pin name="UART1_RXD" x="-5.08" y="101.6" length="middle"/>
-<pin name="UART1_TXD" x="-5.08" y="104.14" length="middle"/>
-<pin name="SPI0_SCLK" x="-5.08" y="88.9" length="middle"/>
-<pin name="SPI0_D0" x="-5.08" y="86.36" length="middle"/>
-<pin name="GPMC_WAIT0" x="55.88" y="78.74" length="middle" rot="R180"/>
-<pin name="GPMC_WPN" x="55.88" y="76.2" length="middle" rot="R180"/>
-<pin name="GPMC_A5" x="55.88" y="101.6" length="middle" rot="R180"/>
-<pin name="GPMC_A6" x="55.88" y="99.06" length="middle" rot="R180"/>
-<pin name="GPMC_A7" x="55.88" y="96.52" length="middle" rot="R180"/>
-<pin name="GPMC_A8" x="55.88" y="93.98" length="middle" rot="R180"/>
-<pin name="GPMC_A11" x="55.88" y="86.36" length="middle" rot="R180"/>
-<pin name="GPMC_A9" x="55.88" y="91.44" length="middle" rot="R180"/>
-<pin name="GPMC_A10" x="55.88" y="88.9" length="middle" rot="R180"/>
+<wire x1="-25.4" y1="-63.5" x2="-25.4" y2="60.96" width="0.254" layer="94"/>
+<wire x1="25.4" y1="60.96" x2="25.4" y2="-63.5" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-63.5" x2="-25.4" y2="-63.5" width="0.254" layer="94"/>
+<wire x1="-25.4" y1="60.96" x2="25.4" y2="60.96" width="0.254" layer="94"/>
+<text x="-5.08" y="53.34" size="2.54" layer="94">SIP C</text>
+<text x="-25.4" y="63.5" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-25.4" y="-66.04" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="GPMC_A2" x="30.48" y="45.72" length="middle" rot="R180"/>
+<pin name="GPMC_A3" x="30.48" y="43.18" length="middle" rot="R180"/>
+<pin name="GPMC_AD8" x="30.48" y="-27.94" length="middle" rot="R180"/>
+<pin name="GPMC_AD9" x="30.48" y="-30.48" length="middle" rot="R180"/>
+<pin name="GPMC_A4" x="30.48" y="40.64" length="middle" rot="R180"/>
+<pin name="ECAP0_IN_PWM0_OUT" x="-30.48" y="-43.18" length="middle"/>
+<pin name="XDMA_EVENT_INTR0" x="-30.48" y="-38.1" length="middle"/>
+<pin name="XDMA_EVENT_INTR1" x="-30.48" y="-40.64" length="middle"/>
+<pin name="GPMC_AD10" x="30.48" y="-33.02" length="middle" rot="R180"/>
+<pin name="GPMC_AD11" x="30.48" y="-35.56" length="middle" rot="R180"/>
+<pin name="GPMC_AD12" x="30.48" y="-38.1" length="middle" rot="R180"/>
+<pin name="GPMC_AD13" x="30.48" y="-40.64" length="middle" rot="R180"/>
+<pin name="GPMC_AD14" x="30.48" y="-43.18" length="middle" rot="R180"/>
+<pin name="GPMC_AD15" x="30.48" y="-45.72" length="middle" rot="R180"/>
+<pin name="GPMC_A0" x="30.48" y="50.8" length="middle" rot="R180"/>
+<pin name="GPMC_A1" x="30.48" y="48.26" length="middle" rot="R180"/>
+<pin name="GPMC_BEN1" x="30.48" y="17.78" length="middle" rot="R180"/>
+<pin name="GPMC_CSN0" x="30.48" y="7.62" length="middle" rot="R180"/>
+<pin name="GPMC_CSN3" x="30.48" y="0" length="middle" rot="R180"/>
+<pin name="GPMC_CLK" x="30.48" y="55.88" length="middle" rot="R180"/>
+<pin name="MCASP0_ACLKR" x="-30.48" y="-22.86" length="middle"/>
+<pin name="MCASP0_FSR" x="-30.48" y="-25.4" length="middle"/>
+<pin name="MCASP0_AXR1" x="-30.48" y="-27.94" length="middle"/>
+<pin name="MCASP0_AHCLKX" x="-30.48" y="-30.48" length="middle"/>
+<pin name="SPI0_CS0" x="-30.48" y="17.78" length="middle"/>
+<pin name="SPI0_D1" x="-30.48" y="20.32" length="middle"/>
+<pin name="UART1_RTSN" x="-30.48" y="33.02" length="middle"/>
+<pin name="UART1_CTSN" x="-30.48" y="35.56" length="middle"/>
+<pin name="SPI0_CS1" x="-30.48" y="15.24" length="middle"/>
+<pin name="MMC0_CLK" x="-30.48" y="7.62" length="middle"/>
+<pin name="MMC0_CMD" x="-30.48" y="5.08" length="middle"/>
+<pin name="MMC0_DAT0" x="-30.48" y="2.54" length="middle"/>
+<pin name="MMC0_DAT1" x="-30.48" y="0" length="middle"/>
+<pin name="MMC0_DAT2" x="-30.48" y="-2.54" length="middle"/>
+<pin name="MMC0_DAT3" x="-30.48" y="-5.08" length="middle"/>
+<pin name="GPMC_CSN1" x="30.48" y="5.08" length="middle" rot="R180"/>
+<pin name="GPMC_CSN2" x="30.48" y="2.54" length="middle" rot="R180"/>
+<pin name="GPMC_AD0" x="30.48" y="-5.08" length="middle" rot="R180"/>
+<pin name="GPMC_AD1" x="30.48" y="-7.62" length="middle" rot="R180"/>
+<pin name="GPMC_AD2" x="30.48" y="-10.16" length="middle" rot="R180"/>
+<pin name="GPMC_AD3" x="30.48" y="-12.7" length="middle" rot="R180"/>
+<pin name="GPMC_AD4" x="30.48" y="-15.24" length="middle" rot="R180"/>
+<pin name="GPMC_AD5" x="30.48" y="-17.78" length="middle" rot="R180"/>
+<pin name="GPMC_AD6" x="30.48" y="-20.32" length="middle" rot="R180"/>
+<pin name="GPMC_AD7" x="30.48" y="-22.86" length="middle" rot="R180"/>
+<pin name="MCASP0_ACLKX" x="-30.48" y="-12.7" length="middle"/>
+<pin name="MCASP0_AHCLKR" x="-30.48" y="-20.32" length="middle"/>
+<pin name="MCASP0_FSX" x="-30.48" y="-15.24" length="middle"/>
+<pin name="MCASP0_AXR0" x="-30.48" y="-17.78" length="middle"/>
+<pin name="GPMC_ADVN_ALE" x="30.48" y="-50.8" length="middle" rot="R180"/>
+<pin name="GPMC_BEN0_CLE" x="30.48" y="-53.34" length="middle" rot="R180"/>
+<pin name="GPMC_WEN" x="30.48" y="-55.88" length="middle" rot="R180"/>
+<pin name="GPMC_OEN_REN" x="30.48" y="-58.42" length="middle" rot="R180"/>
+<pin name="UART0_CTSN" x="-30.48" y="50.8" length="middle"/>
+<pin name="UART0_RTSN" x="-30.48" y="48.26" length="middle"/>
+<pin name="UART0_RXD" x="-30.48" y="53.34" length="middle"/>
+<pin name="UART0_TXD" x="-30.48" y="55.88" length="middle"/>
+<pin name="UART1_RXD" x="-30.48" y="38.1" length="middle"/>
+<pin name="UART1_TXD" x="-30.48" y="40.64" length="middle"/>
+<pin name="SPI0_SCLK" x="-30.48" y="25.4" length="middle"/>
+<pin name="SPI0_D0" x="-30.48" y="22.86" length="middle"/>
+<pin name="GPMC_WAIT0" x="30.48" y="15.24" length="middle" rot="R180"/>
+<pin name="GPMC_WPN" x="30.48" y="12.7" length="middle" rot="R180"/>
+<pin name="GPMC_A5" x="30.48" y="38.1" length="middle" rot="R180"/>
+<pin name="GPMC_A6" x="30.48" y="35.56" length="middle" rot="R180"/>
+<pin name="GPMC_A7" x="30.48" y="33.02" length="middle" rot="R180"/>
+<pin name="GPMC_A8" x="30.48" y="30.48" length="middle" rot="R180"/>
+<pin name="GPMC_A11" x="30.48" y="22.86" length="middle" rot="R180"/>
+<pin name="GPMC_A9" x="30.48" y="27.94" length="middle" rot="R180"/>
+<pin name="GPMC_A10" x="30.48" y="25.4" length="middle" rot="R180"/>
 </symbol>
 <symbol name="OSD335X-SM-LOGICAL-D">
 <description>MII1 and LCD signals</description>
-<wire x1="0" y1="0" x2="0" y2="68.58" width="0.254" layer="94"/>
-<wire x1="0" y1="68.58" x2="50.8" y2="68.58" width="0.254" layer="94"/>
-<wire x1="50.8" y1="68.58" x2="50.8" y2="0" width="0.254" layer="94"/>
-<wire x1="50.8" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<text x="5.08" y="5.08" size="2.54" layer="94">SIP D</text>
-<text x="0" y="71.12" size="1.778" layer="95" align="top-left">&gt;NAME</text>
-<text x="0" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="MII1_COL" x="-5.08" y="45.72" length="middle"/>
-<pin name="MII1_CRS" x="-5.08" y="48.26" length="middle"/>
-<pin name="RMII1_REF_CLK" x="-5.08" y="20.32" length="middle"/>
-<pin name="MII1_RX_ER" x="-5.08" y="27.94" length="middle"/>
-<pin name="MII1_TX_EN" x="-5.08" y="50.8" length="middle"/>
-<pin name="MII1_RX_DV" x="-5.08" y="25.4" length="middle"/>
-<pin name="MII1_TXD3" x="-5.08" y="53.34" length="middle"/>
-<pin name="MII1_TXD2" x="-5.08" y="55.88" length="middle"/>
-<pin name="MII1_TXD1" x="-5.08" y="58.42" length="middle"/>
-<pin name="MII1_TXD0" x="-5.08" y="60.96" length="middle"/>
-<pin name="MII1_TX_CLK" x="-5.08" y="63.5" length="middle"/>
-<pin name="MII1_RXD1" x="-5.08" y="35.56" length="middle"/>
-<pin name="MII1_RXD2" x="-5.08" y="33.02" length="middle"/>
-<pin name="MII1_RXD3" x="-5.08" y="30.48" length="middle"/>
-<pin name="MII1_RX_CLK" x="-5.08" y="40.64" length="middle"/>
-<pin name="LCD_DATA0" x="55.88" y="63.5" length="middle" rot="R180"/>
-<pin name="LCD_DATA1" x="55.88" y="60.96" length="middle" rot="R180"/>
-<pin name="LCD_DATA2" x="55.88" y="58.42" length="middle" rot="R180"/>
-<pin name="LCD_DATA3" x="55.88" y="55.88" length="middle" rot="R180"/>
-<pin name="LCD_DATA4" x="55.88" y="53.34" length="middle" rot="R180"/>
-<pin name="LCD_DATA5" x="55.88" y="50.8" length="middle" rot="R180"/>
-<pin name="LCD_DATA6" x="55.88" y="48.26" length="middle" rot="R180"/>
-<pin name="LCD_DATA7" x="55.88" y="45.72" length="middle" rot="R180"/>
-<pin name="LCD_DATA8" x="55.88" y="43.18" length="middle" rot="R180"/>
-<pin name="LCD_DATA9" x="55.88" y="40.64" length="middle" rot="R180"/>
-<pin name="LCD_DATA10" x="55.88" y="38.1" length="middle" rot="R180"/>
-<pin name="LCD_DATA11" x="55.88" y="35.56" length="middle" rot="R180"/>
-<pin name="LCD_DATA12" x="55.88" y="33.02" length="middle" rot="R180"/>
-<pin name="LCD_DATA13" x="55.88" y="30.48" length="middle" rot="R180"/>
-<pin name="LCD_DATA14" x="55.88" y="27.94" length="middle" rot="R180"/>
-<pin name="LCD_DATA15" x="55.88" y="25.4" length="middle" rot="R180"/>
-<pin name="LCD_AC_BIAS_EN" x="55.88" y="12.7" length="middle" rot="R180"/>
-<pin name="LCD_HSYNC" x="55.88" y="15.24" length="middle" rot="R180"/>
-<pin name="LCD_PCLK" x="55.88" y="20.32" length="middle" rot="R180"/>
-<pin name="LCD_VSYNC" x="55.88" y="17.78" length="middle" rot="R180"/>
-<pin name="MII1_RXD0" x="-5.08" y="38.1" length="middle"/>
-<pin name="MDIO" x="-5.08" y="15.24" length="middle"/>
-<pin name="MDC" x="-5.08" y="17.78" length="middle"/>
+<wire x1="-25.4" y1="-35.56" x2="-25.4" y2="33.02" width="0.254" layer="94"/>
+<wire x1="-25.4" y1="33.02" x2="25.4" y2="33.02" width="0.254" layer="94"/>
+<wire x1="25.4" y1="33.02" x2="25.4" y2="-35.56" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-35.56" x2="-25.4" y2="-35.56" width="0.254" layer="94"/>
+<text x="-20.32" y="-30.48" size="2.54" layer="94">SIP D</text>
+<text x="-25.4" y="35.56" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-25.4" y="-38.1" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="MII1_COL" x="-30.48" y="10.16" length="middle"/>
+<pin name="MII1_CRS" x="-30.48" y="12.7" length="middle"/>
+<pin name="RMII1_REF_CLK" x="-30.48" y="-15.24" length="middle"/>
+<pin name="MII1_RX_ER" x="-30.48" y="-7.62" length="middle"/>
+<pin name="MII1_TX_EN" x="-30.48" y="15.24" length="middle"/>
+<pin name="MII1_RX_DV" x="-30.48" y="-10.16" length="middle"/>
+<pin name="MII1_TXD3" x="-30.48" y="17.78" length="middle"/>
+<pin name="MII1_TXD2" x="-30.48" y="20.32" length="middle"/>
+<pin name="MII1_TXD1" x="-30.48" y="22.86" length="middle"/>
+<pin name="MII1_TXD0" x="-30.48" y="25.4" length="middle"/>
+<pin name="MII1_TX_CLK" x="-30.48" y="27.94" length="middle"/>
+<pin name="MII1_RXD1" x="-30.48" y="0" length="middle"/>
+<pin name="MII1_RXD2" x="-30.48" y="-2.54" length="middle"/>
+<pin name="MII1_RXD3" x="-30.48" y="-5.08" length="middle"/>
+<pin name="MII1_RX_CLK" x="-30.48" y="5.08" length="middle"/>
+<pin name="LCD_DATA0" x="30.48" y="27.94" length="middle" rot="R180"/>
+<pin name="LCD_DATA1" x="30.48" y="25.4" length="middle" rot="R180"/>
+<pin name="LCD_DATA2" x="30.48" y="22.86" length="middle" rot="R180"/>
+<pin name="LCD_DATA3" x="30.48" y="20.32" length="middle" rot="R180"/>
+<pin name="LCD_DATA4" x="30.48" y="17.78" length="middle" rot="R180"/>
+<pin name="LCD_DATA5" x="30.48" y="15.24" length="middle" rot="R180"/>
+<pin name="LCD_DATA6" x="30.48" y="12.7" length="middle" rot="R180"/>
+<pin name="LCD_DATA7" x="30.48" y="10.16" length="middle" rot="R180"/>
+<pin name="LCD_DATA8" x="30.48" y="7.62" length="middle" rot="R180"/>
+<pin name="LCD_DATA9" x="30.48" y="5.08" length="middle" rot="R180"/>
+<pin name="LCD_DATA10" x="30.48" y="2.54" length="middle" rot="R180"/>
+<pin name="LCD_DATA11" x="30.48" y="0" length="middle" rot="R180"/>
+<pin name="LCD_DATA12" x="30.48" y="-2.54" length="middle" rot="R180"/>
+<pin name="LCD_DATA13" x="30.48" y="-5.08" length="middle" rot="R180"/>
+<pin name="LCD_DATA14" x="30.48" y="-7.62" length="middle" rot="R180"/>
+<pin name="LCD_DATA15" x="30.48" y="-10.16" length="middle" rot="R180"/>
+<pin name="LCD_AC_BIAS_EN" x="30.48" y="-22.86" length="middle" rot="R180"/>
+<pin name="LCD_HSYNC" x="30.48" y="-20.32" length="middle" rot="R180"/>
+<pin name="LCD_PCLK" x="30.48" y="-15.24" length="middle" rot="R180"/>
+<pin name="LCD_VSYNC" x="30.48" y="-17.78" length="middle" rot="R180"/>
+<pin name="MII1_RXD0" x="-30.48" y="2.54" length="middle"/>
+<pin name="MDIO" x="-30.48" y="-20.32" length="middle"/>
+<pin name="MDC" x="-30.48" y="-17.78" length="middle"/>
 </symbol>
 <symbol name="OSD335X-SM-LOGICAL-E">
 <description>Ground</description>
-<wire x1="0" y1="63.5" x2="50.8" y2="63.5" width="0.254" layer="94"/>
-<wire x1="50.8" y1="63.5" x2="50.8" y2="0" width="0.254" layer="94"/>
-<wire x1="50.8" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="63.5" width="0.254" layer="94"/>
-<text x="25.4" y="53.34" size="2.54" layer="94" align="bottom-center">SIP E</text>
-<text x="0" y="66.04" size="1.778" layer="95" align="top-left">&gt;NAME</text>
-<text x="0" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<text x="12.7" y="5.08" size="1.27" layer="94">NOTE:  Can use pours 
+<wire x1="-25.4" y1="30.48" x2="25.4" y2="30.48" width="0.254" layer="94"/>
+<wire x1="25.4" y1="30.48" x2="25.4" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-33.02" x2="-25.4" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="-25.4" y1="-33.02" x2="-25.4" y2="30.48" width="0.254" layer="94"/>
+<text x="0" y="20.32" size="2.54" layer="94" align="bottom-center">SIP E</text>
+<text x="-25.4" y="33.02" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-25.4" y="-35.56" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-12.7" y="-27.94" size="1.27" layer="94">NOTE:  Can use pours 
 to connect DGND pads 
 instead of a via per 
 pad.</text>
-<pin name="DGND@1" x="-5.08" y="58.42" length="middle"/>
-<pin name="DGND@2" x="-5.08" y="55.88" length="middle"/>
-<pin name="DGND@3" x="-5.08" y="50.8" length="middle"/>
-<pin name="DGND@4" x="-5.08" y="48.26" length="middle"/>
-<pin name="DGND@5" x="-5.08" y="45.72" length="middle"/>
-<pin name="DGND@6" x="-5.08" y="43.18" length="middle"/>
-<pin name="DGND@7" x="-5.08" y="40.64" length="middle"/>
-<pin name="DGND@8" x="-5.08" y="38.1" length="middle"/>
-<pin name="DGND@9" x="-5.08" y="35.56" length="middle"/>
-<pin name="DGND@10" x="-5.08" y="33.02" length="middle"/>
-<pin name="DGND@11" x="-5.08" y="27.94" length="middle"/>
-<pin name="DGND@12" x="-5.08" y="25.4" length="middle"/>
-<pin name="DGND@13" x="-5.08" y="20.32" length="middle"/>
-<pin name="DGND@14" x="-5.08" y="17.78" length="middle"/>
-<pin name="DGND@15" x="-5.08" y="12.7" length="middle"/>
-<pin name="DGND@16" x="-5.08" y="10.16" length="middle"/>
-<pin name="DGND@17" x="-5.08" y="7.62" length="middle"/>
-<pin name="DGND@18" x="-5.08" y="5.08" length="middle"/>
-<pin name="DGND@19" x="55.88" y="58.42" length="middle" rot="R180"/>
-<pin name="DGND@20" x="55.88" y="55.88" length="middle" rot="R180"/>
-<pin name="DGND@21" x="55.88" y="53.34" length="middle" rot="R180"/>
-<pin name="DGND@22" x="55.88" y="50.8" length="middle" rot="R180"/>
-<pin name="DGND@23" x="55.88" y="45.72" length="middle" rot="R180"/>
-<pin name="DGND@24" x="55.88" y="43.18" length="middle" rot="R180"/>
-<pin name="DGND@25" x="55.88" y="38.1" length="middle" rot="R180"/>
-<pin name="DGND@26" x="55.88" y="35.56" length="middle" rot="R180"/>
-<pin name="DGND@27" x="55.88" y="30.48" length="middle" rot="R180"/>
-<pin name="DGND@28" x="55.88" y="27.94" length="middle" rot="R180"/>
-<pin name="DGND@29" x="55.88" y="25.4" length="middle" rot="R180"/>
-<pin name="DGND@30" x="55.88" y="22.86" length="middle" rot="R180"/>
-<pin name="DGND@31" x="55.88" y="20.32" length="middle" rot="R180"/>
-<pin name="DGND@32" x="55.88" y="17.78" length="middle" rot="R180"/>
-<pin name="DGND@33" x="55.88" y="15.24" length="middle" rot="R180"/>
-<pin name="DGND@34" x="55.88" y="12.7" length="middle" rot="R180"/>
-<pin name="DGND@35" x="55.88" y="7.62" length="middle" rot="R180"/>
-<pin name="DGND@36" x="55.88" y="5.08" length="middle" rot="R180"/>
+<pin name="DGND@1" x="-30.48" y="25.4" length="middle"/>
+<pin name="DGND@2" x="-30.48" y="22.86" length="middle"/>
+<pin name="DGND@3" x="-30.48" y="17.78" length="middle"/>
+<pin name="DGND@4" x="-30.48" y="15.24" length="middle"/>
+<pin name="DGND@5" x="-30.48" y="12.7" length="middle"/>
+<pin name="DGND@6" x="-30.48" y="10.16" length="middle"/>
+<pin name="DGND@7" x="-30.48" y="7.62" length="middle"/>
+<pin name="DGND@8" x="-30.48" y="5.08" length="middle"/>
+<pin name="DGND@9" x="-30.48" y="2.54" length="middle"/>
+<pin name="DGND@10" x="-30.48" y="0" length="middle"/>
+<pin name="DGND@11" x="-30.48" y="-5.08" length="middle"/>
+<pin name="DGND@12" x="-30.48" y="-7.62" length="middle"/>
+<pin name="DGND@13" x="-30.48" y="-12.7" length="middle"/>
+<pin name="DGND@14" x="-30.48" y="-15.24" length="middle"/>
+<pin name="DGND@15" x="-30.48" y="-20.32" length="middle"/>
+<pin name="DGND@16" x="-30.48" y="-22.86" length="middle"/>
+<pin name="DGND@17" x="-30.48" y="-25.4" length="middle"/>
+<pin name="DGND@18" x="-30.48" y="-27.94" length="middle"/>
+<pin name="DGND@19" x="30.48" y="25.4" length="middle" rot="R180"/>
+<pin name="DGND@20" x="30.48" y="22.86" length="middle" rot="R180"/>
+<pin name="DGND@21" x="30.48" y="20.32" length="middle" rot="R180"/>
+<pin name="DGND@22" x="30.48" y="17.78" length="middle" rot="R180"/>
+<pin name="DGND@23" x="30.48" y="12.7" length="middle" rot="R180"/>
+<pin name="DGND@24" x="30.48" y="10.16" length="middle" rot="R180"/>
+<pin name="DGND@25" x="30.48" y="5.08" length="middle" rot="R180"/>
+<pin name="DGND@26" x="30.48" y="2.54" length="middle" rot="R180"/>
+<pin name="DGND@27" x="30.48" y="-2.54" length="middle" rot="R180"/>
+<pin name="DGND@28" x="30.48" y="-5.08" length="middle" rot="R180"/>
+<pin name="DGND@29" x="30.48" y="-7.62" length="middle" rot="R180"/>
+<pin name="DGND@30" x="30.48" y="-10.16" length="middle" rot="R180"/>
+<pin name="DGND@31" x="30.48" y="-12.7" length="middle" rot="R180"/>
+<pin name="DGND@32" x="30.48" y="-15.24" length="middle" rot="R180"/>
+<pin name="DGND@33" x="30.48" y="-17.78" length="middle" rot="R180"/>
+<pin name="DGND@34" x="30.48" y="-20.32" length="middle" rot="R180"/>
+<pin name="DGND@35" x="30.48" y="-25.4" length="middle" rot="R180"/>
+<pin name="DGND@36" x="30.48" y="-27.94" length="middle" rot="R180"/>
 </symbol>
 <symbol name="OSD335X-SM-LOGICAL-F">
 <description>Unconnected Power</description>
-<wire x1="0" y1="48.26" x2="45.72" y2="48.26" width="0.254" layer="94"/>
-<wire x1="45.72" y1="48.26" x2="45.72" y2="22.86" width="0.254" layer="94"/>
-<wire x1="45.72" y1="22.86" x2="45.72" y2="0" width="0.254" layer="94"/>
-<wire x1="45.72" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="22.86" width="0.254" layer="94"/>
-<text x="38.1" y="43.18" size="2.54" layer="94" align="bottom-center">SIP F</text>
-<text x="0" y="50.8" size="1.778" layer="95" align="top-left">&gt;NAME</text>
-<text x="0" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<text x="12.7" y="7.62" size="1.778" layer="94" rot="R180" align="center-right">Do Not Connect</text>
-<text x="20.32" y="25.4" size="1.778" layer="94" rot="MR180" align="top-left">Do Not Use
+<wire x1="-22.86" y1="25.4" x2="22.86" y2="25.4" width="0.254" layer="94"/>
+<wire x1="22.86" y1="25.4" x2="22.86" y2="0" width="0.254" layer="94"/>
+<wire x1="22.86" y1="0" x2="22.86" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-22.86" x2="-22.86" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-22.86" y1="-22.86" x2="-22.86" y2="0" width="0.254" layer="94"/>
+<text x="15.24" y="20.32" size="2.54" layer="94" align="bottom-center">SIP F</text>
+<text x="-22.86" y="27.94" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-22.86" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-10.16" y="-15.24" size="1.778" layer="94" rot="R180" align="center-right">Do Not Connect</text>
+<text x="-2.54" y="2.54" size="1.778" layer="94" rot="MR180" align="top-left">Do Not Use
 
 Test Point per 
 power rail 
 recommended</text>
-<wire x1="0" y1="22.86" x2="0" y2="48.26" width="0.254" layer="94"/>
-<wire x1="0" y1="22.86" x2="45.72" y2="22.86" width="0.254" layer="94"/>
-<pin name="CAP_VDD_RTC" x="-5.08" y="17.78" length="middle"/>
-<pin name="VDDS_DDR" x="-5.08" y="43.18" length="middle"/>
-<pin name="VDD_CORE" x="-5.08" y="38.1" length="middle"/>
-<pin name="VDD_MPU" x="-5.08" y="33.02" length="middle"/>
-<pin name="VDDS_PLL" x="-5.08" y="27.94" length="middle"/>
-<pin name="NC@1" x="50.8" y="17.78" length="middle" rot="R180"/>
-<pin name="VPP" x="-5.08" y="12.7" length="middle"/>
-<pin name="NC@2" x="50.8" y="15.24" length="middle" rot="R180"/>
-<pin name="NC@3" x="50.8" y="12.7" length="middle" rot="R180"/>
+<wire x1="-22.86" y1="0" x2="-22.86" y2="25.4" width="0.254" layer="94"/>
+<wire x1="-22.86" y1="0" x2="22.86" y2="0" width="0.254" layer="94"/>
+<pin name="CAP_VDD_RTC" x="-27.94" y="-5.08" length="middle"/>
+<pin name="VDDS_DDR" x="-27.94" y="20.32" length="middle"/>
+<pin name="VDD_CORE" x="-27.94" y="15.24" length="middle"/>
+<pin name="VDD_MPU" x="-27.94" y="10.16" length="middle"/>
+<pin name="VDDS_PLL" x="-27.94" y="5.08" length="middle"/>
+<pin name="NC@1" x="27.94" y="-5.08" length="middle" rot="R180"/>
+<pin name="VPP" x="-27.94" y="-10.16" length="middle"/>
+<pin name="NC@2" x="27.94" y="-7.62" length="middle" rot="R180"/>
+<pin name="NC@3" x="27.94" y="-10.16" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1018,14 +1020,12 @@ recommended</text>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="Digi-Key_Purchase_URL" value="https://www.digikey.com/product-detail/en/octavo-systems-llc/OSD3358-512M-BSM/1676-1002-ND/7644258?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
-<attribute name="MP" value="OSD3358-512M-BSM"/>
-<attribute name="Package" value="BGA-400 Octavo Systems"/>
-<attribute name="Description" value="
-21mm 256 Ball Bga
-"/>
-<attribute name="Digi-Key_Part_Number" value="1676-1002-ND"/>
+<attribute name="DESCRIPTION" value=" 21mm 256 Ball Bga "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="1676-1002-ND"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/octavo-systems-llc/OSD3358-512M-BSM/1676-1002-ND/7644258?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
 <attribute name="MF" value="Octavo Systems"/>
+<attribute name="MP" value="OSD3358-512M-BSM"/>
+<attribute name="PACKAGE" value="BGA-400 Octavo Systems"/>
 </technology>
 </technologies>
 </device>
@@ -1034,4 +1034,10 @@ recommended</text>
 </devicesets>
 </library>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
