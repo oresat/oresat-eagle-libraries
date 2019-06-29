@@ -79,7 +79,7 @@
 <pad name="P$2" x="1.08" y="-1.09" drill="0.55" rot="R180"/>
 <pad name="P$3" x="1.08" y="1.09" drill="0.55" rot="R180"/>
 <pad name="P$4" x="-1.08" y="1.09" drill="0.55" rot="R180"/>
-<smd name="RF-DOWN" x="0" y="1.5" dx="0.41" dy="2" layer="1" rot="R180" thermals="no" cream="no"/>
+<smd name="RF-DOWN" x="0" y="1.5" dx="0.38" dy="2" layer="1" rot="R180" thermals="no" cream="no"/>
 <wire x1="1.0922" y1="-1.9304" x2="-1.0922" y2="-1.9304" width="0.127" layer="51"/>
 <wire x1="-1.9304" y1="-1.0922" x2="-1.9304" y2="1.1176" width="0.127" layer="51"/>
 <wire x1="-1.1176" y1="1.9304" x2="1.0922" y2="1.9304" width="0.127" layer="51"/>
