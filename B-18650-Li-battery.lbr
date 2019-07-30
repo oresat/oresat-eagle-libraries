@@ -175,14 +175,6 @@
 <wire x1="-7.5" y1="33.5" x2="-6.5" y2="33.5" width="0.2" layer="21"/>
 <wire x1="-7" y1="34" x2="-7" y2="33" width="0.2" layer="21"/>
 <wire x1="-8" y1="-33.5" x2="-7" y2="-33.5" width="0.2" layer="21"/>
-<wire x1="5" y1="-33.2" x2="-5" y2="-33.2" width="0.001" layer="20"/>
-<wire x1="-5" y1="-34.2" x2="5" y2="-34.2" width="0.001" layer="20"/>
-<wire x1="5" y1="-34.2" x2="5" y2="-33.2" width="0.001" layer="20" curve="180"/>
-<wire x1="-5" y1="-33.2" x2="-5" y2="-34.2" width="0.001" layer="20" curve="180"/>
-<wire x1="-5" y1="33.2" x2="5" y2="33.2" width="0.001" layer="20"/>
-<wire x1="5" y1="34.2" x2="-5" y2="34.2" width="0.001" layer="20"/>
-<wire x1="5" y1="33.2" x2="5" y2="34.2" width="0.001" layer="20" curve="180"/>
-<wire x1="-5" y1="34.2" x2="-5" y2="33.2" width="0.001" layer="20" curve="180"/>
 </package>
 </packages>
 <symbols>
