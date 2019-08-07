@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3512,29 +3512,29 @@ available, and we intend to use them.</description>
 <symbols>
 <symbol name="EMMC+RESET">
 <description>eMMC card with optional Reset function</description>
-<pin name="VDDQ" x="-12.7" y="15.24" visible="pin" length="short" direction="pwr"/>
-<pin name="VDDIO" x="-12.7" y="17.78" visible="pin" length="short" direction="pwr"/>
-<pin name="D7" x="10.16" y="0" visible="pin" length="short" direction="in" rot="R180"/>
-<pin name="!RST!" x="10.16" y="-10.16" visible="pin" length="short" direction="in" rot="R180"/>
-<pin name="VSSIO" x="-2.54" y="-15.24" visible="pin" length="short" direction="pwr" rot="R90"/>
-<pin name="CMD" x="10.16" y="-5.08" visible="pin" length="short" direction="in" rot="R180"/>
-<pin name="D6" x="10.16" y="2.54" visible="pin" length="short" rot="R180"/>
-<pin name="SCK" x="10.16" y="-7.62" visible="pin" length="short" direction="in" function="clk" rot="R180"/>
-<wire x1="-10.16" y1="-12.7" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-12.7" x2="7.62" y2="20.32" width="0.254" layer="94"/>
-<wire x1="7.62" y1="20.32" x2="-10.16" y2="20.32" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="20.32" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<pin name="VDDQ" x="0" y="17.78" visible="pin" length="short" direction="pwr" rot="R270"/>
+<pin name="VDDIO" x="2.54" y="17.78" visible="pin" length="short" direction="pwr" rot="R270"/>
+<pin name="D7" x="12.7" y="-5.08" visible="pin" length="short" direction="in" rot="R180"/>
+<pin name="!RST!" x="12.7" y="-15.24" visible="pin" length="short" direction="in" rot="R180"/>
+<pin name="VSSIO" x="0" y="-20.32" visible="pin" length="short" direction="pwr" rot="R90"/>
+<pin name="CMD" x="12.7" y="-10.16" visible="pin" length="short" direction="in" rot="R180"/>
+<pin name="D6" x="12.7" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="SCK" x="12.7" y="-12.7" visible="pin" length="short" direction="in" function="clk" rot="R180"/>
+<wire x1="-10.16" y1="-17.78" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-17.78" x2="10.16" y2="15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="15.24" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="15.24" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
 <text x="-11.43" y="21.59" size="1.778" layer="95" rot="MR0" align="bottom-right">&gt;PART</text>
-<text x="1.27" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="D5" x="10.16" y="5.08" visible="pin" length="short" direction="in" rot="R180"/>
-<pin name="VSSQ" x="-5.08" y="-15.24" visible="pin" length="short" direction="pwr" rot="R90"/>
-<text x="-6.35" y="7.62" size="1.524" layer="94">eMMC</text>
-<pin name="VDDI" x="-12.7" y="12.7" visible="pin" length="short" direction="pwr"/>
-<pin name="D4" x="10.16" y="7.62" visible="pin" length="short" direction="in" rot="R180"/>
-<pin name="D3" x="10.16" y="10.16" visible="pin" length="short" direction="in" rot="R180"/>
-<pin name="D2" x="10.16" y="12.7" visible="pin" length="short" direction="in" rot="R180"/>
-<pin name="D1" x="10.16" y="15.24" visible="pin" length="short" direction="in" rot="R180"/>
-<pin name="D0" x="10.16" y="17.78" visible="pin" length="short" direction="in" rot="R180"/>
+<text x="3.81" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="D5" x="12.7" y="0" visible="pin" length="short" direction="in" rot="R180"/>
+<pin name="VSSQ" x="-2.54" y="-20.32" visible="pin" length="short" direction="pwr" rot="R90"/>
+<text x="-3.81" y="0" size="1.524" layer="94">eMMC</text>
+<pin name="VDDI" x="-2.54" y="17.78" visible="pin" length="short" direction="pwr" rot="R270"/>
+<pin name="D4" x="12.7" y="2.54" visible="pin" length="short" direction="in" rot="R180"/>
+<pin name="D3" x="12.7" y="5.08" visible="pin" length="short" direction="in" rot="R180"/>
+<pin name="D2" x="12.7" y="7.62" visible="pin" length="short" direction="in" rot="R180"/>
+<pin name="D1" x="12.7" y="10.16" visible="pin" length="short" direction="in" rot="R180"/>
+<pin name="D0" x="12.7" y="12.7" visible="pin" length="short" direction="in" rot="R180"/>
 </symbol>
 <symbol name="PIN_NC">
 <description>Generic NC (no connect) pin</description>
@@ -3546,7 +3546,6 @@ available, and we intend to use them.</description>
 <description>eMMC (embedded multi-media card) memory with optional Reset function</description>
 <gates>
 <gate name="U" symbol="EMMC+RESET" x="0" y="0" addlevel="always" swaplevel="1"/>
-<gate name="UNUSED" symbol="PIN_NC" x="-10.16" y="-2.54" swaplevel="1"/>
 </gates>
 <devices>
 <device name="-BA" package="BGA-153(11.5X13)(EMMC-BA)">
@@ -3567,7 +3566,6 @@ available, and we intend to use them.</description>
 <connect gate="U" pin="VDDQ" pad="C6 M4 N4 P3 P5"/>
 <connect gate="U" pin="VSSIO" pad="E7 G5 H10 K8"/>
 <connect gate="U" pin="VSSQ" pad="C4 N2 N5 P4 P6"/>
-<connect gate="UNUSED" pin="NC" pad="A1 A2 A8 A9 A10 A11 A12 A13 A14 B1 B7 B8 B9 B10 B11 B12 B13 B14 C1 C3 C7 C8 C9 C10 C11 C12 C13 C14 D1 D2 D3 D4 D12 D13 D14 E1 E2 E3 E12 E13 E14 F1 F2 F3 F12 F13 F14 G1 G2 G12 G13 G14 H1 H2 H3 H12 H13 H14 J1 J2 J3 J12 J13 J14 K1 K2 K3 K12 K13 K14 L1 L2 L3 L12 L13 L14 M1 M2 M3 M7 M8 M9 M10 M11 M12 M13 M14 N1 N3 N6 N7 N8 N9 N10 N11 N12 N13 N14 P1 P2 P8 P9 P11 P12 P13 P14" route="any"/>
 </connects>
 <technologies>
 <technology name=""/>
