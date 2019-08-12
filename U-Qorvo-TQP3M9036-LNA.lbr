@@ -107,7 +107,9 @@
 </symbols>
 <devicesets>
 <deviceset name="TQP3M9036" prefix="U">
-<description>Ultra Low Noise, High Linearity LNA, 0.1 - 2.0 GHz</description>
+<description>&lt;b&gt;Ultra Low Noise, High Linearity LNA&lt;/b&gt;&lt;br&gt;
+0.1 - 2.0 GHz Operational Bandwidth&lt;p&gt;
+Source: &lt;a href="https://www.qorvo.com/products/p/TQP3M9036"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="TQP3M9036" x="0" y="0"/>
 </gates>
