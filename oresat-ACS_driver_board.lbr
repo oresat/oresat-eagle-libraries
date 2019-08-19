@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
+<<<<<<< HEAD
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+=======
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+>>>>>>> ae1ae63b791b35f953a70dc39a08b06c046b1b98
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -255,8 +259,8 @@ Source: Analog Devices .. 780914713ADD8704_0.pdf</description>
 <package name="DEBUG_CON">
 <pad name="VBUS" x="0" y="8" drill="1" shape="square"/>
 <pad name="3.3V" x="0" y="6" drill="1"/>
-<pad name="QUAD_B" x="0" y="4" drill="1"/>
-<pad name="QUAD_A" x="0" y="2" drill="1"/>
+<pad name="DEBUG_1" x="0" y="4" drill="1"/>
+<pad name="DEBUG_2" x="0" y="2" drill="1"/>
 <pad name="UART_RX" x="0" y="0" drill="1"/>
 <pad name="UART_TX" x="0" y="-2" drill="1"/>
 <pad name="NRST" x="0" y="-4" drill="1"/>
@@ -682,8 +686,8 @@ Source: Analog Devices .. 780914713ADD8704_0.pdf</description>
 <connect gate="G$1" pin="1" pad="VBUS"/>
 <connect gate="G$1" pin="10" pad="GND"/>
 <connect gate="G$1" pin="2" pad="3.3V"/>
-<connect gate="G$1" pin="3" pad="QUAD_B"/>
-<connect gate="G$1" pin="4" pad="QUAD_A"/>
+<connect gate="G$1" pin="3" pad="DEBUG_1"/>
+<connect gate="G$1" pin="4" pad="DEBUG_2"/>
 <connect gate="G$1" pin="5" pad="UART_RX"/>
 <connect gate="G$1" pin="6" pad="UART_TX"/>
 <connect gate="G$1" pin="7" pad="NRST"/>

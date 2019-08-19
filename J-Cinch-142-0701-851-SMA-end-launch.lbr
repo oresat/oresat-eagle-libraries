@@ -254,7 +254,7 @@ Source: &lt;a href="https://belfuse.com/resources/productinformations/cinchconne
 </device>
 </devices>
 </deviceset>
-<deviceset name="142-0701-851">
+<deviceset name="142-0701-851" prefix="J">
 <description>&lt;b&gt;SMA Jack&lt;/b&gt;&lt;br&gt;
 50Ω - End Launch&lt;p&gt;
 Source: &lt;a href="https://belfuse.com/resources/productinformations/cinchconnectivitysolutions/johnson/pi-ccs-john-142-0701-851.pdf"&gt; Datasheet &lt;/a&gt;</description>
