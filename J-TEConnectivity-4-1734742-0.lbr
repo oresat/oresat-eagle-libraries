@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -61,7 +61,7 @@
 <package name="TE_4-1734742-0">
 <text x="-12.6209" y="2.66191875" size="0.5" layer="25" font="vector" ratio="15">&gt;NAME</text>
 <text x="-12.4355" y="-6.13571875" size="1.77908125" layer="27">&gt;VALUE</text>
-<circle x="-9.721" y="-2.451" radius="0.0762" width="0.254" layer="21"/>
+<circle x="-10.356" y="-1.181" radius="0.0762" width="0.254" layer="21"/>
 <wire x1="10.9" y1="1.9" x2="10.9" y2="-1.9" width="0.127" layer="21"/>
 <wire x1="-12.9" y1="-1.9" x2="-12.9" y2="1.9" width="0.127" layer="21"/>
 <wire x1="-13.15" y1="-2.25" x2="11.15" y2="-2.25" width="0.05" layer="39"/>
