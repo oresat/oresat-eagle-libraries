@@ -114,6 +114,8 @@
 <pin name="DO" x="15.24" y="-5.08" length="short" direction="pas" rot="R180"/>
 <pin name="CO" x="15.24" y="0" length="short" direction="pas" rot="R180"/>
 <pin name="CB" x="15.24" y="5.08" length="short" direction="pas" rot="R180"/>
+<text x="5.08" y="15.24" size="1.778" layer="95">&gt;NAME</text>
+<text x="5.08" y="12.7" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>

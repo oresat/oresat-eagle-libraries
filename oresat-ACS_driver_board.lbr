@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -268,26 +268,428 @@ Source: Analog Devices .. 780914713ADD8704_0.pdf</description>
 <wire x1="-1.27" y1="9.144" x2="1.27" y2="9.144" width="0.1" layer="21"/>
 <wire x1="1.27" y1="9.144" x2="1.27" y2="-11.303" width="0.1" layer="21"/>
 </package>
-<package name="LOW-PROFILE_CONNECTOR(TAB)">
-<smd name="7" x="-0.25" y="0" dx="4" dy="0.3" layer="1" rot="R90"/>
-<smd name="8" x="0.25" y="0" dx="4" dy="0.3" layer="1" rot="R90"/>
-<smd name="9" x="0.75" y="0" dx="4" dy="0.3" layer="1" rot="R90"/>
-<smd name="10" x="1.25" y="0" dx="4" dy="0.3" layer="1" rot="R90"/>
-<smd name="6" x="-0.75" y="0" dx="4" dy="0.3" layer="1" rot="R90"/>
-<smd name="5" x="-1.25" y="0" dx="4" dy="0.3" layer="1" rot="R90"/>
-<smd name="4" x="-1.75" y="0" dx="4" dy="0.3" layer="1" rot="R90"/>
-<smd name="11" x="1.75" y="0" dx="4" dy="0.3" layer="1" rot="R90"/>
-<smd name="12" x="2.25" y="0" dx="4" dy="0.3" layer="1" rot="R90"/>
-<smd name="3" x="-2.25" y="0" dx="4" dy="0.3" layer="1" rot="R90"/>
-<smd name="2" x="-2.75" y="0" dx="4" dy="0.3" layer="1" rot="R90"/>
-<smd name="13" x="2.75" y="0" dx="4" dy="0.3" layer="1" rot="R90"/>
-<smd name="14" x="3.25" y="0" dx="4" dy="0.3" layer="1" rot="R90"/>
-<smd name="1" x="-3.25" y="0" dx="4" dy="0.3" layer="1" rot="R90"/>
-<wire x1="-3.75" y1="-2" x2="-3.75" y2="2" width="0.03" layer="51"/>
-<wire x1="-3.75" y1="2" x2="3.75" y2="2" width="0.03" layer="51"/>
-<wire x1="3.75" y1="2" x2="3.75" y2="-2" width="0.03" layer="51"/>
-<text x="-3.75" y="2.25" size="0.3" layer="25">&gt;NAME</text>
-<text x="-3.75" y="-2.5" size="0.3" layer="27">&gt;VALUE</text>
+<package name="20-PAD_DRIVER-CONN">
+<smd name="GND1" x="0" y="-5.89" dx="0.4" dy="4" layer="1" rot="R90"/>
+<smd name="VCC1" x="0" y="-5.27" dx="0.4" dy="4" layer="1" rot="R90"/>
+<smd name="VCC2" x="0" y="-4.65" dx="0.4" dy="4" layer="1" rot="R90"/>
+<smd name="VCC3" x="0" y="-4.03" dx="0.4" dy="4" layer="1" rot="R90"/>
+<smd name="VCC4" x="0" y="-3.41" dx="0.4" dy="4" layer="1" rot="R90"/>
+<smd name="GND2" x="0" y="-2.79" dx="0.4" dy="4" layer="1" rot="R90"/>
+<smd name="CAN_L" x="0" y="-2.17" dx="0.4" dy="4" layer="1" rot="R90"/>
+<smd name="GND3" x="0" y="-1.55" dx="0.4" dy="4" layer="1" rot="R90"/>
+<smd name="CAN_H" x="0" y="-0.93" dx="0.4" dy="4" layer="1" rot="R90"/>
+<smd name="GND4" x="0" y="-0.31" dx="0.4" dy="4" layer="1" rot="R90"/>
+<smd name="SCL" x="0" y="0.31" dx="0.4" dy="4" layer="1" rot="R90" thermals="no"/>
+<smd name="GND5" x="0" y="0.93" dx="0.4" dy="4" layer="1" rot="R90"/>
+<smd name="SDA" x="0" y="1.55" dx="0.4" dy="4" layer="1" rot="R90"/>
+<smd name="GND6" x="0" y="2.17" dx="0.4" dy="4" layer="1" rot="R90"/>
+<smd name="BOOT" x="0" y="2.79" dx="0.4" dy="4" layer="1" rot="R90"/>
+<smd name="GND7" x="0" y="3.41" dx="0.4" dy="4" layer="1" rot="R90"/>
+<smd name="MAG1" x="0" y="4.03" dx="0.4" dy="4" layer="1" rot="R90"/>
+<smd name="GND8" x="0" y="4.65" dx="0.4" dy="4" layer="1" rot="R90"/>
+<smd name="MAG2" x="0" y="5.27" dx="0.4" dy="4" layer="1" rot="R90"/>
+<smd name="GND9" x="0" y="5.89" dx="0.4" dy="4" layer="1" rot="R90"/>
+</package>
+<package name="20-PAD_DRIVER_SIDE_FLEX_CONN">
+<smd name="GND1" x="0" y="5.89" dx="0.4" dy="3" layer="1" rot="R90"/>
+<smd name="VCC1" x="0" y="5.27" dx="0.4" dy="3" layer="1" rot="R90"/>
+<smd name="VCC2" x="0" y="4.65" dx="0.4" dy="3" layer="1" rot="R90"/>
+<smd name="VCC3" x="0" y="4.03" dx="0.4" dy="3" layer="1" rot="R90"/>
+<smd name="VCC4" x="0" y="3.41" dx="0.4" dy="3" layer="1" rot="R90"/>
+<smd name="GND2" x="0" y="2.79" dx="0.4" dy="3" layer="1" rot="R90"/>
+<smd name="CAN_L" x="0" y="2.17" dx="0.4" dy="3" layer="1" rot="R90"/>
+<smd name="GND3" x="0" y="1.55" dx="0.4" dy="3" layer="1" rot="R90"/>
+<smd name="CAN_H" x="0" y="0.93" dx="0.4" dy="3" layer="1" rot="R90"/>
+<smd name="GND4" x="0" y="0.31" dx="0.4" dy="3" layer="1" rot="R90"/>
+<smd name="SCL" x="0" y="-0.31" dx="0.4" dy="3" layer="1" rot="R90"/>
+<smd name="GND5" x="0" y="-0.93" dx="0.4" dy="3" layer="1" rot="R90"/>
+<smd name="SDA" x="0" y="-1.55" dx="0.4" dy="3" layer="1" rot="R90"/>
+<smd name="GND6" x="0" y="-2.17" dx="0.4" dy="3" layer="1" rot="R90"/>
+<smd name="BOOT" x="0" y="-2.79" dx="0.4" dy="3" layer="1" rot="R90"/>
+<smd name="GND7" x="0" y="-3.41" dx="0.4" dy="3" layer="1" rot="R90"/>
+<smd name="MAG1" x="0" y="-4.03" dx="0.4" dy="3" layer="1" rot="R90"/>
+<smd name="GND8" x="0" y="-4.65" dx="0.4" dy="3" layer="1" rot="R90"/>
+<smd name="MAG2" x="0" y="-5.27" dx="0.4" dy="3" layer="1" rot="R90"/>
+<smd name="GND9" x="0" y="-5.89" dx="0.4" dy="3" layer="1" rot="R90"/>
+</package>
+<package name="10-8_STAGGERED-PAD_CARD_SIDE_FLEX_CONN">
+<smd name="SCL2" x="2.5" y="-0.5" dx="0.6" dy="2" layer="1" rot="R90"/>
+<smd name="GND11" x="2.5" y="0.5" dx="0.6" dy="2" layer="1" rot="R90"/>
+<smd name="CAN_H2" x="2.5" y="1.5" dx="0.6" dy="2" layer="1" rot="R90"/>
+<smd name="CAN_L2" x="2.5" y="2.5" dx="0.6" dy="2" layer="1" rot="R90"/>
+<smd name="VCC6" x="2.5" y="3.5" dx="0.6" dy="2" layer="1" rot="R90"/>
+<smd name="SDA2" x="2.5" y="-1.5" dx="0.6" dy="2" layer="1" rot="R90"/>
+<smd name="BOOT2" x="2.5" y="-2.5" dx="0.6" dy="2" layer="1" rot="R90"/>
+<smd name="MAG12" x="2.5" y="-3.5" dx="0.6" dy="2" layer="1" rot="R90"/>
+<smd name="GND12" x="2.5" y="-4.5" dx="0.6" dy="2" layer="1" rot="R90"/>
+<smd name="MAG22" x="2.5" y="-5.5" dx="0.6" dy="2" layer="1" rot="R90"/>
+<smd name="GND4" x="-0.7" y="0.31" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="CAN_H1" x="-0.7" y="0.93" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="GND3" x="-0.7" y="1.55" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="CAN_L1" x="-0.7" y="2.17" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="GND2" x="-0.7" y="2.79" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="VCC4" x="-0.7" y="3.41" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="VCC3" x="-0.7" y="4.03" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="VCC2" x="-0.7" y="4.65" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="VCC1" x="-0.7" y="5.27" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="GND1" x="-0.7" y="5.89" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="SCL1" x="-0.7" y="-0.31" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="GND5" x="-0.7" y="-0.93" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="SDA1" x="-0.7" y="-1.55" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="GND6" x="-0.7" y="-2.17" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="BOOT1" x="-0.7" y="-2.79" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="GND7" x="-0.7" y="-3.41" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="MAG11" x="-0.7" y="-4.03" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="GND8" x="-0.7" y="-4.65" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="MAG21" x="-0.7" y="-5.27" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="GND9" x="-0.7" y="-5.89" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="VCC5" x="2.5" y="4.5" dx="0.6" dy="2" layer="1" rot="R90"/>
+<smd name="GND10" x="2.5" y="5.5" dx="0.6" dy="2" layer="1" rot="R90"/>
+<polygon width="0.001" layer="1">
+<vertex x="-1.7" y="6.09"/>
+<vertex x="1.21" y="6.09"/>
+<vertex x="1.5" y="5.8"/>
+<vertex x="3.5" y="5.8"/>
+<vertex x="3.5" y="5.2"/>
+<vertex x="1.5" y="5.2"/>
+<vertex x="1.01" y="5.69"/>
+<vertex x="-0.19" y="5.69"/>
+<vertex x="-1.7" y="5.69"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="-1.7" y="5.07"/>
+<vertex x="-1.7" y="5.47"/>
+<vertex x="0.3" y="5.47"/>
+<vertex x="0.83" y="5.47"/>
+<vertex x="1.5" y="4.8"/>
+<vertex x="3.5" y="4.8"/>
+<vertex x="3.5" y="4.2"/>
+<vertex x="1.5" y="4.2"/>
+<vertex x="1.5" y="3.8"/>
+<vertex x="3.5" y="3.8"/>
+<vertex x="3.5" y="3.2"/>
+<vertex x="1.5" y="3.2"/>
+<vertex x="1.49" y="3.21"/>
+<vertex x="0.3" y="3.21"/>
+<vertex x="-1.7" y="3.21"/>
+<vertex x="-1.7" y="3.61"/>
+<vertex x="0.3" y="3.61"/>
+<vertex x="0.3" y="3.83"/>
+<vertex x="-1.7" y="3.83"/>
+<vertex x="-1.7" y="4.23"/>
+<vertex x="0.3" y="4.23"/>
+<vertex x="0.3" y="4.45"/>
+<vertex x="-1.7" y="4.45"/>
+<vertex x="-1.7" y="4.85"/>
+<vertex x="0.3" y="4.85"/>
+<vertex x="0.3" y="5.07"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="-1.7" y="2.37"/>
+<vertex x="0.3" y="2.37"/>
+<vertex x="0.73" y="2.8"/>
+<vertex x="3.5" y="2.8"/>
+<vertex x="3.5" y="2.2"/>
+<vertex x="0.74" y="2.2"/>
+<vertex x="0.51" y="1.97"/>
+<vertex x="-1.7" y="1.97"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="-1.7" y="1.13"/>
+<vertex x="0.3" y="1.13"/>
+<vertex x="0.97" y="1.8"/>
+<vertex x="3.5" y="1.8"/>
+<vertex x="3.5" y="1.2"/>
+<vertex x="0.98" y="1.2"/>
+<vertex x="0.51" y="0.73"/>
+<vertex x="-1.7" y="0.73"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="-1.7" y="0.51"/>
+<vertex x="0.63" y="0.51"/>
+<vertex x="0.92" y="0.8"/>
+<vertex x="3.5" y="0.8"/>
+<vertex x="3.5" y="0.2"/>
+<vertex x="0.93" y="0.2"/>
+<vertex x="0.84" y="0.11"/>
+<vertex x="-1.7" y="0.11"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="-1.7" y="-0.11"/>
+<vertex x="1.41" y="-0.11"/>
+<vertex x="1.5" y="-0.2"/>
+<vertex x="3.5" y="-0.2"/>
+<vertex x="3.5" y="-0.8"/>
+<vertex x="1.49" y="-0.8"/>
+<vertex x="1.31" y="-0.62"/>
+<vertex x="1.2" y="-0.51"/>
+<vertex x="0.15" y="-0.51"/>
+<vertex x="-1.7" y="-0.51"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="-1.7" y="-1.35"/>
+<vertex x="1.35" y="-1.35"/>
+<vertex x="1.5" y="-1.2"/>
+<vertex x="3.5" y="-1.2"/>
+<vertex x="3.5" y="-1.8"/>
+<vertex x="1.5" y="-1.8"/>
+<vertex x="1.45" y="-1.75"/>
+<vertex x="-1.7" y="-1.75"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="-1.7" y="-2.59"/>
+<vertex x="0.3" y="-2.59"/>
+<vertex x="0.69" y="-2.2"/>
+<vertex x="3.5" y="-2.2"/>
+<vertex x="3.5" y="-2.8"/>
+<vertex x="0.7" y="-2.8"/>
+<vertex x="0.51" y="-2.99"/>
+<vertex x="-1.7" y="-2.99"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="-1.7" y="-3.83"/>
+<vertex x="0.3" y="-3.83"/>
+<vertex x="0.93" y="-3.2"/>
+<vertex x="3.5" y="-3.2"/>
+<vertex x="3.5" y="-3.8"/>
+<vertex x="0.94" y="-3.8"/>
+<vertex x="0.51" y="-4.23"/>
+<vertex x="-1.7" y="-4.23"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="-1.7" y="-4.45"/>
+<vertex x="0.62" y="-4.45"/>
+<vertex x="0.87" y="-4.2"/>
+<vertex x="3.5" y="-4.2"/>
+<vertex x="3.5" y="-4.8"/>
+<vertex x="0.88" y="-4.8"/>
+<vertex x="0.83" y="-4.85"/>
+<vertex x="-1.7" y="-4.85"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="-1.7" y="-5.07"/>
+<vertex x="0.53" y="-5.07"/>
+<vertex x="0.66" y="-5.2"/>
+<vertex x="3.5" y="-5.2"/>
+<vertex x="3.5" y="-5.8"/>
+<vertex x="0.63" y="-5.8"/>
+<vertex x="0.3" y="-5.47"/>
+<vertex x="-1.7" y="-5.47"/>
+</polygon>
+</package>
+<package name="10-8_STAGGERED-PAD_CARD_CONN">
+<smd name="SCL2" x="-3.5" y="-0.5" dx="0.6" dy="4" layer="1" rot="R90"/>
+<smd name="GND11" x="-3.5" y="0.5" dx="0.6" dy="4" layer="1" rot="R90"/>
+<smd name="CAN_H2" x="-3.5" y="1.5" dx="0.6" dy="4" layer="1" rot="R90"/>
+<smd name="CAN_L2" x="-3.5" y="2.5" dx="0.6" dy="4" layer="1" rot="R90"/>
+<smd name="VCC6" x="-3.5" y="3.5" dx="0.6" dy="4" layer="1" rot="R90"/>
+<smd name="SDA2" x="-3.5" y="-1.5" dx="0.6" dy="4" layer="1" rot="R90"/>
+<smd name="BOOT2" x="-3.5" y="-2.5" dx="0.6" dy="4" layer="1" rot="R90"/>
+<smd name="MAG12" x="-3.5" y="-3.5" dx="0.6" dy="4" layer="1" rot="R90"/>
+<smd name="GND12" x="-3.5" y="-4.5" dx="0.6" dy="4" layer="1" rot="R90"/>
+<smd name="MAG22" x="-3.5" y="-5.5" dx="0.6" dy="4" layer="1" rot="R90"/>
+<smd name="GND4" x="0.7" y="0.31" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="CAN_H1" x="0.7" y="0.93" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="GND3" x="0.7" y="1.55" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="CAN_L1" x="0.7" y="2.17" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="GND2" x="0.7" y="2.79" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="VCC4" x="0.7" y="3.41" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="VCC3" x="0.7" y="4.03" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="VCC2" x="0.7" y="4.65" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="VCC1" x="0.7" y="5.27" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="GND1" x="0.7" y="5.89" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="SCL1" x="0.7" y="-0.31" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="GND5" x="0.7" y="-0.93" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="SDA1" x="0.7" y="-1.55" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="GND6" x="0.7" y="-2.17" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="BOOT1" x="0.7" y="-2.79" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="GND7" x="0.7" y="-3.41" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="MAG11" x="0.7" y="-4.03" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="GND8" x="0.7" y="-4.65" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="MAG21" x="0.7" y="-5.27" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="GND9" x="0.7" y="-5.89" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="VCC5" x="-3.5" y="4.5" dx="0.6" dy="4" layer="1" rot="R90"/>
+<smd name="GND10" x="-3.5" y="5.5" dx="0.6" dy="4" layer="1" rot="R90"/>
+<polygon width="0.001" layer="1">
+<vertex x="1.7" y="6.09"/>
+<vertex x="-0.3" y="6.09"/>
+<vertex x="-0.59" y="5.8"/>
+<vertex x="-5.5" y="5.8"/>
+<vertex x="-5.5" y="5.2"/>
+<vertex x="-0.79" y="5.2"/>
+<vertex x="-0.3" y="5.69"/>
+<vertex x="1.7" y="5.69"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="1.7" y="5.07"/>
+<vertex x="1.7" y="5.47"/>
+<vertex x="-0.3" y="5.47"/>
+<vertex x="-0.97" y="4.8"/>
+<vertex x="-5.5" y="4.8"/>
+<vertex x="-5.5" y="4.2"/>
+<vertex x="-1.5" y="4.2"/>
+<vertex x="-1.5" y="3.8"/>
+<vertex x="-5.5" y="3.8"/>
+<vertex x="-5.5" y="3.2"/>
+<vertex x="-1.5" y="3.2"/>
+<vertex x="-1.49" y="3.21"/>
+<vertex x="1.7" y="3.21"/>
+<vertex x="1.7" y="3.61"/>
+<vertex x="-0.3" y="3.61"/>
+<vertex x="-0.3" y="3.83"/>
+<vertex x="1.7" y="3.83"/>
+<vertex x="1.7" y="4.23"/>
+<vertex x="-0.3" y="4.23"/>
+<vertex x="-0.3" y="4.45"/>
+<vertex x="1.7" y="4.45"/>
+<vertex x="1.7" y="4.85"/>
+<vertex x="-0.3" y="4.85"/>
+<vertex x="-0.3" y="5.07"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="1.7" y="2.37"/>
+<vertex x="-0.3" y="2.37"/>
+<vertex x="-0.73" y="2.8"/>
+<vertex x="-5.5" y="2.8"/>
+<vertex x="-5.5" y="2.2"/>
+<vertex x="-0.74" y="2.2"/>
+<vertex x="-0.51" y="1.97"/>
+<vertex x="1.7" y="1.97"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="1.7" y="1.13"/>
+<vertex x="-0.3" y="1.13"/>
+<vertex x="-0.97" y="1.8"/>
+<vertex x="-5.5" y="1.8"/>
+<vertex x="-5.5" y="1.2"/>
+<vertex x="-0.98" y="1.2"/>
+<vertex x="-0.51" y="0.73"/>
+<vertex x="1.7" y="0.73"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="1.7" y="0.51"/>
+<vertex x="-0.63" y="0.51"/>
+<vertex x="-0.92" y="0.8"/>
+<vertex x="-5.5" y="0.8"/>
+<vertex x="-5.5" y="0.2"/>
+<vertex x="-0.93" y="0.2"/>
+<vertex x="-0.84" y="0.11"/>
+<vertex x="1.7" y="0.11"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="1.7" y="-0.11"/>
+<vertex x="-1.41" y="-0.11"/>
+<vertex x="-1.5" y="-0.2"/>
+<vertex x="-5.5" y="-0.2"/>
+<vertex x="-5.5" y="-0.8"/>
+<vertex x="-1.49" y="-0.8"/>
+<vertex x="-1.2" y="-0.51"/>
+<vertex x="1.7" y="-0.51"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="1.7" y="-1.35"/>
+<vertex x="-1.35" y="-1.35"/>
+<vertex x="-1.5" y="-1.2"/>
+<vertex x="-5.5" y="-1.2"/>
+<vertex x="-5.5" y="-1.8"/>
+<vertex x="-1.5" y="-1.8"/>
+<vertex x="-1.45" y="-1.75"/>
+<vertex x="1.7" y="-1.75"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="1.7" y="-2.59"/>
+<vertex x="-0.3" y="-2.59"/>
+<vertex x="-0.69" y="-2.2"/>
+<vertex x="-5.5" y="-2.2"/>
+<vertex x="-5.5" y="-2.8"/>
+<vertex x="-0.7" y="-2.8"/>
+<vertex x="-0.51" y="-2.99"/>
+<vertex x="1.7" y="-2.99"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="1.7" y="-3.83"/>
+<vertex x="-0.3" y="-3.83"/>
+<vertex x="-0.93" y="-3.2"/>
+<vertex x="-5.5" y="-3.2"/>
+<vertex x="-5.5" y="-3.8"/>
+<vertex x="-0.94" y="-3.8"/>
+<vertex x="-0.51" y="-4.23"/>
+<vertex x="1.7" y="-4.23"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="1.7" y="-4.45"/>
+<vertex x="-0.62" y="-4.45"/>
+<vertex x="-0.87" y="-4.2"/>
+<vertex x="-5.5" y="-4.2"/>
+<vertex x="-5.5" y="-4.8"/>
+<vertex x="-0.88" y="-4.8"/>
+<vertex x="-0.83" y="-4.85"/>
+<vertex x="1.7" y="-4.85"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="1.7" y="-5.07"/>
+<vertex x="-0.53" y="-5.07"/>
+<vertex x="-0.66" y="-5.2"/>
+<vertex x="-5.5" y="-5.2"/>
+<vertex x="-5.5" y="-5.8"/>
+<vertex x="-0.63" y="-5.8"/>
+<vertex x="-0.3" y="-5.47"/>
+<vertex x="1.7" y="-5.47"/>
+</polygon>
+<smd name="GND13" x="-2.5" y="6.5" dx="0.7" dy="4" layer="1" rot="R90"/>
+<smd name="GND14" x="-2.5" y="-6.5" dx="0.7" dy="4" layer="1" rot="R90"/>
+<polygon width="0.001" layer="1">
+<vertex x="2" y="6.39"/>
+<vertex x="2" y="7" curve="-90"/>
+<vertex x="3" y="8" curve="-90"/>
+<vertex x="4" y="7"/>
+<vertex x="4" y="2.11" curve="-90"/>
+<vertex x="2" y="0.11"/>
+<vertex x="1.7" y="0.11"/>
+<vertex x="-0.3" y="0.11"/>
+<vertex x="-0.3" y="0.51"/>
+<vertex x="1.7" y="0.51" curve="180"/>
+<vertex x="1.7" y="1.35"/>
+<vertex x="-0.3" y="1.35"/>
+<vertex x="-0.3" y="1.75"/>
+<vertex x="1.7" y="1.75" curve="180"/>
+<vertex x="1.7" y="2.59"/>
+<vertex x="-0.3" y="2.59"/>
+<vertex x="-0.3" y="2.99"/>
+<vertex x="1.7" y="2.99" curve="90"/>
+<vertex x="1.7" y="5.69"/>
+<vertex x="-0.3" y="5.69"/>
+<vertex x="-0.3" y="6.09"/>
+<vertex x="1.7" y="6.09" curve="90"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="3" y="-8" curve="90"/>
+<vertex x="4" y="-7"/>
+<vertex x="4" y="-2.73" curve="90"/>
+<vertex x="2" y="-0.73"/>
+<vertex x="1.7" y="-0.73"/>
+<vertex x="-0.3" y="-0.73"/>
+<vertex x="-0.3" y="-1.13"/>
+<vertex x="1.7" y="-1.13" curve="-180"/>
+<vertex x="1.7" y="-1.97"/>
+<vertex x="-0.3" y="-1.97"/>
+<vertex x="-0.3" y="-2.37"/>
+<vertex x="1.7" y="-2.37" curve="-180"/>
+<vertex x="1.7" y="-3.21"/>
+<vertex x="-0.3" y="-3.21"/>
+<vertex x="-0.3" y="-3.61"/>
+<vertex x="1.7" y="-3.61" curve="-180"/>
+<vertex x="1.7" y="-4.45"/>
+<vertex x="-0.3" y="-4.45"/>
+<vertex x="-0.3" y="-4.85"/>
+<vertex x="1.7" y="-4.85" curve="-180"/>
+<vertex x="1.7" y="-5.69"/>
+<vertex x="-0.3" y="-5.69"/>
+<vertex x="-0.3" y="-6.09"/>
+<vertex x="1.7" y="-6.09" curve="-90"/>
+<vertex x="2" y="-6.39"/>
+<vertex x="2" y="-7" curve="90"/>
+</polygon>
 </package>
 </packages>
 <symbols>
@@ -448,49 +850,53 @@ Source: Analog Devices .. 780914713ADD8704_0.pdf</description>
 <wire x1="2.54" y1="-11.43" x2="0" y2="-11.43" width="1.27" layer="94"/>
 <text x="0" y="15.24" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
-<symbol name="LOW-PROFILE_CONNECTOR(TAB)">
-<pin name="1" x="2.54" y="6.35" visible="pad" length="short" rot="R180"/>
-<pin name="2" x="2.54" y="3.81" visible="pad" length="short" rot="R180"/>
-<pin name="3" x="2.54" y="1.27" visible="pad" length="short" rot="R180"/>
-<pin name="4" x="2.54" y="-1.27" visible="pad" length="short" rot="R180"/>
-<pin name="5" x="2.54" y="-3.81" visible="pad" length="short" rot="R180"/>
-<pin name="6" x="2.54" y="-6.35" visible="pad" length="short" rot="R180"/>
-<rectangle x1="-2.54" y1="5.715" x2="0" y2="6.985" layer="94"/>
-<rectangle x1="-2.54" y1="3.175" x2="0" y2="4.445" layer="94"/>
-<rectangle x1="-2.54" y1="0.635" x2="0" y2="1.905" layer="94"/>
-<rectangle x1="-2.54" y1="-1.905" x2="0" y2="-0.635" layer="94"/>
-<rectangle x1="-2.54" y1="-4.445" x2="0" y2="-3.175" layer="94"/>
-<rectangle x1="-2.54" y1="-6.985" x2="0" y2="-5.715" layer="94"/>
-<wire x1="0" y1="8.255" x2="-15.24" y2="8.255" width="0.254" layer="97"/>
-<wire x1="-15.24" y1="8.255" x2="-15.24" y2="1.905" width="0.254" layer="97"/>
-<wire x1="-15.24" y1="1.905" x2="-12.7" y2="0.635" width="0.254" layer="97"/>
-<wire x1="-12.7" y1="0.635" x2="-17.78" y2="-0.635" width="0.254" layer="97"/>
-<wire x1="-17.78" y1="-0.635" x2="-15.24" y2="-1.905" width="0.254" layer="97"/>
-<wire x1="-15.24" y1="-1.905" x2="-15.24" y2="-8.255" width="0.254" layer="97"/>
-<wire x1="-15.24" y1="-8.255" x2="0" y2="-8.255" width="0.254" layer="97"/>
-<wire x1="0" y1="-8.255" x2="0" y2="8.255" width="0.254" layer="97"/>
-<rectangle x1="-15.24" y1="5.715" x2="-2.54" y2="6.985" layer="97"/>
-<rectangle x1="-15.24" y1="3.175" x2="-2.54" y2="4.445" layer="97"/>
-<polygon width="0" layer="97">
-<vertex x="-2.54" y="1.905"/>
-<vertex x="-15.24" y="1.905"/>
-<vertex x="-12.7" y="0.635"/>
-<vertex x="-2.54" y="0.635"/>
-</polygon>
-<polygon width="0" layer="97">
-<vertex x="-2.54" y="-0.635"/>
-<vertex x="-17.78" y="-0.635"/>
-<vertex x="-15.24" y="-1.905"/>
-<vertex x="-2.54" y="-1.905"/>
-</polygon>
-<rectangle x1="-15.24" y1="-4.445" x2="-2.54" y2="-3.175" layer="97"/>
-<rectangle x1="-15.24" y1="-6.985" x2="-2.54" y2="-5.715" layer="97"/>
-<text x="-12.7" y="10.16" size="1.778" layer="95">&gt;NAME</text>
-<text x="-15.24" y="-10.795" size="1.778" layer="96">&gt;VALUE</text>
+<symbol name="CARD-TO-DRIVER-PORT">
+<pin name="P$1" x="-7.62" y="22.86" visible="off" length="short"/>
+<pin name="P$2" x="-7.62" y="17.78" visible="off" length="short"/>
+<pin name="P$3" x="-7.62" y="12.7" visible="off" length="short"/>
+<pin name="P$4" x="-7.62" y="7.62" visible="off" length="short"/>
+<pin name="P$5" x="-7.62" y="2.54" visible="off" length="short"/>
+<pin name="P$6" x="-7.62" y="-2.54" visible="off" length="short"/>
+<text x="-5.08" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-5.08" y="27.94" size="1.778" layer="95">&gt;NAME</text>
+<wire x1="12.7" y1="-20.32" x2="12.7" y2="-1.27" width="0.254" layer="97"/>
+<wire x1="12.7" y1="-1.27" x2="10.795" y2="-0.635" width="0.254" layer="97"/>
+<wire x1="10.795" y1="-0.635" x2="14.605" y2="0.635" width="0.254" layer="97"/>
+<wire x1="14.605" y1="0.635" x2="12.7" y2="1.27" width="0.254" layer="97"/>
+<wire x1="12.7" y1="1.27" x2="12.7" y2="25.4" width="0.254" layer="97"/>
+<rectangle x1="2.54" y1="12.065" x2="12.7" y2="13.335" layer="97"/>
+<rectangle x1="2.54" y1="6.985" x2="12.7" y2="8.255" layer="97"/>
+<rectangle x1="2.54" y1="1.905" x2="12.7" y2="3.175" layer="97"/>
+<rectangle x1="2.54" y1="-3.175" x2="12.7" y2="-1.905" layer="97"/>
+<rectangle x1="2.54" y1="-8.255" x2="12.7" y2="-6.985" layer="97"/>
+<rectangle x1="2.54" y1="-13.335" x2="12.7" y2="-12.065" layer="97"/>
+<wire x1="12.7" y1="25.4" x2="2.54" y2="25.4" width="0.254" layer="97"/>
+<wire x1="12.7" y1="-20.32" x2="2.54" y2="-20.32" width="0.254" layer="97"/>
+<rectangle x1="-5.08" y1="21.59" x2="-4.445" y2="26.67" layer="97"/>
+<pin name="P$7" x="-7.62" y="-7.62" visible="off" length="short"/>
+<pin name="P$8" x="-7.62" y="-12.7" visible="off" length="short"/>
+<pin name="P$9" x="-7.62" y="-17.78" visible="off" length="short"/>
+<rectangle x1="2.54" y1="17.145" x2="12.7" y2="18.415" layer="97"/>
+<rectangle x1="2.54" y1="22.225" x2="12.7" y2="23.495" layer="97"/>
+<rectangle x1="2.54" y1="-18.415" x2="12.7" y2="-17.145" layer="97"/>
+<rectangle x1="-1.27" y1="-21.59" x2="2.54" y2="26.67" layer="97"/>
+<rectangle x1="-5.08" y1="-21.59" x2="-4.445" y2="19.05" layer="97"/>
+<rectangle x1="-4.445" y1="-21.59" x2="-2.54" y2="26.67" layer="97"/>
+</symbol>
+<symbol name="FLEX-BOARD_CONNECTIONS">
+<pin name="VCC" x="0" y="10.16" visible="pin" length="point"/>
+<pin name="CAN_L" x="0" y="7.62" visible="pin" length="point"/>
+<pin name="CAN_H" x="0" y="5.08" visible="pin" length="point"/>
+<pin name="SCL" x="0" y="2.54" visible="pin" length="point"/>
+<pin name="SDA" x="0" y="0" visible="pin" length="point"/>
+<pin name="BOOT" x="0" y="-2.54" visible="pin" length="point"/>
+<pin name="MAG1" x="0" y="-5.08" visible="pin" length="point"/>
+<pin name="MAG2" x="0" y="-7.62" visible="pin" length="point"/>
+<pin name="GND" x="0" y="-10.16" visible="pin" length="point"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="STM32L452XX_QFPN48">
+<deviceset name="STM32L452CEU3">
 <gates>
 <gate name="G$1" symbol="STM32L452_QFPN48" x="0" y="0"/>
 </gates>
@@ -679,19 +1085,91 @@ Source: Analog Devices .. 780914713ADD8704_0.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LOW-PROFILE_CONNECTOR(TAB)">
+<deviceset name="DRIVER-FLEX_CONN">
 <gates>
-<gate name="G$1" symbol="LOW-PROFILE_CONNECTOR(TAB)" x="0" y="0"/>
+<gate name="G$1" symbol="FLEX-BOARD_CONNECTIONS" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="LOW-PROFILE_CONNECTOR(TAB)">
+<device name="" package="20-PAD_DRIVER-CONN">
 <connects>
-<connect gate="G$1" pin="1" pad="1 2 3"/>
-<connect gate="G$1" pin="2" pad="4 5"/>
-<connect gate="G$1" pin="3" pad="6 7"/>
-<connect gate="G$1" pin="4" pad="8 9"/>
-<connect gate="G$1" pin="5" pad="10 11"/>
-<connect gate="G$1" pin="6" pad="12 13 14"/>
+<connect gate="G$1" pin="BOOT" pad="BOOT"/>
+<connect gate="G$1" pin="CAN_H" pad="CAN_H"/>
+<connect gate="G$1" pin="CAN_L" pad="CAN_L"/>
+<connect gate="G$1" pin="GND" pad="GND1 GND2 GND3 GND4 GND5 GND6 GND7 GND8 GND9"/>
+<connect gate="G$1" pin="MAG1" pad="MAG1"/>
+<connect gate="G$1" pin="MAG2" pad="MAG2"/>
+<connect gate="G$1" pin="SCL" pad="SCL"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
+<connect gate="G$1" pin="VCC" pad="VCC1 VCC2 VCC3 VCC4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FLEX-DRIVER_CONN">
+<gates>
+<gate name="G$1" symbol="FLEX-BOARD_CONNECTIONS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="20-PAD_DRIVER_SIDE_FLEX_CONN">
+<connects>
+<connect gate="G$1" pin="BOOT" pad="BOOT"/>
+<connect gate="G$1" pin="CAN_H" pad="CAN_H"/>
+<connect gate="G$1" pin="CAN_L" pad="CAN_L"/>
+<connect gate="G$1" pin="GND" pad="GND1 GND2 GND3 GND4 GND5 GND6 GND7 GND8 GND9"/>
+<connect gate="G$1" pin="MAG1" pad="MAG1"/>
+<connect gate="G$1" pin="MAG2" pad="MAG2"/>
+<connect gate="G$1" pin="SCL" pad="SCL"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
+<connect gate="G$1" pin="VCC" pad="VCC1 VCC2 VCC3 VCC4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CARD-FLEX_CONN">
+<gates>
+<gate name="G$1" symbol="FLEX-BOARD_CONNECTIONS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="CARD-FLEX_CONN" package="10-8_STAGGERED-PAD_CARD_CONN">
+<connects>
+<connect gate="G$1" pin="BOOT" pad="BOOT1 BOOT2"/>
+<connect gate="G$1" pin="CAN_H" pad="CAN_H1 CAN_H2"/>
+<connect gate="G$1" pin="CAN_L" pad="CAN_L1 CAN_L2"/>
+<connect gate="G$1" pin="GND" pad="GND1 GND2 GND3 GND4 GND5 GND6 GND7 GND8 GND9 GND10 GND11 GND12 GND13 GND14"/>
+<connect gate="G$1" pin="MAG1" pad="MAG11 MAG12"/>
+<connect gate="G$1" pin="MAG2" pad="MAG21 MAG22"/>
+<connect gate="G$1" pin="SCL" pad="SCL1 SCL2"/>
+<connect gate="G$1" pin="SDA" pad="SDA1 SDA2"/>
+<connect gate="G$1" pin="VCC" pad="VCC1 VCC2 VCC3 VCC4 VCC5 VCC6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FLEX-CARD_CONN">
+<gates>
+<gate name="G$1" symbol="FLEX-BOARD_CONNECTIONS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="10-8_STAGGERED-PAD_CARD_SIDE_FLEX_CONN">
+<connects>
+<connect gate="G$1" pin="BOOT" pad="BOOT1 BOOT2"/>
+<connect gate="G$1" pin="CAN_H" pad="CAN_H1 CAN_H2"/>
+<connect gate="G$1" pin="CAN_L" pad="CAN_L1 CAN_L2"/>
+<connect gate="G$1" pin="GND" pad="GND1 GND2 GND3 GND4 GND5 GND6 GND7 GND8 GND9 GND10 GND11 GND12"/>
+<connect gate="G$1" pin="MAG1" pad="MAG11 MAG12"/>
+<connect gate="G$1" pin="MAG2" pad="MAG21 MAG22"/>
+<connect gate="G$1" pin="SCL" pad="SCL1 SCL2"/>
+<connect gate="G$1" pin="SDA" pad="SDA1 SDA2"/>
+<connect gate="G$1" pin="VCC" pad="VCC1 VCC2 VCC3 VCC4 VCC5 VCC6"/>
 </connects>
 <technologies>
 <technology name=""/>

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -59,16 +59,16 @@
 </layers>
 <library>
 <packages>
-<package name="DFN8-2X2-WITH-PAD">
-<smd name="1" x="-0.75" y="-0.785" dx="0.3" dy="0.67" layer="1" cream="no"/>
-<smd name="PAD" x="0" y="0" dx="1.6" dy="0.7" layer="1" cream="no"/>
-<smd name="2" x="-0.25" y="-0.785" dx="0.3" dy="0.67" layer="1" cream="no"/>
-<smd name="3" x="0.25" y="-0.785" dx="0.3" dy="0.67" layer="1" cream="no"/>
-<smd name="4" x="0.75" y="-0.785" dx="0.3" dy="0.67" layer="1" cream="no"/>
-<smd name="5" x="0.75" y="0.785" dx="0.3" dy="0.67" layer="1" rot="R180" cream="no"/>
-<smd name="6" x="0.25" y="0.785" dx="0.3" dy="0.67" layer="1" rot="R180" cream="no"/>
-<smd name="7" x="-0.25" y="0.785" dx="0.3" dy="0.67" layer="1" rot="R180" cream="no"/>
-<smd name="8" x="-0.75" y="0.785" dx="0.3" dy="0.67" layer="1" rot="R180" cream="no"/>
+<package name="MCLP8-2X2-WITH-PAD">
+<smd name="1" x="-0.75" y="-0.95" dx="0.25" dy="0.8" layer="1" cream="no"/>
+<smd name="PAD" x="0" y="0" dx="1.25" dy="0.65" layer="1" cream="no"/>
+<smd name="2" x="-0.25" y="-0.95" dx="0.25" dy="0.8" layer="1" cream="no"/>
+<smd name="3" x="0.25" y="-0.95" dx="0.25" dy="0.8" layer="1" cream="no"/>
+<smd name="4" x="0.75" y="-0.95" dx="0.25" dy="0.8" layer="1" cream="no"/>
+<smd name="5" x="0.75" y="0.95" dx="0.25" dy="0.8" layer="1" rot="R180" cream="no"/>
+<smd name="6" x="0.25" y="0.95" dx="0.25" dy="0.8" layer="1" rot="R180" cream="no"/>
+<smd name="7" x="-0.25" y="0.95" dx="0.25" dy="0.8" layer="1" rot="R180" cream="no"/>
+<smd name="8" x="-0.75" y="0.95" dx="0.25" dy="0.8" layer="1" rot="R180" cream="no"/>
 <wire x1="-1" y1="1" x2="1" y2="1" width="0.127" layer="51"/>
 <wire x1="1" y1="1" x2="1" y2="-1" width="0.127" layer="51"/>
 <wire x1="1" y1="-1" x2="-1" y2="-1" width="0.127" layer="51"/>
@@ -78,46 +78,57 @@
 <wire x1="1" y1="-0.5" x2="1" y2="-1" width="0.127" layer="21"/>
 <wire x1="-1" y1="-0.5" x2="-1" y2="-1" width="0.127" layer="21"/>
 <circle x="-1.4" y="-1" radius="0.2" width="0.127" layer="21"/>
-<rectangle x1="-0.7" y1="-0.3" x2="-0.1" y2="0.25" layer="31"/>
-<rectangle x1="0.1" y1="-0.3" x2="0.7" y2="0.25" layer="31"/>
-<rectangle x1="-0.85" y1="0.55" x2="-0.65" y2="1.05" layer="31"/>
-<rectangle x1="-0.35" y1="0.55" x2="-0.15" y2="1.05" layer="31"/>
-<rectangle x1="0.15" y1="0.55" x2="0.35" y2="1.05" layer="31"/>
-<rectangle x1="0.65" y1="0.55" x2="0.85" y2="1.05" layer="31"/>
-<rectangle x1="0.65" y1="-1.05" x2="0.85" y2="-0.55" layer="31"/>
-<rectangle x1="0.15" y1="-1.05" x2="0.35" y2="-0.55" layer="31"/>
-<rectangle x1="-0.35" y1="-1.05" x2="-0.15" y2="-0.55" layer="31"/>
-<rectangle x1="-0.85" y1="-1.05" x2="-0.65" y2="-0.55" layer="31"/>
+<rectangle x1="-0.85" y1="0.73" x2="-0.65" y2="1.23" layer="31"/>
+<rectangle x1="-0.35" y1="0.73" x2="-0.15" y2="1.23" layer="31"/>
+<rectangle x1="0.15" y1="0.73" x2="0.35" y2="1.23" layer="31"/>
+<rectangle x1="0.65" y1="0.73" x2="0.85" y2="1.23" layer="31"/>
+<rectangle x1="0.65" y1="-1.23" x2="0.85" y2="-0.73" layer="31"/>
+<rectangle x1="0.15" y1="-1.23" x2="0.35" y2="-0.73" layer="31"/>
+<rectangle x1="-0.35" y1="-1.23" x2="-0.15" y2="-0.73" layer="31"/>
+<rectangle x1="-0.85" y1="-1.23" x2="-0.65" y2="-0.73" layer="31"/>
 <text x="0.2" y="-2" size="0.6096" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<rectangle x1="0.05" y1="-0.25" x2="0.55" y2="0.25" layer="31"/>
+<rectangle x1="-0.25" y1="-0.25" x2="-0.05" y2="0.25" layer="31"/>
+<rectangle x1="-0.55" y1="0" x2="-0.35" y2="0.25" layer="31"/>
 </package>
 </packages>
 <symbols>
-<symbol name="TQP3M9036">
-<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
-<pin name="IN" x="-12.7" y="2.54" length="short" direction="in"/>
-<pin name="OUT" x="12.7" y="2.54" length="short" direction="out" rot="R180"/>
-<pin name="SHTDN" x="-12.7" y="-2.54" length="short" direction="in"/>
-<pin name="GND" x="5.08" y="-10.16" length="short" direction="pwr" rot="R90"/>
+<symbol name="TSY-1XXLNB+">
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<pin name="IN1" x="-12.7" y="1.27" length="short" direction="in"/>
+<pin name="OUT1" x="12.7" y="6.35" length="short" direction="out" rot="R180"/>
+<pin name="IN2" x="-12.7" y="-5.08" length="short" direction="in"/>
+<pin name="GND" x="2.54" y="-12.7" length="short" direction="pwr" rot="R90"/>
 <text x="10.16" y="-10.16" size="1.778" layer="95">&gt;NAME</text>
 <text x="10.16" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="VE" x="-12.7" y="7.62" length="short" direction="in"/>
+<pin name="OUT2" x="12.7" y="0" length="short" direction="out" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TQP3M9036" prefix="U">
-<description>Ultra Low Noise, High Linearity LNA, 0.1 - 2.0 GHz</description>
+<deviceset name="TSY-1XXLNB+" prefix="U">
+<description>&lt;b&gt;Low Power, Low Noise, MMIC Amplifier&lt;/b&gt;&lt;p&gt;
+
+TSY-13LNB+:  0.03 - 1.0 GHz Operational Bandwidth&lt;br&gt;
+Source: &lt;a href="https://www.minicircuits.com/WebStore/dashboard.html?model=TSY-13LNB%2B"&gt;Datasheet&lt;/a&gt;&lt;p&gt;
+
+TSY-172LNB+:  0.03 - 1.7 GHz Operational Bandwidth&lt;br&gt;
+Source: &lt;a href="https://www.minicircuits.com/WebStore/dashboard.html?model=TSY-172LNB%2B"&gt;Datasheet&lt;/a&gt;&lt;p&gt;</description>
 <gates>
-<gate name="G$1" symbol="TQP3M9036" x="0" y="0"/>
+<gate name="G$1" symbol="TSY-1XXLNB+" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="DFN8-2X2-WITH-PAD">
+<device name="" package="MCLP8-2X2-WITH-PAD">
 <connects>
 <connect gate="G$1" pin="GND" pad="PAD"/>
-<connect gate="G$1" pin="IN" pad="2"/>
-<connect gate="G$1" pin="OUT" pad="7"/>
-<connect gate="G$1" pin="SHTDN" pad="6"/>
+<connect gate="G$1" pin="IN1" pad="3"/>
+<connect gate="G$1" pin="IN2" pad="4"/>
+<connect gate="G$1" pin="OUT1" pad="6"/>
+<connect gate="G$1" pin="OUT2" pad="5"/>
+<connect gate="G$1" pin="VE" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
