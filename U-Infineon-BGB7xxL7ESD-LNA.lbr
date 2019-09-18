@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="5" display="yes" altdistance="0.02" altunitdist="mm" altunit="mm"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -73,7 +73,7 @@
 </layers>
 <library>
 <packages>
-<package name="BGB707L7ESD">
+<package name="BGB7XXL7ESD">
 <wire x1="-0.65" y1="1" x2="-0.65" y2="-1" width="0.127" layer="51"/>
 <wire x1="-0.65" y1="-1" x2="0.65" y2="-1" width="0.127" layer="51"/>
 <wire x1="0.65" y1="-1" x2="0.65" y2="1" width="0.127" layer="51"/>
@@ -116,7 +116,7 @@
 </package>
 </packages>
 <symbols>
-<symbol name="BGB707L7ESD">
+<symbol name="BGB7XXL7ESD">
 <wire x1="-10.16" y1="7.62" x2="-10.16" y2="-10.16" width="0.1524" layer="94"/>
 <wire x1="-10.16" y1="-10.16" x2="12.7" y2="-10.16" width="0.1524" layer="94"/>
 <wire x1="12.7" y1="-10.16" x2="12.7" y2="7.62" width="0.1524" layer="94"/>
@@ -133,15 +133,23 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="BGB707L7ESD" prefix="U" uservalue="yes">
-<description>&lt;b&gt;High Performance LNA&lt;/b&gt;&lt;br&gt;
-0.05 - 10 GHz Operational Bandwidth&lt;p&gt;
-Source: &lt;a href="https://www.infineon.com/cms/en/product/rf-wireless-control/low-noise-amplifier-lna-ics/general-purpose-lnas/bgb707l7esd/"&gt;Datasheet&lt;/a&gt;</description>
+<deviceset name="BGB7XXL7ESD" prefix="U" uservalue="yes">
+<description>&lt;b&gt;High Performance LNAs&lt;/b&gt;&lt;p&gt;
+
+&lt;b&gt;BGB707L7ESD&lt;/b&gt;&lt;br&gt;
+0.05 - 10 GHz Operational Bandwidth&lt;br&gt;
+NFmin = 0.60 dB at 2.4 GHz&lt;br&gt;
+Source: &lt;a href="https://www.infineon.com/cms/en/product/rf-wireless-control/low-noise-amplifier-lna-ics/general-purpose-lnas/bgb707l7esd/"&gt;Datasheet&lt;/a&gt;&lt;p&gt;
+
+&lt;b&gt;BGB741L7ESD&lt;/b&gt;&lt;br&gt;
+0.03 - 5 GHz Operational Bandwidth&lt;br&gt;
+NFmin = 1.05 dB at 2.4 GHz&lt;br&gt;
+Source: &lt;a href="https://www.infineon.com/cms/en/product/rf-wireless-control/low-noise-amplifier-lna-ics/general-purpose-lnas/bgb741l7esd/"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="BGB707L7ESD" x="0" y="0"/>
+<gate name="G$1" symbol="BGB7XXL7ESD" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="BGB707L7ESD">
+<device name="" package="BGB7XXL7ESD">
 <connects>
 <connect gate="G$1" pin="ADJ" pad="6"/>
 <connect gate="G$1" pin="BIAS" pad="2"/>
