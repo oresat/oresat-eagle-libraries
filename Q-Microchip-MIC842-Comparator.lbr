@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.0">
+<eagle version="9.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -73,7 +73,7 @@
 </layers>
 <library>
 <packages>
-<package name="SC70-5" urn="urn:adsk.eagle:footprint:2365/1">
+<package name="SC70-5" urn="urn:adsk.eagle:footprint:2365/1" locally_modified="yes">
 <description>&lt;b&gt;SMT SC70-5&lt;/b&gt;&lt;p&gt;
 SOT353 - Philips Semiconductors&lt;br&gt;
 Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_HCT1G66_3.pdf</description>
@@ -86,8 +86,8 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <smd name="3" x="0.65" y="-0.85" dx="0.4" dy="0.7" layer="1"/>
 <smd name="4" x="0.65" y="0.85" dx="0.4" dy="0.7" layer="1"/>
 <smd name="5" x="-0.65" y="0.85" dx="0.4" dy="0.7" layer="1"/>
-<text x="-2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-1.27" y="2.54" size="0.625" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="1.27" size="0.625" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 <rectangle x1="-0.125" y1="-1.05" x2="0.125" y2="-0.6" layer="51"/>
 <rectangle x1="-0.775" y1="-1.05" x2="-0.525" y2="-0.6" layer="51"/>
 <rectangle x1="0.525" y1="-1.05" x2="0.775" y2="-0.6" layer="51"/>
@@ -97,18 +97,19 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </packages>
 <symbols>
 <symbol name="MIC842">
-<wire x1="-5.08" y1="-5.08" x2="15.24" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="15.24" y1="-5.08" x2="15.24" y2="10.16" width="0.1524" layer="94"/>
-<wire x1="15.24" y1="10.16" x2="-5.08" y2="10.16" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="10.16" x2="-5.08" y2="-5.08" width="0.1524" layer="94"/>
-<pin name="GND" x="5.08" y="-7.62" length="short" rot="R90"/>
-<pin name="VCC" x="5.08" y="12.7" length="short" rot="R270"/>
-<pin name="CIN" x="-7.62" y="2.54" length="short"/>
-<pin name="COUT" x="17.78" y="2.54" length="short" rot="R180"/>
+<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.1524" layer="94"/>
+<pin name="GND" x="0" y="-10.16" length="short" rot="R90"/>
+<pin name="VCC" x="0" y="10.16" length="short" rot="R270"/>
+<pin name="CIN" x="-12.7" y="0" length="short"/>
+<pin name="COUT" x="12.7" y="0" length="short" rot="R180"/>
+<text x="-10.16" y="12.7" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MIC842">
+<deviceset name="MIC842" prefix="Q">
 <gates>
 <gate name="G$1" symbol="MIC842" x="-5.08" y="-2.54"/>
 </gates>

@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -58,7 +58,7 @@
 </layers>
 <library>
 <packages>
-<package name="TE_4-1734742-0">
+<package name="TE_3-1734742-6">
 <text x="-12.6209" y="2.66191875" size="0.5" layer="25" font="vector" ratio="15">&gt;NAME</text>
 <text x="-12.4355" y="-6.13571875" size="1.77908125" layer="27">&gt;VALUE</text>
 <circle x="-10.356" y="-1.181" radius="0.0762" width="0.254" layer="21"/>
@@ -187,7 +187,7 @@
 </package>
 </packages>
 <symbols>
-<symbol name="4-1734742-0">
+<symbol name="3-1734742-6">
 <text x="-7.62" y="58.42" size="1.780890625" layer="95">&gt;NAME</text>
 <text x="-7.62" y="55.88" size="1.77998125" layer="96">&gt;VALUE</text>
 <wire x1="-7.62" y1="-43.18" x2="-7.62" y2="53.34" width="0.254" layer="94"/>
@@ -234,13 +234,13 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="4-1734742-0" prefix="J">
+<deviceset name="3-1734742-6" prefix="J">
 <description>36 Position FFC, FPC Connector Contacts, Vertical, 1 Sided 0.020" (0.50mm) Surface Mount</description>
 <gates>
-<gate name="G$1" symbol="4-1734742-0" x="0" y="0"/>
+<gate name="G$1" symbol="3-1734742-6" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="TE_4-1734742-0">
+<device name="" package="TE_3-1734742-6">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="10" pad="10"/>
