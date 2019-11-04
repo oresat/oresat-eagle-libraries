@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1.27" unitdist="mm" unit="mm" style="lines" multiple="5" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -73,68 +73,93 @@
 </layers>
 <library>
 <packages>
-<package name="MAC-24+">
-<smd name="1" x="-2.54" y="-2.35" dx="0.89" dy="2.16" layer="1" cream="no"/>
-<smd name="2" x="-1.27" y="-2.35" dx="0.89" dy="2.16" layer="1" cream="no"/>
-<smd name="3" x="0" y="-2.35" dx="0.89" dy="2.16" layer="1" cream="no"/>
-<smd name="4" x="1.27" y="-2.35" dx="0.89" dy="2.16" layer="1" cream="no"/>
-<smd name="5" x="2.54" y="-2.35" dx="0.89" dy="2.16" layer="1" cream="no"/>
-<smd name="6" x="2.54" y="2.35" dx="0.89" dy="2.16" layer="1" rot="R180" cream="no"/>
-<smd name="7" x="1.27" y="2.35" dx="0.89" dy="2.16" layer="1" rot="R180" cream="no"/>
-<smd name="8" x="0" y="2.35" dx="0.89" dy="2.16" layer="1" rot="R180" cream="no"/>
-<smd name="9" x="-1.27" y="2.35" dx="0.89" dy="2.16" layer="1" rot="R180" cream="no"/>
-<smd name="10" x="-2.54" y="2.35" dx="0.89" dy="2.16" layer="1" rot="R180" cream="no"/>
-<wire x1="-3.81" y1="3.175" x2="3.81" y2="3.175" width="0.1524" layer="51"/>
-<wire x1="3.81" y1="3.175" x2="3.81" y2="-3.175" width="0.1524" layer="51"/>
-<wire x1="3.81" y1="-3.175" x2="-3.81" y2="-3.175" width="0.1524" layer="51"/>
-<wire x1="-3.81" y1="-3.175" x2="-3.81" y2="3.175" width="0.1524" layer="51"/>
-<wire x1="3.3" y1="3.2" x2="3.8" y2="3.2" width="0.1524" layer="21"/>
-<wire x1="3.8" y1="3.2" x2="3.8" y2="-3.2" width="0.1524" layer="21"/>
-<wire x1="3.8" y1="-3.2" x2="3.3" y2="-3.2" width="0.1524" layer="21"/>
-<wire x1="-3.3" y1="3.2" x2="-3.8" y2="3.2" width="0.1524" layer="21"/>
-<wire x1="-3.8" y1="3.2" x2="-3.8" y2="-3.2" width="0.1524" layer="21"/>
-<wire x1="-3.8" y1="-3.2" x2="-3.3" y2="-3.2" width="0.1524" layer="21"/>
-<circle x="-4.5" y="-3.1" radius="0.4" width="0.1524" layer="21"/>
-<text x="4.9" y="-2.3" size="0.8128" layer="25" font="vector" ratio="15" rot="R90">&gt;NAME</text>
-<rectangle x1="-2.85" y1="1.4" x2="-2.2" y2="3.35" layer="31"/>
-<rectangle x1="-1.58" y1="1.4" x2="-0.93" y2="3.35" layer="31"/>
-<rectangle x1="-0.31" y1="1.4" x2="0.34" y2="3.35" layer="31"/>
-<rectangle x1="0.96" y1="1.4" x2="1.61" y2="3.35" layer="31"/>
-<rectangle x1="2.23" y1="1.4" x2="2.88" y2="3.35" layer="31"/>
-<rectangle x1="2.2" y1="-3.35" x2="2.85" y2="-1.4" layer="31" rot="R180"/>
-<rectangle x1="0.93" y1="-3.35" x2="1.58" y2="-1.4" layer="31" rot="R180"/>
-<rectangle x1="-0.34" y1="-3.35" x2="0.31" y2="-1.4" layer="31" rot="R180"/>
-<rectangle x1="-1.61" y1="-3.35" x2="-0.96" y2="-1.4" layer="31" rot="R180"/>
-<rectangle x1="-2.88" y1="-3.35" x2="-2.23" y2="-1.4" layer="31" rot="R180"/>
+<package name="SOT343">
+<smd name="2" x="0.5" y="-1.01" dx="0.8" dy="0.58" layer="1" cream="no"/>
+<smd name="1" x="-0.65" y="-1.01" dx="0.5" dy="0.58" layer="1" cream="no"/>
+<smd name="4" x="-0.65" y="1.01" dx="0.5" dy="0.58" layer="1" cream="no"/>
+<smd name="3" x="0.65" y="1.01" dx="0.5" dy="0.58" layer="1" cream="no"/>
+<wire x1="-1" y1="0.7" x2="1" y2="0.7" width="0.127" layer="51"/>
+<wire x1="1" y1="0.7" x2="1" y2="-0.7" width="0.127" layer="51"/>
+<wire x1="1" y1="-0.7" x2="-1" y2="-0.7" width="0.127" layer="51"/>
+<wire x1="-1" y1="-0.7" x2="-1" y2="0.7" width="0.127" layer="51"/>
+<circle x="-1.5" y="-0.7" radius="0.3" width="0.127" layer="21"/>
+<text x="1.5" y="0" size="0.8" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="1.5" y="-1" size="0.8" layer="27" font="vector" ratio="15">&gt;VALUE</text>
+<wire x1="-1" y1="0.5" x2="-1" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="1" y1="0.5" x2="1" y2="-0.5" width="0.127" layer="21"/>
+<rectangle x1="-0.85" y1="0.8" x2="-0.45" y2="1.25" layer="31"/>
+<rectangle x1="0.2" y1="-1.25" x2="0.8" y2="-0.8" layer="31"/>
+<rectangle x1="0.45" y1="0.8" x2="0.85" y2="1.25" layer="31"/>
+<rectangle x1="-0.85" y1="-1.25" x2="-0.45" y2="-0.8" layer="31" rot="R180"/>
+</package>
+<package name="TSFP4">
+<smd name="3" x="0.5" y="0.65" dx="0.4" dy="0.4" layer="1" cream="no"/>
+<wire x1="-0.7" y1="0.4" x2="0.7" y2="0.4" width="0.127" layer="51"/>
+<wire x1="0.7" y1="0.4" x2="0.7" y2="-0.4" width="0.127" layer="51"/>
+<wire x1="0.7" y1="-0.4" x2="-0.7" y2="-0.4" width="0.127" layer="51"/>
+<wire x1="-0.7" y1="-0.4" x2="-0.7" y2="0.4" width="0.127" layer="51"/>
+<circle x="-1.5" y="-0.7" radius="0.3" width="0.127" layer="21"/>
+<text x="1.5" y="0" size="0.8" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="1.5" y="-1" size="0.8" layer="27" font="vector" ratio="15">&gt;VALUE</text>
+<wire x1="-0.8" y1="0.5" x2="-0.8" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="0.8" y1="0.5" x2="0.8" y2="-0.5" width="0.127" layer="21"/>
+<smd name="1" x="-0.5" y="-0.65" dx="0.4" dy="0.4" layer="1" cream="no"/>
+<smd name="2" x="0.5" y="-0.65" dx="0.4" dy="0.4" layer="1" cream="no"/>
+<smd name="4" x="-0.5" y="0.65" dx="0.4" dy="0.4" layer="1" cream="no"/>
 </package>
 </packages>
 <symbols>
-<symbol name="MAC-24+">
-<pin name="RF" x="-10.16" y="5.08" length="short" direction="in"/>
-<pin name="IF" x="10.16" y="5.08" length="short" direction="out" rot="R180"/>
-<pin name="LO" x="-10.16" y="-5.08" length="short" direction="in"/>
-<pin name="GND" x="10.16" y="-5.08" length="short" direction="pwr" rot="R180"/>
-<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.1524" layer="94"/>
-<text x="2.54" y="-10.16" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+<symbol name="BFPXXX">
+<pin name="C" x="0" y="7.62" length="point" direction="out"/>
+<pin name="B" x="-7.62" y="0" length="point" direction="in" rot="R270"/>
+<pin name="E" x="0" y="-7.62" length="point" direction="pwr"/>
+<wire x1="0" y1="7.62" x2="0" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="-5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="-1.27" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-7.62" y2="0" width="0.254" layer="94"/>
+<text x="2.54" y="1.27" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-1.27" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MAC-24+" prefix="U">
-<description>RF Mixer, Diode Ring, 0.3 - 12 GHz</description>
+<deviceset name="BFPXXX" prefix="Q">
+<description>&lt;b&gt;Infineon NPN RF Bipolar Transistor Family&lt;/b&gt;&lt;br&gt;
+SOT343 package&lt;p&gt;
+Source: &lt;a href="https://www.infineon.com/cms/en/product/rf-wireless-control/rf-transistor/"&gt;RF Transistors&lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="MAC-24+" x="0" y="0"/>
+<gate name="G$1" symbol="BFPXXX" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="MAC-24+">
+<device name="" package="SOT343">
 <connects>
-<connect gate="G$1" pin="GND" pad="1 2 4 6 7 8 9"/>
-<connect gate="G$1" pin="IF" pad="3"/>
-<connect gate="G$1" pin="LO" pad="10"/>
-<connect gate="G$1" pin="RF" pad="5"/>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="2 4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BFPXXXF" prefix="Q">
+<description>&lt;b&gt;Infineon NPN RF Bipolar Transistor Family&lt;/b&gt;&lt;br&gt;
+TSFP4 package&lt;p&gt;
+Source: &lt;a href="https://www.infineon.com/cms/en/product/rf-wireless-control/rf-transistor/"&gt;RF Transistors&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="BFPXXX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TSFP4">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="2 4"/>
 </connects>
 <technologies>
 <technology name=""/>
