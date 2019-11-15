@@ -109,22 +109,22 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 </packages>
 <symbols>
 <symbol name="MCP4728">
-<wire x1="-15.24" y1="-15.24" x2="-15.24" y2="15.24" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="15.24" x2="15.24" y2="15.24" width="0.254" layer="94"/>
-<wire x1="15.24" y1="15.24" x2="15.24" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-15.24" x2="-15.24" y2="-15.24" width="0.254" layer="94"/>
-<pin name="VDD" x="0" y="17.78" length="short" rot="R270"/>
-<pin name="SCL" x="-17.78" y="10.16" length="short"/>
-<pin name="SDA" x="-17.78" y="5.08" length="short"/>
-<pin name="!LDAC" x="-17.78" y="0" length="short"/>
-<pin name="RDY/!BSY" x="17.78" y="10.16" length="short" rot="R180"/>
-<pin name="VOUTA" x="17.78" y="-10.16" length="short" rot="R180"/>
-<pin name="VOUTB" x="17.78" y="-5.08" length="short" rot="R180"/>
+<wire x1="-15.24" y1="-7.62" x2="-15.24" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="7.62" x2="15.24" y2="7.62" width="0.254" layer="94"/>
+<wire x1="15.24" y1="7.62" x2="15.24" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-7.62" x2="-15.24" y2="-7.62" width="0.254" layer="94"/>
+<pin name="VDD" x="0" y="10.16" length="short" rot="R270"/>
+<pin name="SCL" x="-17.78" y="2.54" length="short"/>
+<pin name="SDA" x="-17.78" y="0" length="short"/>
+<pin name="!LDAC" x="-17.78" y="-2.54" length="short"/>
+<pin name="RDY/!BSY" x="17.78" y="5.08" length="short" rot="R180"/>
+<pin name="VOUTA" x="17.78" y="-5.08" length="short" rot="R180"/>
+<pin name="VOUTB" x="17.78" y="-2.54" length="short" rot="R180"/>
 <pin name="VOUTC" x="17.78" y="0" length="short" rot="R180"/>
-<pin name="VOUTD" x="17.78" y="5.08" length="short" rot="R180"/>
-<pin name="GND" x="0" y="-17.78" length="short" rot="R90"/>
-<text x="-15.24" y="20.32" size="1.27" layer="97">&gt;Name</text>
-<text x="-15.24" y="17.78" size="1.27" layer="97">&gt;Value</text>
+<pin name="VOUTD" x="17.78" y="2.54" length="short" rot="R180"/>
+<pin name="GND" x="0" y="-10.16" length="short" rot="R90"/>
+<text x="-15.24" y="12.7" size="1.27" layer="97">&gt;Name</text>
+<text x="-15.24" y="10.16" size="1.27" layer="97">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
