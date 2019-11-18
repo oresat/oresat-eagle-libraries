@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.1">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -22,7 +22,7 @@
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
@@ -47,7 +47,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -167,19 +167,22 @@
 <smd name="18" x="0" y="2.05" dx="0.65" dy="0.3" layer="1" rot="R90"/>
 <smd name="19" x="-0.5" y="2.05" dx="0.65" dy="0.3" layer="1" rot="R90"/>
 <smd name="20" x="-1" y="2.05" dx="0.65" dy="0.3" layer="1" rot="R90"/>
-<smd name="21" x="0" y="0" dx="2.15" dy="2.15" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.625" y1="2.625" x2="2.625" y2="2.625" width="0.05" layer="51"/>
-<wire x1="2.625" y1="2.625" x2="2.625" y2="-2.625" width="0.05" layer="51"/>
-<wire x1="2.625" y1="-2.625" x2="-2.625" y2="-2.625" width="0.05" layer="51"/>
-<wire x1="-2.625" y1="-2.625" x2="-2.625" y2="2.625" width="0.05" layer="51"/>
+<smd name="21" x="0" y="0" dx="2.25" dy="2.25" layer="1" rot="R90"/>
+<text x="2" y="-3" size="0.625" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="2" y="-4" size="0.625" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 <wire x1="-2" y1="2" x2="2" y2="2" width="0.1" layer="51"/>
 <wire x1="2" y1="2" x2="2" y2="-2" width="0.1" layer="51"/>
 <wire x1="2" y1="-2" x2="-2" y2="-2" width="0.1" layer="51"/>
 <wire x1="-2" y1="-2" x2="-2" y2="2" width="0.1" layer="51"/>
 <wire x1="-2" y1="1.5" x2="-1.5" y2="2" width="0.1" layer="51"/>
-<circle x="-2.375" y="1.75" radius="0.125" width="0.25" layer="25"/>
+<wire x1="1.5" y1="2" x2="2" y2="2" width="0.127" layer="21"/>
+<wire x1="2" y1="2" x2="2" y2="1.5" width="0.127" layer="21"/>
+<wire x1="2" y1="-1.5" x2="2" y2="-2" width="0.127" layer="21"/>
+<wire x1="2" y1="-2" x2="1.5" y2="-2" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-2" x2="-2" y2="-2" width="0.127" layer="21"/>
+<wire x1="-2" y1="-2" x2="-2" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-2" y1="1.5" x2="-1.5" y2="2" width="0.127" layer="21"/>
+<circle x="-2.5" y="1.7" radius="0.22360625" width="0.127" layer="21"/>
 </package>
 <package name="73415-2063">
 <description>&lt;b&gt;73415-2063&lt;/b&gt;&lt;br&gt;
@@ -470,18 +473,18 @@
 <wire x1="-13.97" y1="15.24" x2="-13.97" y2="-15.24" width="0.254" layer="94"/>
 <text x="-17.78" y="17.78" size="1.778" layer="95" align="center-left">&gt;NAME</text>
 <text x="-22.86" y="-17.78" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="RFIN@2" x="-19.05" y="3.81" length="middle"/>
-<pin name="RFIN@3" x="-19.05" y="0" length="middle"/>
-<pin name="RFIN@4" x="-19.05" y="-3.81" length="middle"/>
-<pin name="IREF1" x="-6.35" y="-20.32" length="middle" rot="R90"/>
-<pin name="IREF2" x="0" y="-20.32" length="middle" rot="R90"/>
-<pin name="RFOUT@14" x="19.05" y="3.81" length="middle" rot="R180"/>
-<pin name="RFOUT@13" x="19.05" y="0" length="middle" rot="R180"/>
-<pin name="RFOUT@12" x="19.05" y="-3.81" length="middle" rot="R180"/>
-<pin name="GND" x="6.35" y="-20.32" length="middle" rot="R90"/>
-<pin name="VCC1" x="-6.35" y="20.32" length="middle" rot="R270"/>
-<pin name="VCC2" x="0" y="20.32" length="middle" rot="R270"/>
-<pin name="VBIAS" x="6.35" y="20.32" length="middle" rot="R270"/>
+<pin name="RFIN@2" x="-16.51" y="3.81" length="short" direction="in"/>
+<pin name="RFIN@3" x="-16.51" y="0" length="short" direction="in"/>
+<pin name="RFIN@4" x="-16.51" y="-3.81" length="short" direction="in"/>
+<pin name="IREF1" x="-6.35" y="-17.78" length="short" direction="pas" rot="R90"/>
+<pin name="IREF2" x="0" y="-17.78" length="short" direction="pas" rot="R90"/>
+<pin name="RFOUT@14" x="16.51" y="3.81" length="short" direction="out" rot="R180"/>
+<pin name="RFOUT@13" x="16.51" y="0" length="short" direction="out" rot="R180"/>
+<pin name="RFOUT@12" x="16.51" y="-3.81" length="short" direction="out" rot="R180"/>
+<pin name="GND" x="6.35" y="-17.78" length="short" direction="pwr" rot="R90"/>
+<pin name="VCC1" x="-6.35" y="17.78" length="short" direction="pwr" rot="R270"/>
+<pin name="VCC2" x="0" y="17.78" length="short" direction="pwr" rot="R270"/>
+<pin name="VBIAS" x="6.35" y="17.78" length="short" direction="pwr" rot="R270"/>
 </symbol>
 <symbol name="73415-2061">
 <text x="-6.35" y="3.81" size="1.778" layer="95" align="center-left">&gt;NAME</text>
@@ -714,7 +717,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/TQP9111.pdf"&
 <devices>
 <device name="" package="QFN50P400X400X102-21N">
 <connects>
-<connect gate="U" pin="GND" pad="21"/>
+<connect gate="U" pin="GND" pad="1 5 7 9 10 11 15 17 19 21"/>
 <connect gate="U" pin="IREF1" pad="6"/>
 <connect gate="U" pin="IREF2" pad="8"/>
 <connect gate="U" pin="RFIN@2" pad="2"/>
