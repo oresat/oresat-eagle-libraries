@@ -110,7 +110,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </package>
 </packages>
 <symbols>
-<symbol name="MIC842">
+<symbol name="MIC842L">
 <wire x1="-5.08" y1="-7.62" x2="8.255" y2="0" width="0.254" layer="94"/>
 <wire x1="8.255" y1="0" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="7.62" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
@@ -147,12 +147,12 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MIC842">
+<deviceset name="MIC842L" prefix="U">
 <gates>
-<gate name="G$1" symbol="MIC842" x="-5.08" y="-2.54"/>
+<gate name="G$1" symbol="MIC842L" x="-5.08" y="-2.54"/>
 </gates>
 <devices>
-<device name="" package="SC70-5">
+<device name="YC5" package="SC70-5">
 <connects>
 <connect gate="G$1" pin="GND" pad="2"/>
 <connect gate="G$1" pin="INP" pad="1"/>
