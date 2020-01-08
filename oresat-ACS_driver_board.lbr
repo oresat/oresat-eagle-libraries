@@ -691,7 +691,7 @@ Source: Analog Devices .. 780914713ADD8704_0.pdf</description>
 <vertex x="2" y="-7" curve="90"/>
 </polygon>
 </package>
-<package name="MEZZANINE_1">
+<package name="MEZZANINE_PLUG">
 <smd name="P$1" x="-3.5" y="2" dx="0.3" dy="1" layer="1"/>
 <smd name="P$2" x="-3" y="2" dx="0.3" dy="1" layer="1"/>
 <smd name="P$3" x="-2.5" y="2" dx="0.3" dy="1" layer="1"/>
@@ -726,6 +726,48 @@ Source: Analog Devices .. 780914713ADD8704_0.pdf</description>
 <wire x1="6" y1="4" x2="6" y2="-4" width="0.1524" layer="49"/>
 <wire x1="6" y1="-4" x2="-6" y2="-4" width="0.1524" layer="49"/>
 <wire x1="-6" y1="-4" x2="-6" y2="4" width="0.1524" layer="49"/>
+</package>
+<package name="MEZZANINE_RECEPTACLE">
+<smd name="P$1" x="-3.5" y="2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$2" x="-3" y="2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$3" x="-2.5" y="2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$4" x="-2" y="2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$5" x="-1.5" y="2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$6" x="-1" y="2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$7" x="-0.5" y="2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$8" x="0" y="2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$9" x="0.5" y="2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$10" x="1" y="2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$11" x="1.5" y="2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$12" x="2" y="2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$13" x="2.5" y="2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$14" x="3" y="2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$15" x="3.5" y="2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$16" x="3.5" y="-2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$17" x="3" y="-2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$18" x="2.5" y="-2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$19" x="2" y="-2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$20" x="1.5" y="-2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$21" x="1" y="-2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$22" x="0.5" y="-2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$23" x="0" y="-2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$24" x="-0.5" y="-2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$25" x="-1" y="-2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$26" x="-1.5" y="-2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$27" x="-2" y="-2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$28" x="-2.5" y="-2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$29" x="-3" y="-2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$30" x="-3.5" y="-2.75" dx="0.3" dy="1" layer="1"/>
+<wire x1="5.05" y1="-2.2" x2="5.05" y2="2.2" width="0.1016" layer="21"/>
+<wire x1="5.05" y1="2.2" x2="4.75" y2="2.5" width="0.1016" layer="21" curve="90"/>
+<wire x1="4.75" y1="2.5" x2="4" y2="2.5" width="0.1016" layer="21"/>
+<wire x1="-4" y1="2.5" x2="-4.75" y2="2.5" width="0.1016" layer="21"/>
+<wire x1="-4.75" y1="2.5" x2="-5.05" y2="2.2" width="0.1016" layer="21" curve="90"/>
+<wire x1="-5.05" y1="2.2" x2="-5.05" y2="-2.2" width="0.1016" layer="21"/>
+<wire x1="-5.05" y1="-2.2" x2="-4.75" y2="-2.5" width="0.1016" layer="21" curve="90"/>
+<wire x1="-4.75" y1="-2.5" x2="-4" y2="-2.5" width="0.1016" layer="21"/>
+<wire x1="4" y1="-2.5" x2="4.75" y2="-2.5" width="0.1016" layer="21"/>
+<wire x1="4.75" y1="-2.5" x2="5.05" y2="-2.2" width="0.1016" layer="21" curve="90"/>
 </package>
 </packages>
 <symbols>
@@ -930,7 +972,7 @@ Source: Analog Devices .. 780914713ADD8704_0.pdf</description>
 <pin name="MAG2" x="0" y="-7.62" visible="pin" length="point"/>
 <pin name="GND" x="0" y="-10.16" visible="pin" length="point"/>
 </symbol>
-<symbol name="MEZZANINE_1">
+<symbol name="MEZZANINE_PLUG">
 <pin name="VCC" x="5.08" y="10.16" visible="pin" length="middle" rot="R180"/>
 <pin name="CAN_L" x="5.08" y="7.62" visible="pin" length="middle" rot="R180"/>
 <pin name="CAN_H" x="5.08" y="5.08" visible="pin" length="middle" rot="R180"/>
@@ -940,6 +982,31 @@ Source: Analog Devices .. 780914713ADD8704_0.pdf</description>
 <pin name="MAG_1" x="5.08" y="-5.08" visible="pin" length="middle" rot="R180"/>
 <pin name="MAG_2" x="5.08" y="-7.62" visible="pin" length="middle" rot="R180"/>
 <pin name="GND" x="5.08" y="-10.16" visible="pin" length="middle" rot="R180"/>
+<wire x1="2.54" y1="12.7" x2="-12.7" y2="12.7" width="0.508" layer="97"/>
+<wire x1="-12.7" y1="12.7" x2="-12.7" y2="-12.7" width="0.508" layer="97"/>
+<wire x1="-12.7" y1="-12.7" x2="2.54" y2="-12.7" width="0.508" layer="97"/>
+<text x="-12.7" y="15.24" size="1.778" layer="95">&gt;NAME</text>
+<text x="-12.7" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="MEZZANINE_RECEPTACLE">
+<pin name="VCC" x="5.08" y="10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="CAN_L" x="5.08" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="CAN_H" x="5.08" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="I2C_SCL" x="5.08" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="I2C_SDA" x="5.08" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="BOOT" x="5.08" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="MAG_1" x="5.08" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="MAG_2" x="5.08" y="-7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="GND" x="5.08" y="-10.16" visible="pin" length="middle" rot="R180"/>
+<wire x1="5.08" y1="15.24" x2="-12.7" y2="15.24" width="0.508" layer="97"/>
+<wire x1="-12.7" y1="15.24" x2="-12.7" y2="-15.24" width="0.508" layer="97"/>
+<wire x1="-12.7" y1="-15.24" x2="5.08" y2="-15.24" width="0.508" layer="97"/>
+<text x="-12.7" y="17.78" size="1.778" layer="95">&gt;NAME</text>
+<text x="-12.7" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="5.08" y1="15.24" x2="5.08" y2="12.7" width="0.508" layer="97"/>
+<wire x1="5.08" y1="12.7" x2="-2.54" y2="12.7" width="0.508" layer="97"/>
+<wire x1="5.08" y1="-15.24" x2="5.08" y2="-12.7" width="0.508" layer="97"/>
+<wire x1="5.08" y1="-12.7" x2="-2.54" y2="-12.7" width="0.508" layer="97"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1224,12 +1291,35 @@ Source: Analog Devices .. 780914713ADD8704_0.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MEZZANINE_1">
+<deviceset name="MEZZANINE_PLUG">
 <gates>
-<gate name="G$1" symbol="MEZZANINE_1" x="0" y="0"/>
+<gate name="G$1" symbol="MEZZANINE_PLUG" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="MEZZANINE_1">
+<device name="" package="MEZZANINE_PLUG">
+<connects>
+<connect gate="G$1" pin="BOOT" pad="P$9 P$22"/>
+<connect gate="G$1" pin="CAN_H" pad="P$6 P$25"/>
+<connect gate="G$1" pin="CAN_L" pad="P$5 P$26"/>
+<connect gate="G$1" pin="GND" pad="P$1 P$2 P$14 P$15 P$16 P$17 P$29 P$30"/>
+<connect gate="G$1" pin="I2C_SCL" pad="P$7 P$24"/>
+<connect gate="G$1" pin="I2C_SDA" pad="P$8 P$23"/>
+<connect gate="G$1" pin="MAG_1" pad="P$10 P$21"/>
+<connect gate="G$1" pin="MAG_2" pad="P$11 P$20"/>
+<connect gate="G$1" pin="VCC" pad="P$3 P$4 P$12 P$13 P$18 P$19 P$27 P$28"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MEZZANINE_RECEPTACLE">
+<gates>
+<gate name="G$1" symbol="MEZZANINE_RECEPTACLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MEZZANINE_RECEPTACLE">
 <connects>
 <connect gate="G$1" pin="BOOT" pad="P$9 P$22"/>
 <connect gate="G$1" pin="CAN_H" pad="P$6 P$25"/>
