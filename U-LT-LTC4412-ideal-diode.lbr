@@ -110,11 +110,13 @@ paste inset 0.025&amp;nbsp;mm.</description>
 <rectangle x1="0.58" y1="0.755" x2="1.32" y2="1.945" layer="29"/>
 <rectangle x1="0.58" y1="-1.945" x2="1.32" y2="-0.755" layer="29"/>
 <rectangle x1="-1.32" y1="-1.945" x2="-0.58" y2="-0.755" layer="29"/>
+<rectangle x1="-0.37" y1="-1.945" x2="0.37" y2="-0.755" layer="29"/>
 <rectangle x1="-0.275" y1="0.85" x2="0.275" y2="1.85" layer="31"/>
 <rectangle x1="-1.225" y1="0.85" x2="-0.675" y2="1.85" layer="31"/>
 <rectangle x1="0.675" y1="0.85" x2="1.225" y2="1.85" layer="31"/>
 <rectangle x1="0.675" y1="-1.85" x2="1.225" y2="-0.85" layer="31"/>
 <rectangle x1="-1.225" y1="-1.85" x2="-0.675" y2="-0.85" layer="31"/>
+<rectangle x1="-0.275" y1="-1.85" x2="0.275" y2="-0.85" layer="31"/>
 <wire x1="1.6" y1="0.425" x2="1.6" y2="0.725" width="0.3" layer="21" curve="180" cap="flat"/>
 <wire x1="-1.45" y1="0.8" x2="1.45" y2="0.8" width="0.1" layer="33"/>
 <wire x1="1.45" y1="-0.8" x2="-1.45" y2="-0.8" width="0.1" layer="33"/>
@@ -125,6 +127,7 @@ paste inset 0.025&amp;nbsp;mm.</description>
 <rectangle x1="-1.2" y1="-1.5" x2="-0.7" y2="-0.8" layer="33"/>
 <rectangle x1="-1.2" y1="0.8" x2="-0.7" y2="1.5" layer="33"/>
 <rectangle x1="0.7" y1="0.8" x2="1.2" y2="1.5" layer="33"/>
+<rectangle x1="-0.25" y1="-1.5" x2="0.25" y2="-0.8" layer="33"/>
 <wire x1="1.8" y1="0.8" x2="1.6" y2="0.6" width="0.1" layer="33"/>
 <wire x1="1.6" y1="0.6" x2="1.8" y2="0.4" width="0.1" layer="33"/>
 <wire x1="1.8" y1="0.4" x2="1.8" y2="0.8" width="0.1" layer="33"/>
