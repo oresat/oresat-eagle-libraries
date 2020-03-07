@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -212,20 +212,20 @@
 <wire x1="-5.5" y1="6" x2="-6" y2="6" width="0.22" layer="51" curve="-270"/>
 <wire x1="-6" y1="6" x2="-5.5" y2="6" width="0.22" layer="51" curve="-90"/>
 </package>
-<package name="1MM-TP" urn="urn:adsk.eagle:footprint:27902/1" locally_modified="yes">
+<package name="TP" urn="urn:adsk.eagle:footprint:27902/1" locally_modified="yes">
 <description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
 <circle x="0" y="0" radius="0.762" width="0.1524" layer="25"/>
 <text x="-1.32" y="1.343" size="0.635" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="0" y="0" size="0.0254" layer="27">&gt;VALUE</text>
+<text x="0" y="0" size="0.75" layer="27">&gt;VALUE</text>
 <text x="-1.397" y="-1.913" size="0.635" layer="37" font="vector" ratio="20">&gt;TP_SIGNAL_NAME</text>
-<pad name="TP" x="0" y="0" drill="0.254" diameter="1"/>
+<pad name="TP" x="0" y="0" drill="0.75"/>
 </package>
 </packages>
 <packages3d>
 <package3d name="P1-13" urn="urn:adsk.eagle:package:27946/1" type="box">
 <description>TEST PAD</description>
 <packageinstances>
-<packageinstance name="1MM-TP"/>
+<packageinstance name="TP"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -403,7 +403,7 @@
 <gate name="G$1" symbol="TP" x="0" y="0"/>
 </gates>
 <devices>
-<device name="1MM-TP" package="1MM-TP">
+<device name="1MM-TP" package="TP">
 <connects>
 <connect gate="G$1" pin="TP" pad="TP"/>
 </connects>
