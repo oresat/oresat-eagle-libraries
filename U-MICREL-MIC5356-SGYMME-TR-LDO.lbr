@@ -100,11 +100,11 @@
 <pin name="VIN" x="2.54" y="20.32" length="middle" direction="pwr" rot="R270"/>
 <pin name="GND" x="2.54" y="-15.24" length="middle" direction="pwr" rot="R90"/>
 <pin name="NC_1" x="17.78" y="-5.08" length="middle" direction="nc" rot="R180"/>
-<pin name="EN2" x="17.78" y="5.08" length="middle" direction="in" rot="R180"/>
-<pin name="VOUT1" x="-12.7" y="7.62" length="middle" direction="pwr"/>
-<pin name="VOUT2" x="-12.7" y="5.08" length="middle" direction="pwr"/>
+<pin name="EN2" x="-12.7" y="7.62" length="middle" direction="in"/>
+<pin name="VOUT1" x="17.78" y="7.62" length="middle" direction="pwr" rot="R180"/>
+<pin name="VOUT2" x="17.78" y="5.08" length="middle" direction="pwr" rot="R180"/>
 <pin name="NC_2" x="17.78" y="-7.62" length="middle" direction="nc" rot="R180"/>
-<pin name="EN1" x="17.78" y="7.62" length="middle" direction="in" rot="R180"/>
+<pin name="EN1" x="-12.7" y="10.16" length="middle" direction="in"/>
 <text x="0" y="0" size="1.778" layer="94">LDO</text>
 </symbol>
 </symbols>
