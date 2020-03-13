@@ -276,33 +276,76 @@
 <wire x1="1.27" y1="-0.889" x2="0" y2="1.016" width="0.254" layer="94"/>
 <wire x1="0" y1="1.016" x2="-1.27" y2="-0.889" width="0.254" layer="94"/>
 </symbol>
-<symbol name="UHF_5V">
+<symbol name="5V-U">
 <description>&lt;h3&gt;V Supply&lt;/h3&gt;</description>
 <wire x1="0.762" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="-0.762" y2="-1.27" width="0.254" layer="94"/>
 <text x="0" y="0.254" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
 <pin name="UHF_5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
-<symbol name="UHF_3.3V">
+<symbol name="3.3V-U">
 <description>&lt;h3&gt;V Supply&lt;/h3&gt;</description>
 <wire x1="0.762" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="-0.762" y2="-1.27" width="0.254" layer="94"/>
 <text x="0" y="0.254" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
 <pin name="UHF_3.3V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
-<symbol name="UHF_2.5V">
+<symbol name="2.5V-U">
 <description>&lt;h3&gt;V Supply&lt;/h3&gt;</description>
 <wire x1="0.762" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="-0.762" y2="-1.27" width="0.254" layer="94"/>
 <text x="0" y="0.254" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
 <pin name="UHF_2.5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
-<symbol name="UHF_1.8V">
+<symbol name="1.8V-U">
 <description>&lt;h3&gt;V Supply&lt;/h3&gt;</description>
 <wire x1="0.762" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="-0.762" y2="-1.27" width="0.254" layer="94"/>
 <text x="0" y="0.254" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
 <pin name="UHF_1.8V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
+<symbol name="3.3V-L">
+<description>&lt;h3&gt;V Supply&lt;/h3&gt;</description>
+<wire x1="0.762" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-0.762" y2="-1.27" width="0.254" layer="94"/>
+<text x="0" y="0.254" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<pin name="UHF_3.3V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
+<symbol name="2.5V-L">
+<description>&lt;h3&gt;V Supply&lt;/h3&gt;</description>
+<wire x1="0.762" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-0.762" y2="-1.27" width="0.254" layer="94"/>
+<text x="0" y="0.254" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<pin name="UHF_2.5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
+<symbol name="1.8V-L">
+<description>&lt;h3&gt;V Supply&lt;/h3&gt;</description>
+<wire x1="0.762" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-0.762" y2="-1.27" width="0.254" layer="94"/>
+<text x="0" y="0.254" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<pin name="UHF_1.8V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
+<symbol name="GND">
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+<symbol name="GND-U">
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+<symbol name="GND-L">
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+<symbol name="5V-L">
+<description>&lt;h3&gt;V Supply&lt;/h3&gt;</description>
+<wire x1="0.762" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-0.762" y2="-1.27" width="0.254" layer="94"/>
+<text x="0" y="0.254" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<pin name="UHF_5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -537,10 +580,10 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="UHF_5V" prefix="UHF_5V">
+<deviceset name="5V-U" prefix="5V-U">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
-<gate name="G$1" symbol="UHF_5V" x="0" y="0"/>
+<gate name="G$1" symbol="5V-U" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -550,10 +593,10 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="UHF_3.3V" prefix="UHF_3.3V">
+<deviceset name="3.3V-U" prefix="3.3V-U">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
-<gate name="G$1" symbol="UHF_3.3V" x="0" y="2.54"/>
+<gate name="G$1" symbol="3.3V-U" x="0" y="2.54"/>
 </gates>
 <devices>
 <device name="">
@@ -563,10 +606,10 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="UHF_2.5V" prefix="UHF_2.5V">
+<deviceset name="2.5V-U" prefix="2.5V-U">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
-<gate name="G$1" symbol="UHF_2.5V" x="0" y="2.54"/>
+<gate name="G$1" symbol="2.5V-U" x="0" y="2.54"/>
 </gates>
 <devices>
 <device name="">
@@ -576,10 +619,101 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="UHF_1.8V" prefix="UHF_1.8V">
+<deviceset name="1.8V-U" prefix="1.8V-U">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
-<gate name="G$1" symbol="UHF_1.8V" x="0" y="2.54"/>
+<gate name="G$1" symbol="1.8V-U" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="3.3V-L" prefix="3.3V-L">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="3.3V-L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2.5V-L" prefix="2.5V-L">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="2.5V-L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1.8V-L" prefix="1.8V-L">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="1.8V-L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GND" prefix="GND">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GND-U" prefix="GND-U">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="GND-U" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GND-L" prefix="GND-L">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="GND-L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="5V-L" prefix="5V-L">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="5V-L" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
