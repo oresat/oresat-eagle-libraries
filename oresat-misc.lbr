@@ -223,14 +223,12 @@
 <description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
 <circle x="0" y="0" radius="0.762" width="0.1524" layer="21"/>
 <text x="-1.32" y="1.343" size="0.635" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="0.635" layer="25" font="vector" ratio="20">&gt;VALUE</text>
 <pad name="TP" x="0" y="0" drill="0.75"/>
 </package>
 <package name="TEST-POINT-SMALL">
 <description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
 <circle x="0" y="0" radius="0.381" width="0.1524" layer="21"/>
 <text x="-1.32" y="1.343" size="0.635" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="0.635" layer="25" font="vector" ratio="20">&gt;VALUE</text>
 <pad name="TP" x="0" y="0" drill="0.0254"/>
 </package>
 </packages>
@@ -448,7 +446,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="TEST-POINT-LARGE" prefix="TPL-" uservalue="yes">
+<deviceset name="TEST-POINT-LARGE" prefix="TP">
 <gates>
 <gate name="G$1" symbol="TEST-POINT-LARGE" x="0" y="0"/>
 </gates>
@@ -463,7 +461,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="TEST-POINT-SMALL" prefix="TPS-" uservalue="yes">
+<deviceset name="TEST-POINT-SMALL" prefix="TP">
 <gates>
 <gate name="G$1" symbol="TEST-POINT-SMALL" x="0" y="0"/>
 </gates>
