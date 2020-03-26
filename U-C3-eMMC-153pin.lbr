@@ -3557,7 +3557,7 @@ available, and we intend to use them.</description>
 <connect gate="U" pin="D2" pad="A5"/>
 <connect gate="U" pin="D3" pad="A1 B2" route="any"/>
 <connect gate="U" pin="D4" pad="A2 B3"/>
-<connect gate="U" pin="D5" pad="B4 C3 D1 D2 D3"/>
+<connect gate="U" pin="D5" pad="B4 C3 D3"/>
 <connect gate="U" pin="D6" pad="B5 C5"/>
 <connect gate="U" pin="D7" pad="A7 B6"/>
 <connect gate="U" pin="SCK" pad="M6"/>
