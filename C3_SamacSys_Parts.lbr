@@ -637,7 +637,7 @@ Source: &lt;a href="https://katalog.we-online.com/pbs/datasheet/885382206002.pdf
 </device>
 </devices>
 </deviceset>
-<deviceset name="R0603-0-OHMS" prefix="R">
+<deviceset name="R0603-0-OHMS" prefix="R" uservalue="yes">
 <description>&lt;b&gt;Thick Film Resistors - SMD&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.vishay.com/docs/28773/crcwce3.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -659,6 +659,7 @@ Source: &lt;a href="https://www.vishay.com/docs/28773/crcwce3.pdf"&gt; Datasheet
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=71-CRCW06030000Z0EAC" constant="no"/>
 <attribute name="RS_PART_NUMBER" value="" constant="no"/>
 <attribute name="RS_PRICE-STOCK" value="" constant="no"/>
+<attribute name="VALUE" value="0" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -777,7 +778,7 @@ Source: &lt;a href="https://www.bourns.com/pdfs/chpreztr.pdf"&gt; Datasheet &lt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="R0603-10K-OHMS" prefix="R">
+<deviceset name="R0603-10K-OHMS" prefix="R" uservalue="yes">
 <description>&lt;b&gt;SMD 0603 thick film resistor 10K 1% Bourns CR0603-FX Series Thick Film Surface Mount Fixed Resistor 0603 Case 10k +/-1% 0.1W +/-100ppm/C&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.bourns.com/pdfs/chpreztr.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1045,8 +1046,7 @@ Source: &lt;a href="https://www.yageo.com/upload/media/product/productsearch/dat
 <attribute name="DESCRIPTION" value="RESISTOR, 0603 330K Ohms +/-1% 1/10 W" constant="no"/>
 <attribute name="HEIGHT" value="0.55mm" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="KOA Speer" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="
-RN731JTTD1013F100" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value=" RN731JTTD1013F100" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="660-RN731JTD1013F100" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=603-RT0603FRE07330KL" constant="no"/>
 <attribute name="VALUE" value="100k" constant="no"/>
