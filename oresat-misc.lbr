@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -331,6 +331,25 @@
 <text x="1.016" y="0.127" size="0.8128" layer="25" ratio="21">&gt;NAME</text>
 <text x="1.016" y="-0.889" size="0.8128" layer="25" ratio="21">&gt;LABEL</text>
 </package>
+<package name="TESTPOINT_SMD-CIRCLE-1MM">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;&lt;p&gt;
+1.0 mm, Circle</description>
+<smd name="TP" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+<text x="1.016" y="0.127" size="0.8128" layer="25" ratio="21">&gt;NAME</text>
+<text x="1.016" y="-0.889" size="0.8128" layer="25" ratio="21">&gt;LABEL</text>
+<circle x="0" y="0" radius="0.635" width="0.0508" layer="21"/>
+</package>
+<package name="TESTPOINT_SMD-0.5MM">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;&lt;p&gt;
+0.5 mm, Square</description>
+<smd name="TP" x="0" y="0" dx="0.5" dy="0.5" layer="1" cream="no"/>
+<text x="1.016" y="0.127" size="0.8128" layer="25" ratio="21">&gt;NAME</text>
+<text x="1.016" y="-0.889" size="0.8128" layer="25" ratio="21">&gt;LABEL</text>
+<wire x1="-0.381" y1="-0.381" x2="-0.381" y2="0.381" width="0.0508" layer="51"/>
+<wire x1="-0.381" y1="0.381" x2="0.381" y2="0.381" width="0.0508" layer="51"/>
+<wire x1="0.381" y1="0.381" x2="0.381" y2="-0.381" width="0.0508" layer="51"/>
+<wire x1="0.381" y1="-0.381" x2="-0.381" y2="-0.381" width="0.0508" layer="51"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="P1-13" urn="urn:adsk.eagle:package:27946/1" type="box">
@@ -460,6 +479,14 @@
 <wire x1="0" y1="-0.635" x2="0" y2="-2.54" width="0.1524" layer="94"/>
 <pin name="TP" x="0" y="-2.54" visible="off" length="point" direction="pas" rot="R90"/>
 <text x="-1.905" y="1.5875" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="TEST-PAD-CIRCLE">
+<wire x1="-0.762" y1="-0.762" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-0.762" x2="0" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.524" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<pin name="TP" x="0" y="-2.54" visible="off" length="short" direction="in" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -618,6 +645,51 @@
 <attribute name="BOM" value="EXCLUDE" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TEST-PAD-SMD-CIRCLE" prefix="TP">
+<description>&lt;b&gt;Test Pad Circular 1mm&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="TEST-PAD-CIRCLE" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="TESTPOINT_SMD-CIRCLE-1MM">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TEST-POINT-SMD-0.5MM" prefix="TP">
+<description>&lt;b&gt;TEST PAD 0.5mm &lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="TESTPOINT_TPS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-SMD-10SN" package="TESTPOINT_SMD-0.5MM">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="" package="TESTPOINT_SMD-0.5MM">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
