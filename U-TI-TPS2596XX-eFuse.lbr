@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -107,8 +107,8 @@
 <symbol name="TPS259621">
 <pin name="VIN" x="0" y="15.24" length="short" direction="pwr" rot="R270"/>
 <pin name="EN/UVLO" x="-12.7" y="2.54" length="short"/>
-<pin name="OVCSEL" x="-12.7" y="-2.54" length="short" direction="nc"/>
-<pin name="DV/DT" x="-12.7" y="-5.08" length="short" direction="nc"/>
+<pin name="OVCSEL" x="-12.7" y="-2.54" length="short"/>
+<pin name="DV/DT" x="-12.7" y="-5.08" length="short"/>
 <pin name="GND" x="0" y="-15.24" length="short" rot="R90"/>
 <pin name="ILIM" x="12.7" y="-5.08" length="short" rot="R180"/>
 <pin name="!FLT" x="12.7" y="0" length="short" rot="R180"/>
