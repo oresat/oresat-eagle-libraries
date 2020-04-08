@@ -344,7 +344,6 @@
 0.5 mm, Square</description>
 <smd name="TP" x="0" y="0" dx="0.5" dy="0.5" layer="1" cream="no"/>
 <text x="1.016" y="0.127" size="0.8128" layer="25" ratio="21">&gt;NAME</text>
-<text x="1.016" y="-0.889" size="0.8128" layer="25" ratio="21">&gt;LABEL</text>
 <wire x1="-0.381" y1="-0.381" x2="-0.381" y2="0.381" width="0.0508" layer="51"/>
 <wire x1="-0.381" y1="0.381" x2="0.381" y2="0.381" width="0.0508" layer="51"/>
 <wire x1="0.381" y1="0.381" x2="0.381" y2="-0.381" width="0.0508" layer="51"/>

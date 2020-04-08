@@ -16,6 +16,7 @@
 #
 # Common keys
 
+ASSIGN     C+C 'Copy';
 ASSIGN     C+D 'Delete';
 ASSIGN     C+F 'Window fit';
 ASSIGN     C+G 'Group';

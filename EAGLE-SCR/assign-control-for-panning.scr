@@ -1,3 +1,4 @@
 # If you hold down the control key, it pans. Might want to turn this off if you have a good mouse.
+
 SET Interface.UseCtrlForPanning 1
 
