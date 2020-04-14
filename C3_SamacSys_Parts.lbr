@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
@@ -253,6 +253,7 @@ This package is identical to 0603-C, but has its tPlace silkscreen layer removed
 <rectangle x1="-2.032" y1="-1.016" x2="2.032" y2="-0.508" layer="94"/>
 <pin name="1" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<text x="1.524" y="-7.112" size="1.778" layer="97">&gt;VDC</text>
 </symbol>
 <symbol name="R-US">
 <wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.2032" layer="94"/>
@@ -271,7 +272,7 @@ This package is identical to 0603-C, but has its tPlace silkscreen layer removed
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CAP0603-10UF" prefix="C">
+<deviceset name="CAP0603-10UF" prefix="C" uservalue="yes">
 <description>&lt;b&gt;Multilayer Ceramic Capacitors MLCC - SMD/SMT 10V 10uF X5R 0603 10%TOL&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -293,7 +294,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/06031A100FAT2
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD106KAT2A" constant="no"/>
 <attribute name="RS_PART_NUMBER" value="" constant="no"/>
 <attribute name="RS_PRICE-STOCK" value="" constant="no"/>
-<attribute name="VALUE" value="10u" constant="no"/>
+<attribute name="VDC" value="10V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -321,13 +322,13 @@ Source: &lt;a href="http://www.farnell.com/datasheets/1958513.pdf"&gt; Datasheet
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=791-0603X105K100CT" constant="no"/>
 <attribute name="RS_PART_NUMBER" value="" constant="no"/>
 <attribute name="RS_PRICE-STOCK" value="" constant="no"/>
-<attribute name="VALUE" value="1u" constant="no"/>
+<attribute name="VDC" value="10V" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAP0603-20PF" prefix="C">
+<deviceset name="CAP0603-20PF" prefix="C" uservalue="yes">
 <description>&lt;b&gt;Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 20pF 50volts C0G 5%&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="http://componentsearchengine.com/Datasheets/1/GRM1885C1H200JA01J.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -349,13 +350,13 @@ Source: &lt;a href="http://componentsearchengine.com/Datasheets/1/GRM1885C1H200J
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM185C1H200JA01J" constant="no"/>
 <attribute name="RS_PART_NUMBER" value="" constant="no"/>
 <attribute name="RS_PRICE-STOCK" value="" constant="no"/>
-<attribute name="VALUE" value="20p" constant="no"/>
+<attribute name="VDC" value="50V" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAP0603-22PF" prefix="C">
+<deviceset name="CAP0603-22PF" prefix="C" uservalue="yes">
 <description>&lt;b&gt;AVX - 06035A220JAT4A - CERAMIC CAPACITOR 22PF 50V, C0G, 5%, 0603, FULL REEL&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -377,13 +378,13 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/06031A100FAT2
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-06035A220JAT4A" constant="no"/>
 <attribute name="RS_PART_NUMBER" value="" constant="no"/>
 <attribute name="RS_PRICE-STOCK" value="" constant="no"/>
-<attribute name="VALUE" value="22p" constant="no"/>
+<attribute name="VDC" value="50V" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAP0603-2.2UF" prefix="C">
+<deviceset name="CAP0603-2.2UF" prefix="C" uservalue="yes">
 <description>&lt;b&gt;Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 10V 2.2uF X7R 20% T: 0.8mm&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -405,13 +406,13 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/mlcc_comm
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=810-C1608X7R1A225M" constant="no"/>
 <attribute name="RS_PART_NUMBER" value="" constant="no"/>
 <attribute name="RS_PRICE-STOCK" value="" constant="no"/>
-<attribute name="VALUE" value="2.2u" constant="no"/>
+<attribute name="VDC" value="10V" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAP0603-47UF" prefix="C">
+<deviceset name="CAP0603-47UF" prefix="C" uservalue="yes">
 <description>&lt;b&gt;Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 47uF 6.3volts X5R 20%&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="http://componentsearchengine.com/Datasheets/1/GRM188R60J476ME15D.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -433,13 +434,13 @@ Source: &lt;a href="http://componentsearchengine.com/Datasheets/1/GRM188R60J476M
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM188R60J476ME5D" constant="no"/>
 <attribute name="RS_PART_NUMBER" value="1726834P" constant="no"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1726834P" constant="no"/>
-<attribute name="VALUE" value="47u" constant="no"/>
+<attribute name="VDC" value="6.3V" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAP0603-8.2PF" prefix="C">
+<deviceset name="CAP0603-8.2PF" prefix="C" uservalue="yes">
 <description>&lt;b&gt;Multilayer Ceramic Chip Capacitor WCAP-CSGP Series 0603 8.2pF 100 VDC NP006038R2D100DFCT10000&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://katalog.we-online.com/pbs/datasheet/885012006093.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -461,13 +462,13 @@ Source: &lt;a href="https://katalog.we-online.com/pbs/datasheet/885012006093.pdf
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=710-885012006093" constant="no"/>
 <attribute name="RS_PART_NUMBER" value="" constant="no"/>
 <attribute name="RS_PRICE-STOCK" value="" constant="no"/>
-<attribute name="VALUE" value="8.2p" constant="no"/>
+<attribute name="VDC" value="100V" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAP0603-1000PF" prefix="C">
+<deviceset name="CAP0603-1000PF" prefix="C" uservalue="yes">
 <description>&lt;b&gt;Multilayer Ceramic Chip Capacitor WCAP-CSGP Series 0603 1000pF NP00603102J100DFCT10000&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://katalog.we-online.com/pbs/datasheet/885012006085.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -489,13 +490,13 @@ Source: &lt;a href="https://katalog.we-online.com/pbs/datasheet/885012006085.pdf
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=710-885012006085" constant="no"/>
 <attribute name="RS_PART_NUMBER" value="" constant="no"/>
 <attribute name="RS_PRICE-STOCK" value="" constant="no"/>
-<attribute name="VALUE" value="1n" constant="no"/>
+<attribute name="VDC" value="100V" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAP0603-82PF" prefix="C">
+<deviceset name="CAP0603-82PF" prefix="C" uservalue="yes">
 <description>&lt;b&gt;Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V 82pF C0G 0603 5% Tol&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -517,13 +518,13 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/06031A100FAT2
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-06035A820JAT4A" constant="no"/>
 <attribute name="RS_PART_NUMBER" value="" constant="no"/>
 <attribute name="RS_PRICE-STOCK" value="" constant="no"/>
-<attribute name="VALUE" value="82p" constant="no"/>
+<attribute name="VDC" value="60V" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAP0603-0.022UF" prefix="C">
+<deviceset name="CAP0603-0.022UF" prefix="C" uservalue="yes">
 <description>&lt;b&gt;0603 X7R ceramic capacitor, 50V 22nF Kemet 0603 22nF Ceramic Multilayer Capacitor, 50V dc, 125C, X7R Dielectric, +/-10% SMD&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="http://docs-emea.rs-online.com/webdocs/134c/0900766b8134ce68.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -547,13 +548,13 @@ Source: &lt;a href="http://docs-emea.rs-online.com/webdocs/134c/0900766b8134ce68
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=80-C0603C223K5R" constant="no"/>
 <attribute name="RS_PART_NUMBER" value="2644602P" constant="no"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/2644602P" constant="no"/>
-<attribute name="VALUE" value="22n" constant="no"/>
+<attribute name="VDC" value="50V" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAP0603-4.7UF" prefix="C">
+<deviceset name="CAP0603-4.7UF" prefix="C" uservalue="yes">
 <description>&lt;b&gt;Capacitor MLCC 0603 10V 4.7uF X7S&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -575,13 +576,13 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/mlcc_comm
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=810-C1608X7S1A475KAC" constant="no"/>
 <attribute name="RS_PART_NUMBER" value="9159230P" constant="no"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/9159230P" constant="no"/>
-<attribute name="VALUE" value="4.7u" constant="no"/>
+<attribute name="VDC" value="10V" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAP0603-0.1UF" prefix="C">
+<deviceset name="CAP0603-0.1UF" prefix="C" uservalue="yes">
 <description>&lt;b&gt;Multilayer Ceramic Capacitors MLCC - SMD/SMT 10V .1uF X5R 0603 10%&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -603,13 +604,13 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/06031A100FAT2
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" constant="no"/>
 <attribute name="RS_PART_NUMBER" value="" constant="no"/>
 <attribute name="RS_PRICE-STOCK" value="" constant="no"/>
-<attribute name="VALUE" value="0.1u" constant="no"/>
+<attribute name="VDC" value="10V" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAP0603-0.01UF" prefix="C">
+<deviceset name="CAP0603-0.01UF" prefix="C" uservalue="yes">
 <description>&lt;b&gt;Multilayer Ceramic Chip Capacitor WCAP-CSST Series 0603 10000pF 50 VDC X7R0603103K050DFCT1S000&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://katalog.we-online.com/pbs/datasheet/885382206002.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -631,7 +632,7 @@ Source: &lt;a href="https://katalog.we-online.com/pbs/datasheet/885382206002.pdf
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=710-885382206002" constant="no"/>
 <attribute name="RS_PART_NUMBER" value="1855654P" constant="no"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1855654P" constant="no"/>
-<attribute name="VALUE" value="10n" constant="no"/>
+<attribute name="VDC" value="50V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -914,7 +915,7 @@ Source: &lt;a href="http://componentsearchengine.com/Datasheets/1/GRM188R61E106K
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM188R61E106KA3D" constant="no"/>
 <attribute name="RS_PART_NUMBER" value="" constant="no"/>
 <attribute name="RS_PRICE-STOCK" value="" constant="no"/>
-<attribute name="VALUE" value="10u" constant="no"/>
+<attribute name="VDC" value="25V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -942,7 +943,7 @@ Source: &lt;a href="http://docs-asia.electrocomponents.com/webdocs/145f/0900766b
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=81-ZRB18AR61A226ME1L" constant="no"/>
 <attribute name="RS_PART_NUMBER" value="9015339P" constant="no"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/9015339P" constant="no"/>
-<attribute name="VALUE" value="22u" constant="no"/>
+<attribute name="VDC" value="10V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1050,6 +1051,34 @@ Source: &lt;a href="https://www.yageo.com/upload/media/product/productsearch/dat
 <attribute name="MOUSER_PART_NUMBER" value="660-RN731JTD1013F100" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=603-RT0603FRE07330KL" constant="no"/>
 <attribute name="VALUE" value="100k" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CAP0603-1UF-25VDC" prefix="C" uservalue="yes">
+<description>&lt;b&gt;YAGEO - CC0603KRX5R8BB105 - CERAMIC CAPACITOR, 1UF, 25V, X5R, 10%, 0603, FULL REEL&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_25.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="C-EU" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package=".0603-C-NOSILK-RESISTOR">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="YAGEO - CC0603KRX5R8BB105 - CERAMIC CAPACITOR, 1UF, 25V, X5R, 10%, 0603, FULL REEL" constant="no"/>
+<attribute name="HEIGHT" value="0.9mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX5R8BB105" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="603-CC603KRX5R8BB105" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=603-CC603KRX5R8BB105" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="" constant="no"/>
+<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
+<attribute name="VDC" value="25V" constant="no"/>
 </technology>
 </technologies>
 </device>
