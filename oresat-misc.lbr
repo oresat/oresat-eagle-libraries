@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -346,7 +346,7 @@
 </package>
 <package name="1X01" urn="urn:adsk.eagle:footprint:22382/1" locally_modified="yes">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<pad name="1" x="0" y="0" locked="yes" drill="0.7366" diameter="1.1"/>
+<pad name="1" x="0" y="0" drill="0.7366" diameter="1.1"/>
 <text x="-1" y="1" size="0.635" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 <circle x="0" y="0" radius="0.7" width="0.127" layer="21"/>
