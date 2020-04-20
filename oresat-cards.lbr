@@ -1080,7 +1080,7 @@ when focused to infinity</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ORESAT-CARD-V1.1">
+<deviceset name="ORESAT-CARD-V1.1" prefix="PCB">
 <gates>
 <gate name="G$1" symbol="ORESAT-CARD" x="0" y="0"/>
 </gates>
