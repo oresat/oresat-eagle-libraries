@@ -669,8 +669,7 @@ Source: &lt;a href="https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf"
 <technology name="">
 <attribute name="DESCRIPTION" value="10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" constant="no"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-1002ELFCT-ND" constant="no"/>
-<attribute name="HEIGHT" value="0.55mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Bourns" constant="no"/>
+<attribute name="MANUFACTURER" value="Bourns" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-1002ELF" constant="no"/>
 </technology>
 </technologies>
@@ -881,7 +880,7 @@ Source: &lt;a href="https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"&gt; Data
 <technology name="">
 <attribute name="DESCRIPTION" value="100 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" constant="no"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="RMCF0603JG100KTR-ND" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Stackpole Electronics Inc" constant="no"/>
+<attribute name="MANUFACTURER" value="Stackpole Electronics Inc" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0603JG100K" constant="no"/>
 </technology>
 </technologies>

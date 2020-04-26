@@ -268,7 +268,7 @@
 <symbols>
 <symbol name="ORESAT-DEBUG-CONNECTOR">
 <pin name="GND" x="11.43" y="-27.94" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="VBUS" x="11.43" y="27.94" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="VBUSP" x="11.43" y="27.94" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="VTARGET" x="11.43" y="22.86" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="CARD-TX" x="11.43" y="7.62" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="CARD-RX" x="11.43" y="5.08" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
@@ -317,7 +317,7 @@
 <connect gate="G$1" pin="SWCLK" pad="15"/>
 <connect gate="G$1" pin="SWDIO" pad="14"/>
 <connect gate="G$1" pin="SWO" pad="16"/>
-<connect gate="G$1" pin="VBUS" pad="1 2"/>
+<connect gate="G$1" pin="VBUSP" pad="1 2"/>
 <connect gate="G$1" pin="VTARGET" pad="11"/>
 </connects>
 <technologies>
@@ -342,7 +342,7 @@
 <connect gate="G$1" pin="SWCLK" pad="15"/>
 <connect gate="G$1" pin="SWDIO" pad="14"/>
 <connect gate="G$1" pin="SWO" pad="16"/>
-<connect gate="G$1" pin="VBUS" pad="1 2"/>
+<connect gate="G$1" pin="VBUSP" pad="1 2"/>
 <connect gate="G$1" pin="VTARGET" pad="11"/>
 </connects>
 <technologies>
