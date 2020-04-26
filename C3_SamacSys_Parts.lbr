@@ -272,65 +272,9 @@ This package is identical to 0603-C, but has its tPlace silkscreen layer removed
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CAP0603-10UF" prefix="C" uservalue="yes">
-<description>&lt;b&gt;Multilayer Ceramic Capacitors MLCC - SMD/SMT 10V 10uF X5R 0603 10%TOL&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="C-EU" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package=".0603-B-NOSILK-CAP">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 10V 10uF X5R 0603 10%TOL" constant="no"/>
-<attribute name="HEIGHT" value="0.9mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="AVX" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD106KAT2A" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="581-0603ZD106KAT2A" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD106KAT2A" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
-<attribute name="VDC" value="10V" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CAP0603-1UF" prefix="C" uservalue="yes">
-<description>&lt;b&gt;WALSIN - 0603X105K100CT - CAPACITOR, MLCC, X5R, 1UF, 10V, 0603&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://www.farnell.com/datasheets/1958513.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="C-EU" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package=".0603-B-NOSILK-CAP">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="WALSIN - 0603X105K100CT - CAPACITOR, MLCC, X5R, 1UF, 10V, 0603" constant="no"/>
-<attribute name="HEIGHT" value="1mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Walsin Technology Corporation" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="0603X105K100CT" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="791-0603X105K100CT" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=791-0603X105K100CT" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
-<attribute name="VDC" value="10V" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="CAP0603-20PF" prefix="C" uservalue="yes">
-<description>&lt;b&gt;Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 20pF 50volts C0G 5%&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://componentsearchengine.com/Datasheets/1/GRM1885C1H200JA01J.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<description>&lt;b&gt;20pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1H200JA01-01.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
@@ -342,14 +286,10 @@ Source: &lt;a href="http://componentsearchengine.com/Datasheets/1/GRM1885C1H200J
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 20pF 50volts C0G 5%" constant="no"/>
-<attribute name="HEIGHT" value="0.9mm" constant="no"/>
+<attribute name="DESCRIPTION" value="20pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="GRM1885C1H200JA01J-ND" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="Murata Electronics" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="GRM1885C1H200JA01J" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="81-GRM185C1H200JA01J" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM185C1H200JA01J" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
 <attribute name="VDC" value="50V" constant="no"/>
 </technology>
 </technologies>
@@ -357,8 +297,8 @@ Source: &lt;a href="http://componentsearchengine.com/Datasheets/1/GRM1885C1H200J
 </devices>
 </deviceset>
 <deviceset name="CAP0603-22PF" prefix="C" uservalue="yes">
-<description>&lt;b&gt;AVX - 06035A220JAT4A - CERAMIC CAPACITOR 22PF 50V, C0G, 5%, 0603, FULL REEL&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<description>&lt;b&gt;22pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://datasheets.avx.com/C0GNP0-Dielectric.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
@@ -370,14 +310,10 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/06031A100FAT2
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="AVX - 06035A220JAT4A - CERAMIC CAPACITOR 22PF 50V, C0G, 5%, 0603, FULL REEL" constant="no"/>
-<attribute name="HEIGHT" value="0.9mm" constant="no"/>
+<attribute name="DESCRIPTION" value="22pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="478-13026-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="AVX" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="06035A220JAT4A" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="581-06035A220JAT4A" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-06035A220JAT4A" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
 <attribute name="VDC" value="50V" constant="no"/>
 </technology>
 </technologies>
@@ -385,8 +321,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/06031A100FAT2
 </devices>
 </deviceset>
 <deviceset name="CAP0603-2.2UF" prefix="C" uservalue="yes">
-<description>&lt;b&gt;Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 10V 2.2uF X7R 20% T: 0.8mm&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<description>&lt;b&gt;2.2µF ±20% 10V Ceramic Capacitor X7R 0603 (1608 Metric)&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf?ref_disty=digikey"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
@@ -398,14 +334,10 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/mlcc_comm
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 10V 2.2uF X7R 20% T: 0.8mm" constant="no"/>
-<attribute name="HEIGHT" value="0.8mm" constant="no"/>
+<attribute name="DESCRIPTION" value="2.2µF ±20% 10V Ceramic Capacitor X7R 0603 (1608 Metric)" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="445-5959-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="TDK" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="C1608X7R1A225M080AC" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="810-C1608X7R1A225M" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=810-C1608X7R1A225M" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
 <attribute name="VDC" value="10V" constant="no"/>
 </technology>
 </technologies>
@@ -413,8 +345,8 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/mlcc_comm
 </devices>
 </deviceset>
 <deviceset name="CAP0603-47UF" prefix="C" uservalue="yes">
-<description>&lt;b&gt;Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 47uF 6.3volts X5R 20%&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://componentsearchengine.com/Datasheets/1/GRM188R60J476ME15D.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<description>&lt;b&gt;47µF ±20% 6.3V Ceramic Capacitor X5R 0603 (1608 Metric)&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://datasheets.avx.com/cx5r.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
@@ -426,14 +358,10 @@ Source: &lt;a href="http://componentsearchengine.com/Datasheets/1/GRM188R60J476M
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 47uF 6.3volts X5R 20%" constant="no"/>
-<attribute name="HEIGHT" value="0.9mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Murata Electronics" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="GRM188R60J476ME15D" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="81-GRM188R60J476ME5D" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM188R60J476ME5D" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="1726834P" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1726834P" constant="no"/>
+<attribute name="DESCRIPTION" value="47µF ±20% 6.3V Ceramic Capacitor X5R 0603 (1608 Metric)" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="478-11180-2-ND" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="AVX Corporation" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="06036D476MAT2A" constant="no"/>
 <attribute name="VDC" value="6.3V" constant="no"/>
 </technology>
 </technologies>
@@ -441,8 +369,8 @@ Source: &lt;a href="http://componentsearchengine.com/Datasheets/1/GRM188R60J476M
 </devices>
 </deviceset>
 <deviceset name="CAP0603-8.2PF" prefix="C" uservalue="yes">
-<description>&lt;b&gt;Multilayer Ceramic Chip Capacitor WCAP-CSGP Series 0603 8.2pF 100 VDC NP006038R2D100DFCT10000&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://katalog.we-online.com/pbs/datasheet/885012006093.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<description>&lt;b&gt;8.2pF ±0.5pF 100V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://katalog.we-online.de/pbs/datasheet/885012006093.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
@@ -454,14 +382,10 @@ Source: &lt;a href="https://katalog.we-online.com/pbs/datasheet/885012006093.pdf
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Chip Capacitor WCAP-CSGP Series 0603 8.2pF NP006038R2D100DFCT10000" constant="no"/>
-<attribute name="HEIGHT" value="0.87mm" constant="no"/>
+<attribute name="DESCRIPTION" value="8.2pF ±0.5pF 100V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="732-12050-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="Wurth Elektronik" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="885012006093" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="710-885012006093" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=710-885012006093" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
 <attribute name="VDC" value="100V" constant="no"/>
 </technology>
 </technologies>
@@ -469,8 +393,8 @@ Source: &lt;a href="https://katalog.we-online.com/pbs/datasheet/885012006093.pdf
 </devices>
 </deviceset>
 <deviceset name="CAP0603-1000PF" prefix="C" uservalue="yes">
-<description>&lt;b&gt;Multilayer Ceramic Chip Capacitor WCAP-CSGP Series 0603 1000pF NP00603102J100DFCT10000&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://katalog.we-online.com/pbs/datasheet/885012006085.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<description>&lt;b&gt;1000pF ±5% 100V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://katalog.we-online.de/pbs/datasheet/885012006085.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
@@ -482,14 +406,10 @@ Source: &lt;a href="https://katalog.we-online.com/pbs/datasheet/885012006085.pdf
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Chip Capacitor WCAP-CSGP Series 0603 1000pF NP00603102J100DFCT10000" constant="no"/>
-<attribute name="HEIGHT" value="0.87mm" constant="no"/>
+<attribute name="DESCRIPTION" value="1000pF ±5% 100V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="732-12187-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="Wurth Elektronik" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="885012006085" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="710-885012006085" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=710-885012006085" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
 <attribute name="VDC" value="100V" constant="no"/>
 </technology>
 </technologies>
@@ -497,8 +417,8 @@ Source: &lt;a href="https://katalog.we-online.com/pbs/datasheet/885012006085.pdf
 </devices>
 </deviceset>
 <deviceset name="CAP0603-82PF" prefix="C" uservalue="yes">
-<description>&lt;b&gt;Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V 82pF C0G 0603 5% Tol&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<description>&lt;b&gt;82pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://datasheets.avx.com/C0GNP0-Dielectric.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
@@ -510,23 +430,19 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/06031A100FAT2
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V 82pF C0G 0603 5% Tol" constant="no"/>
-<attribute name="HEIGHT" value="0.9mm" constant="no"/>
+<attribute name="DESCRIPTION" value="82pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="478-12714-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="AVX" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="06035A820JAT4A" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="581-06035A820JAT4A" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-06035A820JAT4A" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
-<attribute name="VDC" value="60V" constant="no"/>
+<attribute name="VDC" value="50V" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="CAP0603-0.022UF" prefix="C" uservalue="yes">
-<description>&lt;b&gt;0603 X7R ceramic capacitor, 50V 22nF Kemet 0603 22nF Ceramic Multilayer Capacitor, 50V dc, 125C, X7R Dielectric, +/-10% SMD&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://docs-emea.rs-online.com/webdocs/134c/0900766b8134ce68.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<description>&lt;b&gt;0.022µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://api.kemet.com/component-edge/download/datasheet/C0603C223K5RACTU.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
@@ -538,16 +454,10 @@ Source: &lt;a href="http://docs-emea.rs-online.com/webdocs/134c/0900766b8134ce68
 </connects>
 <technologies>
 <technology name="">
-<attribute name="ALLIED_NUMBER" value="70096988" constant="no"/>
-<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/kemet-c0603c223k5ractu/70096988/" constant="no"/>
-<attribute name="DESCRIPTION" value="0603 X7R ceramic capacitor, 50V 22nF Kemet 0603 22nF Ceramic Multilayer Capacitor, 50V dc, 125C, X7R Dielectric, +/-10% SMD" constant="no"/>
-<attribute name="HEIGHT" value="0.87mm" constant="no"/>
+<attribute name="DESCRIPTION" value="0.022µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="399-1280-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="Kemet" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="C0603C223K5RACTU" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="80-C0603C223K5R" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=80-C0603C223K5R" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="2644602P" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/2644602P" constant="no"/>
 <attribute name="VDC" value="50V" constant="no"/>
 </technology>
 </technologies>
@@ -555,8 +465,8 @@ Source: &lt;a href="http://docs-emea.rs-online.com/webdocs/134c/0900766b8134ce68
 </devices>
 </deviceset>
 <deviceset name="CAP0603-4.7UF" prefix="C" uservalue="yes">
-<description>&lt;b&gt;Capacitor MLCC 0603 10V 4.7uF X7S&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<description>&lt;b&gt;4.7µF ±10% 10V Ceramic Capacitor X7S 0603 (1608 Metric)&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf?ref_disty=digikey"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
@@ -568,14 +478,10 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/mlcc_comm
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Capacitor MLCC 0603 10V 4.7uF X7S" constant="no"/>
-<attribute name="HEIGHT" value="0.8mm" constant="no"/>
+<attribute name="DESCRIPTION" value="4.7µF ±10% 10V Ceramic Capacitor X7S 0603 (1608 Metric)" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="445-14258-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="TDK" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="C1608X7S1A475K080AC" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="810-C1608X7S1A475KAC" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=810-C1608X7S1A475KAC" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="9159230P" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/9159230P" constant="no"/>
 <attribute name="VDC" value="10V" constant="no"/>
 </technology>
 </technologies>
@@ -583,8 +489,8 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/mlcc_comm
 </devices>
 </deviceset>
 <deviceset name="CAP0603-0.1UF" prefix="C" uservalue="yes">
-<description>&lt;b&gt;Multilayer Ceramic Capacitors MLCC - SMD/SMT 10V .1uF X5R 0603 10%&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<description>&lt;b&gt;0.1µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://datasheets.avx.com/cx5r.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
@@ -596,14 +502,10 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/06031A100FAT2
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 10V .1uF X5R 0603 10%" constant="no"/>
-<attribute name="HEIGHT" value="0.9mm" constant="no"/>
+<attribute name="DESCRIPTION" value="0.1µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="478-0603ZD104KAT2ACT-ND" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="AVX" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
 <attribute name="VDC" value="10V" constant="no"/>
 </technology>
 </technologies>
@@ -611,8 +513,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/06031A100FAT2
 </devices>
 </deviceset>
 <deviceset name="CAP0603-0.01UF" prefix="C" uservalue="yes">
-<description>&lt;b&gt;Multilayer Ceramic Chip Capacitor WCAP-CSST Series 0603 10000pF 50 VDC X7R0603103K050DFCT1S000&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://katalog.we-online.com/pbs/datasheet/885382206002.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<description>&lt;b&gt;10000pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.digikey.com/catalog/en/partgroup/wcap-csst-series/76686?mpart=885382206002&amp;vendor=732"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
@@ -624,14 +526,10 @@ Source: &lt;a href="https://katalog.we-online.com/pbs/datasheet/885382206002.pdf
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Chip Capacitor WCAP-CSST Series 0603 10000pF X7R0603103K050DFCT1S000" constant="no"/>
-<attribute name="HEIGHT" value="0.87mm" constant="no"/>
+<attribute name="DESCRIPTION" value="10000pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="732-13185-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="Wurth Elektronik" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="885382206002" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="710-885382206002" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=710-885382206002" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="1855654P" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1855654P" constant="no"/>
 <attribute name="VDC" value="50V" constant="no"/>
 </technology>
 </technologies>
@@ -639,8 +537,8 @@ Source: &lt;a href="https://katalog.we-online.com/pbs/datasheet/885382206002.pdf
 </devices>
 </deviceset>
 <deviceset name="R0603-0-OHMS" prefix="R" uservalue="yes">
-<description>&lt;b&gt;Thick Film Resistors - SMD&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.vishay.com/docs/28773/crcwce3.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<description>&lt;b&gt;0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thick Film&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.vishay.com/docs/28773/crcwce3.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
@@ -652,23 +550,18 @@ Source: &lt;a href="https://www.vishay.com/docs/28773/crcwce3.pdf"&gt; Datasheet
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD" constant="no"/>
-<attribute name="HEIGHT" value="0.55mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay" constant="no"/>
+<attribute name="DESCRIPTION" value="0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thick Film" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="541-4012-1-ND" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay Dale" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW06030000Z0EAC" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="71-CRCW06030000Z0EAC" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=71-CRCW06030000Z0EAC" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
-<attribute name="VALUE" value="0" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="R0603-2.7K-OHMS" prefix="R">
-<description>&lt;b&gt;Thick Film Resistors - SMD 2.7KOHM 1/10WATT 1%&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.bourns.com/pdfs/chpreztr.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<deviceset name="R0603-2.7K-OHMS" prefix="R" uservalue="yes">
+<description>&lt;b&gt;2.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
@@ -680,22 +573,18 @@ Source: &lt;a href="https://www.bourns.com/pdfs/chpreztr.pdf"&gt; Datasheet &lt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 2.7KOHM 1/10WATT 1%" constant="no"/>
-<attribute name="HEIGHT" value="0.55mm" constant="no"/>
+<attribute name="DESCRIPTION" value="2.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-2701ELFCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="Bourns" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-2701ELF" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="652-CR0603-FX2701ELF" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603-FX2701ELF" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="R0603-3.1K-OHMS" prefix="R">
-<description>&lt;b&gt;Thick Film Resistors - SMD ResHighPower 0603 3k01 1% 1/3W TC100&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.mouser.com/datasheet/2/54/chp-1649060.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<deviceset name="R0603-3.1K-OHMS" prefix="R" uservalue="yes">
+<description>&lt;b&gt;3.1 kOhms ±1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Anti-Sulfur Thin Film&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.vishay.com/docs/28705/mcx0x0xpro.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
@@ -707,23 +596,18 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/54/chp-1649060.pdf"&gt; D
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 2.7KOHM 1/10WATT 1%" constant="no"/>
-<attribute name="HEIGHT" value="0.45mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Bourns" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CHP0603-FX-3011ELF" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="652-CHP0603FX3011ELF" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
-<attribute name="VALUE" value="3.1k" constant="no"/>
+<attribute name="DESCRIPTION" value="3.1 kOhms ±1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Anti-Sulfur Thin Film" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="MCT06030C3101FP500-ND" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay Beyschlag" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MCT06030C3101FP500" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="R0603-4.7K-OHMS" prefix="R">
-<description>&lt;b&gt;SMD 0603 thick film resistor 4K7 1% Bourns CR0603-FX Series Thick Film Surface Mount Fixed Resistor 0603 Case 4.7k +/-1% 0.1W +/-100ppm/C&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.bourns.com/pdfs/chpreztr.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<deviceset name="R0603-4.7K-OHMS" prefix="R" uservalue="yes">
+<description>&lt;b&gt;4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
@@ -735,25 +619,19 @@ Source: &lt;a href="https://www.bourns.com/pdfs/chpreztr.pdf"&gt; Datasheet &lt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="ALLIED_NUMBER" value="70408523" constant="no"/>
-<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/bourns-cr0603-fx-4701elf/70408523/" constant="no"/>
-<attribute name="DESCRIPTION" value="SMD 0603 thick film resistor 4K7 1% Bourns CR0603-FX Series Thick Film Surface Mount Fixed Resistor 0603 Case 4.7k +/-1% 0.1W +/-100ppm/C" constant="no"/>
+<attribute name="DESCRIPTION" value="4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-4701ELFCT-ND" constant="no"/>
 <attribute name="HEIGHT" value="0.55mm" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="Bourns" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-4701ELF" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-4701ELF" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-4701ELF" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="7408877P" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7408877P" constant="no"/>
-<attribute name="VALUE" value="4.7k" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="R0603-10-OHMS" prefix="R">
-<description>&lt;b&gt;SMD 0603 thick film resistor 10R 1% Bourns CR0603-FX Series Thick Film Surface Mount Fixed Resistor 603 Case 10 +/-1% 0.1W +/-100ppm/C&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.bourns.com/pdfs/chpreztr.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<deviceset name="R0603-10-OHMS" prefix="R" uservalue="yes">
+<description>&lt;b&gt;10 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
@@ -765,23 +643,19 @@ Source: &lt;a href="https://www.bourns.com/pdfs/chpreztr.pdf"&gt; Datasheet &lt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="SMD 0603 thick film resistor 10R 1% Bourns CR0603-FX Series Thick Film Surface Mount Fixed Resistor 603 Case 10 +/-1% 0.1W +/-100ppm/C" constant="no"/>
-<attribute name="HEIGHT" value="0.55mm" constant="no"/>
+<attribute name="DESCRIPTION" value="10 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-10R0ELFCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="Bourns" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-10R0ELF" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-10R0ELF" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-10R0ELF" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="7408818P" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7408818P" constant="no"/>
-<attribute name="VALUE" value="10" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="R0603-10K-OHMS" prefix="R" uservalue="yes">
-<description>&lt;b&gt;SMD 0603 thick film resistor 10K 1% Bourns CR0603-FX Series Thick Film Surface Mount Fixed Resistor 0603 Case 10k +/-1% 0.1W +/-100ppm/C&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.bourns.com/pdfs/chpreztr.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<description>&lt;b&gt;10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
@@ -793,25 +667,19 @@ Source: &lt;a href="https://www.bourns.com/pdfs/chpreztr.pdf"&gt; Datasheet &lt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="ALLIED_NUMBER" value="70154687" constant="no"/>
-<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/bourns-cr0603-fx-1002elf/70154687/" constant="no"/>
-<attribute name="DESCRIPTION" value="SMD 0603 thick film resistor 10K 1% Bourns CR0603-FX Series Thick Film Surface Mount Fixed Resistor 0603 Case 10k +/-1% 0.1W +/-100ppm/C" constant="no"/>
+<attribute name="DESCRIPTION" value="10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-1002ELFCT-ND" constant="no"/>
 <attribute name="HEIGHT" value="0.55mm" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="Bourns" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-1002ELF" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-1002ELF" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-1002ELF" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="7408805P" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7408805P" constant="no"/>
-<attribute name="VALUE" value="10k" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="R0603-23.7K-OHMS" prefix="R">
-<description>&lt;b&gt;Thick Film Resistors - SMD 23.7K ohm 1%&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.bourns.com/pdfs/chpreztr.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<deviceset name="R0603-23.7K-OHMS" prefix="R" uservalue="yes">
+<description>&lt;b&gt;23.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
@@ -823,23 +691,18 @@ Source: &lt;a href="https://www.bourns.com/pdfs/chpreztr.pdf"&gt; Datasheet &lt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 23.7K ohm 1%" constant="no"/>
-<attribute name="HEIGHT" value="0.55mm" constant="no"/>
+<attribute name="DESCRIPTION" value="23.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-2372ELF-ND" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="Bourns" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-2372ELF" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-2372ELF" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-2372ELF" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
-<attribute name="VALUE" value="23.7k" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="R0603-31.6K-OHMS" prefix="R">
-<description>&lt;b&gt;BOURNS - CR0603-FX-3162ELF - RES, 31.6K, 1%, 0603, THICK FILM&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.bourns.com/pdfs/chpreztr.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<deviceset name="R0603-31.6K-OHMS" prefix="R" uservalue="yes">
+<description>&lt;b&gt;31.6 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
@@ -851,23 +714,18 @@ Source: &lt;a href="https://www.bourns.com/pdfs/chpreztr.pdf"&gt; Datasheet &lt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="BOURNS - CR0603-FX-3162ELF - RES, 31K6, 1%, 0603, THICK FILM" constant="no"/>
-<attribute name="HEIGHT" value="0.55mm" constant="no"/>
+<attribute name="DESCRIPTION" value="31.6 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-3162ELFCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="Bourns" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-3162ELF" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-3162ELF" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-3162ELF" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
-<attribute name="VALUE" value="31.6k" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="R0603-150-OHMS" prefix="R">
-<description>&lt;b&gt;BOURNS - CR0603-FX-1500ELF - RES, THICK FILM, 150R, 1%, 0.1W, 0603&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.bourns.com/pdfs/chpreztr.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<deviceset name="R0603-150-OHMS" prefix="R" uservalue="yes">
+<description>&lt;b&gt;150 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
@@ -879,23 +737,19 @@ Source: &lt;a href="https://www.bourns.com/pdfs/chpreztr.pdf"&gt; Datasheet &lt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="BOURNS - CR0603-FX-1500ELF - RES, THICK FILM, 150R, 1%, 0.1W, 0603" constant="no"/>
-<attribute name="HEIGHT" value="0.55mm" constant="no"/>
+<attribute name="DESCRIPTION" value="150 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="118-CR0603-FX-1500ELFCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="Bourns" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-1500ELF" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-1500ELF" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-1500ELF" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="7408833" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="https://uk.rs-online.com/web/p/products/7408833" constant="no"/>
-<attribute name="VALUE" value="150" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="CAP0603-10UF-25VDC" prefix="C" uservalue="yes">
-<description>&lt;b&gt;Multilayer Ceramic Capacitors MLCC - SMD/SMT&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://componentsearchengine.com/Datasheets/1/GRM188R61E106KA73D.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<description>&lt;b&gt;10µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://psearch.en.murata.com/capacitor/product/GRM188R61E106KA73%23.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
@@ -907,14 +761,11 @@ Source: &lt;a href="http://componentsearchengine.com/Datasheets/1/GRM188R61E106K
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT" constant="no"/>
+<attribute name="DESCRIPTION" value="10µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="490-18214-1-ND" constant="no"/>
 <attribute name="HEIGHT" value="0.9mm" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="Murata Electronics" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="GRM188R61E106KA73D" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="81-GRM188R61E106KA3D" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM188R61E106KA3D" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
 <attribute name="VDC" value="25V" constant="no"/>
 </technology>
 </technologies>
@@ -922,8 +773,8 @@ Source: &lt;a href="http://componentsearchengine.com/Datasheets/1/GRM188R61E106K
 </devices>
 </deviceset>
 <deviceset name="CAP0603-22UF" prefix="C" uservalue="yes">
-<description>&lt;b&gt;Murata 0603 B 22uF Ceramic Multilayer Capacitor, 10 V dc, +85C, X5R Dielectric, +/-20%&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://docs-asia.electrocomponents.com/webdocs/145f/0900766b8145fcdd.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<description>&lt;b&gt;22µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/ZRB18AR61A226ME01-02.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
@@ -935,23 +786,19 @@ Source: &lt;a href="http://docs-asia.electrocomponents.com/webdocs/145f/0900766b
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Murata 0603 B 22uF Ceramic Multilayer Capacitor, 10 V dc, +85C, X5R Dielectric, +/-20%" constant="no"/>
-<attribute name="HEIGHT" value="1.2mm" constant="no"/>
+<attribute name="DESCRIPTION" value="22µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="ZRB18AR61A226ME01L-ND" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="Murata Electronics" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ZRB18AR61A226ME01L" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="81-ZRB18AR61A226ME1L" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=81-ZRB18AR61A226ME1L" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="9015339P" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/9015339P" constant="no"/>
 <attribute name="VDC" value="10V" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="R0603-1M-OHMS" prefix="R">
-<description>&lt;b&gt;Thin Film Resistors - SMD 1M ohm 1% 50 ppm&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/RN73R1JTTD1004F50.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<deviceset name="R0603-1M-OHMS" prefix="R" uservalue="yes">
+<description>&lt;b&gt;1 MOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thin Film&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://media.digikey.com/pdf/Data%20Sheets/KOA%20Speer/RN73R_Type_DS.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
@@ -963,22 +810,17 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/RN73R1JTTD100
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 1M ohm 1% 50 ppm" constant="no"/>
-<attribute name="HEIGHT" value="0.55mm" constant="no"/>
+<attribute name="DESCRIPTION" value="1 MOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thin Film" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="2019-RN73R1JTTD1004F50TR-ND" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="KOA Speer" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RN73R1JTTD1004F50" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="660-RN73R1JTD1004F50" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=660-RN73R1JTD1004F50" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
-<attribute name="VALUE" value="1M" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="R0603-330K-OHMS" prefix="R">
-<description>&lt;b&gt;RESISTOR, 0603 330K Ohms +/-1% 1/10 W&lt;/b&gt;&lt;p&gt;
+<deviceset name="R0603-330K-OHMS" prefix="R" uservalue="yes">
+<description>&lt;b&gt;330 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thin Film&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_11.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
@@ -991,22 +833,17 @@ Source: &lt;a href="https://www.yageo.com/upload/media/product/productsearch/dat
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="RESISTOR, 0603 330K Ohms +/-1% 1/10 W" constant="no"/>
-<attribute name="HEIGHT" value="0.55mm" constant="no"/>
+<attribute name="DESCRIPTION" value="330 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thin Film" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="YAG1637TR-ND" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RT0603FRE07330KL" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="603-RT0603FRE07330KL" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=603-RT0603FRE07330KL" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
-<attribute name="VALUE" value="330k" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RT0603BRD07330KL" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="R0603-510K-OHMS" prefix="R">
-<description>&lt;b&gt;RESISTOR, 0603 510K Ohms +/-1% 1/10 W&lt;/b&gt;&lt;p&gt;
+<deviceset name="R0603-510K-OHMS" prefix="R" uservalue="yes">
+<description>&lt;b&gt;510 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thin Film&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_11.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
@@ -1019,20 +856,18 @@ Source: &lt;a href="https://www.yageo.com/upload/media/product/productsearch/dat
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="RESISTOR, 0603 330K Ohms +/-1% 1/10 W" constant="no"/>
-<attribute name="HEIGHT" value="0.55mm" constant="no"/>
+<attribute name="DESCRIPTION" value="510 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thin Film" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="RT0603FRE07510KL-ND" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RT0603FRE07510KL" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="603-RT0603FRE07510KL" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=603-RT0603FRE07330KL" constant="no"/>
-<attribute name="VALUE" value="510k" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="R0603-100K-OHMS" prefix="R">
-<description>&lt;b&gt;RESISTOR, 0603 100K Ohms +/-1% 1/10 W&lt;/b&gt;&lt;p&gt;</description>
+<deviceset name="R0603-100K-OHMS" prefix="R" uservalue="yes">
+<description>&lt;b&gt;100 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
@@ -1044,21 +879,18 @@ Source: &lt;a href="https://www.yageo.com/upload/media/product/productsearch/dat
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="RESISTOR, 0603 330K Ohms +/-1% 1/10 W" constant="no"/>
-<attribute name="HEIGHT" value="0.55mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="KOA Speer" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value=" RN731JTTD1013F100" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="660-RN731JTD1013F100" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=603-RT0603FRE07330KL" constant="no"/>
-<attribute name="VALUE" value="100k" constant="no"/>
+<attribute name="DESCRIPTION" value="100 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="RMCF0603JG100KTR-ND" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Stackpole Electronics Inc" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0603JG100K" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="CAP0603-1UF-25VDC" prefix="C" uservalue="yes">
-<description>&lt;b&gt;YAGEO - CC0603KRX5R8BB105 - CERAMIC CAPACITOR, 1UF, 25V, X5R, 10%, 0603, FULL REEL&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_25.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<description>&lt;b&gt;1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_25.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
@@ -1070,15 +902,34 @@ Source: &lt;a href="http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="YAGEO - CC0603KRX5R8BB105 - CERAMIC CAPACITOR, 1UF, 25V, X5R, 10%, 0603, FULL REEL" constant="no"/>
-<attribute name="HEIGHT" value="0.9mm" constant="no"/>
+<attribute name="DESCRIPTION" value="1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="311-1445-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX5R8BB105" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="603-CC603KRX5R8BB105" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=603-CC603KRX5R8BB105" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
 <attribute name="VDC" value="25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="R0603-1.5K-OHMS" prefix="R" uservalue="yes">
+<description>&lt;b&gt;1.5 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="R-US" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package=".0603-C-NOSILK-RESISTOR">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="1.5 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="311-1.50KHRCT-ND" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Yageo" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR-071K5L" constant="no"/>
 </technology>
 </technologies>
 </device>
