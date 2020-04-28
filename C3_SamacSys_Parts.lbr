@@ -288,7 +288,7 @@ Source: &lt;a href="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/G
 <technology name="">
 <attribute name="DESCRIPTION" value="20pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)" constant="no"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="GRM1885C1H200JA01J-ND" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Murata Electronics" constant="no"/>
+<attribute name="MANUFACTURER" value="Murata Electronics" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="GRM1885C1H200JA01J" constant="no"/>
 <attribute name="VDC" value="50V" constant="no"/>
 </technology>
@@ -312,7 +312,7 @@ Source: &lt;a href="http://datasheets.avx.com/C0GNP0-Dielectric.pdf"&gt; Datashe
 <technology name="">
 <attribute name="DESCRIPTION" value="22pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)" constant="no"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="478-13026-1-ND" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="AVX" constant="no"/>
+<attribute name="MANUFACTURER" value="AVX" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="06035A220JAT4A" constant="no"/>
 <attribute name="VDC" value="50V" constant="no"/>
 </technology>
@@ -336,7 +336,7 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/mlcc_comm
 <technology name="">
 <attribute name="DESCRIPTION" value="2.2µF ±20% 10V Ceramic Capacitor X7R 0603 (1608 Metric)" constant="no"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="445-5959-1-ND" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="TDK" constant="no"/>
+<attribute name="MANUFACTURER" value="TDK" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="C1608X7R1A225M080AC" constant="no"/>
 <attribute name="VDC" value="10V" constant="no"/>
 </technology>
@@ -360,7 +360,7 @@ Source: &lt;a href="http://datasheets.avx.com/cx5r.pdf"&gt; Datasheet &lt;/a&gt;
 <technology name="">
 <attribute name="DESCRIPTION" value="47µF ±20% 6.3V Ceramic Capacitor X5R 0603 (1608 Metric)" constant="no"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="478-11180-2-ND" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="AVX Corporation" constant="no"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="06036D476MAT2A" constant="no"/>
 <attribute name="VDC" value="6.3V" constant="no"/>
 </technology>
@@ -504,7 +504,7 @@ Source: &lt;a href="http://datasheets.avx.com/cx5r.pdf"&gt; Datasheet &lt;/a&gt;
 <technology name="">
 <attribute name="DESCRIPTION" value="0.1µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)" constant="no"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="478-0603ZD104KAT2ACT-ND" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="AVX" constant="no"/>
+<attribute name="MANUFACTURER" value="AVX" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A" constant="no"/>
 <attribute name="VDC" value="10V" constant="no"/>
 </technology>
@@ -552,7 +552,7 @@ Source: &lt;a href="http://www.vishay.com/docs/28773/crcwce3.pdf"&gt; Datasheet 
 <technology name="">
 <attribute name="DESCRIPTION" value="0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thick Film" constant="no"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="541-4012-1-ND" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay Dale" constant="no"/>
+<attribute name="MANUFACTURER" value="Vishay Dale" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW06030000Z0EAC" constant="no"/>
 </technology>
 </technologies>
@@ -575,7 +575,7 @@ Source: &lt;a href="https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf"
 <technology name="">
 <attribute name="DESCRIPTION" value="2.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" constant="no"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-2701ELFCT-ND" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Bourns" constant="no"/>
+<attribute name="MANUFACTURER" value="Bourns" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-2701ELF" constant="no"/>
 </technology>
 </technologies>
@@ -598,7 +598,7 @@ Source: &lt;a href="http://www.vishay.com/docs/28705/mcx0x0xpro.pdf"&gt; Datashe
 <technology name="">
 <attribute name="DESCRIPTION" value="3.1 kOhms ±1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Anti-Sulfur Thin Film" constant="no"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="MCT06030C3101FP500-ND" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay Beyschlag" constant="no"/>
+<attribute name="MANUFACTURER" value="Vishay Beyschlag" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="MCT06030C3101FP500" constant="no"/>
 </technology>
 </technologies>
@@ -645,9 +645,8 @@ Source: &lt;a href="https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf"
 <technology name="">
 <attribute name="DESCRIPTION" value="10 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" constant="no"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-10R0ELFCT-ND" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Bourns" constant="no"/>
+<attribute name="MANUFACTURER" value="Bourns" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-10R0ELF" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-10R0ELF" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -692,7 +691,7 @@ Source: &lt;a href="https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf"
 <technology name="">
 <attribute name="DESCRIPTION" value="23.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" constant="no"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-2372ELF-ND" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Bourns" constant="no"/>
+<attribute name="MANUFACTURER" value="Bourns" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-2372ELF" constant="no"/>
 </technology>
 </technologies>
@@ -715,7 +714,7 @@ Source: &lt;a href="https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf"
 <technology name="">
 <attribute name="DESCRIPTION" value="31.6 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" constant="no"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-3162ELFCT-ND" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Bourns" constant="no"/>
+<attribute name="MANUFACTURER" value="Bourns" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-3162ELF" constant="no"/>
 </technology>
 </technologies>
@@ -762,8 +761,7 @@ Source: &lt;a href="https://psearch.en.murata.com/capacitor/product/GRM188R61E10
 <technology name="">
 <attribute name="DESCRIPTION" value="10µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)" constant="no"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="490-18214-1-ND" constant="no"/>
-<attribute name="HEIGHT" value="0.9mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Murata Electronics" constant="no"/>
+<attribute name="MANUFACTURER" value="Murata Electronics" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="GRM188R61E106KA73D" constant="no"/>
 <attribute name="VDC" value="25V" constant="no"/>
 </technology>
@@ -787,7 +785,7 @@ Source: &lt;a href="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/Z
 <technology name="">
 <attribute name="DESCRIPTION" value="22µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)" constant="no"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="ZRB18AR61A226ME01L-ND" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Murata Electronics" constant="no"/>
+<attribute name="MANUFACTURER" value="Murata Electronics" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ZRB18AR61A226ME01L" constant="no"/>
 <attribute name="VDC" value="10V" constant="no"/>
 </technology>
@@ -903,7 +901,7 @@ Source: &lt;a href="https://www.yageo.com/upload/media/product/productsearch/dat
 <technology name="">
 <attribute name="DESCRIPTION" value="1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)" constant="no"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="311-1445-1-ND" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" constant="no"/>
+<attribute name="MANUFACTURER" value="YAGEO (PHYCOMP)" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX5R8BB105" constant="no"/>
 <attribute name="VDC" value="25V" constant="no"/>
 </technology>
