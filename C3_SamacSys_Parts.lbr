@@ -876,10 +876,10 @@ Source: &lt;a href="https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"&gt; Data
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="100 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" constant="no"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="RMCF0603JG100KTR-ND" constant="no"/>
+<attribute name="DESCRIPTION" value="100 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="RMCF0603FT100KCT-ND" constant="no"/>
 <attribute name="MANUFACTURER" value="Stackpole Electronics Inc" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0603JG100K" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0603FT100K" constant="no"/>
 </technology>
 </technologies>
 </device>
