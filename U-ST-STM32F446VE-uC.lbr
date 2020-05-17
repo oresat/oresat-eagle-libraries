@@ -222,7 +222,7 @@
 <pin name="PC3" x="30.48" y="35.56" length="short" rot="R180"/>
 <pin name="VDD_2" x="5.08" y="58.42" length="short" rot="R270"/>
 <pin name="VSSA/VREF-" x="7.62" y="-93.98" length="short" rot="R90"/>
-<pin name="VREF+" x="30.48" y="50.8" length="short" rot="R180"/>
+<pin name="VREF+" x="-17.78" y="58.42" length="short" rot="R270"/>
 <pin name="VDDA" x="-5.08" y="58.42" length="short" rot="R270"/>
 <pin name="PA0" x="-30.48" y="22.86" length="short"/>
 <pin name="PA1" x="-30.48" y="20.32" length="short"/>
@@ -282,7 +282,7 @@
 <pin name="PE1" x="30.48" y="-50.8" length="short" rot="R180"/>
 <pin name="PE0" x="30.48" y="-48.26" length="short" rot="R180"/>
 <pin name="PB9" x="-30.48" y="-45.72" length="short"/>
-<pin name="PB" x="-30.48" y="-20.32" length="short"/>
+<pin name="PB8" x="-30.48" y="-43.18" length="short"/>
 <pin name="BOOT0" x="-30.48" y="35.56" length="short"/>
 <pin name="PB7" x="-30.48" y="-40.64" length="short"/>
 <pin name="PB6" x="-30.48" y="-38.1" length="short"/>
@@ -302,6 +302,339 @@
 <pin name="PC10" x="30.48" y="17.78" length="short" rot="R180"/>
 <pin name="PA15" x="-30.48" y="-15.24" length="short"/>
 <pin name="PA14" x="-30.48" y="-12.7" length="short"/>
+</symbol>
+<symbol name="STM32F446VET6_VDD">
+<wire x1="-15.24" y1="12.7" x2="15.24" y2="12.7" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-15.24" x2="15.24" y2="12.7" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-15.24" x2="-15.24" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="12.7" x2="-15.24" y2="-15.24" width="0.254" layer="94"/>
+<text x="16.51" y="20.32" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="16.51" y="17.78" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="VBAT" x="2.54" y="15.24" length="short" rot="R270"/>
+<pin name="VSS_1" x="-10.16" y="-17.78" length="short" rot="R90"/>
+<pin name="VDD_1" x="17.78" y="7.62" length="short" rot="R180"/>
+<pin name="VDD_2" x="17.78" y="5.08" length="short" rot="R180"/>
+<pin name="VSSA/VREF-" x="2.54" y="-17.78" length="short" rot="R90"/>
+<pin name="VREF+" x="17.78" y="-7.62" length="short" rot="R180"/>
+<pin name="VDDA" x="17.78" y="-10.16" length="short" rot="R180"/>
+<pin name="VSS_2" x="-7.62" y="-17.78" length="short" rot="R90"/>
+<pin name="VDD_3" x="17.78" y="2.54" length="short" rot="R180"/>
+<pin name="VCAP_1" x="-17.78" y="0" length="short"/>
+<pin name="VSS_3" x="-5.08" y="-17.78" length="short" rot="R90"/>
+<pin name="VDD_4" x="17.78" y="0" length="short" rot="R180"/>
+<pin name="VDD_5" x="17.78" y="-2.54" length="short" rot="R180"/>
+<pin name="VSS_4" x="-2.54" y="-17.78" length="short" rot="R90"/>
+<pin name="VCAP_2" x="-17.78" y="-2.54" length="short"/>
+<pin name="VDD_6" x="17.78" y="-5.08" length="short" rot="R180"/>
+<pin name="VSS_5" x="0" y="-17.78" length="short" rot="R90"/>
+<text x="-15.24" y="15.24" size="1.778" layer="94">VDD/GND</text>
+</symbol>
+<symbol name="STM32F446VET6_CAN">
+<wire x1="-7.62" y1="12.7" x2="7.62" y2="12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-10.16" x2="7.62" y2="12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="12.7" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
+<pin name="PA12" x="-10.16" y="2.54" length="short"/>
+<pin name="PA11" x="-10.16" y="5.08" length="short"/>
+<pin name="PA10" x="-10.16" y="7.62" length="short"/>
+<pin name="PA9" x="-10.16" y="10.16" length="short"/>
+<pin name="PB7" x="-10.16" y="0" length="short"/>
+<pin name="PB6" x="-10.16" y="-7.62" length="short"/>
+<pin name="PB5" x="-10.16" y="-5.08" length="short"/>
+<pin name="PB4" x="-10.16" y="-2.54" length="short"/>
+<text x="-7.62" y="15.24" size="1.778" layer="94">CAN</text>
+</symbol>
+<symbol name="STM32F446VET6_SD">
+<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<pin name="PA3" x="12.7" y="-7.62" length="short" rot="R180"/>
+<pin name="PB0" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="PB1" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="PB2" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="PC8" x="12.7" y="7.62" length="short" rot="R180"/>
+<pin name="PD2" x="12.7" y="-5.08" length="short" rot="R180"/>
+<pin name="PC11" x="12.7" y="0" length="short" rot="R180"/>
+<text x="-10.16" y="12.7" size="1.778" layer="94">eMMC</text>
+</symbol>
+<symbol name="STM32F446VET6_!USED">
+<wire x1="-20.32" y1="30.48" x2="12.7" y2="30.48" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-33.02" x2="12.7" y2="30.48" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-33.02" x2="-20.32" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="30.48" x2="-20.32" y2="-33.02" width="0.254" layer="94"/>
+<pin name="PE2" x="15.24" y="12.7" length="short" rot="R180"/>
+<pin name="PE3" x="15.24" y="10.16" length="short" rot="R180"/>
+<pin name="PE4" x="15.24" y="7.62" length="short" rot="R180"/>
+<pin name="PE5" x="15.24" y="5.08" length="short" rot="R180"/>
+<pin name="PE6" x="15.24" y="2.54" length="short" rot="R180"/>
+<pin name="PC13" x="-22.86" y="0" length="short"/>
+<pin name="PC0" x="-22.86" y="15.24" length="short"/>
+<pin name="PC1" x="-22.86" y="12.7" length="short"/>
+<pin name="PA0" x="-22.86" y="27.94" length="short"/>
+<pin name="PA2" x="-22.86" y="22.86" length="short"/>
+<pin name="PA4" x="-22.86" y="20.32" length="short"/>
+<pin name="PE7" x="15.24" y="0" length="short" rot="R180"/>
+<pin name="PE8" x="15.24" y="-2.54" length="short" rot="R180"/>
+<pin name="PE9" x="15.24" y="-5.08" length="short" rot="R180"/>
+<pin name="PE10" x="15.24" y="-7.62" length="short" rot="R180"/>
+<pin name="PE11" x="15.24" y="-10.16" length="short" rot="R180"/>
+<pin name="PE12" x="15.24" y="-12.7" length="short" rot="R180"/>
+<pin name="PE13" x="15.24" y="-15.24" length="short" rot="R180"/>
+<pin name="PE14" x="15.24" y="-17.78" length="short" rot="R180"/>
+<pin name="PE15" x="15.24" y="-20.32" length="short" rot="R180"/>
+<pin name="PC9" x="-22.86" y="5.08" length="short"/>
+<pin name="PD15" x="-22.86" y="-30.48" length="short"/>
+<pin name="PD14" x="-22.86" y="-27.94" length="short"/>
+<pin name="PD13" x="-22.86" y="-25.4" length="short"/>
+<pin name="PD12" x="-22.86" y="-22.86" length="short"/>
+<pin name="PD11" x="-22.86" y="-20.32" length="short"/>
+<pin name="PD10" x="-22.86" y="-17.78" length="short"/>
+<pin name="PE0" x="15.24" y="15.24" length="short" rot="R180"/>
+<pin name="PD4" x="-22.86" y="-15.24" length="short"/>
+<pin name="PD3" x="-22.86" y="-12.7" length="short"/>
+<pin name="PD1" x="-22.86" y="-10.16" length="short"/>
+<pin name="PD0" x="-22.86" y="-7.62" length="short"/>
+<pin name="PC12" x="-22.86" y="2.54" length="short"/>
+<pin name="PA1" x="-22.86" y="25.4" length="short"/>
+<pin name="PA15" x="-22.86" y="17.78" length="short"/>
+<pin name="PC14-OSC32_IN" x="-22.86" y="-2.54" length="short"/>
+<pin name="PC15-OSC32_OUT" x="-22.86" y="-5.08" length="short"/>
+<pin name="PC5" x="-22.86" y="7.62" length="short"/>
+<pin name="PC4" x="-22.86" y="10.16" length="short"/>
+<text x="-20.32" y="33.02" size="1.778" layer="94">Not Used</text>
+</symbol>
+<symbol name="STM32F446VET6_RADIO">
+<wire x1="-10.16" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-17.78" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-17.78" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="12.7" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
+<pin name="PA5" x="-12.7" y="10.16" length="short"/>
+<pin name="PA6" x="-12.7" y="7.62" length="short"/>
+<pin name="PA7" x="-12.7" y="5.08" length="short"/>
+<pin name="PA8" x="-12.7" y="2.54" length="short"/>
+<pin name="PC7" x="-12.7" y="-12.7" length="short"/>
+<pin name="PC6" x="-12.7" y="-10.16" length="short"/>
+<pin name="PB15" x="-12.7" y="-7.62" length="short"/>
+<pin name="PB14" x="-12.7" y="-5.08" length="short"/>
+<pin name="PB13" x="-12.7" y="-2.54" length="short"/>
+<pin name="PB12" x="-12.7" y="0" length="short"/>
+<pin name="PD8" x="-12.7" y="-15.24" length="short"/>
+<text x="-10.16" y="15.24" size="1.778" layer="94">Radio</text>
+</symbol>
+<symbol name="STM32F446VET6_DEBUG">
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<pin name="NRST" x="-12.7" y="-7.62" length="short"/>
+<pin name="PB10" x="-12.7" y="-2.54" length="short"/>
+<pin name="PA13" x="-12.7" y="0" length="short"/>
+<pin name="PD9" x="-12.7" y="-5.08" length="short"/>
+<pin name="PB3" x="-12.7" y="5.08" length="short"/>
+<pin name="PA14" x="-12.7" y="2.54" length="short"/>
+<text x="-10.16" y="10.16" size="1.778" layer="94">Debug</text>
+</symbol>
+<symbol name="STM32F446VET6_CRYSTAL">
+<wire x1="-10.16" y1="2.54" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<pin name="PH0-OSC_IN" x="-12.7" y="0" length="short"/>
+<pin name="PH1-OSC_OUT" x="-12.7" y="-2.54" length="short"/>
+<text x="-10.16" y="5.08" size="1.778" layer="94">Clock</text>
+</symbol>
+<symbol name="STM32F446VET6_ANTENNA_DEPLOY">
+<wire x1="-7.62" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="2.54" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<pin name="PD7" x="10.16" y="-2.54" length="short" rot="R180"/>
+<pin name="PD6" x="10.16" y="0" length="short" rot="R180"/>
+<text x="-7.62" y="5.08" size="1.778" layer="94">Antenna Deploy</text>
+</symbol>
+<symbol name="STM32F446VET6_WATCHDOG">
+<wire x1="-7.62" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<pin name="PE1" x="10.16" y="0" length="short" rot="R180"/>
+<text x="-7.62" y="5.08" size="1.778" layer="94">Watchdog</text>
+</symbol>
+<symbol name="STM32F446VET6_BOOT">
+<wire x1="-10.16" y1="2.54" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
+<pin name="BOOT0" x="-12.7" y="0" length="short"/>
+</symbol>
+<symbol name="STM32F446VET6_OPD">
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<pin name="PC3" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="PB9" x="12.7" y="-5.08" length="short" rot="R180"/>
+<pin name="PB8" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="PD5" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="PC10" x="12.7" y="2.54" length="short" rot="R180"/>
+<text x="-10.16" y="10.16" size="1.778" layer="94">OPD</text>
+</symbol>
+<symbol name="STM32F446VET6_CB">
+<wire x1="-7.62" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<pin name="PC2" x="10.16" y="0" length="short" rot="R180"/>
+<text x="-7.62" y="5.08" size="1.778" layer="94">CB</text>
+</symbol>
+<symbol name="STM32F446VET6_PORT_A">
+<wire x1="-12.7" y1="20.32" x2="10.16" y2="20.32" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-22.86" x2="10.16" y2="20.32" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-22.86" x2="-12.7" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="20.32" x2="-12.7" y2="-22.86" width="0.254" layer="94"/>
+<pin name="PA0" x="12.7" y="17.78" length="short" rot="R180"/>
+<pin name="PA1" x="12.7" y="15.24" length="short" rot="R180"/>
+<pin name="PA2" x="12.7" y="12.7" length="short" rot="R180"/>
+<pin name="PA3" x="12.7" y="10.16" length="short" rot="R180"/>
+<pin name="PA4" x="12.7" y="7.62" length="short" rot="R180"/>
+<pin name="PA5" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="PA6" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="PA7" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="PA13" x="12.7" y="-15.24" length="short" rot="R180"/>
+<pin name="PA12" x="12.7" y="-12.7" length="short" rot="R180"/>
+<pin name="PA11" x="12.7" y="-10.16" length="short" rot="R180"/>
+<pin name="PA10" x="12.7" y="-7.62" length="short" rot="R180"/>
+<pin name="PA9" x="12.7" y="-5.08" length="short" rot="R180"/>
+<pin name="PA8" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="PA15" x="12.7" y="-20.32" length="short" rot="R180"/>
+<pin name="PA14" x="12.7" y="-17.78" length="short" rot="R180"/>
+<text x="-7.62" y="-15.24" size="5.08" layer="97" rot="MR90">PORT-A</text>
+</symbol>
+<symbol name="STM32F446VET6_PORT_B">
+<wire x1="-12.7" y1="20.32" x2="10.16" y2="20.32" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-22.86" x2="10.16" y2="20.32" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-22.86" x2="-12.7" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="20.32" x2="-12.7" y2="-22.86" width="0.254" layer="94"/>
+<pin name="PB0" x="12.7" y="17.78" length="short" rot="R180"/>
+<pin name="PB1" x="12.7" y="15.24" length="short" rot="R180"/>
+<pin name="PB2" x="12.7" y="12.7" length="short" rot="R180"/>
+<pin name="PB10" x="12.7" y="-7.62" length="short" rot="R180"/>
+<pin name="PB15" x="12.7" y="-20.32" length="short" rot="R180"/>
+<pin name="PB14" x="12.7" y="-17.78" length="short" rot="R180"/>
+<pin name="PB13" x="12.7" y="-15.24" length="short" rot="R180"/>
+<pin name="PB12" x="12.7" y="-12.7" length="short" rot="R180"/>
+<pin name="PB9" x="12.7" y="-5.08" length="short" rot="R180"/>
+<pin name="PB8" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="PB7" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="PB6" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="PB5" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="PB4" x="12.7" y="7.62" length="short" rot="R180"/>
+<pin name="PB3" x="12.7" y="10.16" length="short" rot="R180"/>
+<text x="-7.62" y="-12.7" size="5.08" layer="97" rot="MR90">PORT-B</text>
+</symbol>
+<symbol name="STM32F446VET6_PORT_C">
+<wire x1="-12.7" y1="20.32" x2="10.16" y2="20.32" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-22.86" x2="10.16" y2="20.32" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-22.86" x2="-12.7" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="20.32" x2="-12.7" y2="-22.86" width="0.254" layer="94"/>
+<pin name="PC0" x="12.7" y="17.78" length="short" rot="R180"/>
+<text x="-7.62" y="-12.7" size="5.08" layer="97" rot="MR90">PORT-C</text>
+<pin name="PC1" x="12.7" y="15.24" length="short" rot="R180"/>
+<pin name="PC2" x="12.7" y="12.7" length="short" rot="R180"/>
+<pin name="PC3" x="12.7" y="10.16" length="short" rot="R180"/>
+<pin name="PC4" x="12.7" y="7.62" length="short" rot="R180"/>
+<pin name="PC5" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="PC6" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="PC7" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="PC8" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="PC9" x="12.7" y="-5.08" length="short" rot="R180"/>
+<pin name="PC10" x="12.7" y="-7.62" length="short" rot="R180"/>
+<pin name="PC11" x="12.7" y="-10.16" length="short" rot="R180"/>
+<pin name="PC12" x="12.7" y="-12.7" length="short" rot="R180"/>
+<pin name="PC13" x="12.7" y="-15.24" length="short" rot="R180"/>
+<pin name="PC14" x="12.7" y="-17.78" length="short" rot="R180"/>
+<pin name="PC15" x="12.7" y="-20.32" length="short" rot="R180"/>
+</symbol>
+<symbol name="STM32F446VET6_PORT_D">
+<wire x1="-12.7" y1="20.32" x2="10.16" y2="20.32" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-22.86" x2="10.16" y2="20.32" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-22.86" x2="-12.7" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="20.32" x2="-12.7" y2="-22.86" width="0.254" layer="94"/>
+<pin name="PD0" x="12.7" y="17.78" length="short" rot="R180"/>
+<text x="-7.62" y="-12.7" size="5.08" layer="97" rot="MR90">PORT-D</text>
+<pin name="PD1" x="12.7" y="15.24" length="short" rot="R180"/>
+<pin name="PD2" x="12.7" y="12.7" length="short" rot="R180"/>
+<pin name="PD3" x="12.7" y="10.16" length="short" rot="R180"/>
+<pin name="PD4" x="12.7" y="7.62" length="short" rot="R180"/>
+<pin name="PD5" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="PD6" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="PD7" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="PD8" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="PD9" x="12.7" y="-5.08" length="short" rot="R180"/>
+<pin name="PD10" x="12.7" y="-7.62" length="short" rot="R180"/>
+<pin name="PD11" x="12.7" y="-10.16" length="short" rot="R180"/>
+<pin name="PD12" x="12.7" y="-12.7" length="short" rot="R180"/>
+<pin name="PD13" x="12.7" y="-15.24" length="short" rot="R180"/>
+<pin name="PD14" x="12.7" y="-17.78" length="short" rot="R180"/>
+<pin name="PD15" x="12.7" y="-20.32" length="short" rot="R180"/>
+</symbol>
+<symbol name="STM32F446VET6_PORT_E">
+<wire x1="-12.7" y1="20.32" x2="10.16" y2="20.32" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-22.86" x2="10.16" y2="20.32" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-22.86" x2="-12.7" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="20.32" x2="-12.7" y2="-22.86" width="0.254" layer="94"/>
+<pin name="PE0" x="12.7" y="17.78" length="short" rot="R180"/>
+<text x="-7.62" y="-12.7" size="5.08" layer="97" rot="MR90">PORT-E</text>
+<pin name="PE1" x="12.7" y="15.24" length="short" rot="R180"/>
+<pin name="PE2" x="12.7" y="12.7" length="short" rot="R180"/>
+<pin name="PE3" x="12.7" y="10.16" length="short" rot="R180"/>
+<pin name="PE4" x="12.7" y="7.62" length="short" rot="R180"/>
+<pin name="PE5" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="PE6" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="PE7" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="PE8" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="PE9" x="12.7" y="-5.08" length="short" rot="R180"/>
+<pin name="PE10" x="12.7" y="-7.62" length="short" rot="R180"/>
+<pin name="PE11" x="12.7" y="-10.16" length="short" rot="R180"/>
+<pin name="PE12" x="12.7" y="-12.7" length="short" rot="R180"/>
+<pin name="PE13" x="12.7" y="-15.24" length="short" rot="R180"/>
+<pin name="PE14" x="12.7" y="-17.78" length="short" rot="R180"/>
+<pin name="PE15" x="12.7" y="-20.32" length="short" rot="R180"/>
+</symbol>
+<symbol name="STM32F446VET6_PORT_H">
+<wire x1="-12.7" y1="20.32" x2="10.16" y2="20.32" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-22.86" x2="10.16" y2="20.32" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-22.86" x2="-12.7" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="20.32" x2="-12.7" y2="-22.86" width="0.254" layer="94"/>
+<pin name="PH0" x="12.7" y="17.78" length="short" rot="R180"/>
+<text x="-7.62" y="-12.7" size="5.08" layer="97" rot="MR90">PORT-H</text>
+<pin name="PH1" x="12.7" y="15.24" length="short" rot="R180"/>
+</symbol>
+<symbol name="STM32F446VET6_SYSTEM">
+<wire x1="-10.16" y1="20.32" x2="12.7" y2="20.32" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-25.4" x2="12.7" y2="20.32" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-25.4" x2="-10.16" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="20.32" x2="-10.16" y2="-25.4" width="0.254" layer="94"/>
+<pin name="VBAT" x="-2.54" y="22.86" length="short" rot="R270"/>
+<pin name="VSS_1" x="-5.08" y="-27.94" length="short" rot="R90"/>
+<pin name="VDD_1" x="15.24" y="15.24" length="short" rot="R180"/>
+<pin name="NRST" x="-12.7" y="-12.7" length="short"/>
+<pin name="VDD_2" x="15.24" y="12.7" length="short" rot="R180"/>
+<pin name="VSSA/VREF-" x="10.16" y="-27.94" length="short" rot="R90"/>
+<pin name="VREF+" x="15.24" y="-2.54" length="short" rot="R180"/>
+<pin name="VDDA" x="15.24" y="0" length="short" rot="R180"/>
+<pin name="VSS_2" x="-2.54" y="-27.94" length="short" rot="R90"/>
+<pin name="VDD_3" x="15.24" y="10.16" length="short" rot="R180"/>
+<pin name="VCAP_1" x="15.24" y="-5.08" length="short" rot="R180"/>
+<pin name="VSS_3" x="0" y="-27.94" length="short" rot="R90"/>
+<pin name="VDD_4" x="15.24" y="7.62" length="short" rot="R180"/>
+<pin name="VDD_5" x="15.24" y="5.08" length="short" rot="R180"/>
+<pin name="VSS_4" x="2.54" y="-27.94" length="short" rot="R90"/>
+<pin name="VCAP_2" x="15.24" y="-7.62" length="short" rot="R180"/>
+<pin name="VDD_6" x="15.24" y="2.54" length="short" rot="R180"/>
+<pin name="VSS_5" x="5.08" y="-27.94" length="short" rot="R90"/>
+<pin name="BOOT0" x="-12.7" y="-10.16" length="short"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -332,7 +665,6 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/389/stm32f446mc-956216.pd
 <connect gate="G$1" pin="PA7" pad="32"/>
 <connect gate="G$1" pin="PA8" pad="67"/>
 <connect gate="G$1" pin="PA9" pad="68"/>
-<connect gate="G$1" pin="PB" pad="95"/>
 <connect gate="G$1" pin="PB0" pad="35"/>
 <connect gate="G$1" pin="PB1" pad="36"/>
 <connect gate="G$1" pin="PB10" pad="47"/>
@@ -346,6 +678,7 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/389/stm32f446mc-956216.pd
 <connect gate="G$1" pin="PB5" pad="91"/>
 <connect gate="G$1" pin="PB6" pad="92"/>
 <connect gate="G$1" pin="PB7" pad="93"/>
+<connect gate="G$1" pin="PB8" pad="95"/>
 <connect gate="G$1" pin="PB9" pad="96"/>
 <connect gate="G$1" pin="PC0" pad="15"/>
 <connect gate="G$1" pin="PC1" pad="16"/>
@@ -414,6 +747,273 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/389/stm32f446mc-956216.pd
 <connect gate="G$1" pin="VSS_3" pad="49"/>
 <connect gate="G$1" pin="VSS_4" pad="74"/>
 <connect gate="G$1" pin="VSS_5" pad="99"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="STMICROELECTRONICS - STM32F446VET6 - MCU, 32BIT, CORTEX-M4, 180MHZ, LQFP-100" constant="no"/>
+<attribute name="HEIGHT" value="1.6mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="STMicroelectronics" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="STM32F446VET6" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="511-STM32F446VET6" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=511-STM32F446VET6" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="1962043" constant="no"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1962043" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="STM32F446VET6_MULTI_SYMBOL" prefix="IC">
+<description>&lt;b&gt;STMICROELECTRONICS - STM32F446VET6 - MCU, 32BIT, CORTEX-M4, 180MHZ, LQFP-100&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.mouser.com/datasheet/2/389/stm32f446mc-956216.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="STM32F446VET6_CAN" x="-12.7" y="22.86"/>
+<gate name="G$2" symbol="STM32F446VET6_!USED" x="-50.8" y="17.78"/>
+<gate name="G$3" symbol="STM32F446VET6_RADIO" x="22.86" y="10.16"/>
+<gate name="G$4" symbol="STM32F446VET6_SD" x="22.86" y="-30.48"/>
+<gate name="G$5" symbol="STM32F446VET6_VDD" x="-55.88" y="-40.64"/>
+<gate name="G$6" symbol="STM32F446VET6_BOOT" x="-10.16" y="-12.7"/>
+<gate name="G$7" symbol="STM32F446VET6_ANTENNA_DEPLOY" x="-12.7" y="0"/>
+<gate name="G$8" symbol="STM32F446VET6_CB" x="-12.7" y="-25.4"/>
+<gate name="G$9" symbol="STM32F446VET6_CRYSTAL" x="-10.16" y="-38.1"/>
+<gate name="G$10" symbol="STM32F446VET6_DEBUG" x="22.86" y="-53.34"/>
+<gate name="G$11" symbol="STM32F446VET6_OPD" x="22.86" y="40.64"/>
+<gate name="G$12" symbol="STM32F446VET6_WATCHDOG" x="-12.7" y="45.72"/>
+</gates>
+<devices>
+<device name="" package="QFP50P1600X1600X160-100N">
+<connects>
+<connect gate="G$1" pin="PA10" pad="69"/>
+<connect gate="G$1" pin="PA11" pad="70"/>
+<connect gate="G$1" pin="PA12" pad="71"/>
+<connect gate="G$1" pin="PA9" pad="68"/>
+<connect gate="G$1" pin="PB4" pad="90"/>
+<connect gate="G$1" pin="PB5" pad="91"/>
+<connect gate="G$1" pin="PB6" pad="92"/>
+<connect gate="G$1" pin="PB7" pad="93"/>
+<connect gate="G$10" pin="NRST" pad="14"/>
+<connect gate="G$10" pin="PA13" pad="72"/>
+<connect gate="G$10" pin="PA14" pad="76"/>
+<connect gate="G$10" pin="PB10" pad="47"/>
+<connect gate="G$10" pin="PB3" pad="89"/>
+<connect gate="G$10" pin="PD9" pad="56"/>
+<connect gate="G$11" pin="PB8" pad="95"/>
+<connect gate="G$11" pin="PB9" pad="96"/>
+<connect gate="G$11" pin="PC10" pad="78"/>
+<connect gate="G$11" pin="PC3" pad="18"/>
+<connect gate="G$11" pin="PD5" pad="86"/>
+<connect gate="G$12" pin="PE1" pad="98"/>
+<connect gate="G$2" pin="PA0" pad="23"/>
+<connect gate="G$2" pin="PA1" pad="24"/>
+<connect gate="G$2" pin="PA15" pad="77"/>
+<connect gate="G$2" pin="PA2" pad="25"/>
+<connect gate="G$2" pin="PA4" pad="29"/>
+<connect gate="G$2" pin="PC0" pad="15"/>
+<connect gate="G$2" pin="PC1" pad="16"/>
+<connect gate="G$2" pin="PC12" pad="80"/>
+<connect gate="G$2" pin="PC13" pad="7"/>
+<connect gate="G$2" pin="PC14-OSC32_IN" pad="8"/>
+<connect gate="G$2" pin="PC15-OSC32_OUT" pad="9"/>
+<connect gate="G$2" pin="PC4" pad="33"/>
+<connect gate="G$2" pin="PC5" pad="34"/>
+<connect gate="G$2" pin="PC9" pad="66"/>
+<connect gate="G$2" pin="PD0" pad="81"/>
+<connect gate="G$2" pin="PD1" pad="82"/>
+<connect gate="G$2" pin="PD10" pad="57"/>
+<connect gate="G$2" pin="PD11" pad="58"/>
+<connect gate="G$2" pin="PD12" pad="59"/>
+<connect gate="G$2" pin="PD13" pad="60"/>
+<connect gate="G$2" pin="PD14" pad="61"/>
+<connect gate="G$2" pin="PD15" pad="62"/>
+<connect gate="G$2" pin="PD3" pad="84"/>
+<connect gate="G$2" pin="PD4" pad="85"/>
+<connect gate="G$2" pin="PE0" pad="97"/>
+<connect gate="G$2" pin="PE10" pad="41"/>
+<connect gate="G$2" pin="PE11" pad="42"/>
+<connect gate="G$2" pin="PE12" pad="43"/>
+<connect gate="G$2" pin="PE13" pad="44"/>
+<connect gate="G$2" pin="PE14" pad="45"/>
+<connect gate="G$2" pin="PE15" pad="46"/>
+<connect gate="G$2" pin="PE2" pad="1"/>
+<connect gate="G$2" pin="PE3" pad="2"/>
+<connect gate="G$2" pin="PE4" pad="3"/>
+<connect gate="G$2" pin="PE5" pad="4"/>
+<connect gate="G$2" pin="PE6" pad="5"/>
+<connect gate="G$2" pin="PE7" pad="38"/>
+<connect gate="G$2" pin="PE8" pad="39"/>
+<connect gate="G$2" pin="PE9" pad="40"/>
+<connect gate="G$3" pin="PA5" pad="30"/>
+<connect gate="G$3" pin="PA6" pad="31"/>
+<connect gate="G$3" pin="PA7" pad="32"/>
+<connect gate="G$3" pin="PA8" pad="67"/>
+<connect gate="G$3" pin="PB12" pad="51"/>
+<connect gate="G$3" pin="PB13" pad="52"/>
+<connect gate="G$3" pin="PB14" pad="53"/>
+<connect gate="G$3" pin="PB15" pad="54"/>
+<connect gate="G$3" pin="PC6" pad="63"/>
+<connect gate="G$3" pin="PC7" pad="64"/>
+<connect gate="G$3" pin="PD8" pad="55"/>
+<connect gate="G$4" pin="PA3" pad="26"/>
+<connect gate="G$4" pin="PB0" pad="35"/>
+<connect gate="G$4" pin="PB1" pad="36"/>
+<connect gate="G$4" pin="PB2" pad="37"/>
+<connect gate="G$4" pin="PC11" pad="79"/>
+<connect gate="G$4" pin="PC8" pad="65"/>
+<connect gate="G$4" pin="PD2" pad="83"/>
+<connect gate="G$5" pin="VBAT" pad="6"/>
+<connect gate="G$5" pin="VCAP_1" pad="48"/>
+<connect gate="G$5" pin="VCAP_2" pad="73"/>
+<connect gate="G$5" pin="VDDA" pad="22"/>
+<connect gate="G$5" pin="VDD_1" pad="11"/>
+<connect gate="G$5" pin="VDD_2" pad="19"/>
+<connect gate="G$5" pin="VDD_3" pad="28"/>
+<connect gate="G$5" pin="VDD_4" pad="50"/>
+<connect gate="G$5" pin="VDD_5" pad="75"/>
+<connect gate="G$5" pin="VDD_6" pad="100"/>
+<connect gate="G$5" pin="VREF+" pad="21"/>
+<connect gate="G$5" pin="VSSA/VREF-" pad="20"/>
+<connect gate="G$5" pin="VSS_1" pad="10"/>
+<connect gate="G$5" pin="VSS_2" pad="27"/>
+<connect gate="G$5" pin="VSS_3" pad="49"/>
+<connect gate="G$5" pin="VSS_4" pad="74"/>
+<connect gate="G$5" pin="VSS_5" pad="99"/>
+<connect gate="G$6" pin="BOOT0" pad="94"/>
+<connect gate="G$7" pin="PD6" pad="87"/>
+<connect gate="G$7" pin="PD7" pad="88"/>
+<connect gate="G$8" pin="PC2" pad="17"/>
+<connect gate="G$9" pin="PH0-OSC_IN" pad="12"/>
+<connect gate="G$9" pin="PH1-OSC_OUT" pad="13"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="STMICROELECTRONICS - STM32F446VET6 - MCU, 32BIT, CORTEX-M4, 180MHZ, LQFP-100" constant="no"/>
+<attribute name="HEIGHT" value="1.6mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="STMicroelectronics" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="STM32F446VET6" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="511-STM32F446VET6" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=511-STM32F446VET6" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="1962043" constant="no"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1962043" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="STM32F446VET6_PORT_BREAKOUT" prefix="IC">
+<description>&lt;b&gt;STMICROELECTRONICS - STM32F446VET6 - MCU, 32BIT, CORTEX-M4, 180MHZ, LQFP-100&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.mouser.com/datasheet/2/389/stm32f446mc-956216.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="STM32F446VET6_PORT_A" x="12.7" y="22.86"/>
+<gate name="G$2" symbol="STM32F446VET6_PORT_B" x="45.72" y="22.86"/>
+<gate name="G$3" symbol="STM32F446VET6_PORT_C" x="12.7" y="-22.86"/>
+<gate name="G$4" symbol="STM32F446VET6_PORT_D" x="45.72" y="-22.86"/>
+<gate name="G$5" symbol="STM32F446VET6_PORT_E" x="12.7" y="-68.58"/>
+<gate name="G$6" symbol="STM32F446VET6_PORT_H" x="45.72" y="-68.58"/>
+<gate name="G$7" symbol="STM32F446VET6_SYSTEM" x="-27.94" y="-20.32"/>
+</gates>
+<devices>
+<device name="" package="QFP50P1600X1600X160-100N">
+<connects>
+<connect gate="G$1" pin="PA0" pad="23"/>
+<connect gate="G$1" pin="PA1" pad="24"/>
+<connect gate="G$1" pin="PA10" pad="69"/>
+<connect gate="G$1" pin="PA11" pad="70"/>
+<connect gate="G$1" pin="PA12" pad="71"/>
+<connect gate="G$1" pin="PA13" pad="72"/>
+<connect gate="G$1" pin="PA14" pad="76"/>
+<connect gate="G$1" pin="PA15" pad="77"/>
+<connect gate="G$1" pin="PA2" pad="25"/>
+<connect gate="G$1" pin="PA3" pad="26"/>
+<connect gate="G$1" pin="PA4" pad="29"/>
+<connect gate="G$1" pin="PA5" pad="30"/>
+<connect gate="G$1" pin="PA6" pad="31"/>
+<connect gate="G$1" pin="PA7" pad="32"/>
+<connect gate="G$1" pin="PA8" pad="67"/>
+<connect gate="G$1" pin="PA9" pad="68"/>
+<connect gate="G$2" pin="PB0" pad="35"/>
+<connect gate="G$2" pin="PB1" pad="36"/>
+<connect gate="G$2" pin="PB10" pad="47"/>
+<connect gate="G$2" pin="PB12" pad="51"/>
+<connect gate="G$2" pin="PB13" pad="52"/>
+<connect gate="G$2" pin="PB14" pad="53"/>
+<connect gate="G$2" pin="PB15" pad="54"/>
+<connect gate="G$2" pin="PB2" pad="37"/>
+<connect gate="G$2" pin="PB3" pad="89"/>
+<connect gate="G$2" pin="PB4" pad="90"/>
+<connect gate="G$2" pin="PB5" pad="91"/>
+<connect gate="G$2" pin="PB6" pad="92"/>
+<connect gate="G$2" pin="PB7" pad="93"/>
+<connect gate="G$2" pin="PB8" pad="95"/>
+<connect gate="G$2" pin="PB9" pad="96"/>
+<connect gate="G$3" pin="PC0" pad="15"/>
+<connect gate="G$3" pin="PC1" pad="16"/>
+<connect gate="G$3" pin="PC10" pad="78"/>
+<connect gate="G$3" pin="PC11" pad="79"/>
+<connect gate="G$3" pin="PC12" pad="80"/>
+<connect gate="G$3" pin="PC13" pad="7"/>
+<connect gate="G$3" pin="PC14" pad="8"/>
+<connect gate="G$3" pin="PC15" pad="9"/>
+<connect gate="G$3" pin="PC2" pad="17"/>
+<connect gate="G$3" pin="PC3" pad="18"/>
+<connect gate="G$3" pin="PC4" pad="33"/>
+<connect gate="G$3" pin="PC5" pad="34"/>
+<connect gate="G$3" pin="PC6" pad="63"/>
+<connect gate="G$3" pin="PC7" pad="64"/>
+<connect gate="G$3" pin="PC8" pad="65"/>
+<connect gate="G$3" pin="PC9" pad="66"/>
+<connect gate="G$4" pin="PD0" pad="81"/>
+<connect gate="G$4" pin="PD1" pad="82"/>
+<connect gate="G$4" pin="PD10" pad="57"/>
+<connect gate="G$4" pin="PD11" pad="58"/>
+<connect gate="G$4" pin="PD12" pad="59"/>
+<connect gate="G$4" pin="PD13" pad="60"/>
+<connect gate="G$4" pin="PD14" pad="61"/>
+<connect gate="G$4" pin="PD15" pad="62"/>
+<connect gate="G$4" pin="PD2" pad="83"/>
+<connect gate="G$4" pin="PD3" pad="84"/>
+<connect gate="G$4" pin="PD4" pad="85"/>
+<connect gate="G$4" pin="PD5" pad="86"/>
+<connect gate="G$4" pin="PD6" pad="87"/>
+<connect gate="G$4" pin="PD7" pad="88"/>
+<connect gate="G$4" pin="PD8" pad="55"/>
+<connect gate="G$4" pin="PD9" pad="56"/>
+<connect gate="G$5" pin="PE0" pad="97"/>
+<connect gate="G$5" pin="PE1" pad="98"/>
+<connect gate="G$5" pin="PE10" pad="41"/>
+<connect gate="G$5" pin="PE11" pad="42"/>
+<connect gate="G$5" pin="PE12" pad="43"/>
+<connect gate="G$5" pin="PE13" pad="44"/>
+<connect gate="G$5" pin="PE14" pad="45"/>
+<connect gate="G$5" pin="PE15" pad="46"/>
+<connect gate="G$5" pin="PE2" pad="1"/>
+<connect gate="G$5" pin="PE3" pad="2"/>
+<connect gate="G$5" pin="PE4" pad="3"/>
+<connect gate="G$5" pin="PE5" pad="4"/>
+<connect gate="G$5" pin="PE6" pad="5"/>
+<connect gate="G$5" pin="PE7" pad="38"/>
+<connect gate="G$5" pin="PE8" pad="39"/>
+<connect gate="G$5" pin="PE9" pad="40"/>
+<connect gate="G$6" pin="PH0" pad="12"/>
+<connect gate="G$6" pin="PH1" pad="13"/>
+<connect gate="G$7" pin="BOOT0" pad="94"/>
+<connect gate="G$7" pin="NRST" pad="14"/>
+<connect gate="G$7" pin="VBAT" pad="6"/>
+<connect gate="G$7" pin="VCAP_1" pad="48"/>
+<connect gate="G$7" pin="VCAP_2" pad="73"/>
+<connect gate="G$7" pin="VDDA" pad="22"/>
+<connect gate="G$7" pin="VDD_1" pad="11"/>
+<connect gate="G$7" pin="VDD_2" pad="19"/>
+<connect gate="G$7" pin="VDD_3" pad="28"/>
+<connect gate="G$7" pin="VDD_4" pad="50"/>
+<connect gate="G$7" pin="VDD_5" pad="75"/>
+<connect gate="G$7" pin="VDD_6" pad="100"/>
+<connect gate="G$7" pin="VREF+" pad="21"/>
+<connect gate="G$7" pin="VSSA/VREF-" pad="20"/>
+<connect gate="G$7" pin="VSS_1" pad="10"/>
+<connect gate="G$7" pin="VSS_2" pad="27"/>
+<connect gate="G$7" pin="VSS_3" pad="49"/>
+<connect gate="G$7" pin="VSS_4" pad="74"/>
+<connect gate="G$7" pin="VSS_5" pad="99"/>
 </connects>
 <technologies>
 <technology name="">
