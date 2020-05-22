@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -215,6 +215,8 @@
 <smd name="36" x="8.75" y="0" dx="1.1" dy="0.3" layer="1" rot="R90"/>
 <smd name="S1" x="10.42" y="1.7" dx="2.3" dy="3.1" layer="1" rot="R180"/>
 <smd name="S2" x="-10.42" y="1.7" dx="2.3" dy="3.1" layer="1" rot="R180"/>
+<wire x1="10.5" y1="1.2" x2="-10.5" y2="1.2" width="0.127" layer="51" style="shortdash"/>
+<text x="-5.5" y="1.5" size="0.75" layer="51" font="vector" ratio="20">APPROX CABLE DEPTH</text>
 </package>
 <package name="TE_2-1734592-0">
 <wire x1="6.5" y1="0.2" x2="-6.5" y2="0.2" width="0.127" layer="51"/>
@@ -257,6 +259,60 @@
 <smd name="20" x="4.75" y="0" dx="1.1" dy="0.3" layer="1" rot="R90"/>
 <smd name="S1" x="6.42" y="1.7" dx="2.3" dy="3.1" layer="1" rot="R180"/>
 <smd name="S2" x="-6.42" y="1.7" dx="2.3" dy="3.1" layer="1" rot="R180"/>
+</package>
+<package name="TE_3-1734592-0">
+<wire x1="9" y1="0.2" x2="-9" y2="0.2" width="0.127" layer="51"/>
+<wire x1="9" y1="0.2" x2="9" y2="3" width="0.127" layer="51"/>
+<wire x1="-9" y1="0.2" x2="-9" y2="3" width="0.127" layer="51"/>
+<wire x1="9" y1="3" x2="10.21" y2="3" width="0.127" layer="51"/>
+<wire x1="10.21" y1="3" x2="10.21" y2="4.6" width="0.127" layer="51"/>
+<wire x1="10.21" y1="4.6" x2="-10.21" y2="4.6" width="0.127" layer="21"/>
+<wire x1="-9" y1="3" x2="-10.21" y2="3" width="0.127" layer="51"/>
+<wire x1="-10.21" y1="3" x2="-10.21" y2="4.6" width="0.127" layer="51"/>
+<wire x1="10.21" y1="3.5" x2="10.21" y2="4.6" width="0.127" layer="21"/>
+<wire x1="10.21" y1="4.6" x2="-10.21" y2="4.6" width="0.127" layer="51"/>
+<wire x1="-10.46" y1="4.864" x2="-10.46" y2="-0.786" width="0.05" layer="39"/>
+<wire x1="-10.46" y1="-0.786" x2="10.46" y2="-0.786" width="0.05" layer="39"/>
+<wire x1="10.46" y1="-0.786" x2="10.46" y2="4.864" width="0.05" layer="39"/>
+<wire x1="10.46" y1="4.864" x2="-10.46" y2="4.864" width="0.05" layer="39"/>
+<wire x1="-10.21" y1="4.6" x2="-10.21" y2="3.5" width="0.127" layer="21"/>
+<text x="7.12" y="-1.54" size="0.5" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="-10.2" y="-2.54" size="1.273540625" layer="27">&gt;VALUE</text>
+<circle x="-7.279" y="-0.889" radius="0.1" width="0.2" layer="21"/>
+<smd name="1" x="-7.25" y="0" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="2" x="-6.75" y="0" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="3" x="-6.25" y="0" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="4" x="-5.75" y="0" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="5" x="-5.25" y="0" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="6" x="-4.75" y="0" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="7" x="-4.25" y="0" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="8" x="-3.75" y="0" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="9" x="-3.25" y="0" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="10" x="-2.75" y="0" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="11" x="-2.25" y="0" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="12" x="-1.75" y="0" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="13" x="-1.25" y="0" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="14" x="-0.75" y="0" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="15" x="-0.25" y="0" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="16" x="0.25" y="0" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="17" x="0.75" y="0" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="18" x="1.25" y="0" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="19" x="1.75" y="0" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="20" x="2.25" y="0" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="21" x="2.75" y="0" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="22" x="3.25" y="0" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="23" x="3.75" y="0" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="24" x="4.25" y="0" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="25" x="4.75" y="0" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="26" x="5.25" y="0" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="27" x="5.75" y="0" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="28" x="6.25" y="0" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="29" x="6.75" y="0" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="30" x="7.25" y="0" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="S1" x="8.92" y="1.7" dx="2.3" dy="3.1" layer="1" rot="R180"/>
+<smd name="S2" x="-8.92" y="1.7" dx="2.3" dy="3.1" layer="1" rot="R180"/>
+<wire x1="9" y1="1.2" x2="-9" y2="1.2" width="0.127" layer="51" style="shortdash"/>
+<text x="-6" y="1.5" size="0.75" layer="51" font="vector" ratio="20">APPROX CABLE DEPTH</text>
 </package>
 </packages>
 <symbols>
@@ -332,6 +388,44 @@
 <text x="-8.5344" y="53.5686" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
 <pin name="PAD" x="-7.62" y="-2.54" visible="pin" length="short"/>
 </symbol>
+<symbol name="CONN_3-1734592-0_TYCO">
+<pin name="1" x="-7.62" y="48.26" visible="pin" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="-7.62" y="45.72" visible="pin" length="short" direction="pas" swaplevel="1"/>
+<pin name="3" x="-7.62" y="43.18" visible="pin" length="short" direction="pas" swaplevel="1"/>
+<pin name="4" x="-7.62" y="40.64" visible="pin" length="short" direction="pas" swaplevel="1"/>
+<pin name="5" x="-7.62" y="38.1" visible="pin" length="short" direction="pas" swaplevel="1"/>
+<pin name="6" x="-7.62" y="35.56" visible="pin" length="short" direction="pas" swaplevel="1"/>
+<pin name="7" x="-7.62" y="33.02" visible="pin" length="short" direction="pas" swaplevel="1"/>
+<pin name="8" x="-7.62" y="30.48" visible="pin" length="short" direction="pas" swaplevel="1"/>
+<pin name="9" x="-7.62" y="27.94" visible="pin" length="short" direction="pas" swaplevel="1"/>
+<pin name="10" x="-7.62" y="25.4" visible="pin" length="short" direction="pas" swaplevel="1"/>
+<pin name="11" x="-7.62" y="22.86" visible="pin" length="short" direction="pas" swaplevel="1"/>
+<pin name="12" x="-7.62" y="20.32" visible="pin" length="short" direction="pas" swaplevel="1"/>
+<pin name="13" x="-7.62" y="17.78" visible="pin" length="short" direction="pas" swaplevel="1"/>
+<pin name="14" x="-7.62" y="15.24" visible="pin" length="short" direction="pas" swaplevel="1"/>
+<pin name="15" x="-7.62" y="12.7" visible="pin" length="short" direction="pas" swaplevel="1"/>
+<pin name="16" x="-7.62" y="10.16" visible="pin" length="short" direction="pas" swaplevel="1"/>
+<pin name="17" x="-7.62" y="7.62" visible="pin" length="short" direction="pas" swaplevel="1"/>
+<pin name="18" x="-7.62" y="5.08" visible="pin" length="short" direction="pas" swaplevel="1"/>
+<pin name="19" x="-7.62" y="2.54" visible="pin" length="short" direction="pas" swaplevel="1"/>
+<pin name="20" x="-7.62" y="0" visible="pin" length="short" direction="pas" swaplevel="1"/>
+<pin name="21" x="-7.62" y="-2.54" visible="pin" length="short" direction="pas" swaplevel="1"/>
+<pin name="22" x="-7.62" y="-5.08" visible="pin" length="short" direction="pas" swaplevel="1"/>
+<pin name="23" x="-7.62" y="-7.62" visible="pin" length="short" direction="pas" swaplevel="1"/>
+<pin name="24" x="-7.62" y="-10.16" visible="pin" length="short" direction="pas" swaplevel="1"/>
+<pin name="25" x="-7.62" y="-12.7" visible="pin" length="short" direction="pas" swaplevel="1"/>
+<pin name="26" x="-7.62" y="-15.24" visible="pin" length="short" direction="pas" swaplevel="1"/>
+<pin name="27" x="-7.62" y="-17.78" visible="pin" length="short" direction="pas" swaplevel="1"/>
+<pin name="28" x="-7.62" y="-20.32" visible="pin" length="short" direction="pas" swaplevel="1"/>
+<pin name="29" x="-7.62" y="-22.86" visible="pin" length="short" direction="pas" swaplevel="1"/>
+<pin name="30" x="-7.62" y="-25.4" visible="pin" length="short" direction="pas" swaplevel="1"/>
+<wire x1="-5.08" y1="50.8" x2="-5.08" y2="-30.48" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-30.48" x2="5.08" y2="-30.48" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-30.48" x2="5.08" y2="50.8" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="50.8" x2="-5.08" y2="50.8" width="0.1524" layer="94"/>
+<text x="-8.5344" y="53.5686" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<pin name="PAD" x="-7.62" y="-27.94" visible="pin" length="short"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="3-1734592-6" prefix="J">
@@ -406,6 +500,51 @@
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="20" pad="20"/>
 <connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="PAD" pad="S1 S2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="3-1734592-0" prefix="J">
+<gates>
+<gate name="G$1" symbol="CONN_3-1734592-0_TYCO" x="0" y="-10.16"/>
+</gates>
+<devices>
+<device name="" package="TE_3-1734592-0">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="25" pad="25"/>
+<connect gate="G$1" pin="26" pad="26"/>
+<connect gate="G$1" pin="27" pad="27"/>
+<connect gate="G$1" pin="28" pad="28"/>
+<connect gate="G$1" pin="29" pad="29"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="30" pad="30"/>
 <connect gate="G$1" pin="4" pad="4"/>
 <connect gate="G$1" pin="5" pad="5"/>
 <connect gate="G$1" pin="6" pad="6"/>
