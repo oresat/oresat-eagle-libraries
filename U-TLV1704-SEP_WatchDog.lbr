@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -116,22 +116,68 @@
 </packages3d>
 <symbols>
 <symbol name="COMPARATOR">
-<wire x1="-2.54" y1="10.16" x2="12.7" y2="0" width="0.254" layer="94"/>
-<wire x1="12.7" y1="0" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
-<pin name="P$1" x="-5.08" y="5.08" length="short"/>
-<pin name="P$2" x="-5.08" y="-5.08" length="short"/>
-<pin name="P$3" x="15.24" y="0" length="short" rot="R180"/>
-<pin name="P$4" x="5.08" y="10.16" length="middle" rot="R270"/>
-<pin name="P$5" x="5.08" y="-10.16" length="middle" rot="R90"/>
+<wire x1="-10.16" y1="12.7" x2="12.7" y2="0" width="0.254" layer="94"/>
+<wire x1="12.7" y1="0" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<pin name="$1IN+" x="-12.7" y="5.08" length="short"/>
+<pin name="$1IN-" x="-12.7" y="-5.08" length="short"/>
+<pin name="$1OUT" x="15.24" y="0" length="short" rot="R180"/>
+<pin name="V+" x="0" y="10.16" length="short" rot="R270"/>
+<pin name="V-" x="0" y="-10.16" length="short" rot="R90"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="0" y1="-7.62" x2="0" y2="-7.112" width="0.254" layer="94"/>
+<wire x1="0" y1="7.62" x2="0" y2="7.112" width="0.254" layer="94"/>
+</symbol>
+<symbol name="COMPARATOR_2">
+<wire x1="-10.16" y1="12.7" x2="12.7" y2="0" width="0.254" layer="94"/>
+<wire x1="12.7" y1="0" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<pin name="$2IN+" x="-12.7" y="5.08" length="short"/>
+<pin name="$2IN-" x="-12.7" y="-5.08" length="short"/>
+<pin name="$2OUT" x="15.24" y="0" length="short" rot="R180"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
+</symbol>
+<symbol name="COMPARATOR_3">
+<wire x1="-10.16" y1="12.7" x2="12.7" y2="0" width="0.254" layer="94"/>
+<wire x1="12.7" y1="0" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<pin name="$3IN+" x="-12.7" y="5.08" length="short"/>
+<pin name="$3IN-" x="-12.7" y="-5.08" length="short"/>
+<pin name="$3OUT" x="15.24" y="0" length="short" rot="R180"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
+</symbol>
+<symbol name="COMPARATOR_4">
+<wire x1="-10.16" y1="12.7" x2="12.7" y2="0" width="0.254" layer="94"/>
+<wire x1="12.7" y1="0" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<pin name="$4IN+" x="-12.7" y="5.08" length="short"/>
+<pin name="$4IN-" x="-12.7" y="-5.08" length="short"/>
+<pin name="$4OUT" x="15.24" y="0" length="short" rot="R180"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
 <deviceset name="TLV1704AMPWTPSEP">
 <gates>
+<gate name="G$1" symbol="COMPARATOR" x="0" y="0"/>
+<gate name="G$2" symbol="COMPARATOR_2" x="38.1" y="0"/>
+<gate name="G$3" symbol="COMPARATOR_3" x="0" y="-33.02"/>
+<gate name="G$4" symbol="COMPARATOR_4" x="38.1" y="-33.02"/>
 </gates>
 <devices>
 <device name="TSSOP-14" package="SOP65P640X120-14N">
+<connects>
+<connect gate="G$1" pin="$1IN+" pad="5"/>
+<connect gate="G$1" pin="$1IN-" pad="4"/>
+<connect gate="G$1" pin="$1OUT" pad="2"/>
+<connect gate="G$1" pin="V+" pad="3"/>
+<connect gate="G$1" pin="V-" pad="12"/>
+<connect gate="G$2" pin="$2IN+" pad="7"/>
+<connect gate="G$2" pin="$2IN-" pad="6"/>
+<connect gate="G$2" pin="$2OUT" pad="1"/>
+<connect gate="G$3" pin="$3IN+" pad="9"/>
+<connect gate="G$3" pin="$3IN-" pad="8"/>
+<connect gate="G$3" pin="$3OUT" pad="14"/>
+<connect gate="G$4" pin="$4IN+" pad="11"/>
+<connect gate="G$4" pin="$4IN-" pad="10"/>
+<connect gate="G$4" pin="$4OUT" pad="13"/>
+</connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:20301860/1"/>
 </package3dinstances>
