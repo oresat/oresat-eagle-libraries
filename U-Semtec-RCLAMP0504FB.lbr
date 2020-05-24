@@ -210,7 +210,9 @@
 <connect gate="G$1" pin="VCC" pad="5"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MPN" value="RCLAMP0504FBTCT" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

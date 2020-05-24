@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -943,15 +943,17 @@ when open</text>
 <dimension x1="-1" y1="0" x2="-1" y2="-23" x3="-2" y3="-11.5" textsize="0.7" layer="49" dtype="horizontal" width="0.05"/>
 <text x="0.625" y="-22.05" size="0.7" layer="48" rot="R90" align="top-left">VERY Approx Lens Height
 when focused to infinity</text>
+<wire x1="31.1" y1="2.6" x2="7.4" y2="2.6" width="0.01" layer="48" style="shortdash"/>
+<text x="14.645" y="3.4025" size="0.5" layer="48" align="top-left">APPROX CABLE DEPTH</text>
 </package>
 <package name="ORESAT-CAMERA-CARD-V0.1-3XRF">
-<wire x1="0" y1="88.9" x2="0" y2="29" width="0.001" layer="20"/>
+<wire x1="0" y1="88.9" x2="0" y2="29.5" width="0.001" layer="20"/>
 <wire x1="97.55" y1="8.5" x2="99.3" y2="8.5" width="0.001" layer="20"/>
 <wire x1="99.3" y1="8.5" x2="99.8" y2="9" width="0.001" layer="20" curve="90"/>
 <wire x1="99.8" y1="9" x2="99.8" y2="88.9" width="0.001" layer="20"/>
 <wire x1="97.05" y1="4.1" x2="97.05" y2="8" width="0.001" layer="20"/>
 <wire x1="84.8" y1="3.6" x2="96.55" y2="3.6" width="0.001" layer="20"/>
-<wire x1="43" y1="0" x2="83.8" y2="0" width="0.001" layer="20"/>
+<wire x1="43.5" y1="0" x2="83.8" y2="0" width="0.001" layer="20"/>
 <wire x1="83.8" y1="0" x2="84.3" y2="0.5" width="0.001" layer="20" curve="90"/>
 <wire x1="84.3" y1="0.5" x2="84.3" y2="3.1" width="0.001" layer="20"/>
 <wire x1="97.55" y1="8.5" x2="97.05" y2="8" width="0.001" layer="20" curve="90"/>
@@ -1031,8 +1033,8 @@ when focused to infinity</text>
 <wire x1="84.3" y1="3.1" x2="84.8" y2="3.6" width="0.001" layer="100" curve="-90"/>
 <wire x1="97.05" y1="4.1" x2="96.55" y2="3.6" width="0.001" layer="100" curve="-90"/>
 <wire x1="97.05" y1="8" x2="97.55" y2="8.5" width="0.001" layer="100" curve="-90"/>
-<wire x1="43" y1="0" x2="43" y2="27" width="0" layer="20"/>
-<wire x1="41" y1="29" x2="0" y2="29" width="0" layer="20"/>
+<wire x1="43" y1="0.5" x2="43" y2="27" width="0" layer="20"/>
+<wire x1="41" y1="29" x2="0.5" y2="29" width="0" layer="20"/>
 <wire x1="43" y1="27" x2="41" y2="29" width="0" layer="20" curve="90"/>
 <wire x1="43" y1="0" x2="43" y2="2.5" width="0.001" layer="100"/>
 <wire x1="43" y1="2.5" x2="43" y2="27" width="0.001" layer="100"/>
@@ -1068,6 +1070,8 @@ when focused to infinity</text>
 <wire x1="68.13205" y1="94.7" x2="64.66795" y2="94.7" width="0.001" layer="100" curve="-119.999977"/>
 <wire x1="35.13205" y1="94.7" x2="31.66795" y2="94.7" width="0.001" layer="100" curve="-119.999977"/>
 <wire x1="12.13205" y1="94.7" x2="8.66795" y2="94.7" width="0.001" layer="100" curve="-119.999977"/>
+<wire x1="43.5" y1="0" x2="43" y2="0.5" width="0" layer="20" curve="-90"/>
+<wire x1="0.5" y1="29" x2="0" y2="29.5" width="0" layer="20" curve="-90"/>
 </package>
 </packages>
 <symbols>
