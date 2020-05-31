@@ -932,6 +932,52 @@ Source: &lt;a href="https://www.yageo.com/upload/media/product/productsearch/dat
 </device>
 </devices>
 </deviceset>
+<deviceset name="R0603-1K-OHMS" prefix="R" uservalue="yes">
+<description>&lt;b&gt;1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="R-US" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package=".0603-C-NOSILK-RESISTOR">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="RES SMD 1K OHM 1% 1/10W 0603" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="311-1.00KHRCT-ND" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Yageo" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR-071KL" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="R0603-20K-OHMS" prefix="R" uservalue="yes">
+<description>&lt;b&gt;20 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Anti-Sulfur Thin Film&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.vishay.com/docs/28700/mcx0x0xpre.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="R-US" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package=".0603-C-NOSILK-RESISTOR">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="RES 20K OHM 0.1% 1/10W 0603" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="749-1747-1-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Vishay Beyschlag" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MCT06030E2002BP500" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
