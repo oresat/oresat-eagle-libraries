@@ -978,6 +978,29 @@ Source: &lt;a href="http://www.vishay.com/docs/28700/mcx0x0xpre.pdf"&gt; Datashe
 </device>
 </devices>
 </deviceset>
+<deviceset name="R0603-15K-OHMS" prefix="R" uservalue="yes">
+<description>&lt;b&gt;15 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="R-US" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package=".0603-C-NOSILK-RESISTOR">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="15 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-1502ELFCT-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Bourns" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-1502ELF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
