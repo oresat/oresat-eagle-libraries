@@ -9013,38 +9013,38 @@ bypassed</text>
 <segment>
 <pinref part="U6" gate="G$1" pin="PA2"/>
 <wire x1="241.3" y1="180.34" x2="299.72" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="180.34" x2="299.72" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="180.34" x2="299.72" y2="50.8" width="0.1524" layer="91"/>
 <label x="231.14" y="180.34" size="1.778" layer="95" rot="MR0"/>
 <pinref part="JP4" gate="A" pin="6"/>
 <wire x1="223.52" y1="104.14" x2="248.92" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="104.14" x2="248.92" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="104.14" x2="248.92" y2="50.8" width="0.1524" layer="91"/>
 <label x="228.6" y="104.14" size="1.778" layer="95"/>
 <label x="105.41" y="76.2" size="1.778" layer="95"/>
-<wire x1="299.72" y1="53.34" x2="248.92" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="53.34" x2="152.4" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="53.34" x2="152.4" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="50.8" x2="248.92" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="50.8" x2="152.4" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="50.8" x2="152.4" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="CARD-RX"/>
 <wire x1="152.4" y1="76.2" x2="102.87" y2="76.2" width="0.1524" layer="91"/>
-<junction x="248.92" y="53.34"/>
+<junction x="248.92" y="50.8"/>
 </segment>
 </net>
 <net name="PA3/USART2_RX" class="0">
 <segment>
-<wire x1="297.18" y1="177.8" x2="297.18" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="177.8" x2="297.18" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="U6" gate="G$1" pin="PA3"/>
 <wire x1="241.3" y1="177.8" x2="297.18" y2="177.8" width="0.1524" layer="91"/>
 <label x="231.14" y="177.8" size="1.778" layer="95" rot="MR0"/>
-<wire x1="246.38" y1="55.88" x2="246.38" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="53.34" x2="246.38" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="JP4" gate="A" pin="8"/>
 <wire x1="246.38" y1="101.6" x2="223.52" y2="101.6" width="0.1524" layer="91"/>
 <label x="228.6" y="101.6" size="1.778" layer="95"/>
 <label x="105.41" y="78.74" size="1.778" layer="95"/>
-<wire x1="297.18" y1="55.88" x2="246.38" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="55.88" x2="154.94" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="55.88" x2="154.94" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="53.34" x2="246.38" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="53.34" x2="154.94" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="53.34" x2="154.94" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="CARD-TX"/>
 <wire x1="154.94" y1="78.74" x2="102.87" y2="78.74" width="0.1524" layer="91"/>
-<junction x="246.38" y="55.88"/>
+<junction x="246.38" y="53.34"/>
 </segment>
 </net>
 <net name="BOOT0" class="0">
@@ -9079,21 +9079,21 @@ bypassed</text>
 <segment>
 <pinref part="U6" gate="G$1" pin="PB1"/>
 <wire x1="195.58" y1="182.88" x2="172.72" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="182.88" x2="172.72" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="182.88" x2="172.72" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="JP4" gate="A" pin="20"/>
 <wire x1="223.52" y1="86.36" x2="233.68" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="86.36" x2="233.68" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="60.96" x2="172.72" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="86.36" x2="233.68" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="58.42" x2="172.72" y2="58.42" width="0.1524" layer="91"/>
 <label x="228.6" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PB0" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="PB0"/>
-<wire x1="170.18" y1="185.42" x2="170.18" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="185.42" x2="170.18" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="JP4" gate="A" pin="18"/>
-<wire x1="170.18" y1="58.42" x2="236.22" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="58.42" x2="236.22" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="55.88" x2="236.22" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="55.88" x2="236.22" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="88.9" x2="223.52" y2="88.9" width="0.1524" layer="91"/>
 <label x="228.6" y="88.9" size="1.778" layer="95"/>
 <wire x1="195.58" y1="185.42" x2="170.18" y2="185.42" width="0.1524" layer="91"/>
