@@ -1012,6 +1012,77 @@ Source: &lt;a href="https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf"
 </device>
 </devices>
 </deviceset>
+<deviceset name="CAP0603-NP" prefix="C" uservalue="yes">
+<description>&lt;b&gt;NP&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="C-EU" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package=".0603-C-NOSILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" constant="no"/>
+<attribute name="VDC" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="R0603-5.6K-OHMS" prefix="R" uservalue="yes">
+<description>&lt;b&gt;5.6 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="R-US" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package=".0603-C-NOSILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="5.6 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="RMCF0603FT5K60CT-ND" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Stackpole Electronics Inc" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0603FT5K60" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="R0603-6.8K-OHMS" prefix="R" uservalue="yes">
+<description>&lt;b&gt;6.8 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="R-US" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package=".0603-C-NOSILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="6.8 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="RMCF0603FT6K80CT-ND" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Stackpole Electronics Inc" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0603FT6K80" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
