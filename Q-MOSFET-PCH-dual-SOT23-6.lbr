@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -214,7 +214,10 @@
 <connect gate=".2" pin="S" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DPN" value="DMP2240UDMDICT-ND" constant="no"/>
+<attribute name="MPN" value="DMP2240UDM-7" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
