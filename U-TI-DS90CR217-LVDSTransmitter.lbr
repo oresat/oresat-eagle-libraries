@@ -951,11 +951,10 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="BUILT_BY" value="EMA_UL_Team" constant="no"/>
-<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="DS90CR217MTD/NOPB" constant="no"/>
-<attribute name="SOURCELIBRARY" value="National_2011-09-26" constant="no"/>
-<attribute name="VENDOR" value="Texas Instruments" constant="no"/>
+<attribute name="DIS" value="Digi-Key" constant="no"/>
+<attribute name="DPN" value="DS90CR218AMTD/NOPB-ND" constant="no"/>
+<attribute name="MFR" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="DS90CR218AMTD/NOPB" constant="no"/>
 </technology>
 </technologies>
 </device>
