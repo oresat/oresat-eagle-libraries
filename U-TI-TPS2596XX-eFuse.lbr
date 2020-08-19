@@ -85,6 +85,7 @@
 <rectangle x1="0.127" y1="0.127" x2="1.397" y2="1.016" layer="31"/>
 <rectangle x1="-1.397" y1="-1.016" x2="-0.127" y2="-0.127" layer="31"/>
 <rectangle x1="0.127" y1="-1.016" x2="1.397" y2="-0.127" layer="31"/>
+<circle x="-3.048" y="-1.905" radius="0.179603125" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
