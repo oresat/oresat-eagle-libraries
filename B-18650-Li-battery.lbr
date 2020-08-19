@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -84,19 +84,19 @@
 <library>
 <packages>
 <package name="18650">
-<wire x1="-9.2" y1="32.5" x2="9.2" y2="32.5" width="0.2" layer="21"/>
-<wire x1="9.2" y1="32.5" x2="9.2" y2="-32.5" width="0.2" layer="21"/>
-<wire x1="9.2" y1="-32.5" x2="-9.2" y2="-32.5" width="0.2" layer="21"/>
-<wire x1="-9.2" y1="-32.5" x2="-9.2" y2="32.5" width="0.2" layer="21"/>
-<text x="6" y="-35" size="0.635" layer="21" font="vector" ratio="20">&gt;NAME</text>
+<wire x1="-9.2" y1="32.5" x2="9.2" y2="32.5" width="0.2" layer="51"/>
+<wire x1="9.2" y1="32.5" x2="9.2" y2="-32.5" width="0.2" layer="51"/>
+<wire x1="9.2" y1="-32.5" x2="-9.2" y2="-32.5" width="0.2" layer="51"/>
+<wire x1="-9.2" y1="-32.5" x2="-9.2" y2="32.5" width="0.2" layer="51"/>
+<text x="-4" y="-36" size="0.635" layer="21" font="vector" ratio="20" rot="R90">&gt;NAME</text>
 <smd name="NEG-T" x="0" y="-34.25" dx="0.5" dy="0.5" layer="1" roundness="10" stop="no" thermals="no" cream="no"/>
 <smd name="POS-T" x="0" y="34.25" dx="0.5" dy="0.5" layer="1" roundness="10" stop="no" thermals="no" cream="no"/>
-<wire x1="6.5" y1="33.5" x2="7.5" y2="33.5" width="0.2" layer="21"/>
-<wire x1="7" y1="34" x2="7" y2="33" width="0.2" layer="21"/>
-<wire x1="7" y1="-33.5" x2="8" y2="-33.5" width="0.2" layer="21"/>
-<wire x1="-7.5" y1="33.5" x2="-6.5" y2="33.5" width="0.2" layer="21"/>
-<wire x1="-7" y1="34" x2="-7" y2="33" width="0.2" layer="21"/>
-<wire x1="-8" y1="-33.5" x2="-7" y2="-33.5" width="0.2" layer="21"/>
+<wire x1="2.5" y1="37.5" x2="3.5" y2="37.5" width="0.2" layer="21"/>
+<wire x1="3" y1="38" x2="3" y2="37" width="0.2" layer="21"/>
+<wire x1="3" y1="-37.5" x2="4" y2="-37.5" width="0.2" layer="21"/>
+<wire x1="-3.5" y1="37.5" x2="-2.5" y2="37.5" width="0.2" layer="21"/>
+<wire x1="-3" y1="38" x2="-3" y2="37" width="0.2" layer="21"/>
+<wire x1="-4" y1="-37.5" x2="-3" y2="-37.5" width="0.2" layer="21"/>
 <wire x1="-2.5" y1="-32.5" x2="2.5" y2="-32.5" width="0" layer="20"/>
 <wire x1="2.5" y1="-33.5" x2="-2.5" y2="-33.5" width="0" layer="20"/>
 <wire x1="-2.5" y1="-35" x2="2.5" y2="-35" width="0" layer="20"/>
