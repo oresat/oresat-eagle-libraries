@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -106,8 +106,8 @@
 <wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.1524" layer="94"/>
 <wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.1524" layer="94"/>
 <wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.1524" layer="94"/>
-<pin name="RF" x="-12.7" y="-3.81" length="short" direction="in"/>
-<pin name="EN" x="-12.7" y="3.81" length="short" direction="in"/>
+<pin name="RF" x="-12.7" y="-2.54" length="short" direction="in"/>
+<pin name="EN" x="-12.7" y="2.54" length="short" direction="in"/>
 <pin name="VCC" x="0" y="10.16" length="short" direction="pwr" rot="R270"/>
 <pin name="VOUT" x="12.7" y="0" length="short" direction="out" rot="R180"/>
 <pin name="GND" x="0" y="-10.16" length="short" direction="pwr" rot="R90"/>
