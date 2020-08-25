@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -95,6 +95,7 @@
 <wire x1="-3.81" y1="3.175" x2="-3.81" y2="-3.175" width="0.254" layer="21"/>
 <wire x1="-3.81" y1="-3.175" x2="-3.429" y2="-3.175" width="0.254" layer="21"/>
 <text x="3.556" y="-4.191" size="0.635" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="3.556" y="-5.461" size="0.635" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -110,10 +111,15 @@
 <pin name="GND" x="0" y="-10.16" visible="off" length="short" direction="pwr" rot="R90"/>
 <text x="-10.16" y="-10.16" size="1.778" layer="95">&gt;NAME</text>
 <text x="-5.08" y="-2.54" size="1.778" layer="94">QBA-07+</text>
+<text x="-10.16" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
 <deviceset name="QBA-07+" prefix="U">
+<description>&lt;b&gt;RF Power Splitter/Combiner, Quadrature Hybrid&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;QBA-07+&lt;/b&gt;&lt;br&gt;
+340-680 MHz&lt;br&gt;
+Datasheet: &lt;a href="https://www.minicircuits.com/pdfs/QBA-07+.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="QBA-07+" x="0" y="0"/>
 </gates>
@@ -127,7 +133,15 @@
 <connect gate="G$1" pin="TERM" pad="5"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="Signal Conditioning LTCC 90 Hybrid, 340-680 MHz, 50 ohms"/>
+<attribute name="DIST" value="Mini-Circuits" constant="no"/>
+<attribute name="DIST_PN" value="QBA-07+" constant="no"/>
+<attribute name="GENERIC" value="N"/>
+<attribute name="MFG" value="Mini-Circuits"/>
+<attribute name="MFG_PN" value="QBA-07+"/>
+<attribute name="P-NP" value="P" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
