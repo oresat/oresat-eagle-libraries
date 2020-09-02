@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -186,7 +186,7 @@
 </layers>
 <library>
 <packages>
-<package name="J-MOLEX-SMPM-73300-003X_J-MOLEX-SMPM-073300-003X">
+<package name="J-MOLEX-SMPM-73300-003X">
 <wire x1="1.7" y1="-1.7" x2="1.7" y2="-1.75" width="0" layer="41"/>
 <wire x1="-2" y1="0" x2="-1.5748" y2="0" width="0" layer="20"/>
 <wire x1="-1.5748" y1="0" x2="-1.5748" y2="-2.921" width="0" layer="20"/>
@@ -302,12 +302,16 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="J-MOLEX-SMPM-73300-003X_J-MOLEX-SMPM-73300-003X" prefix="CM">
+<deviceset name="J-MOLEX-SMPM-73300-003X" prefix="CM">
+<description>&lt;b&gt;Edge mounted 50 ohm SMPM RF connection&lt;/b&gt;&lt;p&gt;
+
+&lt;b&gt;Molex 0733000020&lt;/b&gt;&lt;br&gt;
+&lt;a href="https://www.molex.com/pdm_docs/ps/PS-89675-3730.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="J-MOLEX-SMPM-73300-003X_CON-COAX" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="J-MOLEX-SMPM-73300-003X_J-MOLEX-SMPM-073300-003X">
+<device name="" package="J-MOLEX-SMPM-73300-003X">
 <connects>
 <connect gate="G$1" pin="CENTER" pad="RF"/>
 <connect gate="G$1" pin="SHIELD" pad="P$4"/>
@@ -316,7 +320,15 @@
 <connect gate="G$1" pin="SHIELD3" pad="P$1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="Edge mounted SMPM 50 ohm RF connector"/>
+<attribute name="DIST" value="Digi-Key" constant="no"/>
+<attribute name="DIST_PN" value="WM10772-ND" constant="no"/>
+<attribute name="GENERIC" value="N"/>
+<attribute name="MFG" value="MOLEX"/>
+<attribute name="MFG_PN" value="0733000020"/>
+<attribute name="P-NP" value="P" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -31,30 +31,30 @@
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -92,8 +92,8 @@
 <smd name="6" x="-0.25" y="-1.39" dx="0.3" dy="0.63" layer="1"/>
 <smd name="5" x="-0.75" y="-1.39" dx="0.3" dy="0.63" layer="1"/>
 <circle x="-1.805" y="1.805" radius="0.127" width="0.127" layer="21"/>
-<text x="-1.397" y="2.078" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.772" y="-3.331" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-2" y="2.3" size="0.655" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-2" y="-3" size="0.655" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 <rectangle x1="-0.8" y1="0.2" x2="-0.2" y2="0.8" layer="31"/>
 <rectangle x1="0.2" y1="0.2" x2="0.8" y2="0.8" layer="31"/>
 <rectangle x1="0.2" y1="-0.8" x2="0.8" y2="-0.2" layer="31"/>
@@ -113,6 +113,29 @@
 </package>
 </packages>
 <symbols>
+<symbol name="STSPIN230">
+<pin name="STBY/RESET" x="-22.86" y="17.78" length="middle" direction="in"/>
+<pin name="EN/FAULT" x="-22.86" y="12.7" length="middle"/>
+<pin name="INUH" x="-22.86" y="7.62" length="middle" direction="in"/>
+<pin name="INUL" x="-22.86" y="2.54" length="middle" direction="in"/>
+<pin name="INVH" x="-22.86" y="-2.54" length="middle" direction="in"/>
+<pin name="INVL" x="-22.86" y="-7.62" length="middle" direction="in"/>
+<pin name="INWH" x="-22.86" y="-12.7" length="middle" direction="in"/>
+<pin name="INWL" x="-22.86" y="-17.78" length="middle" direction="in"/>
+<pin name="GND" x="22.86" y="-17.78" length="middle" direction="pwr" rot="R180"/>
+<pin name="VS" x="22.86" y="17.78" length="middle" direction="pwr" rot="R180"/>
+<pin name="OUTU" x="22.86" y="12.7" length="middle" direction="out" rot="R180"/>
+<pin name="SENSEU" x="22.86" y="7.62" length="middle" direction="out" rot="R180"/>
+<pin name="OUTV" x="22.86" y="2.54" length="middle" direction="out" rot="R180"/>
+<pin name="SENSEVW" x="22.86" y="-7.62" length="middle" direction="out" rot="R180"/>
+<pin name="OUTW" x="22.86" y="-2.54" length="middle" direction="out" rot="R180"/>
+<wire x1="17.78" y1="20.32" x2="-17.78" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="20.32" x2="-17.78" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-20.32" x2="17.78" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-20.32" x2="17.78" y2="20.32" width="0.254" layer="94"/>
+<text x="-17.78" y="22.86" size="1.778" layer="95">&gt;NAME</text>
+<text x="-17.78" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 <symbol name="STSPIN250">
 <wire x1="-17.78" y1="20.32" x2="-17.78" y2="-20.32" width="0.254" layer="94"/>
 <wire x1="-17.78" y1="-20.32" x2="17.78" y2="-20.32" width="0.254" layer="94"/>
@@ -134,13 +157,57 @@
 <pin name="TEST1" x="-5.08" y="-22.86" length="short" rot="R90"/>
 <pin name="GND" x="0" y="-22.86" length="short" direction="pwr" rot="R90"/>
 <pin name="VS" x="0" y="22.86" length="short" direction="pwr" rot="R270"/>
-<text x="10.16" y="-22.86" size="1.778" layer="95">&gt;NAME</text>
-<text x="10.16" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-6.35" y="-1.27" size="1.778" layer="94">STSPIN250</text>
+<text x="-18.034" y="22.86" size="1.778" layer="95">&gt;NAME</text>
+<text x="5.08" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="STSPIN230" prefix="U">
+<description>&lt;b&gt;Brushless DC motor driver&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;STSPIN230&lt;/b&gt;&lt;br&gt;
+Low voltage tripple half bridge&lt;br&gt;
+&lt;a href="https://www.st.com/content/ccc/resource/technical/document/datasheet/group3/f5/79/9b/db/49/dd/4d/36/DM00293530/files/DM00293530.pdf/jcr:content/translations/en.DM00293530.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="STSPIN230" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="VFQPN">
+<connects>
+<connect gate="G$1" pin="EN/FAULT" pad="13"/>
+<connect gate="G$1" pin="GND" pad="7 EPAD"/>
+<connect gate="G$1" pin="INUH" pad="2"/>
+<connect gate="G$1" pin="INUL" pad="1"/>
+<connect gate="G$1" pin="INVH" pad="16"/>
+<connect gate="G$1" pin="INVL" pad="15"/>
+<connect gate="G$1" pin="INWH" pad="12"/>
+<connect gate="G$1" pin="INWL" pad="11"/>
+<connect gate="G$1" pin="OUTU" pad="3"/>
+<connect gate="G$1" pin="OUTV" pad="8"/>
+<connect gate="G$1" pin="OUTW" pad="10"/>
+<connect gate="G$1" pin="SENSEU" pad="4"/>
+<connect gate="G$1" pin="SENSEVW" pad="9"/>
+<connect gate="G$1" pin="STBY/RESET" pad="14"/>
+<connect gate="G$1" pin="VS" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Tripple half bridge motor driver" constant="no"/>
+<attribute name="DIST" value="Digi-Key" constant="no"/>
+<attribute name="DIST_PN" value="497-16603-1-ND" constant="no"/>
+<attribute name="GENERIC" value="N" constant="no"/>
+<attribute name="MFG" value="STMicroelectronics" constant="no"/>
+<attribute name="MFG_PN" value="STSPIN230" constant="no"/>
+<attribute name="P-NP" value="P" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="STSPIN250" prefix="U">
+<description>&lt;b&gt;Brushed motor driver&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;STSPIN250&lt;/b&gt;&lt;br&gt;
+Full H bridge&lt;br&gt;
+&lt;a href="https://www.st.com/content/ccc/resource/technical/document/datasheet/group3/c0/0a/9b/75/f1/48/4f/2b/DM00335775/files/DM00335775.pdf/jcr:content/translations/en.DM00335775.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="STSPIN250" x="0" y="0"/>
 </gates>
@@ -165,7 +232,15 @@
 <connect gate="G$1" pin="VS" pad="6"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="Full H-Bridge brushed motor driver" constant="no"/>
+<attribute name="DIST" value="Digi-Key" constant="no"/>
+<attribute name="DIST_PN" value="497-17035-1-ND" constant="no"/>
+<attribute name="GENERIC" value="N" constant="no"/>
+<attribute name="MFG" value="STMicroelectronics" constant="no"/>
+<attribute name="MFG_PN" value="STSPIN250" constant="no"/>
+<attribute name="P-NP" value="P" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
