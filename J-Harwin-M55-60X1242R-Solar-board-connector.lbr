@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -146,15 +146,18 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SOLAR-BOARD-CONNECTOR" prefix="CF">
-<description>&lt;b&gt;OreSat Solar Board Connector&lt;/b&gt;
+<deviceset name="HARWIN-M55-60" prefix="CF">
+<description>&lt;b&gt;OreSat Solar Board Connector&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;Harwin M55-6001242R&lt;/b&gt; is used on the OreSat end cap&lt;br&gt;
+&lt;b&gt;Harwin M55-6021242R&lt;/b&gt; is used on the OreSat 1U solar panels to connect to the end cards.&lt;br&gt;&lt;br&gt;
 
-This 12 pin 1.27 mm vertical connector (Harwin M55-6021242R) is used on the OreSat 1U solar panels to connect to the end cards.</description>
+note: 602xxx is 7.4 mm longer than 600xxx&lt;br&gt;&lt;br&gt;
+&lt;a href="https://cdn.harwin.com/pdfs/M55-60X.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="SOLAR-CONNECTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="HARWIN-M55-60X1242R">
+<device name="21242R" package="HARWIN-M55-60X1242R">
 <connects>
 <connect gate="G$1" pin="!SD" pad="1 2"/>
 <connect gate="G$1" pin="AUX" pad="7 8"/>
@@ -166,10 +169,35 @@ This 12 pin 1.27 mm vertical connector (Harwin M55-6021242R) is used on the OreS
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DIS" value="DIGIKEY" constant="no"/>
-<attribute name="DPN" value="M55-6021242R" constant="no"/>
-<attribute name="MFR" value="HARWIN" constant="no"/>
-<attribute name="MPN" value="M55-6021242R" constant="no"/>
+<attribute name="DESCRIPTION" value="Surface mount female vertical connector" constant="no"/>
+<attribute name="DIST" value="Digi-Key" constant="no"/>
+<attribute name="DIST_PN" value="952-3851-1-ND" constant="no"/>
+<attribute name="GENERIC" value="N" constant="no"/>
+<attribute name="MFG" value="Harwin Inc." constant="no"/>
+<attribute name="MFG_PN" value="M55-6021242R" constant="no"/>
+<attribute name="P-NP" value="P" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="01242R" package="HARWIN-M55-60X1242R">
+<connects>
+<connect gate="G$1" pin="!SD" pad="1 2"/>
+<connect gate="G$1" pin="AUX" pad="7 8"/>
+<connect gate="G$1" pin="CANH" pad="9 10"/>
+<connect gate="G$1" pin="CANL" pad="11 12"/>
+<connect gate="G$1" pin="GND" pad="3 4"/>
+<connect gate="G$1" pin="SHIELD" pad="P$1 P$2 P$3 P$4"/>
+<connect gate="G$1" pin="VBUS" pad="5 6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DISCRIPTION" value="Surface mount female vertical connector" constant="no"/>
+<attribute name="DIST" value="Digi-Key" constant="no"/>
+<attribute name="DIST_PN" value="952-3835-1-ND" constant="no"/>
+<attribute name="GENERIC" value="N" constant="no"/>
+<attribute name="MFG" value="Harwin Inc." constant="no"/>
+<attribute name="MFG_PN" value="M55-6001242R" constant="no"/>
+<attribute name="P-NP" value="P" constant="no"/>
 </technology>
 </technologies>
 </device>
