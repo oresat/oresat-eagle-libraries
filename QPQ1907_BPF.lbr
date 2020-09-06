@@ -6,13 +6,13 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="10" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
-<layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="yes"/>
 <layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes"/>
 <layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes"/>
 <layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes"/>
@@ -84,17 +84,19 @@
 
 Noel Case - Created 6/16/20</description>
 <packages>
-<package name="QPQ1907">
-<rectangle x1="0" y1="-1.2" x2="1.4" y2="0" layer="21"/>
-<pad name="2" x="0.4" y="0" drill="0.15"/>
-<pad name="3" x="1.4" y="-0.3" drill="0.15" rot="R180"/>
-<pad name="4" x="1.4" y="-1" drill="0.15" rot="R180"/>
-<pad name="5" x="0.6" y="-1.2" drill="0.15" rot="R180"/>
-<pad name="1" x="0" y="-0.6" drill="0.15"/>
-<rectangle x1="0" y1="-1.27" x2="1.27" y2="0" layer="39"/>
-</package>
 <package name="QPQ_1907">
-<smd name="2X2_DFN_8PIN1" x="0" y="0" dx="0.254" dy="0.33" layer="1"/>
+<smd name="INPUT" x="0.495" y="0" dx="0.254" dy="0.33" layer="1"/>
+<smd name="GND" x="-0.495" y="-0.2855" dx="0.254" dy="0.33" layer="1"/>
+<smd name="GND3" x="0" y="-0.2855" dx="0.254" dy="0.33" layer="1"/>
+<smd name="GND2" x="0" y="0.2855" dx="0.254" dy="0.33" layer="1"/>
+<smd name="OUTPUT" x="-0.495" y="0.2855" dx="0.254" dy="0.33" layer="1"/>
+<text x="0.446" y="0.69733125" size="1.778" layer="25">&gt;NAME</text>
+<text x="0.446" y="-2.90433125" size="1.778" layer="27">&gt;VALUE</text>
+<wire x1="-0.7" y1="0.435" x2="0.7" y2="0.435" width="0.075" layer="21"/>
+<wire x1="0.7" y1="0.435" x2="0.7" y2="-0.435" width="0.075" layer="21"/>
+<wire x1="0.7" y1="-0.435" x2="-0.7" y2="-0.435" width="0.075" layer="21"/>
+<wire x1="-0.7" y1="-0.435" x2="-0.7" y2="0.435" width="0.075" layer="21"/>
+<rectangle x1="-0.7" y1="-0.435" x2="0.7" y2="0.435" layer="39"/>
 </package>
 </packages>
 <symbols>
@@ -118,13 +120,13 @@ Noel Case - Created 6/16/20</description>
 <gate name="G$1" symbol="BPF(QPQ1907)" x="-15.24" y="7.62"/>
 </gates>
 <devices>
-<device name="QPQ1907" package="QPQ1907">
+<device name="" package="QPQ_1907">
 <connects>
-<connect gate="G$1" pin="GND_1" pad="2"/>
-<connect gate="G$1" pin="GND_2" pad="3"/>
-<connect gate="G$1" pin="GND_3" pad="5"/>
-<connect gate="G$1" pin="RF-OUT" pad="4"/>
-<connect gate="G$1" pin="RF_IN" pad="1"/>
+<connect gate="G$1" pin="GND_1" pad="GND"/>
+<connect gate="G$1" pin="GND_2" pad="GND2"/>
+<connect gate="G$1" pin="GND_3" pad="GND3"/>
+<connect gate="G$1" pin="RF-OUT" pad="OUTPUT"/>
+<connect gate="G$1" pin="RF_IN" pad="INPUT"/>
 </connects>
 <technologies>
 <technology name=""/>
