@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -131,9 +131,11 @@
 </symbols>
 <devicesets>
 <deviceset name="SOLAR-CARD-CONNECTOR" prefix="J">
-<description>&lt;b&gt;OreSat End Card Solar Connector &lt;/b&gt;
+<description>&lt;b&gt;OreSat End Card Solar Connector &lt;/b&gt;&lt;p&gt;
 
-This 12pin 1.27 mm male SMT connector (Harwin M55-7101242R) is used on the end cards to attach to the solar boards. &lt;b&gt;Note:&lt;/b&gt; alignment pin hole diameters are 0.05 mm smaller than recommended in order to tighten up connector location; this requires hand placement of this package.&lt;/p&gt;</description>
+This 12pin 1.27 mm male SMT connector (Harwin M55-7101242R) is used on the end cards to attach to the solar boards.&lt;p&gt;
+
+&lt;b&gt;Note:&lt;/b&gt; alignment pin hole diameters are 0.05 mm smaller than recommended in order to tighten up connector location; this requires hand placement of this package.</description>
 <gates>
 <gate name="G$1" symbol="SOLAR-CONNECTOR" x="0" y="0"/>
 </gates>
@@ -149,7 +151,15 @@ This 12pin 1.27 mm male SMT connector (Harwin M55-7101242R) is used on the end c
 <connect gate="G$1" pin="VBUS" pad="5 6"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="SMT 12 pos Conn Header 1.27mm pitch" constant="no"/>
+<attribute name="DIST" value="Digi-Key" constant="no"/>
+<attribute name="DIST_PN" value="952-3891-ND" constant="no"/>
+<attribute name="GENERIC" value="N"/>
+<attribute name="MFG" value="Harwin Inc." constant="no"/>
+<attribute name="MFG_PN" value="M55-7101242R"/>
+<attribute name="P-NP" value="P" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
