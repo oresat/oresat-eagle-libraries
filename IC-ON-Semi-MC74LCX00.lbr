@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -81,7 +81,7 @@ Based on the following sources:
 &lt;/ul&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="SO14" urn="urn:adsk.eagle:footprint:2524/1">
+<package name="SO14" urn="urn:adsk.eagle:footprint:2524/1" locally_modified="yes">
 <description>&lt;b&gt;Small Outline package&lt;/b&gt; 150 mil</description>
 <wire x1="4.064" y1="1.9558" x2="-4.064" y2="1.9558" width="0.1524" layer="21"/>
 <wire x1="4.064" y1="-1.9558" x2="4.445" y2="-1.5748" width="0.1524" layer="21" curve="90"/>
@@ -125,6 +125,38 @@ Based on the following sources:
 <rectangle x1="1.016" y1="-3.0988" x2="1.524" y2="-1.9558" layer="51"/>
 <rectangle x1="2.286" y1="-3.0988" x2="2.794" y2="-1.9558" layer="51"/>
 <rectangle x1="3.556" y1="-3.0988" x2="4.064" y2="-1.9558" layer="51"/>
+<dimension x1="4.318" y1="4.191" x2="4.318" y2="-4.191" x3="7.62" y3="0" textsize="1.27" layer="21"/>
+</package>
+<package name="SOIC127P600X175-14N" urn="urn:adsk.eagle:footprint:23364176/1">
+<description>14-SOIC, 1.27 mm pitch, 6.00 mm span, 8.65 X 3.90 X 1.75 mm body
+&lt;p&gt;14-pin SOIC package with 1.27 mm pitch, 6.00 mm span with body size 8.65 X 3.90 X 1.75 mm&lt;/p&gt;</description>
+<circle x="-2.7288" y="4.6086" radius="0.25" width="0" layer="21"/>
+<wire x1="-2" y1="4.3586" x2="-2" y2="4.375" width="0.12" layer="21"/>
+<wire x1="-2" y1="4.375" x2="2" y2="4.375" width="0.12" layer="21"/>
+<wire x1="2" y1="4.375" x2="2" y2="4.3586" width="0.12" layer="21"/>
+<wire x1="-2" y1="-4.3586" x2="-2" y2="-4.375" width="0.12" layer="21"/>
+<wire x1="-2" y1="-4.375" x2="2" y2="-4.375" width="0.12" layer="21"/>
+<wire x1="2" y1="-4.375" x2="2" y2="-4.3586" width="0.12" layer="21"/>
+<wire x1="2" y1="-4.375" x2="-2" y2="-4.375" width="0.12" layer="51"/>
+<wire x1="-2" y1="-4.375" x2="-2" y2="4.375" width="0.12" layer="51"/>
+<wire x1="-2" y1="4.375" x2="2" y2="4.375" width="0.12" layer="51"/>
+<wire x1="2" y1="4.375" x2="2" y2="-4.375" width="0.12" layer="51"/>
+<smd name="1" x="-2.4817" y="3.81" dx="1.9518" dy="0.5892" layer="1"/>
+<smd name="2" x="-2.4817" y="2.54" dx="1.9518" dy="0.5892" layer="1"/>
+<smd name="3" x="-2.4817" y="1.27" dx="1.9518" dy="0.5892" layer="1"/>
+<smd name="4" x="-2.4817" y="0" dx="1.9518" dy="0.5892" layer="1"/>
+<smd name="5" x="-2.4817" y="-1.27" dx="1.9518" dy="0.5892" layer="1"/>
+<smd name="6" x="-2.4817" y="-2.54" dx="1.9518" dy="0.5892" layer="1"/>
+<smd name="7" x="-2.4817" y="-3.81" dx="1.9518" dy="0.5892" layer="1"/>
+<smd name="8" x="2.4817" y="-3.81" dx="1.9518" dy="0.5892" layer="1"/>
+<smd name="9" x="2.4817" y="-2.54" dx="1.9518" dy="0.5892" layer="1"/>
+<smd name="10" x="2.4817" y="-1.27" dx="1.9518" dy="0.5892" layer="1"/>
+<smd name="11" x="2.4817" y="0" dx="1.9518" dy="0.5892" layer="1"/>
+<smd name="12" x="2.4817" y="1.27" dx="1.9518" dy="0.5892" layer="1"/>
+<smd name="13" x="2.4817" y="2.54" dx="1.9518" dy="0.5892" layer="1"/>
+<smd name="14" x="2.4817" y="3.81" dx="1.9518" dy="0.5892" layer="1"/>
+<text x="0" y="5.4936" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.01" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
@@ -132,6 +164,13 @@ Based on the following sources:
 <description>Small Outline package 150 mil</description>
 <packageinstances>
 <packageinstance name="SO14"/>
+</packageinstances>
+</package3d>
+<package3d name="SOIC127P600X175-14N" urn="urn:adsk.eagle:package:23364028/1" type="model">
+<description>14-SOIC, 1.27 mm pitch, 6.00 mm span, 8.65 X 3.90 X 1.75 mm body
+&lt;p&gt;14-pin SOIC package with 1.27 mm pitch, 6.00 mm span with body size 8.65 X 3.90 X 1.75 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOIC127P600X175-14N"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -170,7 +209,7 @@ Based on the following sources:
 <gate name="P" symbol="PWRN" x="0" y="-5.08" addlevel="always"/>
 </gates>
 <devices>
-<device name="D" package="SO14">
+<device name="SOIC-14" package="SOIC127P600X175-14N">
 <connects>
 <connect gate="A" pin="I0" pad="1"/>
 <connect gate="A" pin="I1" pad="2"/>
@@ -178,24 +217,24 @@ Based on the following sources:
 <connect gate="B" pin="I0" pad="4"/>
 <connect gate="B" pin="I1" pad="5"/>
 <connect gate="B" pin="O" pad="6"/>
-<connect gate="C" pin="I0" pad="9"/>
-<connect gate="C" pin="I1" pad="10"/>
+<connect gate="C" pin="I0" pad="10"/>
+<connect gate="C" pin="I1" pad="9"/>
 <connect gate="C" pin="O" pad="8"/>
-<connect gate="D" pin="I0" pad="12"/>
-<connect gate="D" pin="I1" pad="13"/>
+<connect gate="D" pin="I0" pad="13"/>
+<connect gate="D" pin="I1" pad="12"/>
 <connect gate="D" pin="O" pad="11"/>
 <connect gate="P" pin="GND" pad="7"/>
 <connect gate="P" pin="VCC" pad="14"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2917/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23364028/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="" constant="no"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="" constant="no"/>
-<attribute name="MANUFACTURER" value="" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="NAND Gate IC 4 Channel  14-SOIC" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="MC74LCX00DGOS-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="ON Semiconductor" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MC74LCX00DG" constant="no"/>
 </technology>
 </technologies>
 </device>
