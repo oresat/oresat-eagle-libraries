@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="10" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -85,16 +85,16 @@
 Noel Case - Created 6/16/20</description>
 <packages>
 <package name="AR9721">
-<pad name="P$2" x="0.161003125" y="0.015234375" drill="2" diameter="5"/>
+<pad name="P$2" x="0" y="0" drill="2" diameter="5"/>
 <pad name="GND" x="-3.5" y="-29" drill="1.5" diameter="1.5" shape="square" rot="R90"/>
 <pad name="D-" x="-1" y="-29" drill="1.5" diameter="1.5" shape="square" rot="R90"/>
 <pad name="D+" x="1" y="-29" drill="1.5" diameter="1.5" shape="square" rot="R90"/>
 <pad name="VCC" x="3.5" y="-29" drill="1.5" diameter="1.5" shape="square" rot="R90"/>
-<wire x1="-20" y1="30" x2="-20" y2="-30" width="0.1524" layer="21"/>
-<wire x1="-20" y1="-30" x2="20" y2="-30" width="0.1524" layer="21"/>
-<wire x1="20" y1="-30" x2="20" y2="30" width="0.1524" layer="21"/>
-<wire x1="20" y1="30" x2="-20" y2="30" width="0.1524" layer="21"/>
-<rectangle x1="-20" y1="-30" x2="20" y2="30" layer="39"/>
+<wire x1="-10" y1="30" x2="10" y2="30" width="0.1524" layer="21"/>
+<wire x1="10" y1="30" x2="10" y2="-30" width="0.1524" layer="21"/>
+<wire x1="10" y1="-30" x2="-10" y2="-30" width="0.1524" layer="21"/>
+<wire x1="-10" y1="-30" x2="-10" y2="30" width="0.1524" layer="21"/>
+<rectangle x1="-10" y1="-30" x2="10" y2="30" layer="39"/>
 </package>
 </packages>
 <symbols>
