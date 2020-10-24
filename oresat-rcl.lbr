@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -12022,7 +12022,7 @@ However, paste type and stencil thickness, etc. are also factors.</description>
 <wire x1="-0.55" y1="-0.8" x2="0.55" y2="-0.8" width="0.2" layer="21"/>
 <smd name="1" x="-1.6" y="0" dx="1.35" dy="1.9" layer="1"/>
 <smd name="2" x="1.6" y="0" dx="1.35" dy="1.9" layer="1"/>
-<text x="-0.8" y="1.25" size="1" layer="25" ratio="10">&gt;NAME</text>
+<text x="-0.8" y="1.25" size="1" layer="25" font="vector" ratio="15">&gt;NAME</text>
 <text x="-0.8" y="-2.3" size="1" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 <package name=".0201-A-NOSILK">
