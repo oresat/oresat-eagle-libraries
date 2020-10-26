@@ -174,43 +174,7 @@
 <library>
 <description>&lt;b&gt;https://eagle.componentsearchengine.com&lt;/b&gt;&lt;p&gt;&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name=".0603-B-NOSILK-CAP">
-<description>&lt;b&gt;0603 (metric 1608) normal 'IPC-B' without silkscreen&lt;/b&gt;
-&lt;br&gt;In house package for nominal spacing based on IPC-7351B.
-This package is identical to 0603-B, but has its tPlace silkscreen layer removed.</description>
-<smd name="1" x="-0.8" y="0" dx="0.8" dy="0.95" layer="1" roundness="50" stop="no"/>
-<smd name="2" x="0.8" y="0" dx="0.8" dy="0.95" layer="1" roundness="50" stop="no"/>
-<wire x1="1.495" y1="0.745" x2="-1.495" y2="0.745" width="0.01" layer="39"/>
-<wire x1="-1.495" y1="0.745" x2="-1.495" y2="-0.745" width="0.01" layer="39"/>
-<wire x1="-1.495" y1="-0.745" x2="1.495" y2="-0.745" width="0.01" layer="39"/>
-<wire x1="1.495" y1="-0.745" x2="1.495" y2="0.745" width="0.01" layer="39"/>
-<text x="-1.27" y="0.635" size="0.635" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.27" y="-1.27" size="0.635" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-<wire x1="-0.8" y1="-0.41" x2="-0.8" y2="0.41" width="0.08" layer="51"/>
-<wire x1="-0.79" y1="0.4" x2="0.79" y2="0.4" width="0.1" layer="51"/>
-<wire x1="0.8" y1="0.41" x2="0.8" y2="-0.41" width="0.08" layer="51"/>
-<wire x1="0.79" y1="-0.4" x2="-0.79" y2="-0.4" width="0.1" layer="51"/>
-<rectangle x1="-0.555" y1="-0.4" x2="-0.35" y2="0.4" layer="51"/>
-<rectangle x1="0.35" y1="-0.4" x2="0.555" y2="0.4" layer="51"/>
-<polygon width="0.52" layer="29">
-<vertex x="1" y="0.28"/>
-<vertex x="0.6" y="0.28"/>
-<vertex x="0.6" y="-0.28"/>
-<vertex x="1" y="-0.28"/>
-</polygon>
-<polygon width="0.52" layer="29">
-<vertex x="-0.6" y="0.28"/>
-<vertex x="-1" y="0.28"/>
-<vertex x="-1" y="-0.28"/>
-<vertex x="-0.6" y="-0.28"/>
-</polygon>
-<wire x1="-0.8" y1="-0.41" x2="-0.8" y2="0.41" width="0.08" layer="33"/>
-<wire x1="-0.79" y1="0.4" x2="0.79" y2="0.4" width="0.1" layer="33"/>
-<wire x1="0.8" y1="0.41" x2="0.8" y2="-0.41" width="0.08" layer="33"/>
-<wire x1="0.79" y1="-0.4" x2="-0.79" y2="-0.4" width="0.1" layer="33"/>
-<text x="0" y="0" size="0.3" layer="33" ratio="15" align="center">&gt;NAME</text>
-</package>
-<package name=".0603-C-NOSILK-RESISTOR">
+<package name=".0603-C-NOSILK">
 <description>&lt;b&gt;0603 (metric 1608) tight 'IPC-C' without silkscreen&lt;/b&gt;
 &lt;br&gt;In house package for minimum spacing based on IPC-7351B.
 This package is identical to 0603-C, but has its tPlace silkscreen layer removed.</description>
@@ -241,6 +205,30 @@ This package is identical to 0603-C, but has its tPlace silkscreen layer removed
 <wire x1="0.8" y1="0.41" x2="0.8" y2="-0.41" width="0.08" layer="33"/>
 <wire x1="0.79" y1="-0.4" x2="-0.79" y2="-0.4" width="0.1" layer="33"/>
 <text x="0" y="0" size="0.3" layer="33" ratio="15" align="center">&gt;NAME</text>
+</package>
+<package name="1206-C">
+<description>&lt;b&gt;1206 (metric 3216) tight 'IPC-C'&lt;/b&gt;
+&lt;br&gt;In house package for minimum spacing based on IPC-7351A. Cross-checked against other packages.</description>
+<wire x1="-0.95" y1="0.8" x2="-0.95" y2="-0.8" width="0.01" layer="51"/>
+<wire x1="0.95" y1="0.8" x2="0.95" y2="-0.8" width="0.01" layer="51"/>
+<wire x1="2" y1="1" x2="-2" y2="1" width="0.01" layer="39"/>
+<wire x1="-2" y1="1" x2="-2" y2="-1" width="0.01" layer="39"/>
+<wire x1="-2" y1="-1" x2="2" y2="-1" width="0.01" layer="39"/>
+<wire x1="2" y1="-1" x2="2" y2="1" width="0.01" layer="39"/>
+<wire x1="1.6" y1="0.8" x2="0.95" y2="0.8" width="0.2" layer="51"/>
+<wire x1="0.95" y1="0.8" x2="-0.95" y2="0.8" width="0.2" layer="51"/>
+<wire x1="-0.95" y1="0.8" x2="-1.6" y2="0.8" width="0.2" layer="51"/>
+<wire x1="-1.6" y1="0.8" x2="-1.6" y2="-0.8" width="0.2" layer="51"/>
+<wire x1="-1.6" y1="-0.8" x2="-0.95" y2="-0.8" width="0.2" layer="51"/>
+<wire x1="-0.95" y1="-0.8" x2="0.95" y2="-0.8" width="0.2" layer="51"/>
+<wire x1="0.95" y1="-0.8" x2="1.6" y2="-0.8" width="0.2" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="1.6" y2="0.8" width="0.2" layer="51"/>
+<wire x1="-0.55" y1="0.8" x2="0.55" y2="0.8" width="0.2" layer="21"/>
+<wire x1="-0.55" y1="-0.8" x2="0.55" y2="-0.8" width="0.2" layer="21"/>
+<smd name="1" x="-1.4" y="0" dx="0.95" dy="1.7" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="0.95" dy="1.7" layer="1"/>
+<text x="-0.8" y="1.15" size="1" layer="25" ratio="10">&gt;NAME</text>
+<text x="-0.8" y="-2.2" size="1" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -279,7 +267,7 @@ Source: &lt;a href="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/G
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package=".0603-B-NOSILK-CAP">
+<device name="" package=".0603-C-NOSILK">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -303,7 +291,7 @@ Source: &lt;a href="http://datasheets.avx.com/C0GNP0-Dielectric.pdf"&gt; Datashe
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package=".0603-B-NOSILK-CAP">
+<device name="" package=".0603-C-NOSILK">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -327,7 +315,7 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/mlcc_comm
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package=".0603-B-NOSILK-CAP">
+<device name="" package=".0603-C-NOSILK">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -351,7 +339,7 @@ Source: &lt;a href="http://datasheets.avx.com/cx5r.pdf"&gt; Datasheet &lt;/a&gt;
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package=".0603-B-NOSILK-CAP">
+<device name="" package=".0603-C-NOSILK">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -375,7 +363,7 @@ Source: &lt;a href="https://katalog.we-online.de/pbs/datasheet/885012006093.pdf"
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package=".0603-B-NOSILK-CAP">
+<device name="" package=".0603-C-NOSILK">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -399,7 +387,7 @@ Source: &lt;a href="https://katalog.we-online.de/pbs/datasheet/885012006085.pdf"
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package=".0603-B-NOSILK-CAP">
+<device name="" package=".0603-C-NOSILK">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -423,7 +411,7 @@ Source: &lt;a href="http://datasheets.avx.com/C0GNP0-Dielectric.pdf"&gt; Datashe
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package=".0603-B-NOSILK-CAP">
+<device name="" package=".0603-C-NOSILK">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -447,7 +435,7 @@ Source: &lt;a href="https://api.kemet.com/component-edge/download/datasheet/C060
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package=".0603-B-NOSILK-CAP">
+<device name="" package=".0603-C-NOSILK">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -471,18 +459,18 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/mlcc_comm
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package=".0603-B-NOSILK-CAP">
+<device name="" package=".0603-C-NOSILK">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="4.7µF ±10% 10V Ceramic Capacitor X7S 0603 (1608 Metric)" constant="no"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="445-14258-1-ND" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="TDK" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="C1608X7S1A475K080AC" constant="no"/>
-<attribute name="VDC" value="10V" constant="no"/>
+<attribute name="DESCRIPTION" value="4.7µF ±10% 16V Ceramic Capacitor X6S 0603 (1608 Metric)" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="490-13362-2-ND" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Murata Electronics" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="GRM188C81C475KE11D" constant="no"/>
+<attribute name="VDC" value="16V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -495,7 +483,7 @@ Source: &lt;a href="http://datasheets.avx.com/cx5r.pdf"&gt; Datasheet &lt;/a&gt;
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package=".0603-B-NOSILK-CAP">
+<device name="" package=".0603-C-NOSILK">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -519,7 +507,7 @@ Source: &lt;a href="https://www.digikey.com/catalog/en/partgroup/wcap-csst-serie
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package=".0603-B-NOSILK-CAP">
+<device name="" package=".0603-C-NOSILK">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -543,7 +531,7 @@ Source: &lt;a href="http://www.vishay.com/docs/28773/crcwce3.pdf"&gt; Datasheet 
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package=".0603-C-NOSILK-RESISTOR">
+<device name="" package=".0603-C-NOSILK">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -566,7 +554,7 @@ Source: &lt;a href="https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf"
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package=".0603-C-NOSILK-RESISTOR">
+<device name="" package=".0603-C-NOSILK">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -589,7 +577,7 @@ Source: &lt;a href="http://www.vishay.com/docs/28705/mcx0x0xpro.pdf"&gt; Datashe
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package=".0603-C-NOSILK-RESISTOR">
+<device name="" package=".0603-C-NOSILK">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -612,7 +600,7 @@ Source: &lt;a href="https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf"
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package=".0603-C-NOSILK-RESISTOR">
+<device name="" package=".0603-C-NOSILK">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -636,7 +624,7 @@ Source: &lt;a href="https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf"
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package=".0603-C-NOSILK-RESISTOR">
+<device name="" package=".0603-C-NOSILK">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -659,7 +647,7 @@ Source: &lt;a href="https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf"
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package=".0603-C-NOSILK-RESISTOR">
+<device name="" package=".0603-C-NOSILK">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -682,7 +670,7 @@ Source: &lt;a href="https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf"
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package=".0603-C-NOSILK-RESISTOR">
+<device name="" package=".0603-C-NOSILK">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -705,7 +693,7 @@ Source: &lt;a href="https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf"
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package=".0603-C-NOSILK-RESISTOR">
+<device name="" package=".0603-C-NOSILK">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -728,7 +716,7 @@ Source: &lt;a href="https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf"
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package=".0603-C-NOSILK-RESISTOR">
+<device name="" package=".0603-C-NOSILK">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -752,7 +740,7 @@ Source: &lt;a href="https://psearch.en.murata.com/capacitor/product/GRM188R61E10
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package=".0603-B-NOSILK-CAP">
+<device name="" package=".0603-C-NOSILK">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -776,7 +764,7 @@ Source: &lt;a href="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/Z
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package=".0603-B-NOSILK-CAP">
+<device name="" package=".0603-C-NOSILK">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -800,7 +788,7 @@ Source: &lt;a href="https://media.digikey.com/pdf/Data%20Sheets/KOA%20Speer/RN73
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package=".0603-C-NOSILK-RESISTOR">
+<device name="" package=".0603-C-NOSILK">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -823,7 +811,7 @@ Source: &lt;a href="https://www.yageo.com/upload/media/product/productsearch/dat
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package=".0603-C-NOSILK-RESISTOR">
+<device name="" package=".0603-C-NOSILK">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -846,7 +834,7 @@ Source: &lt;a href="https://www.yageo.com/upload/media/product/productsearch/dat
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package=".0603-C-NOSILK-RESISTOR">
+<device name="" package=".0603-C-NOSILK">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -869,7 +857,7 @@ Source: &lt;a href="https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"&gt; Data
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package=".0603-C-NOSILK-RESISTOR">
+<device name="" package=".0603-C-NOSILK">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -892,7 +880,7 @@ Source: &lt;a href="https://www.yageo.com/upload/media/product/productsearch/dat
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package=".0603-C-NOSILK-RESISTOR">
+<device name="" package=".0603-C-NOSILK">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -916,7 +904,7 @@ Source: &lt;a href="https://www.yageo.com/upload/media/product/productsearch/dat
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package=".0603-C-NOSILK-RESISTOR">
+<device name="" package=".0603-C-NOSILK">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -927,6 +915,169 @@ Source: &lt;a href="https://www.yageo.com/upload/media/product/productsearch/dat
 <attribute name="DIGI-KEY_PART_NUMBER" value="311-1.50KHRCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="Yageo" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR-071K5L" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="R0603-1K-OHMS" prefix="R" uservalue="yes">
+<description>&lt;b&gt;1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="R-US" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package=".0603-C-NOSILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="RES SMD 1K OHM 1% 1/10W 0603" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="311-1.00KHRCT-ND" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Yageo" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RC0603FR-071KL" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="R0603-20K-OHMS" prefix="R" uservalue="yes">
+<description>&lt;b&gt;20 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Anti-Sulfur Thin Film&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.vishay.com/docs/28700/mcx0x0xpre.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="R-US" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package=".0603-C-NOSILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="RES 20K OHM 0.1% 1/10W 0603" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="749-1747-1-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Vishay Beyschlag" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MCT06030E2002BP500" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="R0603-15K-OHMS" prefix="R" uservalue="yes">
+<description>&lt;b&gt;15 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="R-US" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package=".0603-C-NOSILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="15 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-1502ELFCT-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Bourns" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-1502ELF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CAP1206-22UF-16VDC" prefix="C" uservalue="yes">
+<description>&lt;B&gt;CAPACITOR&lt;/B&gt;, European symbol</description>
+<gates>
+<gate name="G$1" symbol="C-EU" x="0" y="0"/>
+</gates>
+<devices>
+<device name="1206-C" package="1206-C">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="22µF ±20% 16V Ceramic Capacitor X7R 1206 (3216 Metric)" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="587-4319-1-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Taiyo Yuden" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="EMK316BB7226ML-T" constant="no"/>
+<attribute name="VDC" value="16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CAP0603-NP" prefix="C" uservalue="yes">
+<description>&lt;b&gt;NP&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="C-EU" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package=".0603-C-NOSILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" constant="no"/>
+<attribute name="VDC" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="R0603-5.6K-OHMS" prefix="R" uservalue="yes">
+<description>&lt;b&gt;5.6 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="R-US" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package=".0603-C-NOSILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="5.6 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="RMCF0603FT5K60CT-ND" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Stackpole Electronics Inc" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0603FT5K60" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="R0603-6.8K-OHMS" prefix="R" uservalue="yes">
+<description>&lt;b&gt;6.8 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="R-US" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package=".0603-C-NOSILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="6.8 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="RMCF0603FT6K80CT-ND" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Stackpole Electronics Inc" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0603FT6K80" constant="no"/>
 </technology>
 </technologies>
 </device>

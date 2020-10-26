@@ -299,7 +299,7 @@
 <gate name="G$1" symbol="ORESAT-DEBUG-CONNECTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-CARD" package="TE_2-1734592-0">
+<device name="-ALL" package="TE_2-1734592-0">
 <connects>
 <connect gate="G$1" pin="CARD-RX" pad="12"/>
 <connect gate="G$1" pin="CARD-TX" pad="13"/>
@@ -327,26 +327,33 @@
 </technology>
 </technologies>
 </device>
-<device name="-SOLAR" package="WURTH_687120183622">
+</devices>
+</deviceset>
+<deviceset name="ORESAT-DEBUG-CONNECTOR-MIRRORED" prefix="J">
+<gates>
+<gate name="G$1" symbol="ORESAT-DEBUG-CONNECTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-ALL" package="TE_2-1734592-0">
 <connects>
-<connect gate="G$1" pin="CARD-RX" pad="12"/>
-<connect gate="G$1" pin="CARD-TX" pad="13"/>
-<connect gate="G$1" pin="DEBUG-0" pad="17"/>
-<connect gate="G$1" pin="DEBUG-1" pad="18"/>
-<connect gate="G$1" pin="DEBUG-2" pad="19"/>
-<connect gate="G$1" pin="DEBUG-3" pad="20"/>
-<connect gate="G$1" pin="DEVICE-D+" pad="4"/>
-<connect gate="G$1" pin="DEVICE-D-" pad="5"/>
-<connect gate="G$1" pin="GND" pad="3 6 9"/>
-<connect gate="G$1" pin="HOST-D+" pad="7"/>
-<connect gate="G$1" pin="HOST-D-" pad="8"/>
-<connect gate="G$1" pin="NRST" pad="10"/>
+<connect gate="G$1" pin="CARD-RX" pad="9"/>
+<connect gate="G$1" pin="CARD-TX" pad="8"/>
+<connect gate="G$1" pin="DEBUG-0" pad="4"/>
+<connect gate="G$1" pin="DEBUG-1" pad="3"/>
+<connect gate="G$1" pin="DEBUG-2" pad="2"/>
+<connect gate="G$1" pin="DEBUG-3" pad="1"/>
+<connect gate="G$1" pin="DEVICE-D+" pad="17"/>
+<connect gate="G$1" pin="DEVICE-D-" pad="16"/>
+<connect gate="G$1" pin="GND" pad="12 15 18"/>
+<connect gate="G$1" pin="HOST-D+" pad="14"/>
+<connect gate="G$1" pin="HOST-D-" pad="13"/>
+<connect gate="G$1" pin="NRST" pad="11"/>
 <connect gate="G$1" pin="PAD" pad="PAD1 PAD2"/>
-<connect gate="G$1" pin="SWCLK" pad="15"/>
-<connect gate="G$1" pin="SWDIO" pad="14"/>
-<connect gate="G$1" pin="SWO" pad="16"/>
-<connect gate="G$1" pin="VBUSP" pad="1 2"/>
-<connect gate="G$1" pin="VTARGET" pad="11"/>
+<connect gate="G$1" pin="SWCLK" pad="6"/>
+<connect gate="G$1" pin="SWDIO" pad="7"/>
+<connect gate="G$1" pin="SWO" pad="5"/>
+<connect gate="G$1" pin="VBUSP" pad="19 20"/>
+<connect gate="G$1" pin="VTARGET" pad="10"/>
 </connects>
 <technologies>
 <technology name=""/>

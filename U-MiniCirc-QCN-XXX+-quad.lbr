@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -135,7 +135,15 @@ Datasheet: &lt;a href="https://www.minicircuits.com/pdfs/QCN-19+.pdf"&gt;Datashe
 <connect gate="G$1" pin="TERM" pad="3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="Signal Conditioning LTCC 90 Hybrid, 1100-1925 MHz, 50 ohms"/>
+<attribute name="DIST" value="Mouser" constant="no"/>
+<attribute name="DIST_PN" value="139-QCN-19" constant="no"/>
+<attribute name="GENERIC" value="N"/>
+<attribute name="MFG" value="Mini-Circuits"/>
+<attribute name="MFG_PN" value="QCN-19+"/>
+<attribute name="P-NP" value="P" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
