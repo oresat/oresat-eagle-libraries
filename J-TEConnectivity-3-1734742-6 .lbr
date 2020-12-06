@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -282,14 +282,8 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="COMMENT" value="4-1734742-0"/>
-<attribute name="DESCRIPTION" value="  Conn FPC Connector SKT 36 POS 0.5mm Solder ST SMD T/R "/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="A100242CT-ND"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value=""/>
-<attribute name="MF" value="TE Connectivity"/>
-<attribute name="MP" value="4-1734742-0"/>
-<attribute name="PACKAGE" value="None"/>
-<attribute name="TE_PURCHASE_URL" value=""/>
+<attribute name="DPN" value="A100241CT-ND"/>
+<attribute name="MPN" value="3-1734742-6"/>
 </technology>
 </technologies>
 </device>
