@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -101,7 +101,7 @@
 <wire x1="13.26" y1="-8.51" x2="13.26" y2="0.5" width="0.127" layer="21"/>
 <wire x1="13.26" y1="0.5" x2="-13.26" y2="0.5" width="0.127" layer="51"/>
 <wire x1="-13.26" y1="0.5" x2="-13.26" y2="-8.51" width="0.127" layer="21"/>
-<text x="13.6" y="-0.1" size="0.635" layer="51" font="vector" ratio="20">&gt;NAME</text>
+<text x="13.6" y="-0.1" size="0.635" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <wire x1="-12.3" y1="-8.5" x2="-11.7" y2="-6.5" width="0.127" layer="21"/>
 <wire x1="-11.7" y1="-6.5" x2="-11" y2="-8.5" width="0.127" layer="21"/>
 <text x="-13" y="1.1" size="0.635" layer="51" font="vector" ratio="20">1</text>
