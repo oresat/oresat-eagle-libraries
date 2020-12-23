@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -23,19 +23,19 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -46,19 +46,19 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -73,7 +73,7 @@
 </layers>
 <library>
 <packages>
-<package name="HARWIN-M50-30020452">
+<package name="HARWIN-M50-3501042">
 <pad name="1" x="-5.715" y="0.635" drill="0.635" diameter="0.9652" shape="offset" rot="R90"/>
 <pad name="2" x="-5.715" y="-0.635" drill="0.635" diameter="0.9652" shape="offset" rot="R270"/>
 <pad name="3" x="-4.445" y="0.635" drill="0.635" diameter="0.9652" shape="offset" rot="R90"/>
@@ -90,10 +90,10 @@
 <pad name="14" x="1.905" y="-0.635" drill="0.635" diameter="0.9652" shape="offset" rot="R270"/>
 <pad name="15" x="3.175" y="0.635" drill="0.635" diameter="0.9652" shape="offset" rot="R90"/>
 <pad name="16" x="3.175" y="-0.635" drill="0.635" diameter="0.9652" shape="offset" rot="R270"/>
-<wire x1="-6.6" y1="1.55" x2="6.6" y2="1.55" width="0.127" layer="51"/>
-<wire x1="6.6" y1="1.55" x2="6.6" y2="-1.55" width="0.15" layer="21"/>
-<wire x1="6.6" y1="-1.55" x2="-6.6" y2="-1.55" width="0.127" layer="51"/>
-<wire x1="-6.6" y1="-1.55" x2="-6.6" y2="1.55" width="0.15" layer="21"/>
+<wire x1="-6.35" y1="1.7" x2="6.35" y2="1.7" width="0.15" layer="51"/>
+<wire x1="6.35" y1="1.7" x2="6.35" y2="-1.7" width="0.3" layer="51"/>
+<wire x1="6.35" y1="-1.7" x2="-6.35" y2="-1.7" width="0.15" layer="51"/>
+<wire x1="-6.35" y1="-1.7" x2="-6.35" y2="1.7" width="0.3" layer="51"/>
 <text x="6.92" y="-0.2" size="0.635" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <pad name="17" x="4.445" y="0.635" drill="0.635" diameter="0.9652" shape="offset" rot="R90"/>
 <pad name="18" x="4.445" y="-0.635" drill="0.635" diameter="0.9652" shape="offset" rot="R270"/>
@@ -101,8 +101,10 @@
 <pad name="20" x="5.715" y="-0.635" drill="0.635" diameter="0.9652" shape="offset" rot="R270"/>
 <text x="-6.9" y="1.8" size="0.635" layer="21" font="vector" ratio="20">1</text>
 <text x="-6.9" y="-2.4" size="0.635" layer="21" font="vector" ratio="20">2</text>
-<text x="6.4" y="1.8" size="0.635" layer="21" font="vector" ratio="20">19</text>
-<text x="6.4" y="-2.4" size="0.635" layer="21" font="vector" ratio="20">20</text>
+<text x="6.5" y="1.8" size="0.635" layer="21" font="vector" ratio="20">19</text>
+<text x="6.5" y="-2.4" size="0.635" layer="21" font="vector" ratio="20">20</text>
+<wire x1="-6.4" y1="1.7" x2="-6.4" y2="-1.7" width="0.15" layer="21"/>
+<wire x1="6.4" y1="1.7" x2="6.4" y2="-1.7" width="0.15" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -136,12 +138,12 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="HARWIN-M50-3002045" prefix="J">
+<deviceset name="HARWIN-M50-3501042" prefix="J">
 <gates>
 <gate name="G$1" symbol="PINHD20" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="HARWIN-M50-30020452">
+<device name="" package="HARWIN-M50-3501042">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="10" pad="10"/>
