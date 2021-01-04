@@ -215,7 +215,7 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DPN" value="DMP2240UDMDICT-ND" constant="no"/>
+<attribute name="MFR" value="Diodes Inc" constant="no"/>
 <attribute name="MPN" value="DMP2240UDM-7" constant="no"/>
 </technology>
 </technologies>
