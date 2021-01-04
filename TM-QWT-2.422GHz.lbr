@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -22,25 +22,25 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -91,20 +91,31 @@
 <vertex x="0.1365" y="0.1365"/>
 </polygon>
 </package>
+<package name="QWT_2.422G-V2">
+<smd name="50-OUT" x="-9.917" y="0" dx="1" dy="0.38" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="140-IN" x="9.554" y="0" dx="0.273" dy="0.273" layer="1" stop="no" thermals="no" cream="no"/>
+<rectangle x1="-9.417" y1="-0.58" x2="9.417" y2="0.58" layer="1"/>
+<text x="-6.6" y="1.5" size="0.5" layer="51" font="vector" ratio="10" align="center">50 ohm = 0.38 mm
+Lyr 1 to 2</text>
+<text x="6.1" y="1.5" size="0.5" layer="51" font="vector" ratio="10" align="center">140 ohm = 0.273 mm
+Lyr 1 to 3</text>
+<text x="0" y="-2" size="0.5" layer="51" font="vector" ratio="10" align="center">1/4W = 18.834 mm
+??? ohms = 1.16 mm
+Lyr 1 to 3</text>
+<wire x1="-9.4" y1="8" x2="9.4" y2="8" width="0" layer="51"/>
+<wire x1="-9.4" y1="-8" x2="9.4" y2="-8" width="0" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="QWT">
-<pin name="P$1" x="-17.78" y="0" length="middle"/>
-<pin name="P$2" x="17.78" y="0" length="middle" rot="R180"/>
-<wire x1="-12.7" y1="2.54" x2="-12.7" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-12.7" y1="-2.54" x2="12.7" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="12.7" y1="-2.54" x2="12.7" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="12.7" y1="2.54" x2="-12.7" y2="2.54" width="0.1524" layer="94"/>
-<text x="-10.16" y="-5.08" size="1.778" layer="96">1/4 λ</text>
-<text x="0" y="-5.08" size="1.778" layer="96">2.422 GHz</text>
-<text x="-12.7" y="5.08" size="1.778" layer="95">&gt;NAME</text>
-<text x="-17.78" y="2.54" size="1.778" layer="97">50</text>
-<text x="15.24" y="2.54" size="1.778" layer="97">140</text>
+<pin name="50-1-TO-2" x="-17.78" y="0" length="short" direction="pas"/>
+<pin name="140-1-TO-3" x="17.78" y="0" length="short" direction="pas" rot="R180"/>
+<wire x1="-15.24" y1="2.54" x2="-15.24" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="-2.54" x2="15.24" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="-2.54" x2="15.24" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="2.54" x2="-15.24" y2="2.54" width="0.1524" layer="94"/>
+<text x="-10.16" y="-5.08" size="1.778" layer="96">1/4 λ for 2.422 GHz</text>
+<text x="-2.54" y="-7.62" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 <symbol name="R_ANG">
 <pin name="P$1" x="-15.24" y="0" length="middle"/>
@@ -119,15 +130,24 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="QWT2.422">
+<deviceset name="QWT2.422" prefix="T">
 <gates>
 <gate name="G$1" symbol="QWT" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="QWT_2.422G">
 <connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="140-1-TO-3" pad="P$2"/>
+<connect gate="G$1" pin="50-1-TO-2" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="2" package="QWT_2.422G-V2">
+<connects>
+<connect gate="G$1" pin="140-1-TO-3" pad="140-IN"/>
+<connect gate="G$1" pin="50-1-TO-2" pad="50-OUT"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -166,4 +186,10 @@
 </devicesets>
 </library>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
