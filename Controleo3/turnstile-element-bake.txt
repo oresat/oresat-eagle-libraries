@@ -1,0 +1,75 @@
+Controleo3 Profile
+//-----------------------------------------------------
+
+Name "Turnstile Element Baking Profile"
+
+Title "Turnstile Elements"
+
+Show graph to 200C for 47000 seconds
+Graph divider at 93C
+Graph divider at 121C
+Graph divider at 160C
+// The maximum temperature. If exceeded, reflow will abort and the oven door opened
+Maximum temperature 225C
+// Set a maximum duty cycle to avoid damage to your oven (bottom/top/boost)
+Maximum duty 100/75/60
+// Sometimes it overshoots, so give us 30C overshoot
+Deviation to abort 30C
+
+// Start the timer
+Initialize timer 0s
+Start timer
+Start plotting 5s
+
+//-----------------------------------------------------
+
+Display "Starting up"
+Play tune
+Close door over 3s
+Wait for 3s
+
+//-----------------------------------------------------
+
+Display "Phase 1: 65~C for 4 hours"
+Play Beep
+Ramp temperature to 65C in 180s
+Maintain 65C for 14400s
+
+//-----------------------------------------------------
+
+Display "Phase 2: 93~C for 3 hours"
+Play Beep
+Ramp temperature to 93C in 180s
+Maintain 93C for 10800s
+
+//-----------------------------------------------------
+
+Display "Phase 3: 121~C for 3 hours"
+Play Beep
+Ramp temperature to 121C in 180s
+Maintain 121C for 10800s
+
+//-----------------------------------------------------
+
+Display "Phase 4: 160~C for 3 hours"
+Play Beep
+Ramp temperature to 160C in 180s
+Maintain 160C for 10800s
+
+//-----------------------------------------------------
+
+Display "Turnstile Bake: Cooling!"
+// Turn the elements off now (bottom/top/boost)
+Element duty cycle 0/0/0
+Open door over 3s
+Play tune
+Play tune
+Play tune
+Wait until below 50C
+// Reflow is done now
+Convection fan off
+Cooling fan off
+Display "Turnstile Bake Done"
+// Close the oven door
+Close door over 3 seconds
+
