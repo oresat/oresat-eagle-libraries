@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -36,8 +36,8 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -46,10 +46,10 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
@@ -105,6 +105,18 @@ Noel Case - Created 6/16/20</description>
 <circle x="1.3" y="-15" radius="0.4472125" width="0.127" layer="21"/>
 <text x="-5.08" y="6.35" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="-5.08" y="5.08" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<circle x="6" y="15" radius="2" width="0" layer="42"/>
+<circle x="6" y="15" radius="2" width="0" layer="30"/>
+<circle x="6" y="15" radius="2" width="0" layer="29"/>
+<circle x="6" y="15" radius="2" width="0" layer="41"/>
+<circle x="-6" y="-15" radius="2" width="0" layer="42"/>
+<circle x="-6" y="-15" radius="2" width="0" layer="30"/>
+<circle x="-6" y="-15" radius="2" width="0" layer="29"/>
+<circle x="-6" y="-15" radius="2" width="0" layer="41"/>
+<circle x="6" y="-15" radius="2" width="0" layer="42"/>
+<circle x="6" y="-15" radius="2" width="0" layer="30"/>
+<circle x="6" y="-15" radius="2" width="0" layer="29"/>
+<circle x="6" y="-15" radius="2" width="0" layer="41"/>
 </package>
 </packages>
 <symbols>
