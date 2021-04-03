@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3597,7 +3597,7 @@ NOTE: The only way this differs from the other package is that J5 is connected t
 <connect gate="U" pin="VDDI" pad="C2"/>
 <connect gate="U" pin="VDDIO" pad="E6 F5 J10 K9"/>
 <connect gate="U" pin="VDDQ" pad="C6 M4 N4 P3 P5"/>
-<connect gate="U" pin="VSSIO" pad="E7 G5 H10 J5 K8" route="any"/>
+<connect gate="U" pin="VSSIO" pad="A6 E7 G5 H10 J5 K8" route="any"/>
 <connect gate="U" pin="VSSQ" pad="C4 N2 N5 P4 P6"/>
 </connects>
 <technologies>
