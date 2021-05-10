@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -443,7 +443,7 @@ by exp-lbrs.ulp</description>
 <technologies>
 <technology name="">
 <attribute name="MFR" value="Panasonic Electronic Components" constant="no"/>
-<attribute name="MPN" value="EXB-A10PXXXJ" constant="no"/>
+<attribute name="MPN_GENERIC" value="EXB-A10PXXXJ" constant="no"/>
 </technology>
 </technologies>
 </device>

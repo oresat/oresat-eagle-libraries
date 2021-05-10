@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -99,11 +99,11 @@
 <text x="2.5605" y="-17.7934" size="1.778" layer="96" ratio="6" rot="SR0">&gt;VALUE</text>
 <pin name="IN" x="-15.24" y="10.16" length="short" direction="pwr"/>
 <pin name="EN/UV" x="-15.24" y="5.08" length="short" direction="in"/>
-<pin name="PG" x="-15.24" y="0" length="short" direction="oc"/>
+<pin name="PG" x="15.24" y="0" length="short" direction="oc" rot="R180"/>
 <pin name="ILIM" x="15.24" y="-5.08" length="short" direction="pas" rot="R180"/>
-<pin name="PGFB" x="15.24" y="0" length="short" direction="pas" rot="R180"/>
+<pin name="PGFB" x="-15.24" y="0" length="short" direction="pas"/>
 <pin name="SET" x="-15.24" y="-5.08" length="short" direction="in"/>
-<pin name="OUTS" x="15.24" y="7.62" length="short" direction="pwr" rot="R180"/>
+<pin name="OUTS" x="15.24" y="5.08" length="short" direction="pwr" rot="R180"/>
 <pin name="OUT" x="15.24" y="10.16" length="short" direction="pwr" rot="R180"/>
 <pin name="GND" x="0" y="-15.24" length="short" direction="pwr" rot="R90"/>
 </symbol>
@@ -130,9 +130,9 @@
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value=" LDO Regulator Pos 0V to 15V 0.2A Automotive Medical 10-Pin MSOP EP T/R "/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="LT3042IMSE#TRPBFCT-ND"/>
+<attribute name="DPN" value="LT3042IMSE#TRPBFCT-ND"/>
 <attribute name="MF" value="Analog Devices"/>
-<attribute name="MP" value="LT3042IMSE#TRPBF"/>
+<attribute name="MPN" value="LT3042IMSE#TRPBF"/>
 <attribute name="PACKAGE" value="MSOP -10 Analog Devices"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/LT3042IMSE#TRPBF/?ref=eda"/>
 </technology>
