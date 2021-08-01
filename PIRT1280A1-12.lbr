@@ -419,7 +419,7 @@
 </packages>
 <symbols>
 <symbol name="PIRT1280A1-12">
-<pin name="THERM+" x="27.94" y="-27.94" length="short" direction="pas" rot="R180"/>
+<pin name="THERM+" x="27.94" y="-25.4" length="short" direction="pas" rot="R180"/>
 <pin name="VPOUT-0.9V" x="-10.16" y="33.02" length="short" direction="pwr" rot="R270"/>
 <pin name="VNOUT" x="-7.62" y="-33.02" length="short" direction="pwr" rot="R90"/>
 <pin name="OUT4P" x="27.94" y="-10.16" length="short" direction="out" rot="R180"/>
@@ -446,7 +446,7 @@
 <pin name="VGND" x="7.62" y="-33.02" length="short" direction="pwr" rot="R90"/>
 <pin name="VPOS-3.3V" x="10.16" y="33.02" length="short" direction="pwr" rot="R270"/>
 <pin name="VDETCOM~2.9V" x="0" y="33.02" length="short" direction="pwr" rot="R270"/>
-<pin name="THERM-" x="27.94" y="-25.4" length="short" direction="pas" rot="R180"/>
+<pin name="THERM-" x="27.94" y="-27.94" length="short" direction="pas" rot="R180"/>
 <wire x1="25.4" y1="30.48" x2="25.4" y2="-30.48" width="0.1524" layer="94"/>
 <wire x1="25.4" y1="-30.48" x2="-25.4" y2="-30.48" width="0.1524" layer="94"/>
 <wire x1="-25.4" y1="-30.48" x2="-25.4" y2="30.48" width="0.1524" layer="94"/>

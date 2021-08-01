@@ -198,8 +198,8 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DPN" value="478-4781-1-ND" constant="no"/>
-<attribute name="MPN" value="KC2520B27.0000C10E00" constant="no"/>
+<attribute name="DPN" value="2780-ISM95-3251AH-16.000MHZCT-ND" constant="no"/>
+<attribute name="MPN" value="ISM95-3251AH-16.000MHZ" constant="no"/>
 <attribute name="VENDOR" value="Kyocera" constant="no"/>
 </technology>
 </technologies>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -478,7 +478,7 @@
 <wire x1="0.635" y1="-0.635" x2="0" y2="-0.635" width="0.254" layer="94"/>
 <wire x1="0" y1="-0.635" x2="-0.635" y2="-0.635" width="0.254" layer="94"/>
 <wire x1="0" y1="-0.635" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<pin name="TP" x="0" y="-2.54" visible="off" length="point" direction="pas" rot="R90"/>
+<pin name="1" x="0" y="-2.54" visible="off" length="point" direction="pas" rot="R90"/>
 <text x="-1.905" y="1.5875" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 <symbol name="TEST-PAD-CIRCLE">
@@ -645,7 +645,7 @@
 <devices>
 <device name="-SMD-10SN" package="TESTPOINT_SMD-10SN">
 <connects>
-<connect gate="G$1" pin="TP" pad="TP"/>
+<connect gate="G$1" pin="1" pad="TP"/>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:15662280/2"/>
@@ -685,7 +685,7 @@
 <devices>
 <device name="-SMD-10SN" package="TESTPOINT_SMD-0.5MM">
 <connects>
-<connect gate="G$1" pin="TP" pad="TP"/>
+<connect gate="G$1" pin="1" pad="TP"/>
 </connects>
 <technologies>
 <technology name="">
@@ -696,7 +696,7 @@
 </device>
 <device name="" package="TESTPOINT_SMD-0.5MM">
 <connects>
-<connect gate="G$1" pin="TP" pad="TP"/>
+<connect gate="G$1" pin="1" pad="TP"/>
 </connects>
 <technologies>
 <technology name=""/>
