@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -98,7 +98,7 @@
 </package>
 </packages>
 <symbols>
-<symbol name="RES2">
+<symbol name="RES2-LEGACY">
 <pin name="1" x="-2.54" y="0" visible="off" length="middle" direction="pas"/>
 <pin name="16" x="15.24" y="0" visible="off" length="middle" direction="pas" rot="R180"/>
 <pin name="2" x="-2.54" y="-5.08" visible="off" length="middle" direction="pas"/>
@@ -178,11 +178,91 @@
 <wire x1="12.7" y1="-38.1" x2="0" y2="-38.1" width="0.254" layer="97"/>
 <wire x1="0" y1="-38.1" x2="0" y2="2.54" width="0.254" layer="97"/>
 </symbol>
+<symbol name="SMALL_SYMBOL">
+<pin name="1" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="16" x="12.7" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="0" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="15" x="12.7" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="3" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="14" x="12.7" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="4" x="0" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="13" x="12.7" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="10" x="12.7" y="-15.24" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="11" x="12.7" y="-12.7" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="12" x="12.7" y="-10.16" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="9" x="12.7" y="-17.78" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="8" x="0" y="-17.78" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="7" x="0" y="-15.24" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="6" x="0" y="-12.7" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="5" x="0" y="-10.16" visible="off" length="short" direction="pas" swaplevel="1"/>
+<wire x1="3.175" y1="1.27" x2="4.445" y2="-1.27" width="0.2032" layer="94"/>
+<wire x1="4.445" y1="-1.27" x2="5.715" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="5.715" y1="1.27" x2="6.985" y2="-1.27" width="0.2032" layer="94"/>
+<wire x1="6.985" y1="-1.27" x2="8.255" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="8.255" y1="1.27" x2="9.525" y2="-1.27" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="0" x2="3.175" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="9.525" y1="-1.27" x2="10.16" y2="0" width="0.2032" layer="94"/>
+<wire x1="3.175" y1="-1.27" x2="4.445" y2="-3.81" width="0.2032" layer="94"/>
+<wire x1="4.445" y1="-3.81" x2="5.715" y2="-1.27" width="0.2032" layer="94"/>
+<wire x1="5.715" y1="-1.27" x2="6.985" y2="-3.81" width="0.2032" layer="94"/>
+<wire x1="6.985" y1="-3.81" x2="8.255" y2="-1.27" width="0.2032" layer="94"/>
+<wire x1="8.255" y1="-1.27" x2="9.525" y2="-3.81" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="3.175" y2="-1.27" width="0.2032" layer="94"/>
+<wire x1="9.525" y1="-3.81" x2="10.16" y2="-2.54" width="0.2032" layer="94"/>
+<wire x1="3.175" y1="-3.81" x2="4.445" y2="-6.35" width="0.2032" layer="94"/>
+<wire x1="4.445" y1="-6.35" x2="5.715" y2="-3.81" width="0.2032" layer="94"/>
+<wire x1="5.715" y1="-3.81" x2="6.985" y2="-6.35" width="0.2032" layer="94"/>
+<wire x1="6.985" y1="-6.35" x2="8.255" y2="-3.81" width="0.2032" layer="94"/>
+<wire x1="8.255" y1="-3.81" x2="9.525" y2="-6.35" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="3.175" y2="-3.81" width="0.2032" layer="94"/>
+<wire x1="9.525" y1="-6.35" x2="10.16" y2="-5.08" width="0.2032" layer="94"/>
+<wire x1="3.175" y1="-6.35" x2="4.445" y2="-8.89" width="0.2032" layer="94"/>
+<wire x1="4.445" y1="-8.89" x2="5.715" y2="-6.35" width="0.2032" layer="94"/>
+<wire x1="5.715" y1="-6.35" x2="6.985" y2="-8.89" width="0.2032" layer="94"/>
+<wire x1="6.985" y1="-8.89" x2="8.255" y2="-6.35" width="0.2032" layer="94"/>
+<wire x1="8.255" y1="-6.35" x2="9.525" y2="-8.89" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="3.175" y2="-6.35" width="0.2032" layer="94"/>
+<wire x1="9.525" y1="-8.89" x2="10.16" y2="-7.62" width="0.2032" layer="94"/>
+<text x="-2.54" y="5.08" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;Value</text>
+<text x="-2.54" y="10.16" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;Name</text>
+<wire x1="1.778" y1="2.54" x2="10.922" y2="2.54" width="0.254" layer="97"/>
+<wire x1="10.922" y1="2.54" x2="10.922" y2="-20.32" width="0.254" layer="97"/>
+<wire x1="10.922" y1="-20.32" x2="1.778" y2="-20.32" width="0.254" layer="97"/>
+<wire x1="1.778" y1="-20.32" x2="1.778" y2="2.54" width="0.254" layer="97"/>
+<wire x1="3.175" y1="-8.89" x2="4.445" y2="-11.43" width="0.2032" layer="94"/>
+<wire x1="4.445" y1="-11.43" x2="5.715" y2="-8.89" width="0.2032" layer="94"/>
+<wire x1="5.715" y1="-8.89" x2="6.985" y2="-11.43" width="0.2032" layer="94"/>
+<wire x1="6.985" y1="-11.43" x2="8.255" y2="-8.89" width="0.2032" layer="94"/>
+<wire x1="8.255" y1="-8.89" x2="9.525" y2="-11.43" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="3.175" y2="-8.89" width="0.2032" layer="94"/>
+<wire x1="9.525" y1="-11.43" x2="10.16" y2="-10.16" width="0.2032" layer="94"/>
+<wire x1="3.175" y1="-11.43" x2="4.445" y2="-13.97" width="0.2032" layer="94"/>
+<wire x1="4.445" y1="-13.97" x2="5.715" y2="-11.43" width="0.2032" layer="94"/>
+<wire x1="5.715" y1="-11.43" x2="6.985" y2="-13.97" width="0.2032" layer="94"/>
+<wire x1="6.985" y1="-13.97" x2="8.255" y2="-11.43" width="0.2032" layer="94"/>
+<wire x1="8.255" y1="-11.43" x2="9.525" y2="-13.97" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="3.175" y2="-11.43" width="0.2032" layer="94"/>
+<wire x1="9.525" y1="-13.97" x2="10.16" y2="-12.7" width="0.2032" layer="94"/>
+<wire x1="3.175" y1="-13.97" x2="4.445" y2="-16.51" width="0.2032" layer="94"/>
+<wire x1="4.445" y1="-16.51" x2="5.715" y2="-13.97" width="0.2032" layer="94"/>
+<wire x1="5.715" y1="-13.97" x2="6.985" y2="-16.51" width="0.2032" layer="94"/>
+<wire x1="6.985" y1="-16.51" x2="8.255" y2="-13.97" width="0.2032" layer="94"/>
+<wire x1="8.255" y1="-13.97" x2="9.525" y2="-16.51" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="-15.24" x2="3.175" y2="-13.97" width="0.2032" layer="94"/>
+<wire x1="9.525" y1="-16.51" x2="10.16" y2="-15.24" width="0.2032" layer="94"/>
+<wire x1="3.175" y1="-16.51" x2="4.445" y2="-19.05" width="0.2032" layer="94"/>
+<wire x1="4.445" y1="-19.05" x2="5.715" y2="-16.51" width="0.2032" layer="94"/>
+<wire x1="5.715" y1="-16.51" x2="6.985" y2="-19.05" width="0.2032" layer="94"/>
+<wire x1="6.985" y1="-19.05" x2="8.255" y2="-16.51" width="0.2032" layer="94"/>
+<wire x1="8.255" y1="-16.51" x2="9.525" y2="-19.05" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="-17.78" x2="3.175" y2="-16.51" width="0.2032" layer="94"/>
+<wire x1="9.525" y1="-19.05" x2="10.16" y2="-17.78" width="0.2032" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="EXB-2HV103JV" prefix="R">
+<deviceset name="EXB-2HV103JV-LEGACY" prefix="R">
 <gates>
-<gate name="A" symbol="RES2" x="0" y="0"/>
+<gate name="A" symbol="RES2-LEGACY" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="RES_EXB2HV">
@@ -203,6 +283,42 @@
 <connect gate="A" pin="7" pad="7"/>
 <connect gate="A" pin="8" pad="8"/>
 <connect gate="A" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BUILT_BY" value="EMA_UL_Team" constant="no"/>
+<attribute name="DPN" value="Y1103CT-ND" constant="no"/>
+<attribute name="MPN" value="EXB-2HV103JV" constant="no"/>
+<attribute name="SOURCELIBRARY" value="Update_to_database_2020-12-03" constant="no"/>
+<attribute name="VENDOR" value="Panasonic" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="EXB-2HV103JV" prefix="R">
+<gates>
+<gate name="G$1" symbol="SMALL_SYMBOL" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RES_EXB2HV">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <technologies>
 <technology name="">
