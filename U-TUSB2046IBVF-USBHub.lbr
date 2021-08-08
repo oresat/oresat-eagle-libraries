@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -76,8 +76,7 @@
 <package name="QFP80P900X900X160-32N">
 <text x="-5" y="-5.5" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
 <text x="-5" y="5.5" size="1.27" layer="25">&gt;NAME</text>
-<circle x="-5.94" y="2.8" radius="0.1" width="0.2" layer="21"/>
-<circle x="-5.94" y="2.8" radius="0.1" width="0.2" layer="51"/>
+<circle x="-4.44" y="4" radius="0.1" width="0.2" layer="51"/>
 <wire x1="3.5" y1="-3.5" x2="-3.5" y2="-3.5" width="0.127" layer="51"/>
 <wire x1="3.5" y1="3.5" x2="-3.5" y2="3.5" width="0.127" layer="51"/>
 <wire x1="3.5" y1="-3.5" x2="3.5" y2="3.5" width="0.127" layer="51"/>
